@@ -48,7 +48,7 @@ The following table offers an overview of the Mettalex Decentralised Exchange Pl
 
 As an additional part of the mechanism, Mettalex DEX uses a fraction of the exchange fees earned on the platform to algorithmically buy MTLX tokens back from the market. Governance tokens are minted at a linear rate to incentivise early liquidity providers in the system. However as the total liquidity in the pool increases, liquidity mining will become more difficult.
 
- In conclusion, as we can see in Table 3, Mettalex DEX comprehends three different pools of liquidity. Even if all these liquidity pools are connected one to each other at the same time these work separately and each one of them accumulate a different type of collateral tokens. We can distinguish the following 3 pools of tokens:
+In conclusion, as we can see in Table 3, Mettalex DEX comprehends three different pools of liquidity. Even if all these liquidity pools are connected one to each other at the same time these work separately and each one of them accumulate a different type of collateral tokens. We can distinguish the following 3 pools of tokens:
 
 * **Mettalex vault**: contains the liquidity coming from the collateral used to back a pair of L and S Position tokens \(i.e. Tokenisation Layer\);
 * **LPs pool**: LP supplies coin to earn a return return from trading fees \(i.e. Liquidity Provision Layer\);
