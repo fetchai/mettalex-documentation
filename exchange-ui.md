@@ -1,6 +1,6 @@
 # Exchange UI
 
-Interactions with Mettalex DEX will require the ability to call some Mettalex contract events, \(e.g. Mint L/S Position tokens from coin tokens \(USDT\), redeem L/S token pair for coin tokens or redeem single Position token for coin tokens if contract is settled\). This means that each user needs to call different methods accordingly to the liquidity pool they want to interact with \(i.e. Mettalex Vault, LPs pool or AMM pool\).
+   ****Interactions with Mettalex DEX will require the ability to call some Mettalex contract events, \(e.g. Mint L/S Position tokens from coin tokens \(USDT\), redeem L/S token pair for coin tokens or redeem single Position token for coin tokens if contract is settled\). This means that each user needs to call different methods accordingly to the liquidity pool they want to interact with \(i.e. Mettalex Vault, LPs pool or AMM pool\).
 
 ### **Possible Events: Mettalex Vault**
 
@@ -14,7 +14,8 @@ This method returns the remaining number of tokens the spender address is allowe
 
 **Approve**
 
-`approve(address spender, uint256 amount)`
+`approve(address spender, uint256 amount)`  
+****
 
 This method sets an amount `uint256` of tokens as the allowance of the spender address over the caller's tokens. It returns a boolean value indicating whether the operation succeeded or not.
 
@@ -86,8 +87,6 @@ This method is called when a user wants to move an amount `uint256` of  tokens f
 
 When this method is called it generates a transfer event in which the user wants to move an amount `uint256` of tokens from the sender address to recipient address using the allowance mechanism. The amount transferred will be deducted from the caller's allowance. This method returns a boolean value indicating if the operation succeeded.
 
-
-
 ### **Possible Events: LPs pool**
 
 The scenarios a liquidity provider can face when operating with the the LPs pool can be the following:
@@ -121,8 +120,6 @@ This method transfers money from the vault to the autonomous market maker contra
 getPricePerFullShare\(\)
 
 This method is called when the user wants to get the price for the entire amount of liquidity he owns in the liquidity pool.
-
-
 
 ### **Possible Events: Autonomous Market Maker**
 
