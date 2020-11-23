@@ -144,7 +144,7 @@ This method returns the amount of tokens returned to the user’s account \(i.e.
 
 #### **GetExpectedInAmount**
 
-`getExpectedInAmount (address fromToken, address toToken, uint256 toTokenAmount)` ****
+`getExpectedInAmount (address fromToken, address toToken, uint256 toTokenAmount)` 
 
 `returns (uint256 tokensReturned, uint256 priceImpact)`
 
