@@ -13,7 +13,7 @@ The **Mettalex Exchange Layer** provides a reference price feed from an index or
 
 Position tokens are a disruptive technology equipped with various properties, such as:
 
-* No need for further funding as these are always fully collateralised \(i.e. there are not any margin requirements\);
+* No need for further funding as these are always fully collateralized \(i.e. there are not any margin requirements\);
 * These are ERC-20 tokens, so it is easy to store them in wallets \(e.g. MetaMask\);
 * No fixed expiry date so holders do not need to rollover their positions as token expiry reaches;
 * These allow holders to open a leveraged position \(i.e. in this case, the ratio between the price of L tokens and S tokens will differ from the spot price available on the market\).
