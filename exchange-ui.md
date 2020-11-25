@@ -166,16 +166,6 @@ It is used in order to get the balance of tokens owned by the address
 
 Settle all Long and Short tokens held by the contract in case of Commodity breach.
 
-### **SwapExactAmountIn**
-
-`swapExactAmountIn (address tokenIn, uint256 tokenAmountIn, address tokenOut, uint256 minAmountOut, uint256 maxPrice)`
-
-`returns (uint256 tokenAmountOut, uint256 spotPriceAfter)`
-
-This method is called when the user wants to trade an amount `uint256 tokenAmountIn` of `tokenIn` taken by the pool, in exchange for an amount `uint256 minAmountOut` of `tokenOut` given to the user from the pool, with a maximum marginal price equal to `uint 256 maxPrice`.
-
-This method returns the amount of tokens taken out from the user’s account \(i.e. `uint256 tokenAmountOut`\) and the new spot price after the swap operation \(i.e. `uint256 spotPriceAfter`\).
-
 ### **UpdateOracle**
 
 `updateOracle(address _newOracle)`
