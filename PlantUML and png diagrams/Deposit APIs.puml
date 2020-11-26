@@ -1,0 +1,22 @@
+@startuml
+
+box "Liquidity Deposit User Flow" #grey
+participant "Liquidity Provider" as LP
+participant "Mettalex liquidity Providing UI" as LPUI
+participant "MetaMask" as MM
+participant "Mettalex Liquidity Vault Smart Contract" as LVSM
+
+end box
+
+LP -> LPUI: Enter Mettalex Liquidity section. Choose commodity to provide liquidity with.
+LPUI -> LPUI: Insert the amount of liquidity to be deposited.
+LPUI <-> MM: Deposit request sent to MetaMask. Accept the transaction receipt.
+MM -> LVSM: Call Deposit Function of Mettalex Liquidity Vault: **deposit(uint _amount)**. Funds are deposited into the Liquidity Vault.
+
+group "other Liquidity Deposit APIs"
+MM <-> LVSM: **getPricePerFullShare()**
+MM <-> LVSM: **earn()**
+
+end group
+
+@enduml

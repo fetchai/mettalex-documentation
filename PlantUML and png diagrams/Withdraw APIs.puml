@@ -1,0 +1,18 @@
+@startuml
+
+box "Liquidity Withdraw User Flow" #grey
+participant "Liquidity Provider" as LP
+participant "Mettalex liquidity Providing UI" as LPUI
+participant "MetaMask" as MM
+participant "Mettalex Liquidity Vault smart contract" as LVSM
+
+end box
+
+LP -> LPUI: Enter Mettalex Liquidity section\nand choose commodity\nto withdraw liquidity from.
+LPUI -> LPUI: Insert the amount of liquidity to be withdrawn.
+LPUI <-> MM: Wthdraw request sent to MetaMask.\nAccept transaction receipt.
+MM -> LVSM: Call Withdraw function of Mettalex Liquidity Vault: **withdraw(uint _shares)**.
+LVSM -> MM: Funds are deposited back into the Liquidity Provider's wallet.
+LVSM -> MM: Call **withdrawAll()** function of Mettalex Liquidity Vault to withdraw all the funds.
+
+@enduml
