@@ -181,7 +181,7 @@ This method returns the amount of tokens taken out from the user’s account \(i
 
 `updateOracle(address _newOracle)`
 
-This method changes the address of the Oracle contract. address is the new Oracle address.
+This method changes the address of the Oracle contract. `Address` is the new Oracle address.
 
 ### **UpdateSpot**
 
