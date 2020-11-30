@@ -9,34 +9,47 @@ participant "Balancer Pool" as BPool
 
 end box
 
+note over user #orange: **User Token Balance**: \nX USDT \nZ LTK \nN STK
+note over UI #orange: e.g. Swap Z LTK for Q STK
+
 user -> UI: Enter Mettalex DEX Trade section and choose tokens.\nEnter the desired amount to be traded.
-UI -> MM: The token swap request is sent to MetaMask.
+UI ->> MM: The token swap request is sent to MetaMask.
 ...
-MM -> AMM: Call **swapExactAmountIn (address tokenIn, uint256 tokenAmountIn, address tokenOut, uint256 minAmountOut, uint256 maxPrice)**.
+MM -// AMM: Call **swapExactAmountIn (address tokenIn, uint256 tokenAmountIn, address tokenOut, uint256 minAmountOut, uint256 maxPrice)**.
 ...
-group AMM
-AMM -> BPool: Call **getExpectedOutAmount (address fromToken, address toToken, uint256 fromTokenAmount)**.
-BPool -> AMM: Returns expected amount of tokens given out.
-AMM -> BPool: Call **getExpectedInAmount (address fromToken, address toToken, uint256 toTokenAmount)**.
-BPool -> AMM: Returns expected amount of tokens given in.
-AMM -> BPool: Call **getSwapFee()**.
-BPool -> AMM: Returns expected fee associated with the swap operation.
+note right of AMM #violet: The AMM takes in Z LTK and shows\ntheamount of expected tokens given\nin and out and the fee associated with\nthe swap.
 
-end group
-...
-AMM <-> MM: Accept the transaction receipt from MetaMask thus allowing Mettalex AMM to interact with the funds.
-AMM <-> MM: Confirm the second transaction receipt from MetaMask to allow the swap of tokens. Wait for transaction confirmation from MetaMask.
-...
 group AMM
-AMM -> BPool: Call **swapExactAmountIn (address tokenIn, uint256 tokenAmountIn, address tokenOut, uint256 minAmountOut, uint256 maxPrice)**.
-BPool -> AMM: Returns the amount of tokens given out and the new spot price after the swap operation.
-AMM -> AMM: The AMM starts some internal calculation so as to determine the balance of tokens in the pool and keep their ratio constant.
-AMM <-> BPool: The pool is rebalanced according with the new weights for each token.
+AMM --\\ BPool: Call **getExpectedOutAmount (address fromToken, address toToken, uint256 fromTokenAmount)**.
+BPool -->> AMM: Returns expected amount of tokens given out.
+AMM --\\ BPool: Call **getExpectedInAmount (address fromToken, address toToken, uint256 toTokenAmount)**.
+BPool -->> AMM: Returns expected amount of tokens given in.
+AMM --\\ BPool: Call **getSwapFee()**.
+BPool -->> AMM: Returns expected fee associated with the swap operation.
+
 
 end group
 
 ...
-AMM -> MM: The swap of tokens takes place.
+AMM --\\ MM: The request to interact with the funds is sent from the AMM to MetaMask.
+MM --// MM: Confirm Transaction.
+MM \\--// AMM: Confirm the second transaction receipt from MetaMask to allow the swap of tokens. Wait for transaction confirmation from MetaMask.
+...
+
+note right of AMM #violet: The AMM takes Z LTK in and gives out Q STK.\nThe AMM proceed with the rebalance.
+
+group AMM
+AMM --\\ BPool: Call **swapExactAmountIn (address tokenIn, uint256 tokenAmountIn, address tokenOut, uint256 minAmountOut, uint256 maxPrice)**.
+BPool -->> AMM: Returns the amount of tokens given out and the new spot price after the swap operation.
+AMM --\\ AMM: The AMM starts some internal calculation so as to determine the balance of tokens in the pool and keep their ratio constant.
+AMM \\-->> BPool: The pool is rebalanced according with the new weights for each token.
+
+end group
+
+...
+AMM --\\ MM: The swap of tokens takes place.
+
+note over user #orange: **User Token Balance**: \nX USDT \n0 LTK \nN STK
 MM -> UI: The updated amount of tokens owned is visible in\nMettalex DEX MyWallet section.
 
 @enduml

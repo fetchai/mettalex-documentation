@@ -8,32 +8,33 @@ participant "Mettalex Vault" as MV
 
 end box
 
-note over user #pink: **User Token Balance**: \n0 USDT
+note over user #pink: **User Token Balance**: \n0 USDT \nZ LTK \nZ STK
 note over MV #aqua: **Mettalex Vault Token Balance**:\nX+Y USDT
 
 user -> UI: Choose commodity and insert the amount to redeem.
-UI -// MM: Send redeem request to MetaMask.
-MM ->> MM: Confirm Transaction.
+UI ->> MM: Send redeem request to MetaMask.
+MM --// MM: Confirm Transaction.
 ...
-MM -->> MV: Call Redeem function of Mettalex Vault Smart Contract: **redeemPositions(address _to, uint256 _redeemQuantity)**.\nPositions will be burned.
+MM --// MV: Call Redeem function of Mettalex Vault Smart Contract: **redeemPositions(address _to, uint256 _redeemQuantity)**.
+MV --\\ MV: Position Tokens are burned.
 ...
-MV -->> MV: The backing USDT stablecoin collateral is released.
-MV -->> MM: **transfer(address recipient, uint256 amount)**\nor **transferFrom(address sender, address recipient, uint256 amount)**.
+MV --\\ MV: The backing USDT stablecoin\ncollateral is released.
+MV --\\ MM: **transfer(address recipient, uint256 amount)**\nor **transferFrom(address sender, address recipient, uint256 amount)**.
 
-note over user #pink: **User Token Balance**: \nX USDT
-note over MV #aqua: **Mettalex Vault Token Balance**:\nX+Y USDT
+note over user #pink: **User Token Balance**: \nX USDT \n0 LTK \n0 STK
+note over MV #aqua: **Mettalex Vault Token Balance**:\nY USDT
 
 
 group "other Mettalex Vault APIs"
-MM <<-->> MV: **allowance(address owner, address spender)**
-MM <<-->> MV: **balanceOf(address account)**
-MM <<-->> MV: **increaseAllowance(address spender, uint256 addedValue)**
-MM <<-->> MV: **decreaseAllowance(address spender, uint256 subtractedValue)**
-MM <<-->> MV: **settlePositions()**
-MM <<-->> MV: **bulkSettlePositions(address[] calldata _settlers)**
-MM <<-->> MV: **totalSupply()**
-MM <<-->> MV: **transfer(address recipient, uint256 amount)**
-MM <<-->> MV: **transferFrom(address sender, address recipient, uint256 amount)**
+MM //--\\ MV: **allowance(address owner, address spender)**
+MM //--\\ MV: **balanceOf(address account)**
+MM //--\\ MV: **increaseAllowance(address spender, uint256 addedValue)**
+MM //--\\ MV: **decreaseAllowance(address spender, uint256 subtractedValue)**
+MM //--\\ MV: **settlePositions()**
+MM //--\\ MV: **bulkSettlePositions(address[] calldata _settlers)**
+MM //--\\ MV: **totalSupply()**
+MM //--\\ MV: **transfer(address recipient, uint256 amount)**
+MM //--\\ MV: **transferFrom(address sender, address recipient, uint256 amount)**
 
 end group
 @enduml

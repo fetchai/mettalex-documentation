@@ -9,21 +9,23 @@ participant "Mettalex Liquidity Vault smart contract" as LVSM
 end box
 
 note over LP #lightgreen: **LP Token Balance**: \n0 USDT
-note over LVSM #lightblue: **Mettalex Liquidity Token Balance**: \nX+Y USDT
+note over LVSM #lightblue: **Mettalex Liquidity Token Balance**: \nY USDT
 
 LP -> LPUI: Enter Mettalex Liquidity section\nand choose commodity\nto withdraw liquidity from.
 LPUI ->> LPUI: Insert the amount of liquidity to be withdrawn.
-LPUI -// MM: Wthdraw request sent to MetaMask.
-MM ->> MM: Accept transaction receipt.
+LPUI ->> MM: Wthdraw request sent to MetaMask.
+MM --// MM: Accept transaction receipt.
 ...
-MM -->> LVSM: Call Withdraw function of Mettalex Liquidity Vault: **withdraw(uint _shares)**.
-LVSM -->> MM: Funds are deposited back into the Liquidity Provider's wallet.
+MM --// LVSM: Call Withdraw function of Mettalex Liquidity Vault: **withdraw(uint _shares)**.
+LVSM --\\ MM: Funds are deposited back into the Liquidity Provider's wallet.
 ...
 
 note over LP #lightgreen: **LP Token Balance**: \nX USDT
-note over LVSM #lightblue: **Mettalex Liquidity Token Balance**: \nY USDT
+note over LVSM #lightblue: **Mettalex Liquidity Token Balance**: \nY-X USDT
 
-MM -->> LVSM: Call **withdrawAll()** function of Mettalex Liquidity Vault to withdraw all the funds.
-LVSM -->> MM: All the funds are withdrawn from the liquidity pool.
+
+note left of LVSM #pink: This method is\ncalled to withdraw all funds
+MM --// LVSM: Call **withdrawAll()** function of Mettalex Liquidity Vault to withdraw all the funds.
+LVSM --\\ MM: All the funds are withdrawn from the liquidity pool.
 
 @enduml

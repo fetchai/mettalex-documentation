@@ -13,17 +13,19 @@ note over LVSM #lightblue: **Mettalex Liquidity Token Balance**: \nY USDT
 
 LP -> LPUI: Enter Mettalex Liquidity section. Choose commodity to provide liquidity with.
 LPUI ->> LPUI: Insert the amount of liquidity to be deposited.
-LPUI -// MM: Deposit request sent to MetaMask.
-MM ->> MM: Accept the transaction receipt.
-...
-MM -->> LVSM: Call Deposit Function of Mettalex Liquidity Vault: **deposit(uint _amount)**. Funds are deposited into the Liquidity Vault.
 
+note right of LPUI #lightgreen: e.g.: X USDT
+LPUI ->> MM: Deposit request sent to MetaMask.
+...
+MM //--\\ LVSM: Call Deposit Function of Mettalex Liquidity Vault: **deposit(uint _amount)**.
+MM --// MM: Accept the transaction receipt.
+MM --// LVSM:  Funds are deposited into the Liquidity Vault.
 note over LP #lightgreen: **LP Token Balance**: \n0 USDT
 note over LVSM #lightblue: **Mettalex Liquidity Token Balance**: \nX+Y USDT
 
 group "other Liquidity Deposit APIs"
-MM <<-->> LVSM: **getPricePerFullShare()**
-MM <<-->> LVSM: **earn()**
+MM //--\\ LVSM: **getPricePerFullShare()**
+MM //--\\ LVSM: **earn()**
 
 end group
 
