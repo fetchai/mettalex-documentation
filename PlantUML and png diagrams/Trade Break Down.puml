@@ -11,8 +11,9 @@ end box
 
 user -> UI: Enter Mettalex DEX Trade section and choose tokens.\nEnter the desired amount to be traded.
 UI -> MM: The token swap request is sent to MetaMask.
+...
 MM -> AMM: Call **swapExactAmountIn (address tokenIn, uint256 tokenAmountIn, address tokenOut, uint256 minAmountOut, uint256 maxPrice)**.
-
+...
 group AMM
 AMM -> BPool: Call **getExpectedOutAmount (address fromToken, address toToken, uint256 fromTokenAmount)**.
 BPool -> AMM: Returns expected amount of tokens given out.
@@ -22,10 +23,10 @@ AMM -> BPool: Call **getSwapFee()**.
 BPool -> AMM: Returns expected fee associated with the swap operation.
 
 end group
-
+...
 AMM <-> MM: Accept the transaction receipt from MetaMask thus allowing Mettalex AMM to interact with the funds.
 AMM <-> MM: Confirm the second transaction receipt from MetaMask to allow the swap of tokens. Wait for transaction confirmation from MetaMask.
-
+...
 group AMM
 AMM -> BPool: Call **swapExactAmountIn (address tokenIn, uint256 tokenAmountIn, address tokenOut, uint256 minAmountOut, uint256 maxPrice)**.
 BPool -> AMM: Returns the amount of tokens given out and the new spot price after the swap operation.
@@ -34,6 +35,7 @@ AMM <-> BPool: The pool is rebalanced according with the new weights for each to
 
 end group
 
+...
 AMM -> MM: The swap of tokens takes place.
 MM -> UI: The updated amount of tokens owned is visible in\nMettalex DEX MyWallet section.
 
