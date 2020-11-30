@@ -52,4 +52,5 @@ AMM --\\ MM: The swap of tokens takes place.
 note over user #orange: **User Token Balance**: \nX USDT \n0 LTK \nN STK
 MM -> UI: The updated amount of tokens owned is visible in\nMettalex DEX MyWallet section.
 
+
 @enduml

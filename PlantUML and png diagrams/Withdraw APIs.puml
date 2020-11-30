@@ -28,4 +28,5 @@ note left of LVSM #pink: This method is\ncalled to withdraw all funds
 MM --// LVSM: Call **withdrawAll()** function of Mettalex Liquidity Vault to withdraw all the funds.
 LVSM --\\ MM: All the funds are withdrawn from the liquidity pool.
 
+
 @enduml
