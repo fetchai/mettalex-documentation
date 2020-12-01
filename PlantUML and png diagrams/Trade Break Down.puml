@@ -17,7 +17,7 @@ UI ->> MM: The token swap request is sent to MetaMask.
 ...
 MM -// AMM: Call **swapExactAmountIn (address tokenIn, uint256 tokenAmountIn, address tokenOut, uint256 minAmountOut, uint256 maxPrice)**.
 ...
-note right of AMM #violet: The AMM takes in Z LTK and shows\ntheamount of expected tokens given\nin and out and the fee associated with\nthe swap.
+note right of AMM #violet: The AMM takes into account Z LTK to be traded\nand shows the amount of expected tokens given\nin and out and the fee associated with the swap.
 
 group AMM
 AMM --\\ BPool: Call **getExpectedOutAmount (address fromToken, address toToken, uint256 fromTokenAmount)**.
