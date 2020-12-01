@@ -1,6 +1,6 @@
 @startuml
 
-box "Mint User Flow APIs" #grey
+box "Mint and Redeem User Flow APIs" #grey
 participant "User" as user
 participant "Trade/Mint/Redeem UI" as UI
 participant "MetaMask" as MM
