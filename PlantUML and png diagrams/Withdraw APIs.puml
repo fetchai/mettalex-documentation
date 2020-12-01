@@ -4,7 +4,7 @@ box "Liquidity Withdraw User Flow" #grey
 participant "Liquidity Provider" as LP
 participant "Mettalex liquidity Providing UI" as LPUI
 participant "MetaMask" as MM
-participant "Mettalex Liquidity Vault smart contract" as LVSM
+participant "Mettalex Liquidity Vault Smart Contract" as LVSM
 
 end box
 
