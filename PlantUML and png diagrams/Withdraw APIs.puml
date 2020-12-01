@@ -23,8 +23,6 @@ LVSM --\\ MM: Funds are deposited back into the Liquidity Provider's wallet.
 rnote over LP #lightgreen: **LP Token Balance**: \nX USDT
 rnote over LVSM #lightblue: **Mettalex Liquidity Vault Token Balance**: \nY-X USDT
 
-
-
 MM --// LVSM: Call **withdrawAll()** function of Mettalex Liquidity Vault to withdraw all the funds.
 LVSM --\\ MM: All the funds are withdrawn from the liquidity pool.
 rnote right of LVSM #pink: This method is\ncalled to withdraw all funds
