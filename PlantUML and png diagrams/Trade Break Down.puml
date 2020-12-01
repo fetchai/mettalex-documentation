@@ -9,15 +9,15 @@ participant "Balancer Pool" as BPool
 
 end box
 
-note over user #orange: **User Token Balance**: \nX USDT \nZ LTK \nN STK
-note over UI #orange: e.g. Swap Z LTK for Q STK
+rnote over user #orange: **User Token Balance**: \nX USDT \nZ LTK \nN STK
+hnote over UI #orange: e.g. Swap Z LTK for Q STK
 
-user -> UI: Enter Mettalex DEX Trade section and choose tokens.\nEnter the desired amount to be traded.
+user ->> UI: Enter Mettalex DEX Trade section and choose tokens.\nEnter the desired amount to be traded.
 UI ->> MM: The token swap request is sent to MetaMask.
 ...
 MM -// AMM: Call **swapExactAmountIn (address tokenIn, uint256 tokenAmountIn, address tokenOut, uint256 minAmountOut, uint256 maxPrice)**.
 ...
-note right of AMM #violet: The AMM takes into account Z LTK to be traded\nand shows the amount of expected tokens given\nin and out and the fee associated with the swap.
+rnote right of AMM #violet: The AMM takes into account Z LTK to be traded\nand shows the amount of expected tokens given\nin and out and the fee associated with the swap.
 
 group AMM
 AMM --\\ BPool: Call **getExpectedOutAmount (address fromToken, address toToken, uint256 fromTokenAmount)**.
@@ -36,7 +36,7 @@ MM --// MM: Confirm Transaction.
 MM \\--// AMM: Confirm the second transaction receipt from MetaMask to allow the swap of tokens. Wait for transaction confirmation from MetaMask.
 ...
 
-note right of AMM #violet: The AMM takes Z LTK in and gives out Q STK.\nThe AMM proceed with the rebalance.
+rnote right of AMM #violet: The AMM takes Z LTK in and gives out Q STK.\nThe AMM proceed with the rebalance.
 
 group AMM
 AMM --\\ BPool: Call **swapExactAmountIn (address tokenIn, uint256 tokenAmountIn, address tokenOut, uint256 minAmountOut, uint256 maxPrice)**.
@@ -50,7 +50,7 @@ end group
 AMM --\\ MM: The swap of tokens takes place.
 
 note over user #orange: **User Token Balance**: \nX USDT \n0 LTK \nN STK
-MM -> UI: The updated amount of tokens owned is visible in\nMettalex DEX MyWallet section.
+MM ->> UI: The updated amount of tokens owned is visible in\nMettalex DEX MyWallet section.
 
 
 @enduml

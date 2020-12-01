@@ -8,8 +8,8 @@ participant "Mettalex Vault" as MV
 
 end box
 
-note over user #pink: **User Token Balance**: \n0 USDT \nZ LTK \nZ STK
-note over MV #aqua: **Mettalex Vault Token Balance**:\nX+Y USDT
+rnote over user #pink: **User Token Balance**: \n0 USDT \nZ LTK \nZ STK
+rnote over MV #aqua: **Mettalex Vault Token Balance**:\nX+Y USDT
 
 user -> UI: Choose commodity and insert the amount to redeem.
 UI ->> MM: Send redeem request to MetaMask.
@@ -21,8 +21,8 @@ MV --\\ MV: Position Tokens are burned.
 MV --\\ MV: The backing USDT stablecoin\ncollateral is released.
 MV --\\ MM: **transfer(address recipient, uint256 amount)**\nor **transferFrom(address sender, address recipient, uint256 amount)**.
 
-note over user #pink: **User Token Balance**: \nX USDT \n0 LTK \n0 STK
-note over MV #aqua: **Mettalex Vault Token Balance**:\nY USDT
+rnote over user #pink: **User Token Balance**: \nX USDT \n0 LTK \n0 STK
+rnote over MV #aqua: **Mettalex Vault Token Balance**:\nY USDT
 
 
 group "other Mettalex Vault APIs"

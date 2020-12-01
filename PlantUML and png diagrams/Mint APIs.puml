@@ -8,8 +8,8 @@ participant "Mettalex Vault" as MV
 
 end box
 
-note over user #pink: **User Token Balance**: \nX USDT \n0 LTK \n0 STK
-note over MV #aqua: **Mettalex Vault Token Balance**:\nY USDT
+rnote over user #pink: **User Token Balance**: \nX USDT \n0 LTK \n0 STK
+rnote over MV #aqua: **Mettalex Vault Token Balance**:\nY USDT
 
 user -> UI: Choose commodity and insert the amount to mint.
 UI ->> MM: Send request to MetaMask.
@@ -24,8 +24,8 @@ MM --// MV: Call Mint function of Mettalex Vault Smart Contract: **mintPositions
 MV --\\ MM: Long (i.e. L) and Short (i.e. S) Position token pairs will be minted.
 MM ->> UI: Wait for transaction receipt. An updated amount will be visible in MetaMask.
 
-note over user #pink: **User Token Balance**: \n0 USDT \nZ LTK \nZ STK
-note over MV #aqua: **Mettalex Vault Token Balance**:\nX+Y USDT
+rnote over user #pink: **User Token Balance**: \n0 USDT \nZ LTK \nZ STK
+rnote over MV #aqua: **Mettalex Vault Token Balance**:\nX+Y USDT
 
 group "other Mettalex Vault APIs"
 MM //--\\ MV: **allowance(address owner, address spender)**
