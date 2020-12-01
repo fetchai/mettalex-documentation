@@ -36,7 +36,7 @@ MM --// MM: Confirm Transaction.
 MM \\--// AMM: Confirm the second transaction receipt from MetaMask to allow the swap of tokens. Wait for transaction confirmation from MetaMask.
 ...
 
-rnote right of AMM #violet: The AMM takes Z LTK in and gives out Q STK.\nThe AMM proceed with the rebalance.
+rnote right of AMM #violet: The AMM takes Z LTK in and gives out Q STK.\nThe AMM proceeds with the rebalance.
 
 group AMM
 AMM --\\ BPool: Call **swapExactAmountIn (address tokenIn, uint256 tokenAmountIn, address tokenOut, uint256 minAmountOut, uint256 maxPrice)**.
@@ -48,8 +48,8 @@ end group
 
 ...
 AMM --\\ MM: The swap of tokens takes place.
-
-note over user #orange: **User Token Balance**: \nX USDT \n0 LTK \nN STK
+rnote right of AMM #violet: Q S Tokens are transferred to MetaMask
+rnote over user #orange: **User Token Balance**: \nX USDT \n0 LTK \nN+Q STK
 MM ->> UI: The updated amount of tokens owned is visible in\nMettalex DEX MyWallet section.
 
 
