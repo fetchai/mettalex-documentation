@@ -8,25 +8,58 @@ participant "Mettalex Vault" as MV
 
 end box
 
+== Mint APIs ==
 rnote over user #pink: **User Token Balance**: \nX USDT \n0 LTK \n0 STK
 rnote over MV #aqua: **Mettalex Vault Token Balance**:\nY USDT
 
-user -> UI: Choose commodity and insert the amount to mint.
+hnote right of UI #pink: e.g. amount to mint = N.\nEach position token pair costs:\n**CollateralPerUnit + FeePerUnit**
+
+user ->> UI: Choose commodity and insert the amount to mint.
+|||
 UI ->> MM: Send request to MetaMask.
-...
+|||
 MM //--\\ MV: Call Approve function: **approve(address spender, uint256 amount)**.
-...
+|||
 MM ->> UI: Wait for transaction receipt.
+|||
 UI ->> MM: Send Mint request.
-...
+|||
 MM --// MV: Call Mint function of Mettalex Vault Smart Contract: **mintPositions(uint256 _quantityToMint)**.
-...
+|||
 MV --\\ MM: Long (i.e. L) and Short (i.e. S) Position token pairs will be minted.
+|||
 MM ->> UI: Wait for transaction receipt. An updated amount will be visible in MetaMask.
+|||
+rnote over user #pink: **User Token Balance**: \nX-N-Fee = Q USDT \nZ LTK \nZ STK
+rnote over MV #aqua: **Mettalex Vault Token Balance**:\nX+Y+Fee = W USDT
+|||
+== Redeem APIs ==
+|||
+rnote over user #pink: **User Token Balance**: \nQ USDT \nZ LTK \nZ STK
+rnote over MV #aqua: **Mettalex Vault Token Balance**:\nW USDT
 
-rnote over user #pink: **User Token Balance**: \n0 USDT \nZ LTK \nZ STK
-rnote over MV #aqua: **Mettalex Vault Token Balance**:\nX+Y USDT
+hnote right of UI #pink: e.g. amount to Redeem = K.
 
+user ->> UI: Choose commodity and insert the amount to redeem.
+|||
+UI ->> MM: Send redeem request to MetaMask.
+|||
+MM --// MM: Confirm Transaction.
+|||
+MM --// MV: Call Redeem function of Mettalex Vault Smart Contract: **redeemPositions(address _to, uint256 _redeemQuantity)**.
+|||
+MV --\\ MV: Position Tokens are burned.
+|||
+rnote right of MV #aqua: Z LTK -> 0 LTK\nZ STK -> 0 STK
+
+MV --\\ MV: The backing USDT stablecoin\ncollateral is released.
+|||
+MV --\\ MM: The collateral is transferred to MetaMask. Call **transfer(address recipient, uint256 amount)**\nor **transferFrom(address sender, address recipient, uint256 amount)**.
+
+rnote over user #pink: **User Token Balance**: \nQ+K USDT \n0 LTK \n0 STK
+rnote over MV #aqua: **Mettalex Vault Token Balance**:\nW-K USDT
+rnote right of MV #aqua: Only the USDT collateral\nis given back to the user\n and the fees are kept by \nthe Vault.
+|||
 group "other Mettalex Vault APIs"
 MM //--\\ MV: **allowance(address owner, address spender)**
 MM //--\\ MV: **balanceOf(address account)**
@@ -39,6 +72,7 @@ MM //--\\ MV: **transfer(address recipient, uint256 amount)**
 MM //--\\ MV: **transferFrom(address sender, address recipient, uint256 amount)**
 
 end group
+
 
 @enduml
 
