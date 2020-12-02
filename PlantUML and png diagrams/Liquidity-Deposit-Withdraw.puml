@@ -1,0 +1,100 @@
+@startuml
+skinparam {
+ParticipantBorderColor DarkGray
+ParticipantBackgroundColor #c9daf8
+ArrowColor Black
+}
+
+box #lightyellow
+participant "Liquidity Provider" as LP
+
+end box
+
+box #lightpink
+participant "Mettalex liquidity Providing UI" as LPUI
+
+end box
+
+box #lightgreen
+participant "MetaMask" as MM
+
+end box
+
+box #violet
+participant "Mettalex Liquidity Vault Smart Contract" as LVSC
+
+end box
+
+LP ->> LPUI: Enter Mettalex Liquidity section. Choose commodity to provide liquidity with.
+...
+group Liquidity Deposit
+|||
+rnote over LP #lightgrey: **LP Token Balance**: \nX USDT
+rnote over LVSC #lightgrey: **Mettalex Liquidity Vault Token Balance**: \nY USDT
+LPUI ->> LPUI: Insert the amount of liquidity to be deposited.
+hnote right of LPUI #lightgrey: e.g.: X USDT
+
+
+LPUI ->> MM: Deposit request sent to MetaMask.
+...
+loop Call Deposit Function of Mettalex Liquidity Vault
+MM //--\\ LVSC: Call **deposit(uint _amount)**.
+
+end
+...
+
+MM --// MM: Accept the transaction receipt.
+...
+MM --// LVSC:  Funds are deposited into the Liquidity Vault.
+rnote over LP #lightgrey: **LP Token Balance**: \n0 USDT
+rnote over LVSC #lightgrey: **Mettalex Liquidity Vault Token Balance**: \nX+Y USDT
+|||
+end
+group other Liquidity Deposit APIs
+|||
+MM //--\\ LVSC: **getPricePerFullShare()**
+
+MM //--\\ LVSC: **earn()**
+|||
+end
+...
+rnote over LVSC #grey: Time passes and the liquidity provider decides\nto withdraw part of the liquidity.
+...
+group Liquidity Withdraw
+|||
+rnote over LP #lightgrey: **LP Token Balance**: \n0 USDT
+rnote over LVSC #lightgrey: **Mettalex Liquidity Vault Token Balance**: \nY USDT
+
+LPUI ->> LPUI: Insert the amount of liquidity to be withdrawn.
+hnote right of LPUI #lightgrey: e.g.: X USDT
+
+LPUI ->> MM: Wthdraw request sent to MetaMask.
+...
+MM --// MM: Accept transaction receipt.
+...
+loop Call Withdraw function of Mettalex Liquidity Vault
+MM --// LVSC: Call **withdraw(uint _shares)**.
+end
+...
+LVSC --\\ MM: Funds are deposited back into the Liquidity Provider's wallet.
+
+rnote over LP #lightgrey: **LP Token Balance**: \nX USDT
+rnote over LVSC #lightgrey: **Mettalex Liquidity Vault Token Balance**: \nY-X USDT
+|||
+end
+
+group "Withdraw All"
+|||
+rnote right of LVSC #lightgrey: This method is\ncalled to withdraw all funds.
+MM --// LVSC: Call **withdrawAll()** function of Mettalex Liquidity Vault to withdraw all the funds.
+...
+LVSC --\\ MM: All the funds are withdrawn from the liquidity pool.
+|||
+end group
+
+
+
+
+
+
+@enduml
