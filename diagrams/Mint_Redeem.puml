@@ -1,0 +1,105 @@
+@startuml
+
+skinparam {
+ParticipantBorderColor DarkGray
+ParticipantBackgroundColor #c9daf8
+ArrowColor Black
+}
+
+box User #lightyellow
+participant "User" as user
+
+end box
+
+box Mettalex DEX UI #lightpink
+participant "Trade/Mint/Redeem UI" as UI
+
+end box
+
+box MetaMask UI #lightgreen
+participant "MetaMask" as MM
+
+end box
+
+box Mettalex Vault Smart Contract #violet
+participant "Mettalex Vault" as MV
+
+end box
+
+rnote over user #lightgrey: **User Token Balance**: \nX USDT \n0 LTK \n0 STK
+rnote over MV #lightgrey: **Mettalex Vault Token Balance**:\nY USDT
+
+hnote right of UI #lightgrey: e.g. amount to mint = N.\nEach position token pair costs:\n**CollateralPerUnit + FeePerUnit**
+
+user ->> UI: Choose commodity and insert the amount to mint.
+
+UI ->> MM: Send request to MetaMask.
+...
+loop Call approve function to deploy Tether Smart Contract
+MM //--\\ MV: Call Approve function: **approve(address spender, uint256 amount)**.
+
+end loop
+...
+
+MM ->> UI: Wait for transaction receipt.
+...
+
+group Mint Position Tokens
+UI ->> MM: Send Mint request.
+...
+loop Call Mint Function of Mettalex Vault Smart Contract:
+MM --// MV: Call **mintPositions(uint256 _quantityToMint)**.
+end
+...
+MV --\\ MM: Long (i.e. L) and Short (i.e. S) Position token pairs will be minted.
+note left of MM #lightgrey: Wait for transaction receipt.\nAn updated amount will be visible\nin MetaMask.
+rnote over user #lightgrey: **User Token Balance**: \nX-N-Fee = Q USDT \nZ LTK \nZ STK
+rnote over MV #lightgrey: **Mettalex Vault Token Balance**:\nX+Y+Fee = W USDT
+end
+
+
+...
+rnote over UI #lightgrey: Time passes and the user decides\nto redeem the Position Tokens.
+...
+rnote over user #lightgrey: **User Token Balance**: \nQ USDT \nZ LTK \nZ STK
+rnote over MV #lightgrey: **Mettalex Vault Token Balance**:\nW USDT
+
+group Redeem Position Tokens
+hnote right of UI #lightgrey: e.g. amount to Redeem = K.
+UI ->> MM: Send redeem request to MetaMask.
+...
+MM --// MM: Confirm Transaction.
+...
+loop Call Redeem Function ot Mettalex Vault Smart Contract
+MM --// MV: Call **redeemPositions(address _to, uint256 _redeemQuantity)**.
+
+end
+...
+MV --\\ MV: Position Tokens are burned.
+rnote right of MV #lightgrey: Z LTK -> 0 LTK\nZ STK -> 0 STK
+...
+MV --\\ MV: The backing USDT stablecoin\ncollateral is released.
+...
+MV --\\ MM: The collateral is transferred to MetaMask. Call **transfer(address recipient, uint256 amount)**\nor **transferFrom(address sender, address recipient, uint256 amount)**.
+rnote over user #lightgrey: **User Token Balance**: \nQ+K USDT \n0 LTK \n0 STK
+rnote over MV #lightgrey: **Mettalex Vault Token Balance**:\nW-K USDT
+rnote right of MV #lightgrey: Only the USDT collateral\nis given back to the user\n and the fees are kept by \nthe Vault.
+
+end
+
+group "other Mettalex Vault APIs"
+MM //--\\ MV: **allowance(address owner, address spender)**
+MM //--\\ MV: **balanceOf(address account)**
+MM //--\\ MV: **increaseAllowance(address spender, uint256 addedValue)**
+MM //--\\ MV: **decreaseAllowance(address spender, uint256 subtractedValue)**
+MM //--\\ MV: **settlePositions()**
+MM //--\\ MV: **bulkSettlePositions(address[] calldata _settlers)**
+MM //--\\ MV: **totalSupply()**
+MM //--\\ MV: **transfer(address recipient, uint256 amount)**
+MM //--\\ MV: **transferFrom(address sender, address recipient, uint256 amount)**
+
+end group
+
+
+@enduml
+

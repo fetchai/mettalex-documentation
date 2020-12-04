@@ -1,0 +1,95 @@
+@startuml
+
+skinparam {
+ParticipantBorderColor Black
+ParticipantBackgroundColor #lightblue
+ArrowColor Black
+}
+
+box #lightyellow
+participant "User" as user
+
+end box
+
+box #lightpink
+participant "Trade/Mint/Redeem UI" as UI
+
+end box
+
+box #lightgreen
+participant "MetaMask" as MM
+
+end box
+
+box #violet
+participant "Mettalex Autonomous Market Maker" as AMM
+participant "Balancer Pool" as BPool
+
+end box
+
+rnote over user #lightgrey: **User Token Balance**: \nX USDT \nY LTK \nN STK
+hnote over UI #lightgrey: e.g. Swap Q USDT for Z LTK
+
+user ->> UI: Enter Mettalex DEX Trade section and choose tokens.\nEnter the desired amount to be traded.
+|||
+UI ->> MM: The token swap request is sent to MetaMask.
+|||
+loop Call SwapExactAmountIn function
+MM -// AMM: Call **swapExactAmountIn (address tokenIn, uint256 tokenAmountIn, address tokenOut, uint256 minAmountOut, uint256 maxPrice)**.
+end loop
+rnote right of AMM #lightgrey: The AMM takes into account Q USDT to be traded\nand shows the amount of expected tokens given\nin and out and the fee associated with the swap.
+
+
+loop Expected Amount Out
+AMM --\\ BPool: Call **getExpectedOutAmount (address fromToken, address toToken, uint256 fromTokenAmount)**.
+|||
+BPool -->> AMM: Returns expected amount of tokens given out.
+end loop
+|||
+loop Expected Amount In
+AMM --\\ BPool: Call **getExpectedInAmount (address fromToken, address toToken, uint256 toTokenAmount)**.
+|||
+BPool -->> AMM: Returns expected amount of tokens given in.
+end loop
+|||
+loop Expected Fee
+AMM --\\ BPool: Call **getSwapFee()**.
+|||
+BPool -->> AMM: Returns expected fee associated with the swap operation.
+end loop
+
+AMM --\\ MM: The request to interact with the funds is sent from the AMM to MetaMask.
+
+hnote left of MM #lightgrey: A fee needs to be paid\nto allow Mettalex to\ninteract with the funds.
+
+loop Tx confirmation
+MM --// MM: Confirm Transaction.
+end loop
+|||
+hnote left of MM #lightgrey: A gas fee needs to be paid\nto allow the swap of tokens.
+
+loop Second Tx confirmation.
+MM \\--// AMM: Confirm the second transaction receipt from MetaMask to allow the swap of tokens. Wait for transaction confirmation from MetaMask.
+end loop
+
+rnote right of AMM #lightgrey: The AMM takes Q USDT in and gives out Z LTK.\nThe AMM proceeds with the rebalance.
+
+group Tokens swap
+AMM --\\ BPool: Call **swapExactAmountIn (address tokenIn, uint256 tokenAmountIn, address tokenOut, uint256 minAmountOut, uint256 maxPrice)**.
+|||
+BPool -->> AMM: Returns the amount of tokens given out and the new spot price after the swap operation.
+|||
+AMM --\\ AMM: The AMM starts some internal calculation so as to determine the balance of tokens in the pool and keep their ratio constant.
+|||
+AMM \\-->> BPool: The pool is rebalanced according with the new weights for each token.
+end group
+|||
+AMM --\\ MM: The swap of tokens takes place.
+|||
+rnote right of AMM #lightgrey: Z L Tokens are transferred to MetaMask
+rnote over user #lightgrey: **User Token Balance**: \nX-Q USDT \nY+Z LTK \nN STK
+
+MM ->> UI: The updated amount of tokens owned is visible in\nMettalex DEX MyWallet section.
+
+
+@enduml
