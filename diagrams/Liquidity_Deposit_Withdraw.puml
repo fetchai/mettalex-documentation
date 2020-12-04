@@ -11,7 +11,7 @@ participant "Liquidity Provider" as LP
 end box
 
 box #lightpink
-participant "Mettalex liquidity Providing UI" as LPUI
+participant "Mettalex Liquidity Provider UI" as LPUI
 
 end box
 
