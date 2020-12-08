@@ -98,9 +98,9 @@ This method allows users who want to provide liquidity to deposit the quantity o
 
 ### **Withdraw**
 
-`withdraw(uint _shares)`
+`withdraw(uint256 _amount)`
 
-With this method users who want to withdraw their liquidity from the LPs pool. `uint _shares` indicates the amount of liquidity the user wants to withdraw.
+With this method users who want to withdraw their liquidity from the LPs pool. `uint256 _amount` indicates the amount of liquidity the user wants to withdraw.
 
 ### **WithdrawAll**
 
