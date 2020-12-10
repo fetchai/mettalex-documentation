@@ -1,0 +1,95 @@
+@startuml
+skinparam {
+ParticipantBorderColor DarkGray
+ParticipantBackgroundColor #c9daf8
+ArrowColor Black
+}
+
+box #lightyellow
+participant "Liquidity Provider" as LP
+
+end box
+
+box #lightpink
+participant "Mettalex Liquidity Provider UI" as LPUI
+
+end box
+
+box #lightgreen
+participant "MetaMask" as MM
+
+end box
+
+box #violet
+participant "Mettalex Liquidity Vault Smart Contract" as LVSC
+
+end box
+
+box #lightblue
+participant "Yearn Vault" as YV
+participant "Yearn Vault Controller" as YVC
+participant "Mettalex Vault" as MV
+participant "Strategy Pluggable" as SP
+participant "Balancer" as B
+
+end box
+
+LP ->> LPUI: Enter Mettalex Liquidity section. Choose commodity to provide liquidity with.
+rnote over LP #lightgrey: **LP Token Balance**: \nX USDT
+rnote over LVSC #lightgrey: **Mettalex Liquidity Vault Token Balance**: \nY USDT
+...
+LPUI ->> LPUI: Insert the amount of liquidity to be deposited.
+hnote right of LPUI #lightgrey: e.g.: X USDT
+
+LPUI ->> MM: Deposit request sent to MetaMask.
+...
+
+loop Call Deposit Function of Mettalex Liquidity Vault
+MM //--\\ LVSC: Call **deposit(uint _amount)**.
+end
+...
+MM --// MM: Accept the transaction receipt.
+...
+MM --// YV: The funds are transferred to the Vault.
+
+|||
+...
+loop Mettalex Component
+YV --// YVC:  **earn()** is called and it transfers the  liquidity to vault controller.
+...
+YVC --// SP: The Vault Controller directs the funds to the strategy.
+...
+SP <<-->> MV: The Strategy uses part of the funds to provide liquidity\nto the AMM for market making operations.
+rnote over MV #lightgrey: The Mettalex Vault Smart Contract\nconverts the collateral into L/S\nPosition token pair.\n[C <-> L/S]\n\nThe stablecoin collateral and the L/S pairs\nare transferred to the Mettalex Vault pool.
+rnote over MV #lightgrey: The liquidity thus provided back the AMM in\nMint, Redeem or Swap operations.
+
+loop #grey Smart Pool
+SP --// B:  Call **updateSpotAndNormalizeWeights()**.
+B --\\ SP: This allow the rebalance of the Balancer Pool according to the new spot pice updated in the Vault
+...
+SP --// B: Call **getBalance(address token)**.
+B --\\ SP: It returns the address tokens balance
+...
+SP --// B: Call **isBound(address token)**.
+B --\\ SP: Used to check if token is bounded to the balancer pool connected with this strategy.
+...
+SP --// B: Call **getPricePerFullShare()**.
+B --\\ SP: This method is called when the user wants to get the price for the entire amount of liquidity he owns in the liquidity pool.
+...
+SP --// B: Call **getExpectedOutAmount (address fromToken, address toToken, uint256 fromTokenAmount)**.
+B --\\ SP: Used to get expected _to amount after swapping given amount of _from token
+...
+SP --// B: Call **getExpectedInAmount (address fromToken, address toToken, uint256 toTokenAmount)**.
+B --\\ SP: Used to get expected amount of _from token needed for getting exact amount of _to token.
+...
+|||
+end
+
+end
+rnote over LP #lightgrey: **LP Token Balance**: \n0 USDT
+rnote over LVSC #lightgrey: **Mettalex Liquidity Vault Token Balance**: \nX+Y USDT
+
+
+
+
+@enduml

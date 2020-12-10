@@ -1,0 +1,91 @@
+@startuml
+skinparam {
+ParticipantBorderColor DarkGray
+ParticipantBackgroundColor #c9daf8
+ArrowColor Black
+}
+
+box #lightyellow
+participant "Liquidity Provider" as LP
+
+end box
+
+box #lightpink
+participant "Mettalex Liquidity Provider UI" as LPUI
+
+end box
+
+box #lightgreen
+participant "MetaMask" as MM
+
+end box
+
+box #violet
+participant "Mettalex Liquidity Vault Smart Contract" as LVSC
+
+end box
+
+box #lightblue
+participant "Yearn Vault" as YV
+participant "Yearn Vault Controller" as YVC
+participant "Strategy Pluggable" as SP
+participant "Balancer" as B
+
+end box
+
+LP ->> LPUI: Enter Mettalex Liquidity section. Choose commodity to provide liquidity with.
+rnote over LP #lightgrey: **LP Token Balance**: \n0 USDT
+rnote over LVSC #lightgrey: **Mettalex Liquidity Vault Token Balance**: \nY USDT
+...
+
+LPUI ->> LPUI: Insert the amount of liquidity to be withdrawn.
+hnote right of LPUI #lightgrey: e.g.: X USDT
+...
+LPUI ->> MM: Withdraw request sent to MetaMask.
+...
+MM --// MM: Accept transaction receipt.
+...
+loop Call Withdraw function of Mettalex Liquidity Vault
+MM --// LVSC: Call **withdraw(uint256 _amount)** or **withdrawAll()** to withdraw all the funds.
+
+end
+...
+LVSC --// SP: Request sent to the Smart Pool.
+
+loop Mettalex Component
+...
+loop #grey Smart Pool
+SP --// B:  Call **updateSpotAndNormalizeWeights()**.
+B --\\ SP: This allow the rebalance of the Balancer Pool according to the new spot pice updated in the Vault
+...
+SP --// B: Call **getBalance(address token)**.
+B --\\ SP: It returns the address tokens balance
+...
+SP --// B: Call **isBound(address token)**.
+B --\\ SP: Used to check if token is bounded to the balancer pool connected with this strategy.
+...
+SP --// B: Call **getPricePerFullShare()**.
+B --\\ SP: This method is called when the user wants to get the price for the entire amount of liquidity he owns in the liquidity pool.
+...
+SP --// B: Call **getExpectedOutAmount (address fromToken, address toToken, uint256 fromTokenAmount)**.
+B --\\ SP: Used to get expected _to amount after swapping given amount of _from token
+...
+SP --// B: Call **getExpectedInAmount (address fromToken, address toToken, uint256 toTokenAmount)**.
+B --\\ SP: Used to get expected amount of _from token needed for getting exact amount of _to token.
+...
+|||
+end
+
+SP --\\ YVC: The Smart Pool directs the funds to the Yearn Vault Controller.
+YVC --\\ YV: **withdraw(uint _shares)**.
+end
+...
+YV --\\ LVSC: Funds are released.
+...
+LVSC --\\ MM: Funds are deposited back into the Liquidity Provider's wallet.
+
+rnote over LP #lightgrey: **LP Token Balance**: \nX USDT
+rnote over LVSC #lightgrey: **Mettalex Liquidity Vault Token Balance**: \nY-X USDT
+
+
+@enduml
