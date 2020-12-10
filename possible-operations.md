@@ -16,7 +16,7 @@ This operation happens thanks to the presence of the AMM. In fact traders do not
 
 Market Making operations are the second category of operations users can undertake on Mettalex DEX \(visit the following link: [dex.mettalex.com](http://dex.mettalex.com)\). As in the section before, it is possible to access these actions via the Mettalex Trade section.
 
-![](https://lh6.googleusercontent.com/TWgBrUyime_xomTx4tFPc78j5QPlbS0mKJRfnVD3Y5MNvJkSHmQ5aqrOTUmqx9qAlrw6TGxwO2B8WSfzx-P-nndY172boMTu2k-XKDvt0-m1YOf8PMmuKy04Md9Y_YH8pWqsZe2p)
+![Mettalex Dex - Trade/Mint/Redeem section](https://lh6.googleusercontent.com/TWgBrUyime_xomTx4tFPc78j5QPlbS0mKJRfnVD3Y5MNvJkSHmQ5aqrOTUmqx9qAlrw6TGxwO2B8WSfzx-P-nndY172boMTu2k-XKDvt0-m1YOf8PMmuKy04Md9Y_YH8pWqsZe2p)
 
 Here users can not only swap their coins against the Autonomous Market Maker, but they can also mint or redeem new position tokens thanks to the dedicated windows that can be found in the same section. The market maker user interface provides additional functionality to mint and ****redeem Long/Short Position token pairs related to a certain underlying asset. It happens by supplying collateral to the system for token minting. Furthermore, users can supply a Long/Short Position token pair for redemption \(i.e. users exchange L/S pairs against stablecoin collateral\).
 

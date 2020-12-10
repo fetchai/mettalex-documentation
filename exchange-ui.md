@@ -98,9 +98,9 @@ This method allows users who want to provide liquidity to deposit the quantity o
 
 ### **Withdraw**
 
-`withdraw(uint256 _amount)`
+`withdraw(uint _shares)`
 
-With this method users who want to withdraw their liquidity from the LPs pool. `uint256 _amount` indicates the amount of liquidity the user wants to withdraw.
+With this method users who want to withdraw their liquidity from the LPs pool. `uint _shares` indicates the amount of liquidity the user wants to withdraw.
 
 ### **WithdrawAll**
 
@@ -166,12 +166,6 @@ It is used in order to get the balance of tokens owned by the address
 
 Settle all Long and Short tokens held by the contract in case of Commodity breach.
 
-### IsBound
-
-`isBound(address token)`
-
-Used to check if the token is bounded to the balancer pool connected with the strategy. `token` is the address of the token. It returns the status of the token, that is if it is bounded to the balancer pool or not.
-
 ### **SwapExactAmountIn**
 
 `swapExactAmountIn (address tokenIn, uint256 tokenAmountIn, address tokenOut, uint256 minAmountOut, uint256 maxPrice)`
@@ -182,12 +176,6 @@ This method is called when the user wants to trade an amount `uint256` `tokenAmo
 
 
 This method returns the amount of tokens taken out from the user’s account \(i.e. `uint256 tokenAmountOut`\) and the new spot price after the swap operation \(i.e. `uint256 spotPriceAfter`\).
-
-### UpdateSpotAndNormalizeWeights
-
-`updateSpotAndNormalizeWeights()`
-
-It is called to rebalance the Balancer pool according to the new spot price updated in Vault.
 
 ### UpdateOracle
 
