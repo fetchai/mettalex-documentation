@@ -28,5 +28,13 @@ Here users can not only swap their coins against the Autonomous Market Maker, bu
 
 ## Liquidity providing
 
-Liquidity providing operation represent the third category of operation users can run on Mettalex. It is possible to access these actions via the Mettalex Liquidity section.
+Liquidity providing operation are the third category of operation users can run on Mettalex \(visit the following link: [dex.mettalex.com](http://dex.mettalex.com)\). It is possible to access these actions via the Mettalex Liquidity section. Users can deposit funds represented by stablecoin collateral \(i.e. USDT\) and are rewarded with a further aggregated yield on the capital invested via transaction fees and trading spreads between prices, according to the amount and duration of liquidity supplied into the system.
+
+![Mettalex Liquidity Deposit section](.gitbook/assets/liquidity.png)
+
+In the “Deposit” tab enter the amount of liquidity you want to deposit into the liquidity pool and click the “Deposit” button. "Deposit All" allows the user to deposit all of his funds whereas "Start Earning" transfers funds from the Vault contract to the Autonomous Market Maker \(AMM\) contract so you can start earning trading fees.  
+
+![Mettalex Liquidity Withdraw section](.gitbook/assets/withdraw.png)
+
+From the home page access the “LIQUIDITY” page and use the drop-down menu at the top to select a commodity to withdraw liquidity from. In the liquidity provider tab, click on “Withdraw” and enter the amount of liquidity you want to withdraw from the liquidity pool and click the “Withdraw” button. You can withdraw pre-determined part of your funds \(e.g. 25%, 50%, 75% or 100%\). The “Withdraw all” button gives you the ability to withdraw all funds from the selected liquidity pool \(for that specific commodity\).
 
