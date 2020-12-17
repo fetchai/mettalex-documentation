@@ -20,7 +20,7 @@ Market Making operations are the second category of operations users can underta
 
 ![Mettalex Trade/Mint/Redeem section](.gitbook/assets/schermata-2020-12-17-alle-15.56.32-2-.png)
 
-Here users can not only swap their coins against the Autonomous Market Maker, but they can also mint or redeem new position tokens thanks to the dedicated windows that can be found in the same section. The market maker user interface provides additional functionality to mint and ****redeem Long/Short Position token pairs related to a certain underlying asset. It happens by supplying collateral to the system for token minting. Furthermore, users can supply a Long/Short Position token pair for redemption \(i.e. users exchange L/S pairs against stablecoin collateral\).
+Here users can not only swap their coins against the Autonomous Market Maker, but they can also mint or redeem new position tokens thanks to the dedicated windows that can be found in the same section. The market maker user interface provides additional functionality to mint and redeem Long/Short Position token pairs related to a certain underlying asset. It happens by supplying collateral to the system for token minting. Furthermore, users can supply a Long/Short Position token pair for redemption \(i.e. users exchange L/S pairs against stablecoin collateral\).
 
 ![Mettalex Mint section](.gitbook/assets/mint.png)
 
