@@ -6,13 +6,13 @@ Interactions with Mettalex DEX will require the ability to call some Mettalex co
 
 The possible scenarios a user can face when operating with position tokens in the Mettalex Vault are the following:
 
-**Allowance**
+### **Allowance**
 
 `allowance(address owner, address spender)`
 
 This method returns the remaining number of tokens the spender address is allowed to spend on behalf of the owner address through the method `transferFrom`. This value is zero by default. This value changes when `approve` or `transferFrom` are called.
 
-**Approve**
+### **Approve**
 
 `approve(address spender, uint256 amount)`
 
@@ -56,7 +56,7 @@ This method allows the user to redeem the collateral to send to the sender addre
 
 The method is called to redeem the given amount of positions held by the user. The address the user wants to use to transfer the collateral redeemed is indicated by `address _to`. The amount of positions to redeem is given by `uint256`.
 
-**SettlePosition**
+### **SettlePosition**
 
 `settlePositions()`
 
@@ -98,9 +98,9 @@ This method allows users who want to provide liquidity to deposit the quantity o
 
 ### **Withdraw**
 
-`withdraw(uint _shares)`
+`withdraw(uint256 _amount)`
 
-With this method users who want to withdraw their liquidity from the LPs pool. `uint _shares` indicates the amount of liquidity the user wants to withdraw.
+With this method users who want to withdraw their liquidity from the LPs pool. `uint256 _amount` indicates the amount of liquidity the user wants to withdraw.
 
 ### **WithdrawAll**
 
@@ -166,16 +166,27 @@ It is used in order to get the balance of tokens owned by the address
 
 Settle all Long and Short tokens held by the contract in case of Commodity breach.
 
+### IsBound
+
+`isBound(address token)`
+
+Used to check if the token is bounded to the balancer pool connected with the strategy. `token` is the address of the token. It returns the status of the token, that is if it is bounded to the balancer pool or not.
+
 ### **SwapExactAmountIn**
 
 `swapExactAmountIn (address tokenIn, uint256 tokenAmountIn, address tokenOut, uint256 minAmountOut, uint256 maxPrice)`
 
    `returns (uint256 tokenAmountOut, uint256 spotPriceAfter` 
 
-This method is called when the user wants to trade an amount `uint256` `tokenAmountIn` of `tokenIn` taken by the pool, in exchange for an amount `uint256 minAmountOut` of `tokenOut given` to the user from the pool, with a maximum marginal price equal to `uint 256 maxPrice`.   
-
+This method is called when the user wants to trade an amount `uint256` `tokenAmountIn` of `tokenIn` taken by the pool, in exchange for an amount `uint256 minAmountOut` of `tokenOut given` to the user from the pool, with a maximum marginal price equal to `uint 256 maxPrice`. 
 
 This method returns the amount of tokens taken out from the user’s account \(i.e. `uint256 tokenAmountOut`\) and the new spot price after the swap operation \(i.e. `uint256 spotPriceAfter`\).
+
+### UpdateSpotAndNormalizeWeights
+
+`updateSpotAndNormalizeWeights()`
+
+It is called to rebalance the Balancer pool according to the new spot price updated in Vault.
 
 ### UpdateOracle
 
