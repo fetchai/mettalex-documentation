@@ -114,7 +114,7 @@ With this method the user can withdraw all of their liquidity from the LPs pool.
 
 This method transfers money from the vault to the autonomous market maker contract in order to earn trading fees from the supplied funds.
 
-### **GetPricePerFullSare**
+### **GetPricePerFullShare**
 
 `getPricePerFullShare()`
 
