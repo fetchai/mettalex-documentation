@@ -1,6 +1,12 @@
 # Exchange UI
 
-Interactions with Mettalex DEX will require the ability to call some Mettalex contract events, \(e.g. Mint L/S Position tokens from coin tokens \(USDT\), redeem L/S token pair for coin tokens or redeem single Position token for coin tokens if contract is settled\). This means that each user needs to call different methods accordingly to the liquidity pool they want to interact with \(i.e. Mettalex Vault, LPs pool or AMM pool\).
+Interactions with Mettalex DEX will require the ability to call some Mettalex contract events:
+
+* Mint L/S Position tokens from coin tokens \(USDT\);
+* Redeem L/S token pair for coin tokens;
+* Redeem single Position token for coin tokens if contract is settled\). 
+
+This means that each user needs to call different methods accordingly to the liquidity pool they want to interact with \(i.e. **Mettalex Vault**, **LPs pool** or **AMM pool**\).
 
 ## **Possible Events: Mettalex Vault**
 
