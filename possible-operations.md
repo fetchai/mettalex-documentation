@@ -2,8 +2,7 @@
 
 In order to access the Mettalex DEX platform, visit the following link: [https://dex.mettalex.com](https://dex.mettalex.com).
 
-In the first page users will be asked to connect their MetaMask wallet and decide what operation they want to perform by choosing one of 3 possible section:  
-
+In the first page users will be asked to connect their MetaMask wallet and decide what operation they want to perform by choosing one of 3 possible section:
 
 1. **TRADE**;
 2. **ACCESS ACCOUNT**;
