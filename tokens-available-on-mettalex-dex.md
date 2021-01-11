@@ -1,7 +1,7 @@
 # Tokens available on Mettalex DEX
 
 1. **MTLX tokens \(MTLX\):** these tokens enable stakeholders to take part in the decision making process regarding the platform \(e.g. vote on the creation of new markets or the usage of exchange fees\); 
-2. **Position Tokens**: Within the Mettalex system, position tokens serve _two main purposes_: Long tokens closely track changes in the price of an underlying asset in ways that reflect changes in the physical market, whereas Short tokens follow any negative dip in price without accruing significant costs. 
+2. **Position Tokens**: within the Mettalex system, position tokens serve _two main purposes_: _long tokens_ closely track changes in the price of an underlying asset in ways that reflect changes in the physical market, whereas _short tokens_ follow any negative dip in price without accruing significant costs. 
 
 _Position tokens can be divided in_: 
 
