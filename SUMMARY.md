@@ -5,5 +5,5 @@
 * [Economic model behind Mettalex DEX](economic-model-behind-mettalex-dex.md)
 * [Exchange UI](exchange-ui.md)
 * [Possible operations](possible-operations.md)
-* [Overall risks and benefits](overall-risks-and-benefits.md)
+* [Risks and benefits](overall-risks-and-benefits.md)
 
