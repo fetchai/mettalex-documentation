@@ -50,7 +50,7 @@ Choosing the floor and the cap basing on historical delta allow us to create a n
 
 Mettalex offers to **Liquidity Providers** \(i.e. **LPs**\) the chance to supply liquidity directly to Mettalex system through the **Liquidity Provision Layer**. The liquidity collected throughout this layer is stored into a decoupled liquidity pool. The AMM uses Mettalex smart contract to convert supplied collateral into position tokens for market making operations. In exchange for locking up their collateral, LPs are rewarded with a further aggregated yield on the capital invested via transaction fees and trading spreads between prices, according to the amount and duration of liquidity supplied into the system. Compared with other liquidity pools, like Uniswap or Balancer, Mettalex DEX allows LPs to deposit just a token in order to provide liquidity, as only one asset \(i.e. USDT\) is contained in the Liquidity Providers pool \(i.e. the LPs pool\). Other liquidity pools liquidity providers would need to supply a pair of tokens \(e.g. ETH/USDT\) in order to provide liquidity into them. The Mettalex decoupled LPs pool works as a decoupled liquidity pool whose role is to guarantee the provisioning of liquidity to the AMM so minimising the timing risk of any impermanent losses the AMM is exposed to. This liquidity will be then converted internally by the AMM pool \(i.e. it is a different Balancer-based pool\) into a mix of USDT, Long and Short tokens which will be supplied to the Exchange layer in order to be traded among traders on the market. This is, the latter pool contains a mix of tokens whereas LPs pool contains just stablecoin collateral \(i.e. **USDT**\). The mechanism is based on the fact that LPs take on the _timing risk_ in exchange for a return from the AMM. The contract is very simple as it focuses on only one variable: total liquidity provided \(i.e. deposits\). The objective is having always enough liquidity in the pool. So, the liquidity provision layer represents the component that funds autonomous market making processes.
 
-Because of this, the **Governance Layer** rewards LPs with **governance tokens** \(i.e. **MTLX Tokens**\) via a liquidity mining process that rewards in proportion to the amount and duration of supplied liquidity in the system. These tokens were initially distributed among Fetch.ai stakeholders \(i.e. FET token holders\) in accordance to the quantity of FET owned. This layer enables decentralised governance of the platform itself: MTLX tokens enable stakeholders to take part in the decision making process regarding the platform. These allow them to govern on the policies and fees applied inside the platform itself. Furthermore, stakeholders \(i.e. liquidity providers\) can express their vote on different aspects and policies, including:
+Because of this, the **Governance Layer** rewards LPs with **governance tokens** \(i.e. **MTLX Tokens**\) via a liquidity mining process that rewards in proportion to the amount and duration of supplied liquidity in the system. These tokens were initially distributed among Fetch.ai stakeholders \(i.e. **FET token holders**\) in accordance to the quantity of FET owned. This layer enables decentralised governance of the platform itself: MTLX tokens enable stakeholders to take part in the decision making process regarding the platform. These allow them to govern on the policies and fees applied inside the platform itself, including:
 
 * System parameters \(e.g. the choice of the AMM to back with liquidity from the liquidity pool\);
 * Creation of new markets;   
@@ -60,9 +60,13 @@ Because of this, the **Governance Layer** rewards LPs with **governance tokens**
 
 
 
-The following table offers an overview of the Mettalex Decentralised Exchange Platform \(Table 2\).
+The following table offers an overview of the Mettalex Decentralised Exchange Platform \(Table 2\):
+
+
 
 ![Table 2: MTLX system diagram. Source: Mettalex Litepaper, September, 2020.](https://lh3.googleusercontent.com/bY9agOHMEMc0F1R3D1b2ApjARqT0RcZW3mY_CFHZJQ45amA9bVRQ4nzB1tYY2feuNJFFUzT4TLYsw9BxU3hOXLNSV53N12qh32xDStkcsjq2DHLyDqjuOH5QJAuPwzErWBX5BHUm)
+
+
 
 As an additional part of the mechanism, Mettalex DEX uses a fraction of the exchange fees earned on the platform to algorithmically buy MTLX tokens back from the market. Governance tokens are minted at a linear rate to incentivise early liquidity providers in the system. However as the total liquidity in the pool increases, liquidity mining will become more difficult.
 
