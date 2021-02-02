@@ -9,7 +9,9 @@ Mettalex overall structure is composed of **four** different **layers**:
 
 Inside the Mettalex platform an important role is played by Position tokens. As mentioned, these tokens are minted in pairs by the Mettalex smart contract by locking up collateral into it \(i.e. ERC-20 stablecoin such as USDT\). This process takes place on the **Tokenisation Layer**. In the latter, the **Mettalex Vault** is fundamental as it contains the collateral that backs the pairs of L and S Position tokens.
 
-The **Mettalex Exchange Layer** provides a reference price feed from an index or data-feed provider. The fairness of the information is guaranteed by the multiple sources providing different data \(e.g. QUANDL, Chainlink, REFINITIV or Davis\) and more data feeds will be added in the near future \(e.g. Platts and Fetch.ai agents\) thus providing a wide variety of possible oracles from which gather data. These multiple sources allow the communication between Mettalex and the real world. The price data gathered is thus processed by the Mettalex CloudSQL component in order to allow the implementation of new markets, the recovery of price feeds and to ensure the continuous updating of prices displayed to on-chain and off-chain components. Traders are presented with reliable indices providing valuation for the commodities listed which are denominated in either fiat currency or stablecoin. On this layer, Position tokens are used to track the change in the price of an underlying asset and users are free to open positions on the market. Position tokens can be divided into **Long tokens** \(i.e. **L tokens**\) and **Short tokens** \(i.e. **S tokens**\). These respectively track the positive and negative change in a given price. Traders can buy or sell using stablecoin \(e.g. USDT\) collateral by trading with other participants or an Mettalex AMM. In this case, the latter refers to the **AMM pool** which contains a mix of USDT, L and S tokens that can be swapped among traders, while it adjusts the price of the tokens depending on liquidity demand and data from outside oracles.
+The **Mettalex Exchange Layer** provides a reference price feed from an index or data-feed provider. The fairness of the information is guaranteed by the multiple sources providing different data \(e.g. QUANDL, Chainlink, REFINITIV or Davis\) and more data feeds will be added in the near future \(e.g. Platts and Fetch.ai agents\) thus providing a wide variety of possible oracles from which gather data. These multiple sources allow the communication between Mettalex and the real world. The price data gathered is thus processed by the Mettalex CloudSQL component in order to allow the implementation of new markets, the recovery of price feeds and to ensure the continuous updating of prices displayed to on-chain and off-chain components. Traders are presented with reliable indices providing valuation for the commodities listed which are denominated in either fiat currency or stablecoin. On this layer, Position tokens are used to track the change in the price of an underlying asset and users are free to open positions on the market. Position tokens can be divided into **Long tokens** \(i.e. **L tokens**\) and **Short tokens** \(i.e. **S tokens**\). These respectively track the positive and negative change in a given price. 
+
+Traders can buy or sell using stablecoin \(e.g. USDT\) collateral by trading with other participants or an Mettalex AMM. In this case, the latter refers to the **AMM pool** which contains a mix of USDT, L and S tokens that can be swapped among traders, while it adjusts the price of the tokens depending on liquidity demand and data from outside oracles.
 
 Position tokens are a disruptive technology equipped with _various properties_, such as:
 
@@ -22,8 +24,6 @@ Position tokens are a disruptive technology equipped with _various properties_, 
 
 Let’s consider the following example:
 
-
-
 > _**E.g.**: A trader wants to open a position on the market via buying an asset like Bitcoin \(i.e. BTC\). If the BTC price on the market is BTCUSD = $10’000,00, with Cap = $11’000,00 and Floor = $9’000,00 the collateral required on Mettalex DEX to mint a pair of L/S tokens would be equal to $2’000,00 rather than the market spot price equal to $10’000,00._
 
 \_\_
@@ -34,15 +34,11 @@ As outlined in the example above, distinctly from conventional market, Mettalex 
 
 > _**E.g.**: Table 1 depicts the historical price graph for the London Metal Exchange \(i.e. LME\) Steel Scrap: For commodity Position tokens we expect the spot price to usually trade inside Δ. If we consider the steel scrap this might range from $225 to $375 per tonne \(i.e. a delta of $150 centred around $300\). We can use this trading range to set the floor and cap prices for the token pair. The value of a long and short pair of tokens is equal to the delta, here $150,00, with floor set at $225,00 and cap at $375,00. That is, depositing a collateral worth $150,00 will allow the trader to mint a L/S pair. Assuming the spot price when the tokens are minted is $300, each token will have a value of $75,00, representing a leverage of $300,00/$75,00 = 4x._
 
-\_\_
-
 ![ Table 1: LME Steel Scrap historical price graph.](https://lh3.googleusercontent.com/v279Yho9C53TCYxmNvKDZ2DtTFfk7X1G3lQYQmAGj84H4dSr7BDx6OuvEG6G-L0dXBIh9ROoMY7dQpgVu3jOmb_ucjYOfh1x098-eWrISE8ocWD0e89TKFVW0JjmXAqlfmSzEmGW)
 
 
 
 Choosing the floor and the cap basing on historical delta allow us to create a non-expiring perpetual token that can be held indefinitely as long as the spot remains within the historical range. This has the consequence that as the spot trades away from the centre price it becomes cheaper to buy exposure for the position opposite the movement.
-
-
 
 > _Following the example above, if spot increases to $350,00 the value of a long token becomes $125,00 \(i.e. leverage of $350,00/$125,00 = 2.8x\) while the short token is now worth $25,00 \(i.e. leverage of $350,00/$25,00 = 14x\). This is an incentive for market participants to provide liquidity for the short position at low._
 
