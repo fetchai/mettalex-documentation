@@ -1,6 +1,6 @@
 # Exchange UI
 
-Interactions with Mettalex DEX will require the ability to call some Mettalex contract events:
+Interactions with Mettalex DEX will require the ability to call some Mettalex smart contract events:
 
 * Mint L/S Position tokens from coin tokens \(i.e. USDT\)
 * Redeem L/S token pair for coin tokens
