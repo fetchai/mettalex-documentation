@@ -1,6 +1,6 @@
 # Exchange UI
 
-Interactions with Mettalex DEX will require the ability to call some Mettalex contract events:
+Interactions with Mettalex DEX will require the ability to call some Mettalex smart contract events:
 
 * Mint L/S Position tokens from coin tokens \(i.e. USDT\)
 * Redeem L/S token pair for coin tokens
@@ -12,15 +12,11 @@ This means that each user needs to call different methods accordingly to the liq
 
 The possible scenarios a user can face when operating with position tokens in the Mettalex Vault are the following:
 
-
-
 #### **Allowance**
 
 `allowance(address owner, address spender)`
 
 This method returns the remaining number of tokens the spender address is allowed to spend on behalf of the owner address through the method `transferFrom`. This value is zero by default. This value changes when `approve` or `transferFrom` are called.
-
-
 
 #### **Approve**
 
@@ -28,15 +24,11 @@ This method returns the remaining number of tokens the spender address is allowe
 
 This method sets an amount `uint256` of tokens as the allowance of the spender address over the caller's tokens. It returns a boolean value indicating whether the operation succeeded or not.
 
-
-
 #### **BalanceOf**
 
 `balanceOf(address account)`
 
 Returns the amount of tokens owned by the account.
-
-
 
 #### **IncreaseAllowance**
 
@@ -44,23 +36,17 @@ Returns the amount of tokens owned by the account.
 
 This method is called when the user wants to increase the allowance related to his address. `uint256` indicates the value added to the existing allowance.
 
-
-
 #### **DecreaseAllowance**
 
 `decreaseAllowance(address spender, uint256 subtractedValue)`
 
 This method is called when the user wants to decrease the allowance related to his address. `uint256` indicates the value subtracted to the existing allowance.
 
-
-
 #### **MintPositions**
 
 `mintPositions(uint256 _quantityToMint)`
 
 This method is called to mint new position tokens where `uint256` indicates the amount of positions to be minted and transferred to the user’s account.
-
-
 
 #### **MintFromCollateralAmount**
 
