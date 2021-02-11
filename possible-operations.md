@@ -14,7 +14,7 @@ When choosing "**ACCESS ACCOUNT**", users will be redirected to the **Mettalex D
 
 ![](.gitbook/assets/dashboard.png)
 
-   ****
+
 
 ## **Trading in a Market**
 
