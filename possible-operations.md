@@ -8,17 +8,17 @@ In the first page users will be asked to connect their wallet and decide what op
 2. **ACCESS ACCOUNT**;
 3. **SUPPLY LIQUIDITY**.
 
-![](.gitbook/assets/1.png)
+![](.gitbook/assets/dex.png)
 
 When choosing "**ACCESS ACCOUNT**", users will be redirected to the **Mettalex Dashboard** . From here users can perform different actions related to their strategies and beliefs \(e.g. trading or supplying liquidity\).
 
-![](.gitbook/assets/dashboard.png)
+![](.gitbook/assets/dashboard%20%281%29.png)
 
 
 
 ## **Trading in a Market**
 
-![Mettalex Dashboard](.gitbook/assets/trade%20%281%29.png)
+![](.gitbook/assets/trade%20%282%29.png)
 
 It is the first category of action that users can undertake on Mettalex DEX. Users need to visit the Mettalex Trade section in order to proceed with this action \(visit the following link: [dex.mettalex.com](http://dex.mettalex.com)\). The trading section allows traders to open market positions on a wide variety of  markets. It is possible to open positions considering as underlying assets either ferrous \(e.g. copper, steel rebar, steel scrap, silver, gold iron, lithium carbonate\) or non-ferrous assets \(e.g. BitCoin or Ethereum\). From here, traders can convert the stablecoins stored in their wallets into position tokens. This operation is called “Swap” and allows users to swap a certain amount of tokens in exchange for another quantity of tokens desired**.**
 
@@ -28,19 +28,23 @@ This operation happens thanks to the presence of the AMM. In fact traders do not
 
 Market Making operations are the second category of operations users can undertake on Mettalex DEX \(visit the following link: [dex.mettalex.com](http://dex.mettalex.com)\). As in the section before, it is possible to access these actions via the Mettalex Trade section.
 
-![Mettalex Trade Section](.gitbook/assets/trade%20%281%29.png)
+![](.gitbook/assets/trade%20%282%29.png)
 
-Here users can not only swap their coins against the Autonomous Market Maker, but they can also mint or redeem new position tokens thanks to the dedicated windows that can be found in the same section. The market maker user interface provides additional functionality to mint and redeem Long/Short Position token pairs related to a certain underlying asset. It happens by supplying collateral to the system for token minting. Furthermore, users can supply a Long/Short Position token pair for redemption \(i.e. users exchange L/S pairs against stablecoin collateral\).
+Here users can not only swap their coins against the Autonomous Market Maker, but they can also mint or redeem new position tokens thanks to the dedicated windows that can be found in the same section. The market maker user interface provides additional functionality to **mint** and **redeem** Long/Short Position token pairs related to a certain underlying asset. It happens by supplying collateral to the system for token minting. Furthermore, users can supply a Long/Short Position token pair for redemption \(i.e. users exchange L/S pairs against stablecoin collateral\).
+
+![](.gitbook/assets/mint%20%281%29.png)
+
+![](.gitbook/assets/redeem%20%281%29.png)
 
 ## Liquidity providing
 
 Liquidity providing operation are the third category of operation users can run on Mettalex \(visit the following link: [dex.mettalex.com](http://dex.mettalex.com)\). It is possible to access these actions via the Mettalex Liquidity section. Users can deposit funds represented by stablecoin collateral \(i.e. USDT\) and are rewarded with a further aggregated yield on the capital invested via transaction fees and trading spreads between prices, according to the amount and duration of liquidity supplied into the system.
 
-![Mettalex Liquidity Deposit section](.gitbook/assets/deposit.png)
+![](.gitbook/assets/liquidity-deposit.png)
 
 In the “**Deposit**” tab enter the amount of liquidity you want to deposit into the liquidity pool and click the “**Deposit**” button. "**Deposit All**" allows the user to deposit all of his funds whereas "**Start Earning**" transfers funds from the Vault contract to the Autonomous Market Maker \(AMM\) contract so you can start earning trading fees.  
 
-![Mettalex Liquidity Withdraw section](.gitbook/assets/withdraw%20%281%29.png)
+![](.gitbook/assets/liquidity-withdraw.png)
 
 From the home page access the “**LIQUIDITY**” page and use the drop-down menu at the top to select a commodity to withdraw liquidity from. In the liquidity provider tab, click on “**Withdraw**” and enter the amount of liquidity you want to withdraw from the liquidity pool and click the “**Withdraw**” button. You can withdraw pre-determined part of your funds \(e.g. 25%, 50%, 75% or 100%\). 
 
