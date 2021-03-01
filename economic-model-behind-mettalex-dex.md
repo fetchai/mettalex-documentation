@@ -30,7 +30,7 @@ As outlined in the example above, distinctly from conventional market, _Mettalex
 
 ![ Table 1: LME Steel Scrap historical price graph.](https://lh3.googleusercontent.com/v279Yho9C53TCYxmNvKDZ2DtTFfk7X1G3lQYQmAGj84H4dSr7BDx6OuvEG6G-L0dXBIh9ROoMY7dQpgVu3jOmb_ucjYOfh1x098-eWrISE8ocWD0e89TKFVW0JjmXAqlfmSzEmGW)
 
-Choosing the floor and the cap basing on historical delta allow us to create a non-expiring perpetual token that can be held indefinitely as long as the spot remains within the historical range. This has the consequence that as the spot trades away from the centre price it becomes cheaper to buy exposure for the position opposite the movement.
+Choosing the floor and the cap basing on historical delta allow us to create a non-expiring perpetual token that can be held indefinitely as long as the spot remains within the historical range. Therefore, as the spot trades away from the centre price it becomes cheaper to buy exposure for the position opposite the movement.
 
 > _Following the example above, if spot increases to $350,00 the value of a long token becomes $125,00 \(i.e. leverage of $350,00/$125,00 = 2.8x\) while the short token is now worth $25,00 \(i.e. leverage of $350,00/$25,00 = 14x\). This is an incentive for market participants to provide liquidity for the short position at low._
 
