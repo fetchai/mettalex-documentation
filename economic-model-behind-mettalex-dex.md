@@ -2,10 +2,10 @@
 
 Mettalex overall structure is composed of **four** different **layers**:
 
-* **Tokenisation Layer**
-* **Exchange Layer**
-* **Liquidity Provision Layer**
-* **Governance Layer**
+* **Tokenisation** Layer
+* **Exchange** Layer
+* **Liquidity Provision** Layer
+* **Governance** Layer
 
 Inside the Mettalex platform an important role is played by Position tokens. These tokens are minted in pairs by the Mettalex smart contract by locking up collateral into it \(i.e. ERC-20 stablecoin such as USDT\). This process takes place on the **Tokenisation Layer**. In the latter, the **Mettalex Vault** is fundamental as it contains the collateral that backs the pairs of L and S Position tokens.
 
