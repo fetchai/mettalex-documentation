@@ -1,6 +1,6 @@
 # Possible operations
 
-In order to access the Mettalex DEX platform, visit the following link: [https://dex.mettalex.com](https://dex.mettalex.com).  You will be  asked to connect your wallet by choosing one of the following choices:
+In order to access the Mettalex DEX platform, visit the following link: [https://dex.mettalex.com](https://dex.mettalex.com).  You will be asked to connect your wallet by choosing one of the following wallet choices:
 
 ![](https://lh3.googleusercontent.com/QVfNc5KOrcOusBktVAodWCfC47qMQ1jPai8dvDD3idW1U_A4B5Su8Rpc7UC5hwmPpZvvBUg5e9x6tv1ICdeDXE-oTW6SL2dT8qqT5pSAL5fYneYe1fJt7X7vJ_vCXLhPZLf8xDua)
 
