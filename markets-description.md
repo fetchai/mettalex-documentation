@@ -250,7 +250,7 @@ The perfect spread for physical commodity holders who process steel scrap to pro
 
 #### **sDEFI/sCEX**
 
-sDEFI and sCEX indexes are synthetic assets that represent the price performance of a basket of leading tokens in the Decentralized Finance space and the Centralized Exchange space respectively. The sDeFi/sCEX spread token tracks the ratio of the price in US dollars of the sDeFi and sCEX indexes representing the decentralized finance space and the centralized exchange space respectively. Individually, tradable instruments around these indexes allow traders to take a view on the growth or decline trend of each space separately.  
+sDEFI and sCEX indexes are synthetic assets that represent the price performance of a basket of leading tokens in the Decentralised Finance space and the Centralised Exchange space respectively. The sDeFi/sCEX spread token tracks the ratio of the price in US dollars of the sDeFi and sCEX indexes representing the decentralized finance space and the centralized exchange space respectively. Individually, tradable instruments around these indexes allow traders to take a view on the growth or decline trend of each space separately.  
 
 * If you decide to open a long position, you might agree that DeFi protocols will become relatively more important in the overall crypto space as they accrue more economic share of the financial ecosystem;
 * If you opt for a short position you will gain a profit if trading activity of crypto tokens on centralized exchanges will dominate the activity in the crypto space in the future.
