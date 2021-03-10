@@ -4,8 +4,6 @@
 
 ### **COMMODITIES** 
 
-\*\*\*\*
-
 #### **COPPER**
 
 Copper is widely used around the world due to its industrial and technological applications. Its physical properties, which are similar to gold and silver, make it perfectly suited for a range of industrial uses \(e.g. electric wiring, plumbing, roofing, and industrial machinery\). However, unlike gold and silver, copper is not widely viewed as a store of value. Therefore, copper is less impacted by speculative price movements. The global supply of copper comes principally from underground mines and from recycling copper products. As developing regions in the African continent, Eastern Europe and Asia modernise their economies and expand their infrastructure, the higher will be the demand for copper from these areas of the world.
@@ -169,8 +167,6 @@ Silver is a very volatile commodity. The increase in the industrial demand is th
 
 ### **SPREADS**
 
-\*\*\*\*
-
 #### **BTC/ETH**
 
 The perfect market to trade on if you want to have exposure to Bitcoin or Ether’s market dominance against each other.   
@@ -264,8 +260,6 @@ sDEFI and sCEX indexes are synthetic assets that represent the price performance
 \*\*\*\*
 
 ### **FOREX AND INDICES**
-
-\*\*\*\*
 
 #### **FTSE**
 
