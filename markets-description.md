@@ -232,6 +232,8 @@ Chainlink is a decentralised oracle network that provides real-world data to sma
 **Network: ETHEREUM**  
 
 
+\*\*\*\*
+
 #### **STEEL REBAR/STEEL SCRAP**
 
 The perfect spread for physical commodity holders who process steel scrap to produce steel rebar. Steel Mills can use it to hedge their exposure to the price of both commodities.   
