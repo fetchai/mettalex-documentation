@@ -177,8 +177,9 @@ The perfect market to trade on if you want to have exposure to Bitcoin or Etherâ
 
 **Oracle source: Chainlink**
 
-**Network: ETHEREUM and BINANCE SMART CHAIN**  
+**Network: ETHEREUM and BINANCE SMART CHAIN**
 
+\*\*\*\*
 
 #### **BTC/XAU**
 
@@ -190,8 +191,9 @@ In the last year, worldwide markets have experienced a bullish trend which have 
 
 **Oracle source: Chainlink**
 
-**Network: BINANCE SMART CHAIN**  
+**Network: BINANCE SMART CHAIN**
 
+\*\*\*\*
 
 #### **BTC/TSLA**
 
@@ -216,8 +218,9 @@ Aave is a decentralized money market protocol that enables users to lend and bor
 
 **Oracle source: Chainlink**
 
-**Network: BINANCE SMART CHAIN**  
+**Network: BINANCE SMART CHAIN**
 
+\*\*\*\*
 
 #### **LINK/BAND**
 
@@ -229,8 +232,7 @@ Chainlink is a decentralised oracle network that provides real-world data to sma
 
 **Oracle source: Chainlink**
 
-**Network: ETHEREUM**  
-
+**Network: ETHEREUM**
 
 \*\*\*\*
 
