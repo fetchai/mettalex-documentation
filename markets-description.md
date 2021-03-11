@@ -2,7 +2,9 @@
 
 ## **MARKETS**
 
-### **COMMODITIES** 
+The markets available on Mettalex Vega are divided into the following categories:
+
+### **1.  COMMODITIES** 
 
 #### **COPPER**
 
@@ -165,7 +167,7 @@ Silver is a very volatile commodity. The increase in the industrial demand is th
 
 \*\*\*\*
 
-### **SPREADS**
+### **2.  SPREADS**
 
 #### **BTC/ETH**
 
@@ -263,7 +265,7 @@ sDEFI and sCEX indexes are synthetic assets that represent the price performance
 
 \*\*\*\*
 
-### **FOREX AND INDICES**
+### **3.  FOREX AND INDICES**
 
 #### **FTSE**
 
