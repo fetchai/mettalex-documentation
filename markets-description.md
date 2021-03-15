@@ -246,9 +246,22 @@ Silver is one of the most valuable metals on the planet due to its widespread ut
 
 Silver is a very volatile commodity. The increase in the industrial demand is the primary factor for increased volatility in silver prices.  At the moment the industrial demand consists of over half of the total worldwide demand.
 
+**How to trade?**
+
+* Buy the XAGLONG token if you believe many situations could increase the demand for silver and lead to higher prices. An expansion of the electronics and automobile industry would lead to a higher demand for silver. Increasing oil prices could also increase the demand for silver by forcing the use of alternative energy, such as solar. In fact, the latter implements silver in its equipment;
+* Buy the XAGSHORT token if you believe a recession or slowdown in industrial demand would lower silver prices.
+
+**Settlement**
+
+You can sell your XAGLONG or XAGSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold XAGLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the XAGLONG token \(in red letters\);
+* Alternatively, If you hold XAGSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the XAGSHORT tokens.
+
 **Oracle source: Chainlink**
 
-**Network: BINANCE SMART CHAIN**
+**Network: BINANCE SMART CHAIN**  
+
 
 \*\*\*\*
 
