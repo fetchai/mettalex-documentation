@@ -150,9 +150,22 @@ Brent Oil is also known as Brent Crude or North Sea Brent Crude and it is a type
 
 Where the oil comes from also makes a difference if you’re a buyer. The less expensive it is to deliver the product, the cheaper it is for the consumer. From a transportation point of view, oil extracted at sea has certain advantages over land-based supplies, which depend on the capacity of pipelines. Brent Crude oil  is light and sweet, making them ideal for the refining of diesel fuel, gasoline, and other high-demand products. And because the supply is waterborne, it’s easy to transport to distant locations.
 
+**How to trade?**
+
+* Buy the BBLONG token if you believe demand for crude oil will increase in the future due to economic expansion following the pandemic;
+* Instead, buy the BBSHORT token if you believe  the effects of the pandemic will last longer thus shrinking the demand for crude oil and its prices.
+
+**Settlement**
+
+You can sell your BBLONG or BBSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold BBLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the BBLONG token \(in red letters\);
+* Alternatively, If you hold BBSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the BBSHORT tokens.
+
 **Oracle source: Chicago Mercantile Exchange \(CME\)**
 
-**Network: BINANCE SMART CHAIN**
+**Network: BINANCE SMART CHAIN**  
+
 
 \*\*\*\*
 
@@ -160,9 +173,22 @@ Where the oil comes from also makes a difference if you’re a buyer. The less e
 
 Zinc resists corrosion and is used to galvanise iron and steel for industrial and infrastructure purposes. Zinc is also used to produce brass \(i.e. a zinc alloy that contains between 55 and 95% copper\) widely used in construction and in the production of tools and products. Mines worldwide are spread all over the Planet and these extract more almost 12  million metric tons of zinc per annum. 
 
+**How to trade?**
+
+* Buy the ZNLONG token if you believe zinc production increases as an effect of higher demand for industrial purposes;
+* Conversely, buy the ZNSHORT token if you believe  the effects of the pandemic will shrink  the demand for zinc and its prices.
+
+**Settlement**
+
+You can sell your ZNLONG or ZNSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold ZNLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the ZNLONG token \(in red letters\);
+* Alternatively, If you hold ZNSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the ZNSHORT tokens.
+
 **Oracle source: DAVIS INDEX**
 
-**Network: ETHEREUM**
+**Network: ETHEREUM**  
+
 
 \*\*\*\*
 
@@ -170,11 +196,21 @@ Zinc resists corrosion and is used to galvanise iron and steel for industrial an
 
 Butter is a typically yellow or white dairy product consisting of an emulsion of butterfat and made by churning milk or cream.
 
+**How to trade?**
+
+* Buy the CBLONG token if you believe demand for butter will increase following the economic recovery;
+* Instead, buy the CBSHORT token if you believe the effects of the pandemic will last longer  and the opposite trend in demand will shrink butter prices.
+
+**Settlement**
+
+You can sell your CBLONG or CBSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold CBLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the CBLONG token \(in red letters\);
+* Alternatively, If you hold CBSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the CBSHORT tokens.
+
 **Oracle source: Chicago Mercantile Exchange \(CME\)**
 
 **Network: ETHEREUM**
-
-\*\*\*\*
 
 #### **GOLD**
 
@@ -185,9 +221,22 @@ Gold supply is consistently affected by the price of gold itself: when gold pric
 * These could take decisions to contract or grow the money supply in their countries, thus leading to an increase in gold trading since fiat currencies \(eg, US dollar and euro\) compete with gold as a store of value and a form of money. 
 * Secondly, central banks hold large gold reserves. As a result, their decision to accumulate or sell reserves can move the gold market.
 
+**How to trade?**
+
+* Buy the XAULONG token if you believe gold demand will increase thanks to increased interest from industries and traders, also internationally, as fast-growing Asian economies, like India and China, have increased their demand for gold in recent years, therefore it can increase in the future due to the economic recovery;
+* Buy the XAUSHORT token if you believe the desire to hoard this metal as a safe-haven and store of value purposes is likely to decrease following the effects of the pandemic on the global economy.
+
+**Settlement**
+
+You can sell your XAULONG or XAUSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold XAULONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the XAULONG token \(in red letters\);
+* Alternatively, If you hold XAUSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the XAUSHORT tokens.
+
 **Oracle source: Chainlink**
 
-**Network: BINANCE SMART CHAIN**
+**Network: BINANCE SMART CHAIN**  
+
 
 \*\*\*\*
 
