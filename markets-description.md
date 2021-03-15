@@ -10,6 +10,18 @@ The markets available on Mettalex Vega are divided into the following categories
 
 Copper is widely used around the world due to its industrial and technological applications. Its physical properties, which are similar to gold and silver, make it perfectly suited for a range of industrial uses \(e.g. electric wiring, plumbing, roofing, and industrial machinery\). However, unlike gold and silver, copper is not widely viewed as a store of value. Therefore, copper is less impacted by speculative price movements. The global supply of copper comes principally from underground mines and from recycling copper products. As developing regions in the African continent, Eastern Europe and Asia modernise their economies and expand their infrastructure, the higher will be the demand for copper from these areas of the world.
 
+**How to trade?**
+
+* Buy the CULONG token if you believe that demand for copper will increase and its price will go up as a consequence of the industrial recover
+* Buy the CUSHORT token if you believe demand for copper and its price will shrink.
+
+**Settlement**
+
+You can sell your CULONG or CUSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold CULONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the CULONG token \(in red letters\);
+* Alternatively, If you hold CUSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the CUSHORT tokens.
+
 **Oracle source: DAVIS INDEX**
 
 **Network: ETHEREUM** 
@@ -21,6 +33,18 @@ Copper is widely used around the world due to its industrial and technological a
 Iron ore is a rock from which the metal iron is extracted. About 98% of the world’s iron is used to produce steel. However, iron is never found by itself in nature. In fact, most iron is part of minerals that contain other elements. Iron oxide is the most common of these minerals.
 
 Today’s worldwide production is more than 2.2 billion metric tons of usable iron ore, which contains about 1.4 billion metric tons of iron. With steel being a critical material in buildings, infrastructure, mechanical equipment, and automobiles, iron ore is an important global commodity. 
+
+**How to trade?**
+
+* Buy the IOLONG token if you believe that the heavy production industry will expand in the future as consequence of the industrial recovery after the pandemic;
+* Instead, buy the IOSHORT token if you believe that production will be dominated by low-carbon methods, thereby reducing demand for iron ore due to its greater environmental impact, both at the time of mining and in its use in industry.
+
+**Settlement**
+
+You can sell your IOLONG or IOSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold IOLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the IOLONG token \(in red letters\);
+* Alternatively, If you hold IOSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the IOSHORT tokens.
 
 **Oracle source: Chicago Mercantile Exchange \(CME\)**
 
@@ -34,9 +58,22 @@ Steel scrap is a vital raw material for the production of new steel. The steel i
 
 Steel scrap recycling conserves raw materials, energy, and landfill space.  The domestic steel industry recycles millions of metric tons per year of steel cans, automobiles, appliances, construction materials, and other steel products.  The primary source of obsolete steel is the automobile.  The remelting of scrap requires much less energy than the production of iron and steel products from iron ore.  Consumption of iron and steel scrap by remelting reduces the burden on landfill disposal facilities and prevents the accumulation of abandoned steel products in the environment.
 
+**How to trade?**
+
+* Buy the SSCLONG token if you believe its demand for steel production will increase thus lowering the environmental impact compared to the primary steel production from refined ores and mining products;
+* Instead, buy the SSCSHORT token if you believe its demand will decrease while the demand for refined ores and mining products will increase so the environmental impact.
+
+**Settlement**
+
+You can sell your SSCLONG or SSCSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold SSCLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the SSCLONG token \(in red letters\);
+* Alternatively, If you hold SSCSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the SSCSHORT tokens.
+
 **Oracle source: London Metal Exchange \(LME\)**
 
-**Network: ETHEREUM**
+**Network: ETHEREUM**  
+
 
 \*\*\*\*
 
