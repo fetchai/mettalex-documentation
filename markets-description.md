@@ -314,12 +314,12 @@ You can sell your BTC/XAU Spread tokens to Mettalex's Autonomous Market Maker at
 
 #### **BTC/TSLA**
 
-Bitcoin is gaining a lot of adoption as a store of value. However, BTC mining consumes a lot of electricity and resources that are powered by fossil fuels and non-renewable sources of energy.  Tesla is a clean energy company that is focusing on accelerating the world’s transition to sustainable energy. Do you think Bitcoin price will grow faster than Tesla share price in the future or vice versa?
+Bitcoin is gaining a lot of adoption as a store of value. However, Bitcoin mining consumes a lot of electricity and resources that are powered by fossil fuels and non-renewable sources of energy.  Tesla is a clean energy company that is focusing on accelerating the world’s transition to sustainable energy. Do you think Bitcoin price will grow faster than Tesla share price in the future or vice versa?
 
 **How to trade?**
 
 * Buy the BTCTSLAL if you believe bitcoin’s price will perform better than Tesla stock in the future; 
-* Buy the BCTSLAS if you believe Tesla is undervalued against BTC but its price will increase in the future.
+* Buy the BCTSLAS if you believe Tesla is undervalued against Bitcoin but its price will increase in the future.
 
 **Settlement**
 
@@ -337,7 +337,7 @@ You can sell your BTC/TSLA Spread tokens to Mettalex's Autonomous Market Maker a
 
 #### **AAVE/COMP**
 
-Aave is a decentralized money market protocol that enables users to lend and borrow cryptocurrencies in a trustless manner. On the other hand, Compound is a decentralized, blockchain-based protocol that allows you to lend and borrow crypto. Deposit in either lending protocols to earn interest and protocol-specific governance tokens.  If a protocol takes off, the governance tokens become much more valuable than the interest.
+Aave is a decentralized money market protocol that enables users to lend and borrow cryptocurrencies in a trustless manner. On the other hand, Compound is a decentralized, blockchain-based protocol that allows users to lend and borrow crypto. Deposit in either lending protocols to earn interest and protocol-specific governance tokens.  If a protocol takes off, the governance tokens become much more valuable than the interest.
 
 **How to trade?**
 
@@ -360,7 +360,7 @@ You can sell your AAVE/COMP Spread tokens to Mettalex's Autonomous Market Maker 
 
 #### **LINK/BAND**
 
-Chainlink is a decentralised oracle network that provides real-world data to smart contracts on the blockchain. LINK tokens are the digital asset token used to pay for services on the network. BAND is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts. Band allows blockchains to access data, such as stock prices and weather, that are available via API. 
+Chainlink is a decentralised oracle network that provides real-world data to smart contracts on the blockchain. LINK tokens are the digital asset token used to pay for services on the network. BAND is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts. BAND allows blockchains to access data, such as stock prices and weather, that are available via API. 
 
 **How to trade?**
 
@@ -383,7 +383,7 @@ You can sell your LINK/BAND Spread tokens to Mettalex's Autonomous Market Maker 
 
 #### **STEEL REBAR/STEEL SCRAP**
 
-The perfect spread for physical commodity holders who process steel scrap to produce steel rebar. Steel Mills can use it to hedge their exposure to the price of both commodities. 
+The perfect spread for physical commodity holders who process steel scrap to produce steel rebar. 
 
 **How to trade?**
 
@@ -406,11 +406,11 @@ You can sell your SRSCSPRL or SRSCSPRS tokens to Mettalex’s Autonomous Market 
 
 #### **sDEFI/sCEX**
 
-sDEFI and sCEX indexes are synthetic assets that represent the price performance of a basket of leading tokens in the Decentralised Finance space and the Centralised Exchange space respectively. The sDeFi/sCEX spread token tracks the ratio of the price in US dollars of the sDeFi and sCEX indexes representing the decentralized finance space and the centralized exchange space respectively. Individually, tradable instruments around these indexes allow traders to take a view on the growth or decline trend of each space separately. 
+sDEFI and sCEX indexes are synthetic assets that represent the price performance of a basket of leading tokens in the decentralised finance space and the centralised exchange space respectively. The sDEFi/sCEX spread token tracks the ratio of the price in US dollars of the sDEFi and sCEX indexes representing the decentralized finance space and the centralized exchange space respectively. Individually, tradable instruments around these indexes allow traders to take a view on the growth or decline trend of each space separately. 
 
 **How to trade?**
 
-* Buy the SDEFISCEXL token if you believe DeFi protocols will become relatively more important in the overall crypto space as they accrue more economic share of the financial ecosystem;
+* Buy the SDEFISCEXL token if you believe DEFi protocols will become relatively more important in the overall crypto space as they accrue more economic share of the financial ecosystem;
 * Buy the SDEFISCEXS token if you believe trading activity of crypto tokens on centralized exchanges will dominate the activity in the crypto space in the future.
 
 **Settlement**
@@ -454,7 +454,7 @@ You can sell your FTSELONG or FTSESHORT tokens to Mettalex’s Autonomous Market
 
 #### **BRITISH POUND \(x1000\)**
 
-The British pound sterling is the official currency of the United Kingdom, the British Overseas Territories of South Georgia, the South Sandwich Islands, and British Antarctic Territory and the U.K. crown dependencies the Isle of Man and the Channel Islands. Sterling is the fourth most-traded currency in the foreign exchange market, after the United States dollar, the euro, and the Japanese yen.
+The British pound sterling is the official currency of the United Kingdom, the British Overseas Territories of South Georgia, the South Sandwich Islands, and British Antarctic Territory and the U.K. crown dependencies the Isle of Man and the Channel Islands. Sterling is the fourth most traded currency in the foreign exchange market, after the United States dollar, the Euro, and the Japanese Yen.
 
 **How to trade?**
 
