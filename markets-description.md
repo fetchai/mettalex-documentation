@@ -81,17 +81,39 @@ You can sell your SSCLONG or SSCSHORT tokens to Mettalex’s Autonomous Market M
 
 Shredded scrap is a large part of the recycling industry and can be utilised in multiple circumstances. It consists of homogeneous iron and steel scrap, which is magnetically separated, originating from automobiles,  miscellaneous baling and sheet scrap.  Shredded scrap’s average density ranges from 50 to 70 pounds per cubic foot.
 
+**How to trade?**
+
+* Buy the DSSHLONG token if you believe steel scrap demand will rise following a higher infrastructure demand, as this material can be introduced for the production of steel, but with a lower environmental impact when compared to the primary production of steel from ores and refined mining products;
+* Instead, buy the DSSHSHORT token if you believe its demand will face a decrease due to the effects of the global pandemic on the industry and infrastructure sector.
+
+**Settlement**
+
+You can sell your SSCLONG or DSSHSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold DSSHLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the DSSHLONG token \(in red letters\);
+* Alternatively, If you hold DSSHSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the DSSHSHORT tokens.
+
 **Oracle source: DAVIS INDEX**
 
 **Network: ETHEREUM**
-
-\*\*\*\*
 
 #### **ZORBA 95/2**
 
 It is the term used for shredded and pre-treated non-ferrous scrap metals, commonly obtained from End-of-Life Vehicles \(i.e. ELVs\) or Waste Electrical and Electronic Equipment \(i.e. WEEE\). 
 
 Other non-ferrous metals found in Zorba include copper, lead, brass, magnesium, nickel, tin and zinc in elemental or alloyed form. Stainless steel is usually only present in small quantities, depending on the grade of material.
+
+**How to trade?**
+
+* Buy the DZRBLONG token if you believe consumer and industrial demand for zorba will increase as an effect of higher demand for consumables after the pandemic;
+* Instead, buy the DZRBSHORT token if you believe zorba demand will shrink due to lower demand and shortcomings in industrial sorting methods.
+
+**Settlement**
+
+You can sell your DZRBLONG or DZRBSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold DZRBLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the DZRBLONG token \(in red letters\);
+* Alternatively, If you hold DZRBSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the DZRBSHORT tokens.
 
 **Oracle source: DAVIS INDEX**
 
@@ -103,9 +125,22 @@ Other non-ferrous metals found in Zorba include copper, lead, brass, magnesium, 
 
 Heavy Melting Steel \(HMS\) or Heavy Melting Scrap is a designation for recyclable steel and wrought iron. It is broken up into two major categories: HMS 1 and HMS 2, where HMS 1 does not contain galvanised and blackened steel, whereas HMS 2 does.
 
+**How to trade?**
+
+* Buy the DSSCLONG token if you believe demand for heavy melting scrap will increase as a consequence of economic recovery as industry expands and production grows;
+* Instead, buy the DSSCSHORT token if you believe the global recession will continue to impact the industry thus reducing its demand and prices.
+
+**Settlement**
+
+You can sell your DSSCLONG or DSSCSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold DSSCLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the DSSCLONG token \(in red letters\);
+* Alternatively, If you hold DSSCSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the DSSCSHORT tokens.
+
 **Oracle source: DAVIS INDEX**
 
-**Network: ETHEREUM and BINANCE SMART CHAIN**
+**Network: ETHEREUM and BINANCE SMART CHAIN**  
+
 
 \*\*\*\*
 
