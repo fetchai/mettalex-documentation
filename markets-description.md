@@ -402,7 +402,7 @@ You can sell your SRSCSPRL or SRSCSPRS tokens to Mettalex’s Autonomous Market 
 **Network: ETHEREUM**  
 
 
-\*\*\*\*
+
 
 #### **sDEFI/sCEX**
 
