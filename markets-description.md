@@ -97,6 +97,8 @@ You can sell your SSCLONG or DSSHSHORT tokens to Mettalex’s Autonomous Market 
 
 **Network: ETHEREUM**
 
+\*\*\*\*
+
 #### **ZORBA 95/2**
 
 It is the term used for shredded and pre-treated non-ferrous scrap metals, commonly obtained from End-of-Life Vehicles \(i.e. ELVs\) or Waste Electrical and Electronic Equipment \(i.e. WEEE\). 
