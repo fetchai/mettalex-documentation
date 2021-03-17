@@ -2,7 +2,7 @@
 
 ## **MARKETS**
 
-The markets available on Mettalex Vega are divided into the following categories:
+The markets available on Mettalex Vega are divided into the following 3 categories:
 
 ### **1.  COMMODITIES** 
 
