@@ -8,4 +8,5 @@
 * [Possible operations](possible-operations.md)
 * [Exchange UI](exchange-ui.md)
 * [Risks and benefits](overall-risks-and-benefits.md)
+* [Glossary](glossary.md)
 
