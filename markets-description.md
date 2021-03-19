@@ -93,10 +93,14 @@ You can sell your SSCLONG or SSCSHORT tokens to Mettalex’s Autonomous Market M
 
 Shredded scrap is a large part of the recycling industry and can be utilised in multiple circumstances. It consists of homogeneous iron and steel scrap, which is magnetically separated, originating from automobiles,  miscellaneous baling and sheet scrap.  Shredded scrap’s average density ranges from 50 to 70 pounds per cubic foot.
 
-**How to trade?**
+**How to trade?\***
 
-* Buy the DSSHLONG token if you believe steel scrap demand will rise following a higher infrastructure demand, as this material can be introduced for the production of steel, but with a lower environmental impact when compared to the primary production of steel from ores and refined mining products;
-* Instead, buy the DSSHSHORT token if you believe its demand will face a decrease due to the effects of the global pandemic on the industry and infrastructure sector.
+* Buy the DSSHLONG token if you believe steel scrap demand will rise following a higher infrastructure demand, as this material can be introduced for the production of steel, but with a lower environmental impact when compared to its primary production from ores and refined mining products;
+* Buy the DSSHSHORT token if you believe steel scrap demand will face challenges due to the effects of the pandemic on global industry and infrastructure development.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice. 
 
 **Settlement**
 
