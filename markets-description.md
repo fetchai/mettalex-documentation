@@ -121,10 +121,15 @@ It is the term used for shredded and pre-treated non-ferrous scrap metals, commo
 
 Other non-ferrous metals found in Zorba include copper, lead, brass, magnesium, nickel, tin and zinc in elemental or alloyed form. Stainless steel is usually only present in small quantities, depending on the grade of material.
 
-**How to trade?**
+**How to trade?\***
 
-* Buy the DZRBLONG token if you believe consumer and industrial demand for zorba will increase as an effect of higher demand for consumables after the pandemic;
-* Instead, buy the DZRBSHORT token if you believe zorba demand will shrink due to lower demand and shortcomings in industrial sorting methods.
+* Buy the DZRBLONG token if you believe consumer and industrial demand for Zorba will increase as an effect of higher demand for consumables after the pandemic.
+* Buy the DZRBSHORT token if you think Zorba consumption will shrink due to lower demand and shortcomings in industrial sorting methods.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice.  ****  
+
 
 **Settlement**
 
@@ -143,10 +148,14 @@ You can sell your DZRBLONG or DZRBSHORT tokens to Mettalex’s Autonomous Market
 
 Heavy Melting Steel \(HMS\) or Heavy Melting Scrap is a designation for recyclable steel and wrought iron. It is broken up into two major categories: HMS 1 and HMS 2, where HMS 1 does not contain galvanised and blackened steel, whereas HMS 2 does.
 
-**How to trade?**
+**How to trade?\***
 
 * Buy the DSSCLONG token if you believe demand for heavy melting scrap will increase as a consequence of economic recovery as industry expands and production grows;
-* Instead, buy the DSSCSHORT token if you believe the global recession will continue to impact the industry thus reducing its demand and prices.
+* Buy the DSSCSHORT token if you believe the global recession will continue to impact the industry thus reducing its demand and price.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+ \*Not to be considered financial advice.
 
 **Settlement**
 
@@ -168,10 +177,14 @@ Brent Oil is also known as Brent Crude or North Sea Brent Crude and it is a type
 
 Where the oil comes from also makes a difference if you’re a buyer. The less expensive it is to deliver the product, the cheaper it is for the consumer. From a transportation point of view, oil extracted at sea has certain advantages over land-based supplies, which depend on the capacity of pipelines. Brent Crude oil  is light and sweet, making them ideal for the refining of diesel fuel, gasoline, and other high-demand products. And because the supply is waterborne, it’s easy to transport to distant locations.
 
-**How to trade?**
+**How to trade?\***
 
-* Buy the BBLONG token if you believe demand for crude oil will increase in the future due to economic expansion following the pandemic;
-* Instead, buy the BBSHORT token if you believe  the effects of the pandemic will last longer thus shrinking the demand for crude oil and its prices.
+* Buy the BBLONG token if you believe demand for crude oil will increase in the future due to the economic expansion following the pandemic;
+* Buy the BBSHORT token if you think the effects of the pandemic will last longer than expected, shrinking demand for Brent Crude and lowering its price.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+ \*Not to be considered financial advice.
 
 **Settlement**
 
@@ -191,10 +204,14 @@ You can sell your BBLONG or BBSHORT tokens to Mettalex’s Autonomous Market Mak
 
 Zinc resists corrosion and is used to galvanise iron and steel for industrial and infrastructure purposes. Zinc is also used to produce brass \(i.e. a zinc alloy that contains between 55 and 95% copper\) widely used in construction and in the production of tools and products. Mines worldwide are spread all over the Planet and these extract more almost 12  million metric tons of zinc per annum. 
 
-**How to trade?**
+**How to trade?\***
 
-* Buy the ZNLONG token if you believe zinc production increases as an effect of higher demand for industrial purposes;
-* Conversely, buy the ZNSHORT token if you believe  the effects of the pandemic will shrink  the demand for zinc and its prices.
+* Buy the ZNLONG token if you believe zinc production will increase as a consequence of higher demand for steel;
+* Buy the ZNSHORT token if you think its demand will shrink as global economies are unable to overcome the consequences of the pandemic.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+ \*Not to be considered financial advice.
 
 **Settlement**
 
@@ -214,10 +231,15 @@ You can sell your ZNLONG or ZNSHORT tokens to Mettalex’s Autonomous Market Mak
 
 Butter is a typically yellow or white dairy product consisting of an emulsion of butterfat and made by churning milk or cream.
 
-**How to trade?**
+**How to trade?\***
 
-* Buy the CBLONG token if you believe demand for butter will increase following the economic recovery;
-* Instead, buy the CBSHORT token if you believe the effects of the pandemic will last longer  and the opposite trend in demand will shrink butter prices.
+* Buy the CBLONG token if you believe demand for butter will increase following the effects of stimulus packages around the world;
+* Buy the CBSHORT token if you believe the butter will become less sought-after due to health concerns related to saturated fat.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice.   
+
 
 **Settlement**
 
@@ -239,10 +261,15 @@ Gold supply is consistently affected by the price of gold itself: when gold pric
 * These could take decisions to contract or grow the money supply in their countries, thus leading to an increase in gold trading since fiat currencies \(eg, US dollar and euro\) compete with gold as a store of value and a form of money. 
 * Secondly, central banks hold large gold reserves. As a result, their decision to accumulate or sell reserves can move the gold market.
 
-**How to trade?**
+How to trade?\*
 
-* Buy the XAULONG token if you believe gold demand will increase thanks to increased interest from industries and traders, also internationally, as fast-growing Asian economies, like India and China, have increased their demand for gold in recent years, therefore it can increase in the future due to the economic recovery;
-* Buy the XAUSHORT token if you believe the desire to hoard this metal as a safe-haven and store of value purposes is likely to decrease following the effects of the pandemic on the global economy.
+* Buy the XAULONG token if you believe gold demand will increase due to interest from traders seeking refuge from devaluing fiat currencies;
+* Buy the XAUSHORT token if you believe the large stimulus packages approved by governments will push investors towards the acquisition of higher-risk assets and gold will go out of fashion.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice.   
+
 
 **Settlement**
 
@@ -264,10 +291,14 @@ Silver is one of the most valuable metals on the planet due to its widespread ut
 
 Silver is a very volatile commodity. The increase in the industrial demand is the primary factor for increased volatility in silver prices.  At the moment the industrial demand consists of over half of the total worldwide demand.
 
-**How to trade?**
+**How to trade?\***
 
-* Buy the XAGLONG token if you believe many situations could increase the demand for silver and lead to higher prices. An expansion of the electronics and automobile industry would lead to a higher demand for silver. Increasing oil prices could also increase the demand for silver by forcing the use of alternative energy, such as solar. In fact, the latter implements silver in its equipment;
+* Buy the XAGLONG token if you think demand for silver in industrial applications and as a safe-haven asset will increase leading to higher prices.
 * Buy the XAGSHORT token if you believe a recession or slowdown in industrial demand would lower silver prices.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+ \*Not to be considered financial advice.
 
 **Settlement**
 
