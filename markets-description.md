@@ -369,17 +369,21 @@ You can sell your BTC/XAU Spread tokens to Mettalex's Autonomous Market Maker at
 
 Bitcoin is gaining a lot of adoption as a store of value. However, Bitcoin mining consumes a lot of electricity and resources that are powered by fossil fuels and non-renewable sources of energy.  Tesla is a clean energy company that is focusing on accelerating the world’s transition to sustainable energy. Do you think Bitcoin price will grow faster than Tesla share price in the future or vice versa?
 
-**How to trade?**
+**How to trade?\***
 
-* Buy the BTCTSLAL if you believe bitcoin’s price will perform better than Tesla stock in the future; 
-* Buy the BCTSLAS if you believe Tesla is undervalued against Bitcoin but its price will increase in the future.
+* Buy the BTCTSLAL spread token if you believe bitcoin’s price will perform better than Tesla stock in the future; 
+* Buy the BCTSLAS spread token if you believe Tesla is undervalued against BTC but its price will increase in the future.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice. 
 
 **Settlement**
 
-You can sell your BTC/TSLA Spread tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+You can sell your BTC/TSLA spread tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
 
-* If you hold BTCTSLAL tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the BTCTSLAL token \(in red letters\);
-* Alternatively, If you hold BTCTSLAS tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the BTCTSLAS tokens.
+* If you hold a BTCTSLAL spread tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the BTCTSLAL token \(in red letters\);
+* On the other hand, if you hold BTCTSLAS spread tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the BTCTSLAS tokens.
 
 **Oracle source: Chainlink**
 
