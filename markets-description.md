@@ -38,10 +38,14 @@ Iron ore is a rock from which the metal iron is extracted. About 98% of the worl
 
 Today’s worldwide production is more than 2.2 billion metric tons of usable iron ore, which contains about 1.4 billion metric tons of iron. With steel being a critical material in buildings, infrastructure, mechanical equipment, and automobiles, iron ore is an important global commodity. 
 
-**How to trade?**
+**How to trade?**\*
 
 * Buy the IOLONG token if you believe that the heavy production industry will expand in the future as consequence of the industrial recovery after the pandemic;
-* Instead, buy the IOSHORT token if you believe that production will be dominated by low-carbon methods, thereby reducing demand for iron ore due to its greater environmental impact, both at the time of mining and in its use in industry.
+* Buy the IOSHORT token if you believe that steel use in the production of structures, ships, automobiles, and machinery will decline in the future.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice. 
 
 **Settlement**
 
@@ -62,10 +66,14 @@ Steel scrap is a vital raw material for the production of new steel. The steel i
 
 Steel scrap recycling conserves raw materials, energy, and landfill space.  The domestic steel industry recycles millions of metric tons per year of steel cans, automobiles, appliances, construction materials, and other steel products.  The primary source of obsolete steel is the automobile.  The remelting of scrap requires much less energy than the production of iron and steel products from iron ore.  Consumption of iron and steel scrap by remelting reduces the burden on landfill disposal facilities and prevents the accumulation of abandoned steel products in the environment.
 
-**How to trade?**
+**How to trade?**\*
 
-* Buy the SSCLONG token if you believe its demand for steel production will increase thus lowering the environmental impact compared to the primary steel production from refined ores and mining products;
+* Buy the SSCLONG token if you believe that demand for steel scrap will increase, due to environmental considerations by companies and governments.
 * Instead, buy the SSCSHORT token if you believe its demand will decrease while the demand for refined ores and mining products will increase so the environmental impact.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice. 
 
 **Settlement**
 
