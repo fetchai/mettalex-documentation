@@ -320,10 +320,14 @@ You can sell your XAGLONG or XAGSHORT tokens to Mettalex’s Autonomous Market M
 
 The perfect market to trade on if you want to have exposure to Bitcoin or Ether’s market dominance against each other. 
 
-**How to trade?**
+**How to trade?\***
 
-* Buy  the BTCETHL Spread token if you believe Bitcoin will perform better than Ether.
-* Buy the BTCETHS Spread token if you believe the price of Bitcoin will be increasing slower than that of Ehereum.
+* Buy  the BTCXAUL spread token if you believe a borderless, digitally scarce, crypto asset will be a safer hedge against inflation in comparison to gold;
+* Buy the BTCXAUS spread token if you believe gold has stood the test of time and can still be considered a better way to hedge inflation risk. The BTCX/AUS Short Position token takes the opposite view that physical stores of value commodities such as gold will dominate.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+ \*Not to be considered financial advice.
 
 **Settlement**
 
@@ -344,15 +348,15 @@ In the last year, worldwide markets have experienced a bullish trend which have 
 
 **How to trade?**
 
-* Buy  the BTCXAUL Spread token if you believe borderless decentralized crypto asset projects will be a safer hedge against inflation. Therefore, by buying a BTC/XAUL Long Position token the trader is able to express their view that the future hedge against inflation will be dominated by crypto assets;
-* Buy the BTCXAUS Spread token if you believe gold has stood the test of time and can still be considered a better way to hedge inflation risk. The BTCX/AUS Short Position token takes the opposite view that physical stores of value commodities such as gold will dominate.
+* Buy  the BTCXAUL spread token if you believe borderless decentralized crypto asset projects will be a safer hedge against inflation. Therefore, by buying a BTC/XAUL Long Position token the trader is able to express their view that the future hedge against inflation will be dominated by crypto assets;
+* Buy the BTCXAUS spread token if you believe gold has stood the test of time and can still be considered a better way to hedge inflation risk. The BTCX/AUS Short Position token takes the opposite view that physical stores of value commodities such as gold will dominate.
 
 **Settlement**
 
-You can sell your BTC/XAU Spread tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+You can sell your BTC/XAU Spread tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
 
-* If you hold BTCXAUL tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the BTCXAUL token \(in red letters\);
-* Alternatively, If you hold BTCXAUS tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the BTCXAUS tokens.
+* If you hold a BTCXAUL spread token and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the BTCXAUL token \(in red letters\);
+* If you hold a BTCXAUS spread token and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the BTCXAUS tokens.
 
 **Oracle source: Chainlink**
 
