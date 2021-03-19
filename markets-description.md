@@ -2,7 +2,7 @@
 
 ## **MARKETS**
 
-The markets available on Mettalex Vega are divided into the following categories:
+The markets available on Mettalex Vega are divided into the following 3 categories:
 
 ### **1.  COMMODITIES** 
 
@@ -10,10 +10,14 @@ The markets available on Mettalex Vega are divided into the following categories
 
 Copper is widely used around the world due to its industrial and technological applications. Its physical properties, which are similar to gold and silver, make it perfectly suited for a range of industrial uses \(e.g. electric wiring, plumbing, roofing, and industrial machinery\). However, unlike gold and silver, copper is not widely viewed as a store of value. Therefore, copper is less impacted by speculative price movements. The global supply of copper comes principally from underground mines and from recycling copper products. As developing regions in the African continent, Eastern Europe and Asia modernise their economies and expand their infrastructure, the higher will be the demand for copper from these areas of the world.
 
-**How to trade?**
+**How to trade?**\*
 
-* Buy the CULONG token if you believe that demand for copper will increase and its price will go up as a consequence of the industrial recover
-* Buy the CUSHORT token if you believe demand for copper and its price will shrink.
+* Buy the CULONG token if you believe that demand for copper will increase and its price will go up as a consequence of a global industrial recovery;
+* Buy the CUSHORT token if you think demand for copper will shrink due to a lack of major new infrastructure projects development.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice.  ****
 
 **Settlement**
 
