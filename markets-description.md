@@ -344,35 +344,12 @@ You can sell your BTC/ETH Spread tokens to Mettalex's Autonomous Market Maker at
 
 #### **BTC/XAU**
 
-In the last year, worldwide markets have experienced a bullish trend which have pushed investors to look for a way to shift their investments into more stable safe-havens. Gold could be used to hedge against stock volatility. This has proven an effective method in the past, but a newer alternative is challenging the old-school safe-haven. Bitcoin has been launched in 2008/2009 and ever since it has represented a leading cryptocurrency, with many of the properties of a currency. It also shares with gold some unique features that could make it a viable haven.
+Equity markets have experienced a bullish trend for years. Some investors are beginning to question its sustainability and are looking for ways to diversify their portfolios with safe-haven assets. Historically, gold has been one of the most popular choices. However, the crypto commodity bitcoin is now offering a modern, digital alternative to gold. The crypto asset shares some of gold’s unique properties, while addressing a number of its shortcomings. The BTC/XAU market on Mettalex is a great place to take a formal position in the physical gold or digital gold debate.
 
 **How to trade?**
 
-* Buy  the BTCXAUL spread token if you believe borderless decentralized crypto asset projects will be a safer hedge against inflation. Therefore, by buying a BTC/XAUL Long Position token the trader is able to express their view that the future hedge against inflation will be dominated by crypto assets;
-* Buy the BTCXAUS spread token if you believe gold has stood the test of time and can still be considered a better way to hedge inflation risk. The BTCX/AUS Short Position token takes the opposite view that physical stores of value commodities such as gold will dominate.
-
-**Settlement**
-
-You can sell your BTC/XAU Spread tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
-
-* If you hold a BTCXAUL spread token and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the BTCXAUL token \(in red letters\);
-* If you hold a BTCXAUS spread token and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the BTCXAUS tokens.
-
-**Oracle source: Chainlink**
-
-**Network: BINANCE SMART CHAIN**  
-
-
-\*\*\*\*
-
-#### **BTC/TSLA**
-
-Bitcoin is gaining a lot of adoption as a store of value. However, Bitcoin mining consumes a lot of electricity and resources that are powered by fossil fuels and non-renewable sources of energy.  Tesla is a clean energy company that is focusing on accelerating the world’s transition to sustainable energy. Do you think Bitcoin price will grow faster than Tesla share price in the future or vice versa?
-
-**How to trade?\***
-
-* Buy the BTCTSLAL spread token if you believe bitcoin’s price will perform better than Tesla stock in the future; 
-* Buy the BCTSLAS spread token if you believe Tesla is undervalued against BTC but its price will increase in the future.
+* Buy  the BTCXAUL token if you believe a borderless, unfalsifiable, digitally scarce, crypto asset will be a safer hedge against inflation in comparison to gold;
+* Buy the BTCXAUS token if you think gold has already proven its lack of correlation with equities and will perform better than bitcoin as a hedge against inflation.
 
 To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
 
@@ -380,33 +357,67 @@ To learn how to buy/sell long or short position tokens, [watch this short video]
 
 **Settlement**
 
-You can sell your BTC/TSLA spread tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
+You can sell your BTCXAUL or BTCXAUS tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
 
-* If you hold a BTCTSLAL spread tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the BTCTSLAL token \(in red letters\);
-* On the other hand, if you hold BTCTSLAS spread tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the BTCTSLAS tokens.
+* If you hold a BTCXAUL token and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the BTCXAUL token \(in red letters\);
+* If you hold a BTCXAUS token and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the BTCXAUS tokens.
 
 **Oracle source: Chainlink**
 
-**Network: ETHEREUM and BINANCE SMART CHAIN**  
-
+**Network: Binance Smart Chain**
 
 \*\*\*\*
 
-#### **AAVE/COMP**
+#### **BTC/TSLA**
 
-Aave is a decentralized money market protocol that enables users to lend and borrow cryptocurrencies in a trustless manner. On the other hand, Compound is a decentralized, blockchain-based protocol that allows users to lend and borrow crypto. Deposit in either lending protocols to earn interest and protocol-specific governance tokens.  If a protocol takes off, the governance tokens become much more valuable than the interest.
+The richest man on Earth - Elon Musk - recently announced a $1.5b position open by his company Tesla. So far the decision to buy into bitcoin has proven wise, with Tesla’s profits in 2020 likely being lower than the USD-denominated unrealized profits of its bitcoin position in 2021. Although Tesla’s bitcoin position represents only about 8% of the company portfolio, the electric vehicles manufacturer and the original cryptocurrency are now related.   
 
-**How to trade?**
 
-* Buy the AAVECOMPL if you believe the AAVE protocol to become more dominant in the future in the lending protocols scenario;
-* Buy the AAVECOMPS if you believe the COMPOUND protocol to acquire a bigger share of the market, thus acquiring more relevance in the lending protocols space.
+Use the unique BTC/TSLA spread on Mettalex to express your views on the price movements of BTC and TSLA against each other. 
+
+**How to trade?\***
+
+* Buy the BTCTSLAL token if you believe bitcoin’s price will perform better than Tesla stock in the future; 
+* Buy the BCTSLAS token if you believe Tesla is undervalued against BTC and its price will increase in the future.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice. 
 
 **Settlement**
 
-You can sell your AAVE/COMP Spread tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+You can sell your BTCTSLAL or BTCTSLAS tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
+
+* If you hold BTCTSLAL tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the BTCTSLAL token \(in red letters\);
+* On the other hand, if you hold BTCTSLAS tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the BTCTSLAS tokens.
+
+**Oracle source: Chainlink**
+
+**Network: Ethereum and Binance Smart Chain**  
+
+
+#### **AAVE/COMP**
+
+Aave is a decentralized money market protocol that enables users to lend and borrow cryptocurrencies in a trustless manner. Compound is providing a similar service but is more conservative in terms of the crypto assets that could be lended or borrowed. Users of both protocols can lend cryptocurrencies to receive an annual percentage yield or borrow assets for increased exposure to crypto markets or to spend for goods or services in the real world.  
+
+
+Use the AAVE/COMP spread to get exposure to price movements of the two assets against each other.
+
+**How to trade?\***
+
+* Buy the AAVECOMPL token if you own COMP tokens but you think there is a chance that AAVE will become the dominant lending protocol in the DeFi space;
+* Buy the AAVECOMPS if you hold AAVE tokens but believe that Compound will continue to acquire market share in the DeFi lending space and its token will appreciate faster than AAVE.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice. 
+
+**Settlement**
+
+You can sell your AAVECOMPL or AAVECOMPS tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
 
 * If you hold AAVECOMPL tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the AAVECOMPL token \(in red letters\);
-* Alternatively, If you hold AAVECOMPS tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the amount  you used to buy the AAVECOMPS tokens.
+* If you hold AAVECOMPS tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the amount  you used to buy the AAVECOMPS tokens.
 
 **Oracle source: Chainlink**
 
