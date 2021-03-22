@@ -428,23 +428,32 @@ You can sell your AAVECOMPL or AAVECOMPS tokens to Mettalex's Autonomous Market 
 
 #### **LINK/BAND**
 
-Chainlink is a decentralised oracle network that provides real-world data to smart contracts on the blockchain. LINK tokens are the digital asset token used to pay for services on the network. BAND is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts. BAND allows blockchains to access data, such as stock prices and weather, that are available via API. 
+Chainlink is a decentralized oracle network that provides real-world data to most of the projects in the DeFi space. The LINK token is used in the Chainlink network to compensate Chainlink Node operators for the retrieval of data from the external data sources, turning it to blockchain readable format, off-chain computation, and uptime guarantees.
 
-**How to trade?**
+BAND is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts. Band allows blockchains to access data, such as stock prices and weather, that are available via API providing a similar service to that of Chainlink. The BAND token is used for staking by node operators as a guarantee for the quality of the real-world data provided. In addition, BAND is used for payment of fees for transactions performed on the BAND network.
 
-* Buy the LINKBANDL if you believe the Chainlink Protocol to become more relevant in the future, thus capturing a bigger share of the market;
-* Conversely, Buy the LINKBANDS if you believe the BAND Protocol will oust Chainlink by acquiring a larger share of the market.
+Use the LINK/BAND market on Mettalex to hedge your exposure of owning either of the two tokens or speculate on price movements of the two tokens against each other.
+
+**How to trade?\***
+
+* Buy the LINKBANDL token if you believe Chainlink will continue to grow its market share and its price will perform better than that of its primary competitor;
+* Buy the LINKBANDS token if you think BAND will oust Chainlink by acquiring a larger share of the market, and its token will appreciate against LINK.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice. 
 
 **Settlement**
 
-You can sell your LINK/BAND Spread tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+You can sell your LINKBANDL or LINKBANDS tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
 
 * If you hold LINKBANDL tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the LINKBANDL token \(in red letters\);
 * Alternatively, If you hold LINKBANDS tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the amount you used to buy the LINKBANDS tokens.
 
 **Oracle source: Chainlink**
 
-**Network: ETHEREUM**  
+**Network: Ethereum**  
+  
 
 
 \*\*\*\*
