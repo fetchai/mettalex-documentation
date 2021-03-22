@@ -587,44 +587,51 @@ You can sell your LINKLONG or LINKSHORT tokens to Mettalex's Autonomous Market M
 
 #### **FTSE**
 
-The acronym FTSE stands for Financial Times and Stock Exchange. This group specializes in developing indexes for financial products that can be used as benchmarks. The most popular index maintained by FTSE Russell is the FTSE 100, which consists of the 100 most highly capitalized companies in the U.K. listed on the London Stock Exchange.
+The Financial Times Stock Exchange 100 Index is a share index of the 100 companies listed on the London Stock Exchange with the highest market capitalisation. It is seen as a gauge of prosperity for businesses regulated by UK company law. The index is maintained by the FTSE Group, a subsidiary of the London Stock Exchange Group.
 
-**How to trade?**
+**How to trade?\***
 
-* Buy the FTSELONG token if you believe that the effects of the pandemic will become milder in the future and leave room for economic recovery;
-* Buy the FTSESHORT token if you believe  the effects of the pandemic will continue to have negative effects on the British economy.
+* Buy the FTSELONG token if you believe that economic recovery from the effects of the pandemic has already started in the UK and will have a positive effect on the FTSE index price;
+* Buy the FTSESHORT token if you think the top UK companies will continue to struggle and their stock market performance will suffer.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice. 
 
 **Settlement**
 
-You can sell your FTSELONG or FTSESHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+You can sell your FTSELONG or FTSESHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
 
 * If you hold FTSELONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the FTSELONG token \(in red letters\);
 * Alternatively, If you hold FTSESHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the FTSESHORT tokens.
 
 **Oracle source: Chainlink**
 
-**Network: ETHEREUM**  
+**Network: Ethereum**  
 
-
-\*\*\*\*
 
 #### **BRITISH POUND \(x1000\)**
 
-The British pound sterling is the official currency of the United Kingdom, the British Overseas Territories of South Georgia, the South Sandwich Islands, and British Antarctic Territory and the U.K. crown dependencies the Isle of Man and the Channel Islands. Sterling is the fourth most traded currency in the foreign exchange market, after the United States dollar, the Euro, and the Japanese Yen.
+The British pound sterling is the official currency of the United Kingdom, the British Overseas Territories of South Georgia, the South Sandwich Islands, and British Antarctic Territory and the U.K. crown dependencies the Isle of Man and the Channel Islands. Sterling is the fourth most-traded currency in the foreign exchange market, after the United States dollar, the euro, and the Japanese yen.
 
 **How to trade?**
 
-* Buy the GBPLONG token if you believe  in an appreciation of the pound sterling as the British economy starts to recover;
-* Buy the GBPSHORT token if you believe in a devaluation of the pound sterling as the effects of the pandemic will last in the future
+* Buy the GBPLONG token if you believe in an appreciation of the Pound Sterling as the British economy recovers from both the pandemic and Brexit;
+* Buy the GBPSHORT token if you think in a devaluation of the Pound as the Bank of England’s quantitative easing programs established to address the negative economic effects of the pandemic are expanded in the future.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice. 
 
 **Settlement**
 
-You can sell your GBPLONG or GBPSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+You can sell your GBPLONG or GBPSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
 
 * If you hold GBPLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the GBPLONG token \(in red letters\);
 * Alternatively, If you hold GBPSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the GBPSHORT tokens.
 
 **Oracle source: Chainlink**
 
-**Network: BINANCE SMART CHAIN**
+**Network: Binance Smart Chain**  
+
 
