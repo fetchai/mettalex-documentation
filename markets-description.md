@@ -502,7 +502,9 @@ You can sell your SDEFISCEXL or SDEFISCEXS tokens to Mettalex’s Autonomous Mar
 
 **Network: ETHEREUM and BINANCE SMART CHAIN**
 
-### **CRYPTO CURRENCIES**
+### \*\*\*\*
+
+### **3. CRYPTO CURRENCIES**
 
 **BITCOIN**
 
@@ -581,7 +583,7 @@ You can sell your LINKLONG or LINKSHORT tokens to Mettalex's Autonomous Market M
 **Network: Ethereum and Binance Smart Chain**  
 
 
-### **3.  FOREX AND INDICES**
+### **4.  FOREX AND INDICES**
 
 #### **FTSE**
 
