@@ -4,7 +4,7 @@ In order to access the Mettalex DEX platform, visit the following link: [https:/
 
 ![](https://lh3.googleusercontent.com/QVfNc5KOrcOusBktVAodWCfC47qMQ1jPai8dvDD3idW1U_A4B5Su8Rpc7UC5hwmPpZvvBUg5e9x6tv1ICdeDXE-oTW6SL2dT8qqT5pSAL5fYneYe1fJt7X7vJ_vCXLhPZLf8xDua)
 
-When entering Mettalex DEX, you can access one of the following 3 possible sections:  
+When entering Mettalex DEX, you can access one of the following possible sections:  
 
 
 1. **TRADE**
