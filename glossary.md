@@ -80,13 +80,19 @@ Within the blockchain context, an oracle is basically a data source that is used
 
 Position tokens track the price change of an underlying asset \(i.e. long tokens\) or the negative of that change \(i.e. short tokens\). Leverage is achieved by the token price being a fraction of the asset price. This leverage enables hedgers to manage their risk exposure at minimal cost.
 
+
+
 **Stablecoin**
 
 A stablecoin is a type of cryptocurrency that is designed to maintain a stable market price. Recently, this type of digital currencies has grown in popularity, and we now have numerous stablecoin projects. Although the exact mechanisms vary from one coin to another, stablecoins are supposed to be somewhat resistant to market volatility, so they should not experience significant price changes.
 
+
+
 **Volatility**
 
 Volatility describes how quickly and how much the price of an asset changes. It is usually calculated in terms of standard deviations in the annual return of an asset over a set period of time. Because it is a measure of the rapidity and degree of price changes, volatility is often used as an effective measure of the investment risk associated with an asset.
+
+
 
 **Yield Farming**
 
