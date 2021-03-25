@@ -47,12 +47,12 @@ The Redeem function takes a pair of Long and Short position tokens and redeems t
 ARBITRAGE SUGGESTION: If the price of the Long/Short pair is higher in the pool an arbitrageur could mint the long and short pair and sell this to the AMM.  
 ****
 
-#### **Why do you need Mint and Redeem?**
+**Why do you need Mint and Redeem?**
 
 Mint and Redeem guarantees that liquidity can always be supplied to the system, by minting new long and short pairs, and that a pair of long and short tokens has a known value. They provide a mechanism for arbitrageurs to generate profits in times when the total price of a pair of long and short position tokens is either below or above the reference price provided by the oracle. Through these incentivised actions, the arbitrageurs perform valuable liquidity balancing services for the Mettalex platform.  
 
 
-#### **How can Market Makers get involved**
+#### **How can Market Makers get involved?**
 
 Market makers can use the Mettalex system in a number of ways:
 
@@ -85,7 +85,7 @@ Traders are able to provide liquidity by using the Mettalex smart contract to mi
 Sources who provide the system with liquidity receive an aggregate return on maker fees and market spreads. Liquidity Providers are rewarded with a further aggregated yield on the capital invested via transaction fees and trading spreads between prices according to the amount and duration of liquidity supplied into the system.  
 ****
 
-#### **What APY from trading fees can I earn by providing liquidity? \(per market\)**
+#### **What APY from trading fees can I earn by providing liquidity?**
 
 This depends on the market and the demand of trading on a particular market.The AMM spread and fees range from 0.25%-3% of transaction value based on demand. Average APY would vary from 5-25%  
 
