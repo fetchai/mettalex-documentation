@@ -22,8 +22,7 @@ A DEX is a Decentralized Exchange where there is no central organization holding
 
 #### **Is it like OTC?**
 
-It is like OTC in that a participant can always go to the Autonomous Market Maker to get the desired exposure for a fair price. It differs from OTC in that the position tokens are tradeable independently, and not fixed contractual obligations with an OTC desk.  
-****
+It is like OTC in that a participant can always go to the Autonomous Market Maker to get the desired exposure for a fair price. It differs from OTC in that the position tokens are tradeable independently, and not fixed contractual obligations with an OTC desk.
 
 TRADING SUGGESTION: An OTC broker could cover their position and offer their customers an exposure using this platform.  
 ****
