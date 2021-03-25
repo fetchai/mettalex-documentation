@@ -9,4 +9,5 @@
 * [Exchange UI](exchange-ui.md)
 * [Risks and benefits](overall-risks-and-benefits.md)
 * [Glossary](glossary.md)
+* [Mettalex DEX - FAQs](mettalex-dex-faqs.md)
 
