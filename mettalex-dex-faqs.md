@@ -15,80 +15,76 @@ Floor and cap define the trading range for position tokens.  If the trading rang
 If the spot price breaches the band, Long/Short token pairs will be settled automatically and the collateral will be distributed back to the token holders. Mettalex smart contract performs settlement and clearing of the position tokens, with one of the L or S tokens having the full value of the underlying collateral and the other being worthless. The new weighted spot price will initialise the smart contract around the new price value with the new trading band and trading resumes as normal.  
 ****
 
-## **Why is it a DEX / What is a DEX?**
+#### **Why is it a DEX / What is a DEX?**
 
-**A DEX is a Decentralized Exchange where there is no central organization holding user funds.  Trades are handled automatically by blockchain smart contracts and user wallets.  In the Mettalex system the DEX uses an on-chain Autonomous Market Maker to handle trades.**  
+A DEX is a Decentralized Exchange where there is no central organization holding user funds.  Trades are handled automatically by blockchain smart contracts and user wallets.  In the Mettalex system the DEX uses an on-chain Autonomous Market Maker to handle trades. There is no counterparty and/or counterparty risk.  
+****
 
+#### **Is it like OTC?**
 
-**There is no counterparty and/or counterparty risk.**  
+It is like OTC in that a participant can always go to the Autonomous Market Maker to get the desired exposure for a fair price. It differs from OTC in that the position tokens are tradeable independently, and not fixed contractual obligations with an OTC desk.  
+****
 
+TRADING SUGGESTION: An OTC broker could cover their position and offer their customers an exposure using this platform.  
+****
 
-## **Is it like OTC?**
+#### **How does the price of long and short position tokens change?**
 
-**It is like OTC in that a participant can always go to the Autonomous Market Maker to get the desired exposure for a fair price. It differs from OTC in that the position tokens are tradeable independently, and not fixed contractual obligations with an OTC desk.**  
+Within the trading range the long token price varies linearly from 0 at the floor to the full collateral value at the cap, and conversely for the short token.  
+****
 
+#### **What is Mint function?**
 
-**TRADING SUGGESTION: An OTC broker could cover their position and offer their customers an exposure using this platform.**  
+The Mint function takes collateral tokens and creates a pair of Long and Short position tokens backed by that collateral.  The collateral is deposited in an on-chain Vault contract.
 
+ARBITRAGE SUGGESTION: If the price of the Long/Short pair is higher in the pool an arbitrageur could mint the long and short pair and sell this to the AMM.  
+****
 
-## **How does the price of long and short position tokens change?**
+#### **What is Redeem?**
 
-**Within the trading range the long token price varies linearly from 0 at the floor to the full collateral value at the cap, and conversely for the short token.**  
-
-
-## **What is Mint function?**
-
-**The Mint function takes collateral tokens and creates a pair of Long and Short position tokens backed by that collateral.  The collateral is deposited in an on-chain Vault contract.**  
-
-
-**ARBITRAGE SUGGESTION: If the price of the Long/Short pair is higher in the pool an arbitrageur could mint the long and short pair and sell this to the AMM.**  
-
-
-## **What is Redeem?**
-
-**The Redeem function takes a pair of Long and Short position tokens and redeems them for the collateral backing the pair of tokens.  The collateral is retrieved from the Vault contract and the pair of tokens burnt.**  
+The Redeem function takes a pair of Long and Short position tokens and redeems them for the collateral backing the pair of tokens.  The collateral is retrieved from the Vault contract and the pair of tokens burnt.  
 
 
-**ARBITRAGE SUGGESTION: If the price of the Long/Short pair is higher in the pool an arbitrageur could mint the long and short pair and sell this to the AMM.**  
+ARBITRAGE SUGGESTION: If the price of the Long/Short pair is higher in the pool an arbitrageur could mint the long and short pair and sell this to the AMM.  
+****
+
+#### **Why do you need Mint and Redeem?**
+
+Mint and Redeem guarantees that liquidity can always be supplied to the system, by minting new long and short pairs, and that a pair of long and short tokens has a known value. They provide a mechanism for arbitrageurs to generate profits in times when the total price of a pair of long and short position tokens is either below or above the reference price provided by the oracle. Through these incentivised actions, the arbitrageurs perform valuable liquidity balancing services for the Mettalex platform.  
 
 
-## **Why do you need Mint and Redeem?**
+#### **How can Market Makers get involved**
 
-**Mint and Redeem guarantees that liquidity can always be supplied to the system, by minting new long and short pairs, and that a pair of long and short tokens has a known value. They provide a mechanism for arbitrageurs to generate profits in times when the total price of a pair of long and short position tokens is either below or above the reference price provided by the oracle. Through these incentivised actions, the arbitrageurs perform valuable liquidity balancing services for the Mettalex platform.**  
+Market makers can use the Mettalex system in a number of ways:
 
+* as a hedging mechanism for trades outside Mettalex e.g. sell an exposure to a trader then buy a hedging exposure from Mettalex AMM
+* Mint pairs of Long and Short tokens then make markets on a central limit order book exchange
+* Buy and sell position tokens against the Mettalex Autonomous Market Maker to reduce slippage 
 
-## **How can Market Makers get involved**
+#### **What is the role of arbitrageurs?**
 
-**Market makers can use the Mettalex system in a number of ways:**
-
-* **as a hedging mechanism for trades outside Mettalex e.g. sell an exposure to a trader then buy a hedging exposure from Mettalex AMM**
-* **Mint pairs of Long and Short tokens then make markets on a central limit order book exchange**
-* **Buy and sell position tokens against the Mettalex Autonomous Market Maker to reduce slippage** 
-
-## **What is the role of arbitrageurs?**
-
-**Arbitrageurs keep the weighted price of the commodity as perceived by the Mettalex Autonomous Market Maker in line with the price on reference exchanges**  
+Arbitrageurs keep the weighted price of the commodity as perceived by the Mettalex Autonomous Market Maker in line with the price on reference exchanges  
 
 
-## **What is liquidity provision?**
+#### **What is liquidity provision?**
 
-**Liquidity providing represents a very important and necessary operation. The liquidity collected supports Mettalex throughout all market making processes that need to take place.**   
-
-
-## **Why do we need liquidity?**
-
-**The Mettalex decoupled LPs pool works as a decoupled liquidity pool whose role is to guarantee the provisioning of liquidity to the Mettalex Autonomous Market Maker so minimizing the timing risk of any impermanent losses it is exposed to.**  
+Liquidity providing represents a very important and necessary operation. The liquidity collected supports Mettalex throughout all market making processes that need to take place.   
 
 
-## **How do I provide liquidity to different markets?**
+#### **Why do we need liquidity?**
 
-**Traders are able to provide liquidity by using the Mettalex smart contract to mint L/S token pairs or use it to redeem a paired position in long and short tokens to reclaim the backing collateral.**  
+The Mettalex decoupled LPs pool works as a decoupled liquidity pool whose role is to guarantee the provisioning of liquidity to the Mettalex Autonomous Market Maker so minimizing the timing risk of any impermanent losses it is exposed to.  
+****
 
+#### **How do I provide liquidity to different markets?**
+
+Traders are able to provide liquidity by using the Mettalex smart contract to mint L/S token pairs or use it to redeem a paired position in long and short tokens to reclaim the backing collateral.  
+****
 
 #### **How can I earn from providing liquidity?**
 
-**Sources who provide the system with liquidity receive an aggregate return on maker fees and market spreads. Liquidity Providers are rewarded with a further aggregated yield on the capital invested via transaction fees and trading spreads between prices according to the amount and duration of liquidity supplied into the system.**  
-
+Sources who provide the system with liquidity receive an aggregate return on maker fees and market spreads. Liquidity Providers are rewarded with a further aggregated yield on the capital invested via transaction fees and trading spreads between prices according to the amount and duration of liquidity supplied into the system.  
+****
 
 #### **What APY from trading fees can I earn by providing liquidity? \(per market\)**
 
@@ -161,21 +157,17 @@ Each time liquidity is added the AMM rebalances by minting or redeeming position
 
 #### **How do the position token prices respond to trading activity?**
 
-Each time a position token is bought from or sold to the AMM the weights are updated to keep the sum of the long and short token prices equal to the value of the collateral backing a token pair.  For example if a long token is bought from the AMM, the relative amount of long tokens to short tokens held by the AMM will decrease.  This results in the long token price increasing and the short token price decreasing, which incentivizes traders to buy short tokens and equalize the long and short token balances held by the AMM.  
-  
-****
+Each time a position token is bought from or sold to the AMM the weights are updated to keep the sum of the long and short token prices equal to the value of the collateral backing a token pair.  For example if a long token is bought from the AMM, the relative amount of long tokens to short tokens held by the AMM will decrease.  This results in the long token price increasing and the short token price decreasing, which incentivizes traders to buy short tokens and equalize the long and short token balances held by the AMM.
 
 ![](https://lh3.googleusercontent.com/6Chykpk-z9gGlF9cOrdTrzTkIp5Wyz1e0Ss-uvzPwfwUtlKxD2p_KBgFcwgah6rEcSSuNCs-T_55X_v2uS3lc773skC8raIYmRDNDNKjjaf75LQj7mQc8ogogluiVfw0C9-rcoAi)
 
-**Left Table:** AMM balance after trade of varying size for coin buying long tokens  
-****
+**Left Table:** AMM balance after trade of varying size for coin buying long tokens
 
 **Right Table:** Resulting prices of position tokens after trade, their sum \(stays equal to underlying collateral price\), and average price per token paid by trader.  
-  
 ****
 
-## **How do the position token prices respond to the reference price?**
+#### **How do the position token prices respond to the reference price?**
 
-**Each time the underlying commodity or spread price updates from the parent exchange\(s\) the AMM reweights to set the spot price for position tokens to be equal to their fair value based on the reference price location within the trading range.  This provides commodity traders with a guarantee that they can hedge their exposure using position tokens as the tokens will track the price movement in the reference asset.**  
+Each time the underlying commodity or spread price updates from the parent exchange\(s\) the AMM reweights to set the spot price for position tokens to be equal to their fair value based on the reference price location within the trading range.  This provides commodity traders with a guarantee that they can hedge their exposure using position tokens as the tokens will track the price movement in the reference asset.  
 
 
