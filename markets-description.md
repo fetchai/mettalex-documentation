@@ -319,7 +319,7 @@ You can sell your XAGLONG or XAGSHORT tokens to Mettalex’s Autonomous Market M
 
 ### **2.  SPREADS**
 
-#### **BTC/ETH**
+#### **BTC/ETH spread**
 
 The perfect market to trade on if you want to have exposure to Bitcoin or Ether’s market dominance against each other. 
 
@@ -345,7 +345,7 @@ You can sell your BTC/ETH Spread tokens to Mettalex's Autonomous Market Maker at
   
 
 
-#### **BTC/XAU**
+#### **BTC/XAU spread**
 
 Equity markets have experienced a bullish trend for years. Some investors are beginning to question its sustainability and are looking for ways to diversify their portfolios with safe-haven assets. Historically, gold has been one of the most popular choices. However, the crypto commodity bitcoin is now offering a modern, digital alternative to gold. The crypto asset shares some of gold’s unique properties, while addressing a number of its shortcomings. The BTC/XAU market on Mettalex is a great place to take a formal position in the physical gold or digital gold debate.
 
@@ -371,7 +371,7 @@ You can sell your BTCXAUL or BTCXAUS tokens to Mettalex's Autonomous Market Make
 
 \*\*\*\*
 
-#### **BTC/TSLA**
+#### **BTC/TSLA spread**
 
 The richest man on Earth - Elon Musk - recently announced a $1.5b position open by his company Tesla. So far the decision to buy into bitcoin has proven wise, with Tesla’s profits in 2020 likely being lower than the USD-denominated unrealized profits of its bitcoin position in 2021. Although Tesla’s bitcoin position represents only about 8% of the company portfolio, the electric vehicles manufacturer and the original cryptocurrency are now related.   
 
@@ -399,7 +399,7 @@ You can sell your BTCTSLAL or BTCTSLAS tokens to Mettalex's Autonomous Market Ma
 **Network: Ethereum and Binance Smart Chain**  
 
 
-#### **AAVE/COMP**
+#### **AAVE/COMP spread**
 
 Aave is a decentralized money market protocol that enables users to lend and borrow cryptocurrencies in a trustless manner. Compound is providing a similar service but is more conservative in terms of the crypto assets that could be lended or borrowed. Users of both protocols can lend cryptocurrencies to receive an annual percentage yield or borrow assets for increased exposure to crypto markets or to spend for goods or services in the real world.  
 
@@ -429,7 +429,7 @@ You can sell your AAVECOMPL or AAVECOMPS tokens to Mettalex's Autonomous Market 
 
 \*\*\*\*
 
-#### **LINK/BAND**
+#### **LINK/BAND spread**
 
 Chainlink is a decentralized oracle network that provides real-world data to most of the projects in the DeFi space. The LINK token is used in the Chainlink network to compensate Chainlink Node operators for the retrieval of data from the external data sources, turning it to blockchain readable format, off-chain computation, and uptime guarantees.
 
@@ -459,7 +459,7 @@ You can sell your LINKBANDL or LINKBANDS tokens to Mettalex's Autonomous Market 
 
 \*\*\*\*
 
-#### **STEEL REBAR/STEEL SCRAP**
+#### **STEEL REBAR/STEEL SCRAP spread**
 
 The perfect market for physical commodity holders who process steel scrap to produce steel rebar. Steel Mills can use it to hedge their exposure to the price of the raw material - steel scrap - and that of the processed product - steel rebar. 
 
@@ -485,7 +485,7 @@ You can sell your SRSCSPRL or SRSCSPRS tokens to Mettalex’s Autonomous Market 
 
 \*\*\*\*
 
-#### **sDEFI/sCEX**
+#### **sDEFI/sCEX Spread**
 
 sDEFI and sCEX indexes are synthetic assets that represent the price performance of a basket of leading tokens in the Decentralized Finance space and the Centralized Exchange space, respectively. The sDEFI/sCEX spread token tracks the ratio of the price in US dollars of the sDEFI and sCEX indexes representing the decentralized finance space and the centralized exchange space respectively. Individually, tradable instruments around these indexes allow traders to take a view on the growth or decline trend of each space separately.  
 
