@@ -1,7 +1,3 @@
----
-description: (Mettalex DEX Vega release)
----
-
 # Markets description
 
 ## **MARKETS**
@@ -30,7 +26,7 @@ You can sell your CULONG or CUSHORT tokens to Mettalex’s Autonomous Market Mak
 * If you hold CULONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the CULONG token \(in red letters\);
 * Alternatively, If you hold CUSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the CUSHORT tokens.
 
-**Oracle source: London Metal Exchange \(LME\)**
+**Oracle source: DAVIS INDEX**
 
 **Network: ETHEREUM** 
 
@@ -132,7 +128,8 @@ Other non-ferrous metals found in Zorba include copper, lead, brass, magnesium, 
 
 To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
 
-\*Not to be considered financial advice.  ****
+\*Not to be considered financial advice.  ****  
+
 
 **Settlement**
 
@@ -223,9 +220,10 @@ You can sell your ZNLONG or ZNSHORT tokens to Mettalex’s Autonomous Market Mak
 * If you hold ZNLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the ZNLONG token \(in red letters\);
 * Alternatively, If you hold ZNSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the ZNSHORT tokens.
 
-**Oracle source: London Metal Exchange \(LME\)**
+**Oracle source: DAVIS INDEX**
 
-**Network: ETHEREUM**
+**Network: ETHEREUM**  
+
 
 \*\*\*\*
 
@@ -240,7 +238,8 @@ Butter is a typically yellow or white dairy product consisting of an emulsion of
 
 To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
 
-\*Not to be considered financial advice. 
+\*Not to be considered financial advice.   
+
 
 **Settlement**
 
@@ -252,8 +251,6 @@ You can sell your CBLONG or CBSHORT tokens to Mettalex’s Autonomous Market Mak
 **Oracle source: Chicago Mercantile Exchange \(CME\)**
 
 **Network: ETHEREUM**
-
-\*\*\*\*
 
 #### **GOLD**
 
@@ -319,7 +316,7 @@ You can sell your XAGLONG or XAGSHORT tokens to Mettalex’s Autonomous Market M
 
 ### **2.  SPREADS**
 
-#### **BTC/ETH spread**
+#### **BTC/ETH**
 
 The perfect market to trade on if you want to have exposure to Bitcoin or Ether’s market dominance against each other. 
 
@@ -339,13 +336,13 @@ You can sell your BTC/ETH Spread tokens to Mettalex's Autonomous Market Maker at
 * If you hold BTCETHL tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the BTCETHL token \(in red letters\);
 * Alternatively, If you hold BTCETHS tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the BTCETHS tokens.
 
-**Oracle source: London Metal Exchange \(LME\)**
+**Oracle source: Chainlink**
 
 **Network: ETHEREUM and BINANCE SMART CHAIN**  
   
 
 
-#### **BTC/XAU spread**
+#### **BTC/XAU**
 
 Equity markets have experienced a bullish trend for years. Some investors are beginning to question its sustainability and are looking for ways to diversify their portfolios with safe-haven assets. Historically, gold has been one of the most popular choices. However, the crypto commodity bitcoin is now offering a modern, digital alternative to gold. The crypto asset shares some of gold’s unique properties, while addressing a number of its shortcomings. The BTC/XAU market on Mettalex is a great place to take a formal position in the physical gold or digital gold debate.
 
@@ -365,13 +362,13 @@ You can sell your BTCXAUL or BTCXAUS tokens to Mettalex's Autonomous Market Make
 * If you hold a BTCXAUL token and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the BTCXAUL token \(in red letters\);
 * If you hold a BTCXAUS token and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the BTCXAUS tokens.
 
-**Oracle source: London Metal Exchange \(LME\)**
+**Oracle source: Chainlink**
 
 **Network: Binance Smart Chain**
 
 \*\*\*\*
 
-#### **BTC/TSLA spread**
+#### **BTC/TSLA**
 
 The richest man on Earth - Elon Musk - recently announced a $1.5b position open by his company Tesla. So far the decision to buy into bitcoin has proven wise, with Tesla’s profits in 2020 likely being lower than the USD-denominated unrealized profits of its bitcoin position in 2021. Although Tesla’s bitcoin position represents only about 8% of the company portfolio, the electric vehicles manufacturer and the original cryptocurrency are now related.   
 
@@ -399,7 +396,7 @@ You can sell your BTCTSLAL or BTCTSLAS tokens to Mettalex's Autonomous Market Ma
 **Network: Ethereum and Binance Smart Chain**  
 
 
-#### **AAVE/COMP spread**
+#### **AAVE/COMP**
 
 Aave is a decentralized money market protocol that enables users to lend and borrow cryptocurrencies in a trustless manner. Compound is providing a similar service but is more conservative in terms of the crypto assets that could be lended or borrowed. Users of both protocols can lend cryptocurrencies to receive an annual percentage yield or borrow assets for increased exposure to crypto markets or to spend for goods or services in the real world.  
 
@@ -429,7 +426,7 @@ You can sell your AAVECOMPL or AAVECOMPS tokens to Mettalex's Autonomous Market 
 
 \*\*\*\*
 
-#### **LINK/BAND spread**
+#### **LINK/BAND**
 
 Chainlink is a decentralized oracle network that provides real-world data to most of the projects in the DeFi space. The LINK token is used in the Chainlink network to compensate Chainlink Node operators for the retrieval of data from the external data sources, turning it to blockchain readable format, off-chain computation, and uptime guarantees.
 
@@ -455,164 +452,100 @@ You can sell your LINKBANDL or LINKBANDS tokens to Mettalex's Autonomous Market 
 
 **Oracle source: Chainlink**
 
-**Network: Ethereum**
+**Network: Ethereum**  
+  
+
 
 \*\*\*\*
 
-#### **STEEL REBAR/STEEL SCRAP spread**
+#### **STEEL REBAR/STEEL SCRAP**
 
-The perfect market for physical commodity holders who process steel scrap to produce steel rebar. Steel Mills can use it to hedge their exposure to the price of the raw material - steel scrap - and that of the processed product - steel rebar. 
+The perfect spread for physical commodity holders who process steel scrap to produce steel rebar. 
 
 **How to trade?**
 
-* Buy the SRSCSPRL token if you believe the price of steel rebar will appreciate faster than that of steel scrap;
-* Buy the SRSCSPRS token if you think demand for housing and infrastructure will decrease and the production of steel will slow down affecting the price of steel rebar more than that of steel scrap.
-
-To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
-
-\*Not to be considered financial advice. 
+* Buy the SRSCSPRL token if you believe future demand for steel scrap for the production of steel rebars for construction purposes will increase as an effect of the economic recovery after the pandemic;
+* Buy the SRSCSPRS token if you believe demand for housing and infrastructure will decrease the production of steel and thus shrinking the demand for steel scrap used to produce steel rebars.
 
 **Settlement**
 
-You can sell your SRSCSPRL or SRSCSPRS tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
+You can sell your SRSCSPRL or SRSCSPRS tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
 
 * If you hold SRSCSPRL tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the SRSCSPRL token \(in red letters\);
 * Alternatively, If you hold SRSCSPRS tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the SRSCSPRS tokens.
 
-**Oracle source: London Metal Exchange \(LME\)**
+**Oracle source: Chainlink**
 
-**Network: ETHEREUM**
+**Network: ETHEREUM**  
 
-\*\*\*\*
 
-#### **sDEFI/sCEX Spread**
 
-sDEFI and sCEX indexes are synthetic assets that represent the price performance of a basket of leading tokens in the Decentralized Finance space and the Centralized Exchange space, respectively. The sDEFI/sCEX spread token tracks the ratio of the price in US dollars of the sDEFI and sCEX indexes representing the decentralized finance space and the centralized exchange space respectively. Individually, tradable instruments around these indexes allow traders to take a view on the growth or decline trend of each space separately.  
 
-* If you decide to open a long position, you might agree that
-* If you opt for a short position you will gain a profit if 
+#### **sDEFI/sCEX**
+
+sDEFI and sCEX indexes are synthetic assets that represent the price performance of a basket of leading tokens in the decentralised finance space and the centralised exchange space respectively. The sDEFi/sCEX spread token tracks the ratio of the price in US dollars of the sDEFi and sCEX indexes representing the decentralized finance space and the centralized exchange space respectively. Individually, tradable instruments around these indexes allow traders to take a view on the growth or decline trend of each space separately. 
 
 **How to trade?**
 
-* Buy the SDEFISCEXL token if you believe DeFi protocols will become relatively more important in the overall crypto space as they accrue more economic share of the financial ecosystem;
-* Buy the SDEFISCEXS token if you think trading activity of crypto tokens on centralized exchanges will be dominant in the crypto space in the future.
+* Buy the SDEFISCEXL token if you believe DEFi protocols will become relatively more important in the overall crypto space as they accrue more economic share of the financial ecosystem;
+* Buy the SDEFISCEXS token if you believe trading activity of crypto tokens on centralized exchanges will dominate the activity in the crypto space in the future.
 
 **Settlement**
 
-You can sell your SDEFISCEXL or SDEFISCEXS tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
+You can sell your SDEFISCEXL or SDEFISCEXS tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
 
 * If you hold SDEFISCEXL tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the SDEFISCEXL token \(in red letters\);
-* If you hold SDEFISCEXS tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the SDEFISCEXS tokens.
+* Alternatively, If you hold SDEFISCEXS tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the SDEFISCEXS tokens.
 
 **Oracle source: Chainlink**
 
-**Network: ETHEREUM and BINANCE SMART CHAIN**
+**Network: ETHEREUM and BINANCE SMART CHAIN**  
 
-### \*\*\*\*
-
-### **3. CRYPTO CURRENCIES**
-
-**BITCOIN**
-
-Bitcoin is the first cryptocurrency, created in January 2009. It is the most popular decentralized currency and the largest one by market capitalization. Unlike fiat currency, bitcoin is created, distributed, and stored in a decentralized ledger, known as a blockchain. It is limited to 21,000,000 units and its inflation rate is fully predictable.
-
-**How to trade?\***
-
-* Buy a BTCLONG token if you believe that its demand will tend to grow as a result of increased popularity assumed as a means of payment;
-* Buy the BTCSHORT token if you believe Bitcoin demand and price will decrease in the future.
-
-To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
-
-\*Not to be considered financial advice. 
-
-**Settlement**
-
-You can sell your BTC tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
-
-* If you hold BTCLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the BTCLONG token \(in red letters\);
-* Alternatively, If you hold BTCSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the BTCSHORT tokens.
-
-**Oracle source: Chainlink**
-
-**Network: ETHEREUM and BINANCE SMART CHAIN**
 
 \*\*\*\*
 
-**ETHEREUM** 
-
-Ether is the world’s second-largest virtual currency by market capitalization. It is the transactional token that facilitates operations on the Ethereum network. The initiation of transactions and execution of smart contracts on Ethereum require computing power provided by Ethereum nodes. For their computational work, nodes are compensated in ether. As such, ether is considered as the unit of account for all operations performed by the Ethereum and could be perceived as the network’s fuel.
-
-**How to trade?\***
-
-* Buy the ETHLONG token if you believe that demand for ether will grow as it becomes more scarce due to locking or burning of ETH and thanks to the expansion of Ethereum’s ecosystem of decentralized applications;
-* Buy the ETHSHORT token if you think more advanced smart contract platforms will manage to attract the bulk of liquidity due to improved scalability.
-
-To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
-
-\*Not to be considered financial advice. 
-
-**Settlement**
-
-You can sell your ETHLONG or ETHSHORT tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
-
-* If you hold ETHLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the ETHLONG token \(in red letters\);
-* Alternatively, If you hold ETHSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the ETHSHORT tokens.
-
-**Oracle source: Chainlink**
-
-**Network: Ethereum and Binance Smart Chain**
-
-\*\*\*\*
-
-### **4.  FOREX AND INDICES**
+### **3.  FOREX AND INDICES**
 
 #### **FTSE**
 
-The Financial Times Stock Exchange 100 Index is a share index of the 100 companies listed on the London Stock Exchange with the highest market capitalisation. It is seen as a gauge of prosperity for businesses regulated by UK company law. The index is maintained by the FTSE Group, a subsidiary of the London Stock Exchange Group.
+The acronym FTSE stands for Financial Times and Stock Exchange. This group specializes in developing indexes for financial products that can be used as benchmarks. The most popular index maintained by FTSE Russell is the FTSE 100, which consists of the 100 most highly capitalized companies in the U.K. listed on the London Stock Exchange.
 
-**How to trade?\***
+**How to trade?**
 
-* Buy the FTSELONG token if you believe that economic recovery from the effects of the pandemic has already started in the UK and will have a positive effect on the FTSE index price;
-* Buy the FTSESHORT token if you think the top UK companies will continue to struggle and their stock market performance will suffer.
-
-To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
-
-\*Not to be considered financial advice. 
+* Buy the FTSELONG token if you believe that the effects of the pandemic will become milder in the future and leave room for economic recovery;
+* Buy the FTSESHORT token if you believe  the effects of the pandemic will continue to have negative effects on the British economy.
 
 **Settlement**
 
-You can sell your FTSELONG or FTSESHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
+You can sell your FTSELONG or FTSESHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
 
 * If you hold FTSELONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the FTSELONG token \(in red letters\);
 * Alternatively, If you hold FTSESHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the FTSESHORT tokens.
 
 **Oracle source: Chainlink**
 
-**Network: Ethereum**  
+**Network: ETHEREUM**  
 
+
+\*\*\*\*
 
 #### **BRITISH POUND \(x1000\)**
 
-The British pound sterling is the official currency of the United Kingdom, the British Overseas Territories of South Georgia, the South Sandwich Islands, and British Antarctic Territory and the U.K. crown dependencies the Isle of Man and the Channel Islands. Sterling is the fourth most-traded currency in the foreign exchange market, after the United States dollar, the euro, and the Japanese yen.
+The British pound sterling is the official currency of the United Kingdom, the British Overseas Territories of South Georgia, the South Sandwich Islands, and British Antarctic Territory and the U.K. crown dependencies the Isle of Man and the Channel Islands. Sterling is the fourth most traded currency in the foreign exchange market, after the United States dollar, the Euro, and the Japanese Yen.
 
 **How to trade?**
 
-* Buy the GBPLONG token if you believe in an appreciation of the Pound Sterling as the British economy recovers from both the pandemic and Brexit;
-* Buy the GBPSHORT token if you think in a devaluation of the Pound as the Bank of England’s quantitative easing programs established to address the negative economic effects of the pandemic are expanded in the future.
-
-To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
-
-\*Not to be considered financial advice.
+* Buy the GBPLONG token if you believe  in an appreciation of the pound sterling as the British economy starts to recover;
+* Buy the GBPSHORT token if you believe in a devaluation of the pound sterling as the effects of the pandemic will last in the future
 
 **Settlement**
 
-You can sell your GBPLONG or GBPSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
+You can sell your GBPLONG or GBPSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
 
 * If you hold GBPLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the GBPLONG token \(in red letters\);
 * Alternatively, If you hold GBPSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the GBPSHORT tokens.
 
 **Oracle source: Chainlink**
 
-**Network: Binance Smart Chain**  
-
+**Network: BINANCE SMART CHAIN**
 
