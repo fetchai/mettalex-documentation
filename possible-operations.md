@@ -51,23 +51,21 @@ In this section traders can convert the stable coin stored in their wallets into
 
 Market Making operations are the second category of operations users can undertake on Mettalex DEX \(visit the following link: [dex.mettalex.com](http://dex.mettalex.com)\). As in the section before, it is possible to access these actions via the Mettalex Trade section.
 
-![](.gitbook/assets/trade%20%282%29.png)
+![](.gitbook/assets/3.png)
 
 Here users can not only swap their coins against the Autonomous Market Maker, but they can also mint or redeem new position tokens thanks to the dedicated windows that can be found in the same section. The market maker user interface provides additional functionality to **mint** and **redeem** Long/Short Position token pairs related to a certain underlying asset. It happens by supplying collateral to the system for token minting. Furthermore, users can supply a Long/Short Position token pair for redemption \(i.e. users exchange L/S pairs against stablecoin collateral\).
 
-![](.gitbook/assets/mint%20%281%29.png)
-
-![](.gitbook/assets/redeem%20%281%29.png)
+![](.gitbook/assets/4.png)
 
 ## Liquidity providing
 
 Liquidity providing operations are the third category of operation users can run on Mettalex \(visit the following link:[ dex.mettalex.com](http://dex.mettalex.com/)\). It is possible to access these actions via the Mettalex Liquidity section. Users can deposit funds represented by stablecoin collateral \(i.e. USDT\) and are rewarded with a further aggregated yield on the capital invested via transaction fees and trading spreads between prices, according with the amount and duration of liquidity supplied into the system. In the first page, you will have access to different information about the available markets, your wallet, the available balances of liquidity provided to each market, the average APY for the chosen market and the transaction history.
 
-![](.gitbook/assets/liquidity-deposit.png)
+![](.gitbook/assets/2%20%281%29.png)
 
 In the “**Deposit**” tab enter the amount of liquidity you want to deposit into the liquidity pool and click the “**Deposit**” button. You can deposit part of your funds thanks to the buttons shown in the deposit window \(e.g. **25%**, **50%**, **75%** or **100%**\). "**Deposit All**" allows the user to deposit all of his funds whereas "**Start Earning**" transfers funds from the Vault contract to the Autonomous Market Maker \(AMM\) contract so you can start earning trading fees.
 
-![](.gitbook/assets/liquidity-withdraw.png)
+![](.gitbook/assets/5.png)
 
 From the home page access the “**LIQUIDITY**” page and use the drop-down menu at the top to select a commodity to withdraw liquidity from. In the liquidity provider tab, click on “**Withdraw**” and enter the amount of liquidity you want to withdraw from the liquidity pool and click the “**Withdraw**” button. You can withdraw pre-determined part of your funds \(e.g. 25%, 50%, 75% or 100%\). The “**Withdraw all**” button gives you the ability to withdraw all funds from the selected liquidity pool \(for that specific commodity\).
 
