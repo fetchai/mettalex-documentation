@@ -4,7 +4,11 @@ In order to access the Mettalex DEX platform, visit the following link: [https:/
 
 ![](https://lh3.googleusercontent.com/QVfNc5KOrcOusBktVAodWCfC47qMQ1jPai8dvDD3idW1U_A4B5Su8Rpc7UC5hwmPpZvvBUg5e9x6tv1ICdeDXE-oTW6SL2dT8qqT5pSAL5fYneYe1fJt7X7vJ_vCXLhPZLf8xDua)
 
-When entering Mettalex DEX, you can access one of the following 3 possible sections:  
+Note: remember that the available markets depend on the network you decide to use to interact with Mettalex DEX _****_\([markets-available-on-mettalex-dex-vega](markets-available-on-mettalex-dex-vega.md)\). If you opt for the Kovan Test Network you will be able to perform operations that consider as collateral USDT whereas the Binance Smart Chain Network will allow you to execute operations considering MUSD or BUSD collateral. 
+
+_**\(BUSD TRADING IS IN BETA. USE WITH CAUTION! NOT FOR USE BY U.S. INDIVIDUALS!\)**_
+
+When entering Mettalex DEX, you can access one of the following possible sections:  
 
 
 1. **TRADE**
@@ -15,7 +19,7 @@ When entering Mettalex DEX, you can access one of the following 3 possible secti
 
 * **ACCESS ACCOUNT:** you will be redirected to the **Mettalex Dashboard** . From here they can perform different actions related to their strategies and beliefs \(e.g. trading or supplying liquidity\). You will be able to switch among different markets;
 
-![Mettalex Dashboard](.gitbook/assets/dashboard%20%281%29.png)
+![Mettalex Dashboard](.gitbook/assets/1%20%281%29.png)
 
 * **TRADE**: you will be redirected to the Trade section where you will be able to trade, mint and redeem Position tokens in accordance with the market chosen in your strategies;
 
@@ -27,17 +31,17 @@ When entering Mettalex DEX, you can access one of the following 3 possible secti
 
 ## **Trading in a Market**
 
-![](.gitbook/assets/trade%20%282%29.png)
+![](.gitbook/assets/1%20%281%29.png)
 
 It is the first category of actions that users can undertake on Mettalex DEX. Users need to visit the Mettalex Trade section in order to proceed with this action \(visit the following link:[ dex.mettalex.com](http://dex.mettalex.com/)\). The trading section allows traders to open market positions on a wide variety of markets. It is possible to open positions considering as underlying assets either ferrous \(e.g. copper, steel rebar, steel scrap, silver, gold, iron ore\) or non-ferrous assets \(e.g. Bitcoin or Ethereum\). After choosing the market desired, the DEX will show you various information about the market itself, such as:
 
-* Long and Short price
-* Last date on which the price was updated
-* Sentiment
-* Underlying asset graph 
-* Long and Short tokens graphs
-* Floor and Cap values \(i.e. Price band\)
-* Purchased tokens information \(Symbol, purchase price, swapped price, current price, P&L for token, total P&L and the return
+* Long and Short price.
+* Last date on which the price was updated.
+* Sentiment.
+* Underlying asset graph.
+* Long and Short tokens graphs.
+* Floor and Cap values \(i.e. Price band\).
+* Purchased tokens information \(Symbol, purchase price, swapped price, current price, P&L for token, total P&L and the return\).
 
 In this section traders can convert the stable coin stored in their wallets into position tokens. This operation is called “**Swap**” and allows users to swap a certain amount of tokens in exchange for another quantity of tokens desired.
 

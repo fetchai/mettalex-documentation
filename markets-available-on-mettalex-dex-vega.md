@@ -6,7 +6,7 @@
 
 The Mettalex Team has featured several unique markets available only on Mettalex DEX in order to incentivize the use of the platform itself on both Ethereum and Binance Smart Chain networks. The available markets are listed below depending on the network you choose:
 
-![](https://lh4.googleusercontent.com/a5wELc--PcLfhdvvCUACQhSyO_3xueultM44IQYy4UK4YIWIc5pMD2tYmBwSOFbdhlnfGPgRZYuo_yR9EjuDA0Rw0f6q4iKUzdhXDDWp3ZJV_i8yF4s33Mv7yjUP_XN6vNS0vShQ)
+![](https://lh5.googleusercontent.com/HtT3LUTNN_oTZt18JqzF_eTHhZKP87l5uMjNymFi26bk_kIfHyba-dZME9OLMTa59_fWlfbnz0Oh2tZX7i2Eun3n1PQ5Lj7Ccdspp6ZVIEtCOnWP6P-4hiLNY9v7OQ5cEl9f5jH-)
 
 For further information about the Vega Release and the new markets, visit:
 
