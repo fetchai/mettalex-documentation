@@ -1,6 +1,6 @@
 # Glossary
 
-**Autonomous Market Makers** 
+#### **Autonomous Market Makers** 
 
 Each commodity token pair has an associated autonomous market maker that allows market participants to exit a position at any point without having to find a counterparty on the exchange. The autonomous market maker uses a liquidity sensitive algorithm with bounded loss to manage market risk. Autonomous market maker liquidity providers receive pool tokens that entitle them to a fraction of the fees and spread earned by the market maker.
 
@@ -50,25 +50,25 @@ According with the Investopedia's definition:
 
 
 
-**Governance Tokens** 
+#### **Governance Tokens** 
 
 Governance tokens \(MTLX\) are used to vote on system parameters such as choice of autonomous market makers to back with liquidity from the liquidity pool, borrowing rates from the liquidity pool, usage of exchange fees, etc. Governance tokens are minted at an exponentially decreasing rate to incentivise early liquidity providers in the system. Minted tokens are distributed in proportion to the amount of liquidity supplied to the system at each block. Some fraction of the exchange fees and autonomous market maker spreads is used to buy back MTLX and burn.
 
 
 
-**Liquidity Pool** 
+#### **Liquidity Pool** 
 
 A liquidity pool is a decoupled provider of collateral to the autonomous market maker. Liquidity providers receive an aggregated return from all commodity market maker fees and spreads in exchange for providing collateral that the market makers can use to mint position tokens. In addition liquidity providers receive a pro-rata distribution of MTLX governance tokens based on the amount and duration of their participation in the liquidity pool.
 
 
 
-**Liquidity Provider**
+#### **Liquidity Provider**
 
 A liquidity provider \(i.e. LP\) is a user who funds a liquidity pool with own crypto assets so as  to facilitate trading on the platform and earn passive income on the liquidity deposited.
 
 
 
-**Mining**
+#### **Mining**
 
 Mining is the process through which cryptocurrency transactions are gathered, verified and recorded into a digital ledger known as blockchain. The work done by miners is essential for maintaining the integrity of the network and is also responsible for introducing new coins into the system.
 
