@@ -6,39 +6,47 @@ Each commodity token pair has an associated autonomous market maker that allows 
 
 
 
-**Banded trading**
+#### **Banded trading**
 
 The Mettalex contract performs the settlement and clearing of the position tokens in the event that the reference price goes outside the specified trading band. The reference price feed comes in from an independent oracle specified at creation of the Mettalex contract and in the event of the price exceeding the cap or floor value, all position tokens are automatically redeemed for the collateral value of their position. The Mettalex contract then resets the floor and cap parameters automatically based on current market condition.
 
 
 
-**Blockchain**
+#### **Blockchain**
 
 The blockchain is a digital ledger of all the transactions ever made in a particular cryptocurrency. It’s composed of individual blocks \(see definition above\) that are chained to each other through a cryptographic signature. Each time a block’s capacity is reached, a new block is added to the chain. The blockchain is repeatedly copied and saved onto thousands of computers all around the world, and it must always match each copy. As there is no master copy stored in one location, it’s considered decentralized.
 
 
 
-**Circulating Supply**
+#### **Circulating Supply**
 
 This term refers to the number of cryptocurrency coins or tokens that are publicly available and circulating in a specific market. The circulating supply of a cryptocurrency can increase or decrease over time.
 
 
 
-**Collateral**
+#### **Collateral**
 
 A collateral is something of value given as a guarantee to obtain something else. For instance, a borrower may offer their car as a collateral to a lender when taking out a loan. The vehicle acts as a safeguard or warranty in case the borrower fails to pay their debts.  Usually, collateralized loans present much lower interest rates when compared to non-collateralized ones. Collateral can come in different forms. Some of the most common types include mortgage collaterals, invoice financing and margin trading collaterals.
 
 
 
-**Decentralized Application \(DAPP\)**
+#### **Decentralized Application \(DAPP\)**
 
 A computer program that utilizes a blockchain for data storage, runs autonomously, is not controlled or operated from a single entity, is open source and has its use incentivized by the reward of fees or tokens.
 
 
 
-**ERC-20**
+#### **ERC-20**
 
 The standard to which each Ethereum token complies. It defines the way that each token behaves so that transactions are predictable. Other cryptocurrencies also use the ERC-20 standard, piggybacking on the Ethereum network in the process.
+
+
+
+#### Fiat
+
+According with the Investopedia's definition:
+
+> Fiat money is a government-issued currency that is not backed by a physical commodity, such as gold or silver, but rather by the government that issued it. It usually requires fiat exchanged at a CEX or through local means such as Bitcoin ATMs to be able to purchase cryptocurrency with fiat currency.
 
 
 
@@ -63,6 +71,8 @@ A liquidity provider \(i.e. LP\) is a user who funds a liquidity pool with own c
 **Mining**
 
 Mining is the process through which cryptocurrency transactions are gathered, verified and recorded into a digital ledger known as blockchain. The work done by miners is essential for maintaining the integrity of the network and is also responsible for introducing new coins into the system.
+
+
 
 **Mettalex Smart Contract** 
 
