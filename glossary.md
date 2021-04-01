@@ -96,6 +96,8 @@ Within the blockchain context, an oracle is basically a data source that is used
 
 Position tokens track the price change of an underlying asset \(i.e. long tokens\) or the negative of that change \(i.e. short tokens\). Leverage is achieved by the token price being a fraction of the asset price. This leverage enables hedgers to manage their risk exposure at minimal cost.
 
+
+
 #### Slippage
 
 The Investopedia's definition says:
@@ -114,19 +116,25 @@ When an order is made on an exchange or market, the disagreement of the differen
 
 
 
-**Stablecoin**
+#### **Stablecoin**
 
 A stablecoin is a type of cryptocurrency that is designed to maintain a stable market price. Recently, this type of digital currencies has grown in popularity, and we now have numerous stablecoin projects. Although the exact mechanisms vary from one coin to another, stablecoins are supposed to be somewhat resistant to market volatility, so they should not experience significant price changes.
 
 
 
-**Volatility**
+#### Testnet
+
+A testing network for a new coin, project, product or for potential improvements to an existing product or offering. Testnets \(e.g. Kovan Test Network\) are used to test the viability and vulnerability of new ideas, concepts, code, and processes prior to moving on to a production network or networks of some sort.
+
+
+
+#### **Volatility**
 
 Volatility describes how quickly and how much the price of an asset changes. It is usually calculated in terms of standard deviations in the annual return of an asset over a set period of time. Because it is a measure of the rapidity and degree of price changes, volatility is often used as an effective measure of the investment risk associated with an asset.
 
 
 
-**Yield Farming**
+#### **Yield Farming**
 
 Yield farming is the practice of staking or lending crypto assets in order to generate high returns or rewards in the form of additional cryptocurrency. Yield farming protocols incentivize liquidity providers to stake or lock up their crypto assets in a smart contract-based liquidity pool. These incentives can be a percentage of transaction fees, interest from lenders or a governance token. These returns are expressed as an annual percentage yield \(APY\). As more investors add funds to the related liquidity pool, the value of the issued returns rise in value. 
 
