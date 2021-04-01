@@ -98,6 +98,12 @@ Position tokens track the price change of an underlying asset \(i.e. long tokens
 
 
 
+#### Spread
+
+When an order is made on an exchange or market, the disagreement of the difference in price between potential buy and sell offers of an asset is called the spread. A wide spread in price can lead to higher slippage.
+
+
+
 **Stablecoin**
 
 A stablecoin is a type of cryptocurrency that is designed to maintain a stable market price. Recently, this type of digital currencies has grown in popularity, and we now have numerous stablecoin projects. Although the exact mechanisms vary from one coin to another, stablecoins are supposed to be somewhat resistant to market volatility, so they should not experience significant price changes.
