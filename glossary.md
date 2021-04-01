@@ -96,6 +96,16 @@ Within the blockchain context, an oracle is basically a data source that is used
 
 Position tokens track the price change of an underlying asset \(i.e. long tokens\) or the negative of that change \(i.e. short tokens\). Leverage is achieved by the token price being a fraction of the asset price. This leverage enables hedgers to manage their risk exposure at minimal cost.
 
+#### Slippage
+
+The Investopedia's definition says:
+
+> Slippage refers to the difference between the expected price of a trade and the price at which the trade is executed. Slippage can occur at any time but is most prevalent during periods of higher volatility when market orders are used. It can also occur when a large order is executed but there isn't enough volume at the chosen price to maintain the current bid/ask spread.
+
+Slippage refers to a situation in which a market participant receives a different trade execution price than intended: this phenomenon occurs when the bid/ask spread changes between the time a market order is requested and the time an exchange or other market maker executes the order. 
+
+Slippage occurs in all market venues, including equities, bonds, currencies and futures. 
+
 
 
 #### Spread
