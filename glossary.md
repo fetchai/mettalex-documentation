@@ -50,6 +50,12 @@ According with the Investopedia's definition:
 
 
 
+#### Gas Fees
+
+Gas fees are rewards paid to Proof Of Work miners to incentivize them to support the network's transactions which become written to the blockchain. In Ethereum, this gas fee unit amount is expressed in gwei. Operations to or from CEXs, DEXs Liquidity Pools and wallets all require gas fees. The amount of this gas fee will vary in cost depending on current supply and demand: when demand on Ethereum or an ERC-20 network is at its highest, these gas fees are at also their highest.
+
+
+
 #### **Governance Tokens** 
 
 Governance tokens \(MTLX\) are used to vote on system parameters such as choice of autonomous market makers to back with liquidity from the liquidity pool, borrowing rates from the liquidity pool, usage of exchange fees, etc. Governance tokens are minted at an exponentially decreasing rate to incentivise early liquidity providers in the system. Minted tokens are distributed in proportion to the amount of liquidity supplied to the system at each block. Some fraction of the exchange fees and autonomous market maker spreads is used to buy back MTLX and burn.
