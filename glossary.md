@@ -30,6 +30,12 @@ A collateral is something of value given as a guarantee to obtain something else
 
 
 
+#### **Crypto Wallet**
+
+These wallets store public and private keys allowing users to send, receive, and store tokens. The tokens reside on the blockchain and the wallet accesses them. \(See Web 3.0 Wallets\).
+
+
+
 #### **Decentralized Application \(DAPP\)**
 
 A computer program that utilizes a blockchain for data storage, runs autonomously, is not controlled or operated from a single entity, is open source and has its use incentivized by the reward of fees or tokens.
