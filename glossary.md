@@ -44,7 +44,7 @@ The standard to which each Ethereum token complies. It defines the way that each
 
 #### Fiat
 
-According with the Investopedia's definition:
+According to the Investopedia's definition:
 
 > Fiat money is a government-issued currency that is not backed by a physical commodity, such as gold or silver, but rather by the government that issued it. It usually requires fiat exchanged at a CEX or through local means such as Bitcoin ATMs to be able to purchase cryptocurrency with fiat currency.
 
