@@ -1,6 +1,6 @@
 # Glossary
 
-#### **Autonomous Market Makers** 
+#### **Autonomous Market Makers \(AMM\)**
 
 Each commodity token pair has an associated autonomous market maker that allows market participants to exit a position at any point without having to find a counterparty on the exchange. The autonomous market maker uses a liquidity sensitive algorithm with bounded loss to manage market risk. Autonomous market maker liquidity providers receive pool tokens that entitle them to a fraction of the fees and spread earned by the market maker.
 
@@ -30,7 +30,7 @@ A collateral is something of value given as a guarantee to obtain something else
 
 
 
-#### **Crypto Wallet**
+#### **Crypto wallet**
 
 These wallets store public and private keys allowing users to send, receive, and store tokens. The tokens reside on the blockchain and the wallet accesses them. \(See Web 3.0 Wallets\).
 
@@ -42,7 +42,13 @@ A computer program that utilizes a blockchain for data storage, runs autonomousl
 
 
 
-#### **ERC-20**
+#### **Deflationary token**
+
+Tokens are deflationary if a percentage is permanently removed from the marketplace over time. Buy ****backs and burns are a popular way of destroying tokens. This causes scarcity which hopefully makes the price rise.
+
+
+
+#### **ERC-20** 
 
 The standard to which each Ethereum token complies. It defines the way that each token behaves so that transactions are predictable. Other cryptocurrencies also use the ERC-20 standard, piggybacking on the Ethereum network in the process.
 
@@ -56,19 +62,19 @@ According to the Investopedia's definition:
 
 
 
-#### Gas Fees
+#### Gas fees
 
 Gas fees are rewards paid to Proof Of Work miners to incentivize them to support the network's transactions which become written to the blockchain. In Ethereum, this gas fee unit amount is expressed in gwei. Operations to or from CEXs, DEXs Liquidity Pools and wallets all require gas fees. The amount of this gas fee will vary in cost depending on current supply and demand: when demand on Ethereum or an ERC-20 network is at its highest, these gas fees are at also their highest.
 
 
 
-#### **Governance Tokens** 
+#### **Governance tokens** 
 
 Governance tokens \(MTLX\) are used to vote on system parameters such as choice of autonomous market makers to back with liquidity from the liquidity pool, borrowing rates from the liquidity pool, usage of exchange fees, etc. Governance tokens are minted at an exponentially decreasing rate to incentivise early liquidity providers in the system. Minted tokens are distributed in proportion to the amount of liquidity supplied to the system at each block. Some fraction of the exchange fees and autonomous market maker spreads is used to buy back MTLX and burn.
 
 
 
-#### **Liquidity Pool** 
+#### **Liquidity pool** 
 
 A liquidity pool is a decoupled provider of collateral to the autonomous market maker. Liquidity providers receive an aggregated return from all commodity market maker fees and spreads in exchange for providing collateral that the market makers can use to mint position tokens. In addition liquidity providers receive a pro-rata distribution of MTLX governance tokens based on the amount and duration of their participation in the liquidity pool.
 
