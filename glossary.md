@@ -30,6 +30,12 @@ A collateral is something of value given as a guarantee to obtain something else
 
 
 
+#### **Collateralization Ratio**
+
+To borrow tokens from a DeFi lending protocol, one must put up more collateral than the loan is worth. Each protocol can use different collateralization ratios. However, users must maintain the designated ratio to prevent liquidation \(See Liquidation Ratio\).  
+
+
+
 #### **Crypto wallet**
 
 These wallets store public and private keys allowing users to send, receive, and store tokens. The tokens reside on the blockchain and the wallet accesses them. \(See Web 3.0 Wallets\).
@@ -44,7 +50,7 @@ A computer program that utilizes a blockchain for data storage, runs autonomousl
 
 #### **Deflationary token**
 
-Tokens are deflationary if a percentage is permanently removed from the marketplace over time. Buy ****backs and burns are a popular way of destroying tokens. This causes scarcity which hopefully makes the price rise.
+Tokens are deflationary if a percentage is permanently removed from the marketplace over time. Buybacks and burns are a popular way of destroying tokens. This causes scarcity which hopefully makes the price rise.
 
 
 
@@ -80,6 +86,18 @@ Know Your Customer. KYC guidelines fit into the broader scope of Anti-Money Laun
 
 
 
+#### **Liquidation**
+
+Lliquidation is applied to borrowers. They can have their collateral liquidated if they don’t maintain the set collateralization ratio.
+
+
+
+#### **Liquidation Ratio**
+
+This is the level at which the collateralization ratio dips that can trigger a liquidation. 
+
+
+
 #### **Liquidity pool** 
 
 A liquidity pool is a decoupled provider of collateral to the autonomous market maker. Liquidity providers receive an aggregated return from all commodity market maker fees and spreads in exchange for providing collateral that the market makers can use to mint position tokens. In addition liquidity providers receive a pro-rata distribution of MTLX governance tokens based on the amount and duration of their participation in the liquidity pool.
@@ -92,25 +110,37 @@ A liquidity provider \(i.e. LP\) is a user who funds a liquidity pool with own c
 
 
 
+#### **Metamask**
+
+[Metamask](https://metamask.io/) is a popular Web 3.0 wallet used in DeFi. Other wallets you may hear about are the Coinbase Wallet and Argent.
+
+
+
+#### **Mettalex Smart Contract** 
+
+Each position token pair has an associated Mettalex smart contract that acts as a decentralized clearing house. Position tokens are minted in pairs of long and short tokens by locking up collateral in the Mettalex smart contract. Thereby,  position tokens are always fully collateralized, removing margin requirements and counterparty risk. At any stage a token holder can use the Mettalex smart contract to redeem the collateral backing a long and short token pair. The Mettalex smart contract is responsible for settling the position tokens if the underlying commodity index breaches the range \(i.e. Price Band\) specified at deployment of the Mettalex contract. 
+
+
+
 #### **Mining**
 
 Mining is the process through which cryptocurrency transactions are gathered, verified and recorded into a digital ledger known as blockchain. The work done by miners is essential for maintaining the integrity of the network and is also responsible for introducing new coins into the system.
 
 
 
-**Mettalex Smart Contract** 
-
-Each position token pair has an associated Mettalex smart contract that acts as a decentralized clearing house. Position tokens are minted in pairs of long and short tokens by locking up collateral in the Mettalex smart contract. Thereby,  position tokens are always fully collateralized, removing margin requirements and counterparty risk. At any stage a token holder can use the Mettalex smart contract to redeem the collateral backing a long and short token pair. The Mettalex smart contract is responsible for settling the position tokens if the underlying commodity index breaches the range \(i.e. Price Band\) specified at deployment of the Mettalex contract. 
-
-
-
-**Oracle**
+#### **Oracle**
 
 Within the blockchain context, an oracle is basically a data source that is used as a bridge between smart contracts and other external sources. More specifically, an oracle is an agent that not only communicates with external data sources but also verifies and authenticates that the data being provided is accurate. Thus, oracles are responsible for providing vital and reliable information to smart contracts, which in turn perform certain tasks.
 
 
 
-**Position tokens**
+#### **Over-Collateralization**
+
+Over-collateralization means that borrowers must put up more collateral than they borrow. This ensures that lenders don’t lose their funds should a borrower default \(See Collateralization Ratio\). 
+
+
+
+#### **Position tokens**
 
 Position tokens track the price change of an underlying asset \(i.e. long tokens\) or the negative of that change \(i.e. short tokens\). Leverage is achieved by the token price being a fraction of the asset price. This leverage enables hedgers to manage their risk exposure at minimal cost.
 
