@@ -74,6 +74,12 @@ Governance tokens \(MTLX\) are used to vote on system parameters such as choice 
 
 
 
+#### **KYC**
+
+Know Your Customer. KYC guidelines fit into the broader scope of Anti-Money Laundering \(AML\) policies in traditional finance. There is no KYC or AML in DeFi.
+
+
+
 #### **Liquidity pool** 
 
 A liquidity pool is a decoupled provider of collateral to the autonomous market maker. Liquidity providers receive an aggregated return from all commodity market maker fees and spreads in exchange for providing collateral that the market makers can use to mint position tokens. In addition liquidity providers receive a pro-rata distribution of MTLX governance tokens based on the amount and duration of their participation in the liquidity pool.
