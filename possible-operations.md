@@ -6,10 +6,9 @@ In order to access the Mettalex DEX platform, visit the following link: [https:/
 
 Note: remember that the available markets depend on the network you decide to use to interact with Mettalex DEX _****_\([markets-available-on-mettalex-dex-vega](markets-available-on-mettalex-dex-vega.md)\). If you opt for the Kovan Test Network you will be able to perform operations that consider as collateral USDT whereas the Binance Smart Chain Network will allow you to execute operations considering MUSD or BUSD collateral. 
 
-_**\(BUSD TRADING IS IN BETA. USE WITH CAUTION! NOT FOR USE BY U.S. INDIVIDUALS!\)**_
+           _**\(BUSD TRADING IS IN BETA. USE WITH CAUTION! NOT FOR USE BY U.S. INDIVIDUALS!\)**_
 
-When entering Mettalex DEX, you can access one of the following possible sections:  
-
+When entering Mettalex DEX, you can access one of the following possible sections:
 
 1. **TRADE**
 2. **ACCESS ACCOUNT**
