@@ -18,7 +18,7 @@ Position tokens are a disruptive technology equipped with _various properties_, 
 * No fixed expiry date so holders do not need to rollover their positions as token expiry reaches;
 * These allow holders to open a leveraged position \(i.e. in this case, the ratio between the price of L tokens and S tokens will differ from the spot price available on the market\).
 
-  These tokens do not require the entire value of the collateral to be locked up in a smart contract: it means that contracts of much larger sizes can be traded with fewer collateral requirements on Mettalex. 
+These tokens do not require the entire value of the collateral to be locked up in a smart contract: it means that contracts of much larger sizes can be traded with fewer collateral requirements on Mettalex. 
 
 Let’s consider the following example:
 
