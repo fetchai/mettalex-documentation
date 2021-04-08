@@ -78,7 +78,7 @@ The LPs in Mettalex work differently to other crypto based LPs like Uniswap. In 
 
 #### **Why is Mettalex better/different than other decentralized derivatives markets in crypto**
 
-Unlike other decentralized derivatives platforms, Mettalex is mainly focused on token-based commodities derivatives and spreads. As such, speculators in the crypto space can get exposure to trading pairs unavailable on other decentralized markets. Other noteworthy Mettallex DEX advantages include:
+Unlike other decentralized derivatives platforms, Mettalex is mainly focused on token-based commodities derivatives and spreads. As such, speculators in the crypto space can get exposure to trading pairs unavailable on other decentralized markets. Other noteworthy Mettalex DEX advantages include:
 
 * Mettalex lowers market-entry barriers for physical asset holders and provides them with cost-efficient hedging tools;
 * Trading on Mettalex is less risky since trades are capped in fixed trading ranges per commodity;
