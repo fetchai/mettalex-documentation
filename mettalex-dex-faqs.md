@@ -74,11 +74,11 @@ Liquidity providers expose themselves to timing risk when providing liquidity to
 
 #### **Am I subject to impermanent loss when providing liquidity?**
 
-The LPs in Mettalex work differently to other crypto based LPs like Uniswap. In Mettalex liquidity is provided in a single token and not as a ratio of multiple tokens. Also, the liquidity is provided using stable coins \(e.g.  USDT/USDC\) which reduces the risk of volatility. The stable coins are then used as a collateral to issue position tokens whose combined value is always equal to the collateral value. Whereas there is always a risk of loss in supplying liquidity to pools, in Mettalex LPs due to lower volatility of the underlying assets and provision of liquidity in stablecoins, the risk of impermanent loss is very low.
+The LPs in Mettalex work differently to other crypto based LPs like Uniswap. In Mettalex liquidity is provided in a single token and not as a ratio of multiple tokens. Also, the liquidity is provided using stable coins \(e.g.  USDT, BUSD\) which reduces the risk of volatility. The stable coins are then used as a collateral to issue position tokens whose combined value is always equal to the collateral value. Whereas there is always a risk of loss in supplying liquidity to pools, in Mettalex LPs due to lower volatility of the underlying assets and provision of liquidity in stablecoins, the risk of impermanent loss is very low.
 
 #### **Why is Mettalex better/different than other decentralized derivatives markets in crypto**
 
-Unlike other decentralized derivatives platforms, Mettalex is mainly focused on token-based commodities derivatives and spreads. As such, speculators in the crypto space can get exposure to trading pairs unavailable on other decentralized markets. Other noteworthy Mettalex advantages include:
+Unlike other decentralized derivatives platforms, Mettalex is mainly focused on token-based commodities derivatives and spreads. As such, speculators in the crypto space can get exposure to trading pairs unavailable on other decentralized markets. Other noteworthy Mettallex DEX advantages include:
 
 * Mettalex lowers market-entry barriers for physical asset holders and provides them with cost-efficient hedging tools;
 * Trading on Mettalex is less risky since trades are capped in fixed trading ranges per commodity;
