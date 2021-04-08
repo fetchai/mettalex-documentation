@@ -34,7 +34,7 @@ The Redeem function takes a pair of Long and Short position tokens and redeems t
 
 #### **Why do you need Mint and Redeem?**
 
-Mint and Redeem guarantees that liquidity can always be supplied to the system, by minting new long and short pairs, and that a pair of long and short tokens has a known value. They provide a mechanism for arbitrageurs to generate profits in times when the total price of a pair of long and short position tokens is either below or above the reference price provided by the oracle. Through these incentivised actions, the arbitrageurs perform valuable liquidity balancing services for the Mettalex platform.
+Mint and Redeem guarantees that liquidity can always be supplied to the system, by minting new long and short pairs, and that a pair of long and short tokens has a known value. They provide a mechanism for arbitrageurs to generate profits in times when the total price of a pair of long and short position tokens is either below or above the reference price provided by the oracle. Through these incentivised actions, the arbitrageurs perform valuable liquidity balancing services for the Mettalex DEX platform.
 
 #### **How can Market Makers get involved?**
 
@@ -46,7 +46,7 @@ Market makers can use the Mettalex system in a number of ways:
 
 #### **What is the role of arbitrageurs?**
 
-Arbitrageurs keep the weighted price of the commodity as perceived by the Mettalex Autonomous Market Maker in line with the price on reference exchanges
+Arbitrageurs keep the weighted price of the commodity as perceived by the Mettalex Autonomous Market Maker in line with the price on reference exchanges.
 
 #### **What is liquidity provision?**
 
