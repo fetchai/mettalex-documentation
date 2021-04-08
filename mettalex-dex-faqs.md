@@ -108,7 +108,7 @@ The overall trading spread is a combination of the trading fees calculated as a 
 
 Trading fees are used to pay data providers and buy back MTLX governance tokens and FET tokens.
 
-#### **How does the Mettalex autonomous market maker differ from other AMMs such as Uniswap or Balancer?**
+#### **How does the Mettalex Autonomous Market Maker differ from other AMMs such as Uniswap or Balancer?**
 
 The Mettalex AMM is a pluggable component of the system that can be upgraded as new algorithms or blockchain capabilities become available.  The roadmap has the AMM moving to the Fetch.ai blockchain to take advantage of on-chain machine learning capabilities.
 
@@ -116,7 +116,7 @@ The initial Ethereum implementation of the AMM is based around each commodity ha
 
 #### **Do liquidity providers have to supply a mix of tokens?**
 
-No, liquidity providers only need to supply stablecoin \(e.g. USDT, BUSD, MUSD**\)** collateral to the Mettalex system \(the stablecoin collateral will depend on the type of network the user decides to use to connect to the platform\).  The strategy uses the Mettalex vault to convert a portion of the supplied stablecoin into position token pairs.
+No, liquidity providers only need to supply stablecoin \(e.g. USDT, BUSD, MUSD**\)** collateral to the Mettalex system \(the stablecoin collateral will depend on the type of network the user decides to use to connect to the platform\) in accordance with the network they use to connect to the DEX.  The strategy uses the Mettalex vault to convert a portion of the supplied stablecoin into position token pairs.
 
 #### **How is slippage controlled?**
 
