@@ -32,7 +32,7 @@ A collateral is something of value given as a guarantee to obtain something else
 
 #### **Collateralization Ratio**
 
-To borrow tokens from a DeFi lending protocol, one must put up more collateral than the loan is worth. Each protocol can use different collateralization ratios. However, users must maintain the designated ratio to prevent liquidation \(See Liquidation Ratio\).  
+To borrow tokens from a DeFi protocol, one must put up more collateral than the loan is worth. Each protocol can use different collateralization ratios. However, users must maintain the designated ratio to prevent liquidation \(See Liquidation Ratio\).  
 
 
 
@@ -88,7 +88,7 @@ Know Your Customer. KYC guidelines fit into the broader scope of Anti-Money Laun
 
 #### **Liquidation**
 
-Lliquidation is applied to borrowers. They can have their collateral liquidated if they don’t maintain the set collateralization ratio.
+Liquidation is applied to borrowers. They can have their collateral liquidated if they don’t maintain the set collateralization ratio.
 
 
 
