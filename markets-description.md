@@ -25,7 +25,7 @@ Furthermore, aluminium can be easily recycled and traded as scrap metal. When re
 **How to trade?**\*
 
 * Buy the ALLONG token if you believe that demand for aluminium will increase as a consequence of a higher demand from the industrial sector after the pandemic;
-* Buy the ALSHORT token if you think demand for this material will shrink due to a lack of major new infrastructure projects development 
+* Buy the ALSHORT token if you think demand for this material will shrink due to a lower demand for industrial applications  and infrastructures;
 
 To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
 
@@ -33,16 +33,14 @@ To learn how to buy/sell long or short position tokens, [watch this short video]
 
 **Settlement**
 
-You can sell your CULONG or CUSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+You can sell your ALLONG or ALSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
 
-* If you hold CULONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the CULONG token \(in red letters\);
-* Alternatively, If you hold CUSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the CUSHORT tokens.
+* If you hold ALLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the ALLONG token \(in red letters\);
+* Alternatively, If you hold ALSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the ALSHORT tokens.
 
-**Oracle source: London Metal Exchange \(LME\)**
+**Oracle source: DAVIS INDEX**
 
-**Network: ETHEREUM** 
-
-\*\*\*\*
+**Network: ETHEREUM**
 
 #### \*\*\*\*
 
