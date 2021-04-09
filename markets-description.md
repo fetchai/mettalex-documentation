@@ -12,11 +12,35 @@ The markets available on Mettalex Vega are divided into the following 3 categori
 
 #### **ALUMINIUM**
 
-Aluminium is a very flexible, light-weight, and strong metal which can be counted to the base metals or non-ferrous metals. As a physical commodity, aluminium is traded as raw material, unfinished, semi-finished or finished product and as scrap metal**.** Aluminium is obtained from grinding raw material bauxite to extract and refine the contained aluminium oxide \(alumina\) which is further processed into liquid aluminium \(molten aluminium\) by adding carbon and electricity. The molten aluminium is casted into different shapes and can be further rolled, extruded or re-melted.
+Aluminium is a very flexible, light-weight, and strong metal which can be counted to the base metals or non-ferrous metals. As a physical commodity, aluminium is traded as raw material, unfinished, semi-finished or finished product and as scrap metal**.** Aluminium is obtained from grinding raw material bauxite to extract and refine the contained aluminium oxide \(i.e. alumina\) which is further processed into liquid aluminium \(i.e. molten aluminium\) by adding carbon and electricity. The molten aluminium is casted into different shapes and can be further rolled, extruded or re-melted. Aluminium can be used for the following 3 applications:
 
-\*\*\*\*
+* Castings
+* Extrusions
+* Production of hot/cold rolled products
 
-\*\*\*\*
+Casting products include logs, billets \(extrusion ingots\), slabs for rolling , high purity ingots, T-ingots \(T-bars\), wire rods, and primary foundry alloys.  Commonly, castings are used in the automotive, aviation, buildings and construction, cable, electrical, and packaging industries. While castings can be also referred to as upstream aluminium products, extrusions and rolled aluminium applications are more downstream in the production line. Semi-finished extrusion products include bars, profiles, and tubes and they are produced for the automotive, building and construction, engineering, and transportation industry. Rolled aluminium products can be traded for instance as coils, foil, plates, shates, sheets, and strips. These are applications used in various industries including automotive, building and construction, engineering, food, marine, packaging, printing, and transportation.
+
+Furthermore, aluminium can be easily recycled and traded as scrap metal. When recycling aluminium applications, they can be completely re-shaped into any product.
+
+**How to trade?**\*
+
+* Buy the ALLONG token if you believe that demand for aluminium will increase as a consequence of a higher demand from the industrial sector after the pandemic;
+* Buy the ALSHORT token if you think demand for this material will shrink due to a lack of major new infrastructure projects development 
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice.  ****
+
+**Settlement**
+
+You can sell your CULONG or CUSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold CULONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the CULONG token \(in red letters\);
+* Alternatively, If you hold CUSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the CUSHORT tokens.
+
+**Oracle source: London Metal Exchange \(LME\)**
+
+**Network: ETHEREUM** 
 
 \*\*\*\*
 
