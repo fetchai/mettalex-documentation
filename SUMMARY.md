@@ -6,6 +6,7 @@
 * [Markets Available on Mettalex DEX Vega](markets-available-on-mettalex-dex-vega.md)
 * [Markets description](markets-description.md)
 * [Possible operations](possible-operations.md)
+* [Mettalex SDK](mettalex-sdk.md)
 * [Exchange UI](exchange-ui.md)
 * [Risks and benefits](overall-risks-and-benefits.md)
 * [Glossary](glossary.md)
