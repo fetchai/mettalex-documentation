@@ -1,6 +1,6 @@
 # Glossary
 
-#### **Autonomous Market Makers \(AMM\)**
+#### **Autonomous Market Maker \(AMM\)**
 
 Each commodity token pair has an associated autonomous market maker that allows market participants to exit a position at any point without having to find a counterparty on the exchange. The autonomous market maker uses a liquidity sensitive algorithm with bounded loss to manage market risk. Autonomous market maker liquidity providers receive pool tokens that entitle them to a fraction of the fees and spread earned by the market maker.
 
