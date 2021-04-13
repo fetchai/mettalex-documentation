@@ -56,7 +56,5 @@ In conclusion, as we can see in _Table 2_, Mettalex DEX comprehends three differ
 * **LPs pool**: LP supplies coin to earn a return return from trading fees \(i.e. Liquidity Provision Layer\);
 * **AMM pool**: AMM that contains a mix of stable coin in addition to  L and S tokens. The liquidity contained in the AMM pool is for traders to swap between each other \(i.e. Exchange Layer\).
 
-
-
 **Note**: For more information on the available markets on Mettalex DEX, visit the "[Markets Available on Mettalex DEX Vega](markets-available-on-mettalex-dex-vega.md)" or the "[Mettalex DEX - FAQs](mettalex-dex-faqs.md)" sections.
 
