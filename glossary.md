@@ -1,6 +1,6 @@
 # Glossary
 
-#### **Autonomous Market Maker \(AMM\)**
+#### **Autonomous Market Makers \(AMM\)**
 
 Each commodity token pair has an associated autonomous market maker that allows market participants to exit a position at any point without having to find a counterparty on the exchange. The autonomous market maker uses a liquidity sensitive algorithm with bounded loss to manage market risk. Autonomous market maker liquidity providers receive pool tokens that entitle them to a fraction of the fees and spread earned by the market maker.
 
@@ -167,14 +167,6 @@ When an order is made on an exchange or market, the disagreement of the differen
 #### **Stablecoin**
 
 A stablecoin is a type of cryptocurrency that is designed to maintain a stable market price. Recently, this type of digital currencies has grown in popularity, and we now have numerous stablecoin projects. Although the exact mechanisms vary from one coin to another, stablecoins are supposed to be somewhat resistant to market volatility, so they should not experience significant price changes.
-
-
-
-#### Timing risk
-
-According to Investopedia's definition:
-
-> Timing risk is the speculation that an investor enters into when trying to buy or sell an asset based on future price predictions. Timing risk explains the potential for missing out on beneficial movements in price due to an error in timing.
 
 
 
