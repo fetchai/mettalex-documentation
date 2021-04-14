@@ -572,7 +572,7 @@ You can sell your BTC tokens to Mettalex's Autonomous Market Maker at any time b
 
 \*\*\*\*
 
-**ETH**
+**ETHEREUM** 
 
 Ether is the world’s second-largest virtual currency by market capitalization. It is the transactional token that facilitates operations on the Ethereum network. The initiation of transactions and execution of smart contracts on Ethereum require computing power provided by Ethereum nodes. For their computational work, nodes are compensated in ether. As such, ether is considered as the unit of account for all operations performed by the Ethereum and could be perceived as the network’s fuel.
 
