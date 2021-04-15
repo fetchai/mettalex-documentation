@@ -110,6 +110,8 @@ Liquidity providers expose themselves to timing risk when providing liquidity to
 
 The LPs in Mettalex work differently to other crypto based LPs like Uniswap. In Mettalex liquidity is provided in a single token and not as a ratio of multiple tokens. Also, the liquidity is provided using stable coins \(e.g.  USDT, BUSD\) which reduces the risk of volatility. The stable coins are then used as a collateral to issue position tokens whose combined value is always equal to the collateral value. Whereas there is always a risk of loss in supplying liquidity to pools, in Mettalex LPs due to lower volatility of the underlying assets and provision of liquidity in stablecoins, the risk of impermanent loss is very low.
 
+
+
 #### **Why is Mettalex better/different than other decentralized derivatives markets in crypto**
 
 Unlike other decentralized derivatives platforms, Mettalex is mainly focused on token-based commodities derivatives and spreads. As such, speculators in the crypto space can get exposure to trading pairs unavailable on other decentralized markets. Other noteworthy Mettalex DEX advantages include:
@@ -122,13 +124,19 @@ Unlike other decentralized derivatives platforms, Mettalex is mainly focused on 
 * Since system collateral is mainly composed of USDT and other stable coins, Mettalex is much more capital-efficient than other solutions that rely on highly volatile assets;
 * Yields for stablecoin liquidity providers are very competitive in comparison to those available in other markets without the impermanent loss. Yield is composed of trading fees and governance tokens \(MTLX\) distribution.
 
+
+
 **How is the current price of a commodity determined in Mettalex?**
 
 Commodity price is acquired by multiple methods which include oracles \(e.g. chainlink\), direct integration with index providers \(e.g. S&P\) and aggregator services like Refinitiv \(e.g. Reuters\).
 
+
+
 #### **How are AMM spreads \(between a short and long position\) calculated?**
 
 Spreads take into account the price of the reference asset within the trading range, combined with an offset based on trade imbalance between long and short tokens.
+
+
 
 #### **How is the APY for each Vault calculated?**
 
@@ -138,9 +146,13 @@ The APY is reported as the trailing one week annualized return of current vault 
 
 The overall trading spread is a combination of the trading fees calculated as a commodity-dependent percentage of the trade value plus slippage dependent on the amount of available liquidity in the autonomous market maker. 
 
+
+
 #### **What are trading fees used for?**
 
 Trading fees are used to pay data providers and buy back MTLX governance tokens and FET tokens.
+
+
 
 #### **How does the Mettalex Autonomous Market Maker differ from other AMMs such as Uniswap or Balancer?**
 
@@ -148,13 +160,19 @@ The Mettalex AMM is a pluggable component of the system that can be upgraded as 
 
 The initial Ethereum implementation of the AMM is based around each commodity having a private Balancer pool containing a mix of USDT, Long and Short tokens. This pool is controlled by a separate strategy smart contract that responds to trading activity and price updates.
 
+
+
 #### **Do liquidity providers have to supply a mix of tokens?**
 
 No, liquidity providers only need to supply stablecoin \(e.g. USDT, BUSD, MUSD**\)** collateral to the Mettalex system \(the stablecoin collateral will depend on the type of network the user decides to use to connect to the platform\) in accordance with the network they use to connect to the DEX.  The strategy uses the Mettalex vault to convert a portion of the supplied stablecoin into position token pairs.
 
+
+
 #### **How is slippage controlled?**
 
 Each time liquidity is added the AMM rebalances by minting or redeeming position token pairs to keep the ratio of USDT  to paired long and short tokens at around 1:1.
+
+
 
 #### **How do the position token prices respond to trading activity?**
 
@@ -162,9 +180,11 @@ Each time a position token is bought from or sold to the AMM the weights are upd
 
 ![](https://lh3.googleusercontent.com/6Chykpk-z9gGlF9cOrdTrzTkIp5Wyz1e0Ss-uvzPwfwUtlKxD2p_KBgFcwgah6rEcSSuNCs-T_55X_v2uS3lc773skC8raIYmRDNDNKjjaf75LQj7mQc8ogogluiVfw0C9-rcoAi)
 
-_**Left Table**_: ****AMM balance after trade of varying size for coin buying long tokens
+_**Left Table**_: ****AMM balance after trade of varying size for coin buying long tokens.
 
 _**Right Table**_: ****Resulting prices of position tokens after trade, their sum \(stays equal to underlying collateral price\), and average price per token paid by trader.
+
+
 
 #### **How do the position token prices respond to the reference price?**
 
