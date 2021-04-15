@@ -10,6 +10,8 @@ The markets available on Mettalex Vega are divided into the following 3 categori
 
 ### **1.  COMMODITIES** 
 
+\*\*\*\*
+
 #### **ALUMINIUM**
 
 Aluminium is a very flexible, light-weight, and strong metal which can be counted to the base metals or non-ferrous metals. As a physical commodity, aluminium is traded as raw material, unfinished, semi-finished or finished product and as scrap metal**.** Aluminium is obtained from grinding raw material bauxite to extract and refine the contained aluminium oxide \(i.e. alumina\) which is further processed into liquid aluminium \(i.e. molten aluminium\) by adding carbon and electricity. The molten aluminium is casted into different shapes and can be further rolled, extruded or re-melted. Aluminium can be used for the following 3 applications:
@@ -353,6 +355,8 @@ You can sell your XAGLONG or XAGSHORT tokens to Mettalex’s Autonomous Market M
 
 ### **2.  SPREADS**
 
+\*\*\*\*
+
 #### **BTC/ETH spread**
 
 The perfect market to trade on if you want to have exposure to Bitcoin or Ether’s market dominance against each other. 
@@ -546,6 +550,8 @@ You can sell your SDEFISCEXL or SDEFISCEXS tokens to Mettalex’s Autonomous Mar
 
 ### **3. CRYPTO CURRENCIES**
 
+\*\*\*\*
+
 **BITCOIN**
 
 Bitcoin is the first cryptocurrency, created in January 2009. It is the most popular decentralized currency and the largest one by market capitalization. Unlike fiat currency, bitcoin is created, distributed, and stored in a decentralized ledger, known as a blockchain. It is limited to 21,000,000 units and its inflation rate is fully predictable.
@@ -572,7 +578,7 @@ You can sell your BTC tokens to Mettalex's Autonomous Market Maker at any time b
 
 \*\*\*\*
 
-**ETHEREUM** 
+**ETH**
 
 Ether is the world’s second-largest virtual currency by market capitalization. It is the transactional token that facilitates operations on the Ethereum network. The initiation of transactions and execution of smart contracts on Ethereum require computing power provided by Ethereum nodes. For their computational work, nodes are compensated in ether. As such, ether is considered as the unit of account for all operations performed by the Ethereum and could be perceived as the network’s fuel.
 
@@ -599,6 +605,8 @@ You can sell your ETHLONG or ETHSHORT tokens to Mettalex's Autonomous Market Mak
 \*\*\*\*
 
 ### **4.  FOREX AND INDICES**
+
+\*\*\*\*
 
 #### **FTSE**
 
