@@ -46,9 +46,13 @@ The Mint function takes collateral tokens and creates a pair of Long and Short p
 
 The Redeem function takes a pair of Long and Short position tokens and redeems them for the collateral backing the pair of tokens.  The collateral is retrieved from the Vault contract and the pair of tokens burnt.
 
+
+
 #### **Why do you need Mint and Redeem?**
 
 Mint and Redeem guarantees that liquidity can always be supplied to the system, by minting new long and short pairs, and that a pair of long and short tokens has a known value. They provide a mechanism for arbitrageurs to generate profits in times when the total price of a pair of long and short position tokens is either below or above the reference price provided by the oracle. Through these incentivised actions, the arbitrageurs perform valuable liquidity balancing services for the Mettalex DEX platform.
+
+
 
 #### **How can Market Makers get involved?**
 
@@ -58,33 +62,49 @@ Market makers can use the Mettalex system in a number of ways:
 * Mint pairs of Long and Short tokens then make markets on a central limit order book exchange;
 * Buy and sell position tokens against the Mettalex Autonomous Market Maker to reduce slippage**.**
 
+\*\*\*\*
+
 #### **What is the role of arbitrageurs?**
 
 Arbitrageurs keep the weighted price of the commodity as perceived by the Mettalex Autonomous Market Maker in line with the price on reference exchanges.
+
+
 
 #### **What is liquidity provision?**
 
 Liquidity providing represents a very important and necessary operation. The liquidity collected supports Mettalex throughout all market making processes that need to take place. 
 
+
+
 #### **Why do we need liquidity?**
 
 The Mettalex decoupled LPs pool works as a decoupled liquidity pool whose role is to guarantee the provisioning of liquidity to the Mettalex Autonomous Market Maker so minimizing the timing risk of any impermanent losses it is exposed to.
+
+
 
 #### **How do I provide liquidity to different markets?**
 
 Traders are able to provide liquidity by using the Mettalex smart contract to mint L/S token pairs or use it to redeem a paired position in long and short tokens to reclaim the backing collateral.
 
+
+
 #### **How can I earn from providing liquidity?**
 
 Sources who provide the system with liquidity receive an aggregate return on maker fees and market spreads. Liquidity Providers are rewarded with a further aggregated yield on the capital invested via transaction fees and trading spreads between prices according to the amount and duration of liquidity supplied into the system.
 
+
+
 #### **What APY from trading fees can I earn by providing liquidity?**
 
-This depends on the market and the demand of trading on a particular market.The AMM spread and fees range from 0.25%-3% of transaction value based on demand. Average APY would vary from 5-25%
+This depends on the market and the demand of trading on a particular market.The AMM spread and fees range from 0.25%-3% of transaction value based on demand. Average APY would vary from 5-25%.
+
+
 
 #### **What are the risks of providing liquidity?**
 
 Liquidity providers expose themselves to timing risk when providing liquidity to the Autonomous Market Maker. In regular circumstances, liquidity suppliers have the opportunity to exit the system in times of high demand. This provides them with an opportunity to recoup capital before re-engaging with the system. However, in periods where need for liquidity is high, they may be required to wait a short period in order for a baseline level of liquidity to be reached. This is not only to make sure the system remains afloat, but also to protect the investment they have made into the exchange. 
+
+
 
 #### **Am I subject to impermanent loss when providing liquidity?**
 
