@@ -4,29 +4,43 @@
 
 Position tokens allow linear exposure to the underlying asset price movements, with capped exposure.  They are similar to futures contracts but with fixed margin requirements.
 
+
+
 #### **What does Floor and Cap mean?**
 
 Floor and cap define the trading range for position tokens.  If the trading range is breached the tokens automatically settle.  
+
+
 
 #### **What happens if you breach the floor or cap?**
 
 If the spot price breaches the band, Long/Short token pairs will be settled automatically and the collateral will be distributed back to the token holders. Mettalex smart contract performs settlement and clearing of the position tokens, with one of the L or S tokens having the full value of the underlying collateral and the other being worthless. The new weighted spot price will initialise the smart contract around the new price value with the new trading band and trading resumes as normal.
 
-#### **Why is it a DEX / What is a DEX?**
+
+
+#### **Why is it a DEX / What is a DEX**
 
 A DEX is a Decentralized Exchange where there is no central organization holding user funds.  Trades are handled automatically by blockchain smart contracts and user wallets.  In the Mettalex system the DEX uses an on-chain Autonomous Market Maker to handle trades. There is no counterparty and/or counterparty risk.
+
+
 
 #### **Is it like OTC?**
 
 It is like OTC in that a participant can always go to the Autonomous Market Maker to get the desired exposure for a fair price. It differs from OTC in that the position tokens are tradeable independently, and not fixed contractual obligations with an OTC desk.
 
+
+
 #### **How does the price of long and short position tokens change?**
 
 Within the trading range the long token price varies linearly from 0 at the floor to the full collateral value at the cap, and conversely for the short token.
 
+
+
 #### **What is Mint function?**
 
 The Mint function takes collateral tokens and creates a pair of Long and Short position tokens backed by that collateral.  The collateral is deposited in an on-chain Vault contract.
+
+
 
 #### **What is Redeem?**
 
