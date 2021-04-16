@@ -6,7 +6,7 @@ description: (Mettalex DEX Vega release)
 
 ## **MARKETS**
 
-The markets available on Mettalex Vega are divided into the following 3 categories:
+The markets available on Mettalex DEX Vega are divided into the following 3 categories:
 
 ### **1.  COMMODITIES** 
 
