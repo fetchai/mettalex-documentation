@@ -4,7 +4,7 @@
 
 Access the world’s first DEX focused on token based commodities trading using this SDK. Accessible 24/7 with tight trading spreads, low margin requirements and unique hedge instruments that ensure you don’t get liquidated prior to settlement dates.
 
-### Prerequisites
+### Pre requisites
 
 This package is designed for python 3. While using pip, pip should be configured for python3.
 

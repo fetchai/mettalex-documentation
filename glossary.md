@@ -1,6 +1,6 @@
 # Glossary
 
-#### **Autonomous Market Makers \(AMM\)**
+#### **Autonomous Market Maker \(AMM\)**
 
 Each commodity token pair has an associated autonomous market maker that allows market participants to exit a position at any point without having to find a counterparty on the exchange. The autonomous market maker uses a liquidity sensitive algorithm with bounded loss to manage market risk. Autonomous market maker liquidity providers receive pool tokens that entitle them to a fraction of the fees and spread earned by the market maker.
 
@@ -56,7 +56,7 @@ Tokens are deflationary if a percentage is permanently removed from the marketpl
 
 #### **ERC-20** 
 
-The standard to which each Ethereum token complies. It defines the way that each token behaves so that transactions are predictable. Other cryptocurrencies also use the ERC-20 standard, piggybacking on the Ethereum network in the process.
+It is the standard to which each Ethereum token complies. This standard defines the way each token behaves so that transactions are predictable. Other cryptocurrencies also use the ERC-20 standard, piggybacking on the Ethereum network in the process.
 
 
 
@@ -70,11 +70,11 @@ According to the Investopedia's definition:
 
 #### Gas fees
 
-Gas fees are rewards paid to Proof Of Work miners to incentivize them to support the network's transactions which become written to the blockchain. In Ethereum, this gas fee unit amount is expressed in gwei. Operations to or from CEXs, DEXs Liquidity Pools and wallets all require gas fees. The amount of this gas fee will vary in cost depending on current supply and demand: when demand on Ethereum or an ERC-20 network is at its highest, these gas fees are at also their highest.
+Gas fees are rewards paid to  miners to incentivize them to support the network's transactions which become written to the blockchain. On the Ethereum network this gas fee unit amount is expressed in gwei. Operations to or from CEXs, DEXs Liquidity Pools and wallets require gas fees. The cost users incur  due to gas fees will vary depending on the current supply and demand: when demand on Ethereum or an ERC-20 network is at its highest, these gas fees are at also their highest.
 
 
 
-#### **Governance tokens** 
+#### **Governance tokens \(MTLX\)**
 
 Governance tokens \(MTLX\) are used to vote on system parameters such as choice of autonomous market makers to back with liquidity from the liquidity pool, borrowing rates from the liquidity pool, usage of exchange fees, etc. Governance tokens are minted at an exponentially decreasing rate to incentivise early liquidity providers in the system. Minted tokens are distributed in proportion to the amount of liquidity supplied to the system at each block. Some fraction of the exchange fees and autonomous market maker spreads is used to buy back MTLX and burn.
 
@@ -88,7 +88,7 @@ Know Your Customer. KYC guidelines fit into the broader scope of Anti-Money Laun
 
 #### **Liquidation**
 
-Liquidation is applied to borrowers. They can have their collateral liquidated if they don’t maintain the set collateralization ratio.
+Liquidation is applied to borrowers. They can have their collateral liquidated if they do not maintain the set collateralization ratio.
 
 
 
@@ -112,7 +112,7 @@ A liquidity provider \(i.e. LP\) is a user who funds a liquidity pool with own c
 
 #### **Metamask**
 
-[Metamask](https://metamask.io/) is a popular Web 3.0 wallet used in DeFi. Other wallets you may hear about are the Coinbase Wallet and Argent.
+[Metamask](https://metamask.io/) is a popular Web 3.0 wallet used in DeFi. Other wallets you may hear about are the Binance Wallet and Torus.
 
 
 
@@ -130,7 +130,7 @@ Mining is the process through which cryptocurrency transactions are gathered, ve
 
 #### **Oracle**
 
-Within the blockchain context, an oracle is basically a data source that is used as a bridge between smart contracts and other external sources. More specifically, an oracle is an agent that not only communicates with external data sources but also verifies and authenticates that the data being provided is accurate. Thus, oracles are responsible for providing vital and reliable information to smart contracts, which in turn perform certain tasks.
+Within the blockchain context, an oracle is a data source used as a bridge between smart contracts and other external sources. More specifically, an oracle is an agent that not only communicates with external data sources but also verifies and authenticates that the data being provided is accurate. Thus, oracles are responsible for providing vital and reliable information to smart contracts, which in turn perform certain tasks.
 
 
 
@@ -152,8 +152,6 @@ The Investopedia's definition says:
 
 > Slippage refers to the difference between the expected price of a trade and the price at which the trade is executed. Slippage can occur at any time but is most prevalent during periods of higher volatility when market orders are used. It can also occur when a large order is executed but there isn't enough volume at the chosen price to maintain the current bid/ask spread.
 
-Slippage refers to a situation in which a market participant receives a different trade execution price than intended: this phenomenon occurs when the bid/ask spread changes between the time a market order is requested and the time an exchange or other market maker executes the order. 
-
 Slippage occurs in all market venues, including equities, bonds, currencies and futures. 
 
 
@@ -170,9 +168,17 @@ A stablecoin is a type of cryptocurrency that is designed to maintain a stable m
 
 
 
+#### Timing risk
+
+According to Investopedia's definition:
+
+> Timing risk is the speculation that an investor enters into when trying to buy or sell an asset based on future price predictions. Timing risk explains the potential for missing out on beneficial movements in price due to an error in timing.
+
+
+
 #### Testnet
 
-A testing network for a new coin, project, product or for potential improvements to an existing product or offering. Testnets \(e.g. Kovan Test Network\) are used to test the viability and vulnerability of new ideas, concepts, code, and processes prior to moving on to a production network or networks of some sort.
+A testing network for a new coin, project, product or for potential improvements to an existing product or offering. Testnets \(e.g. Kovan Test Network\) are used to test the viability and vulnerability of new ideas, concepts, code, and processes prior to moving on to a production network.
 
 
 
@@ -184,5 +190,5 @@ Volatility describes how quickly and how much the price of an asset changes. It 
 
 #### **Yield Farming**
 
-Yield farming is the practice of staking or lending crypto assets in order to generate high returns or rewards in the form of additional cryptocurrency. Yield farming protocols incentivize liquidity providers to stake or lock up their crypto assets in a smart contract-based liquidity pool. These incentives can be a percentage of transaction fees, interest from lenders or a governance token. These returns are expressed as an annual percentage yield \(APY\). As more investors add funds to the related liquidity pool, the value of the issued returns rise in value. 
+Yield farming is the practice of staking or lending crypto assets in order to generate high returns or rewards in the form of additional cryptocurrency. Yield farming protocols incentivize liquidity providers to stake or lock up their crypto assets in a smart contract-based liquidity pool. These incentives can be a percentage of transaction fees or a governance token. These returns are expressed as an annual percentage yield \(APY\). As more investors add funds to the related liquidity pool, the value of the issued returns rise in value. 
 
