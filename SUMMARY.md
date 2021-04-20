@@ -7,6 +7,7 @@
 * [Markets description](markets-description.md)
 * [Possible operations](possible-operations.md)
 * [Mettalex SDK](mettalex-sdk.md)
+* [Fetch.ai’s Stop-Loss agent for DeFi Liquidity Providers](fetch.ais-stop-loss-agent-for-defi-liquidity-providers.md)
 * [Exchange UI](exchange-ui.md)
 * [Risks and benefits](overall-risks-and-benefits.md)
 * [Glossary](glossary.md)
