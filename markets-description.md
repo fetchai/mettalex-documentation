@@ -369,6 +369,39 @@ You can sell your ZNLONG or ZNSHORT tokens to Mettalex’s Autonomous Market Mak
 
 \*\*\*\*
 
+\*\*\*\*
+
+#### **AAVE/COMP spread**
+
+Aave is a decentralized money market protocol that enables users to lend and borrow cryptocurrencies in a trustless manner. Compound is providing a similar service but is more conservative in terms of the crypto assets that could be lended or borrowed. Users of both protocols can lend cryptocurrencies to receive an annual percentage yield or borrow assets for increased exposure to crypto markets or to spend for goods or services in the real world.  
+
+
+Use the AAVE/COMP spread to get exposure to price movements of the two assets against each other.
+
+**How to trade?\***
+
+* Buy the AAVECOMPL token if you own COMP tokens but you think there is a chance that AAVE will become the dominant lending protocol in the DeFi space;
+* Buy the AAVECOMPS if you hold AAVE tokens but believe that Compound will continue to acquire market share in the DeFi lending space and its token will appreciate faster than AAVE.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice. 
+
+**Settlement**
+
+You can sell your AAVECOMPL or AAVECOMPS tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
+
+* If you hold AAVECOMPL tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the AAVECOMPL token \(in red letters\);
+* If you hold AAVECOMPS tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the amount  you used to buy the AAVECOMPS tokens.
+
+**Oracle source: Chainlink**
+
+**Network: BINANCE SMART CHAIN**
+
+\*\*\*\*
+
+\*\*\*\*
+
 #### **BTC/ETH spread**
 
 The perfect market to trade on if you want to have exposure to Bitcoin or Ether’s market dominance against each other. 
@@ -391,9 +424,11 @@ You can sell your BTC/ETH Spread tokens to Mettalex's Autonomous Market Maker at
 
 **Oracle source: London Metal Exchange \(LME\)**
 
-**Network: ETHEREUM and BINANCE SMART CHAIN**  
-  
+**Network: ETHEREUM and BINANCE SMART CHAIN**
 
+  
+  
+****
 
 #### **BTC/XAU spread**
 
@@ -418,6 +453,8 @@ You can sell your BTCXAUL or BTCXAUS tokens to Mettalex's Autonomous Market Make
 **Oracle source: London Metal Exchange \(LME\)**
 
 **Network: Binance Smart Chain**
+
+\*\*\*\*
 
 \*\*\*\*
 
@@ -447,34 +484,7 @@ You can sell your BTCTSLAL or BTCTSLAS tokens to Mettalex's Autonomous Market Ma
 **Oracle source: Chainlink**
 
 **Network: Ethereum and Binance Smart Chain**  
-
-
-#### **AAVE/COMP spread**
-
-Aave is a decentralized money market protocol that enables users to lend and borrow cryptocurrencies in a trustless manner. Compound is providing a similar service but is more conservative in terms of the crypto assets that could be lended or borrowed. Users of both protocols can lend cryptocurrencies to receive an annual percentage yield or borrow assets for increased exposure to crypto markets or to spend for goods or services in the real world.  
-
-
-Use the AAVE/COMP spread to get exposure to price movements of the two assets against each other.
-
-**How to trade?\***
-
-* Buy the AAVECOMPL token if you own COMP tokens but you think there is a chance that AAVE will become the dominant lending protocol in the DeFi space;
-* Buy the AAVECOMPS if you hold AAVE tokens but believe that Compound will continue to acquire market share in the DeFi lending space and its token will appreciate faster than AAVE.
-
-To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
-
-\*Not to be considered financial advice. 
-
-**Settlement**
-
-You can sell your AAVECOMPL or AAVECOMPS tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
-
-* If you hold AAVECOMPL tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the AAVECOMPL token \(in red letters\);
-* If you hold AAVECOMPS tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the amount  you used to buy the AAVECOMPS tokens.
-
-**Oracle source: Chainlink**
-
-**Network: BINANCE SMART CHAIN**  
+  
 
 
 \*\*\*\*
@@ -509,6 +519,8 @@ You can sell your LINKBANDL or LINKBANDS tokens to Mettalex's Autonomous Market 
 
 \*\*\*\*
 
+\*\*\*\*
+
 #### **STEEL REBAR/STEEL SCRAP spread**
 
 The perfect market for physical commodity holders who process steel scrap to produce steel rebar. Steel Mills can use it to hedge their exposure to the price of the raw material - steel scrap - and that of the processed product - steel rebar. 
@@ -532,6 +544,8 @@ You can sell your SRSCSPRL or SRSCSPRS tokens to Mettalex’s Autonomous Market 
 **Oracle source: London Metal Exchange \(LME\)**
 
 **Network: ETHEREUM**
+
+\*\*\*\*
 
 \*\*\*\*
 
@@ -620,30 +634,7 @@ You can sell your ETHLONG or ETHSHORT tokens to Mettalex's Autonomous Market Mak
 
 \*\*\*\*
 
-#### **FTSE**
-
-The Financial Times Stock Exchange 100 Index is a share index of the 100 companies listed on the London Stock Exchange with the highest market capitalisation. It is seen as a gauge of prosperity for businesses regulated by UK company law. The index is maintained by the FTSE Group, a subsidiary of the London Stock Exchange Group.
-
-**How to trade?\***
-
-* Buy the FTSELONG token if you believe that economic recovery from the effects of the pandemic has already started in the UK and will have a positive effect on the FTSE index price;
-* Buy the FTSESHORT token if you think the top UK companies will continue to struggle and their stock market performance will suffer.
-
-To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
-
-\*Not to be considered financial advice. 
-
-**Settlement**
-
-You can sell your FTSELONG or FTSESHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
-
-* If you hold FTSELONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the FTSELONG token \(in red letters\);
-* Alternatively, If you hold FTSESHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the FTSESHORT tokens.
-
-**Oracle source: Chainlink**
-
-**Network: Ethereum**  
-
+\*\*\*\*
 
 #### **BRITISH POUND \(x1000\)**
 
@@ -669,4 +660,35 @@ You can sell your GBPLONG or GBPSHORT tokens to Mettalex’s Autonomous Market M
 
 **Network: Binance Smart Chain**  
 
+
+
+
+
+
+#### **FTSE**
+
+The Financial Times Stock Exchange 100 Index is a share index of the 100 companies listed on the London Stock Exchange with the highest market capitalisation. It is seen as a gauge of prosperity for businesses regulated by UK company law. The index is maintained by the FTSE Group, a subsidiary of the London Stock Exchange Group.
+
+**How to trade?\***
+
+* Buy the FTSELONG token if you believe that economic recovery from the effects of the pandemic has already started in the UK and will have a positive effect on the FTSE index price;
+* Buy the FTSESHORT token if you think the top UK companies will continue to struggle and their stock market performance will suffer.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice. 
+
+**Settlement**
+
+You can sell your FTSELONG or FTSESHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
+
+* If you hold FTSELONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the FTSELONG token \(in red letters\);
+* Alternatively, If you hold FTSESHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the FTSESHORT tokens.
+
+**Oracle source: Chainlink**
+
+**Network: Ethereum**  
+
+
+#### \*\*\*\*
 
