@@ -44,6 +44,8 @@ You can sell your ALLONG or ALSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Network: ETHEREUM**
 
+\*\*\*\*
+
 
 
 #### **BRENT CRUDE OIL**
@@ -71,6 +73,8 @@ You can sell your BBLONG or BBSHORT tokens to Mettalex’s Autonomous Market Mak
 **Oracle source: Chicago Mercantile Exchange \(CME\)**
 
 **Network: BINANCE SMART CHAIN**
+
+\*\*\*\*
 
 
 
@@ -220,6 +224,38 @@ You can sell your IOLONG or IOSHORT tokens to Mettalex’s Autonomous Market Mak
 
 \*\*\*\*
 
+\*\*\*\*
+
+#### **SILVER**
+
+Silver is one of the most valuable metals on the planet due to its widespread utility in jewellery and its industrial applications in silverware and electronics. Even though it is not as scarce as gold, it represents a precious metal widely used in the financial industry for investments. This makes silver a commodity of high interest for a variety of market participants who actively trade silver futures for hedging or price protection. 
+
+Silver is a very volatile commodity. The increase in the industrial demand is the primary factor for increased volatility in silver prices.  At the moment the industrial demand consists of over half of the total worldwide demand.
+
+**How to trade?\***
+
+* Buy the XAGLONG token if you think demand for silver in industrial applications and as a safe-haven asset will increase leading to higher prices.
+* Buy the XAGSHORT token if you believe a recession or slowdown in industrial demand would lower silver prices.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+ \*Not to be considered financial advice.
+
+**Settlement**
+
+You can sell your XAGLONG or XAGSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold XAGLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the XAGLONG token \(in red letters\);
+* Alternatively, If you hold XAGSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the XAGSHORT tokens.
+
+**Oracle source: Chainlink**
+
+**Network: BINANCE SMART CHAIN**
+
+\*\*\*\*
+
+\*\*\*\*
+
 #### **STEEL SCRAP**
 
 Steel scrap is a vital raw material for the production of new steel. The steel industry has been recycling steel scrap for decades, as steel making and foundry industries are highly dependent upon the ready availability of scrap from manufacturing operations and from the recovery of products that are no longer used or needed. Because of this, the use of steel scrap implies a lower impact on the environment when compared to heavy production methods \(e.g. IRON ORE\). 
@@ -325,37 +361,7 @@ You can sell your ZNLONG or ZNSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Oracle source: London Metal Exchange \(LME\)**
 
-**Network: ETHEREUM**  
-
-
-\*\*\*\*
-
-#### **SILVER**
-
-Silver is one of the most valuable metals on the planet due to its widespread utility in jewellery and its industrial applications in silverware and electronics. Even though it is not as scarce as gold, it represents a precious metal widely used in the financial industry for investments. This makes silver a commodity of high interest for a variety of market participants who actively trade silver futures for hedging or price protection. 
-
-Silver is a very volatile commodity. The increase in the industrial demand is the primary factor for increased volatility in silver prices.  At the moment the industrial demand consists of over half of the total worldwide demand.
-
-**How to trade?\***
-
-* Buy the XAGLONG token if you think demand for silver in industrial applications and as a safe-haven asset will increase leading to higher prices.
-* Buy the XAGSHORT token if you believe a recession or slowdown in industrial demand would lower silver prices.
-
-To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
-
- \*Not to be considered financial advice.
-
-**Settlement**
-
-You can sell your XAGLONG or XAGSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
-
-* If you hold XAGLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the XAGLONG token \(in red letters\);
-* Alternatively, If you hold XAGSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the XAGSHORT tokens.
-
-**Oracle source: Chainlink**
-
-**Network: BINANCE SMART CHAIN**  
-
+**Network: ETHEREUM**
 
 \*\*\*\*
 
