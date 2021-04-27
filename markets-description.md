@@ -44,7 +44,63 @@ You can sell your ALLONG or ALSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Network: ETHEREUM**
 
-#### \*\*\*\*
+
+
+#### **BRENT CRUDE OIL**
+
+Brent Oil is also known as Brent Crude or North Sea Brent Crude and it is a type of crude oil which is considered as a benchmark crude for determining the trading price of other varieties of crude oil. 
+
+Where the oil comes from also makes a difference if you’re a buyer. The less expensive it is to deliver the product, the cheaper it is for the consumer. From a transportation point of view, oil extracted at sea has certain advantages over land-based supplies, which depend on the capacity of pipelines. Brent Crude oil  is light and sweet, making them ideal for the refining of diesel fuel, gasoline, and other high-demand products. And because the supply is waterborne, it’s easy to transport to distant locations.
+
+**How to trade?\***
+
+* Buy the BBLONG token if you believe demand for crude oil will increase in the future due to the economic expansion following the pandemic;
+* Buy the BBSHORT token if you think the effects of the pandemic will last longer than expected, shrinking demand for Brent Crude and lowering its price.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+ \*Not to be considered financial advice.
+
+**Settlement**
+
+You can sell your BBLONG or BBSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold BBLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the BBLONG token \(in red letters\);
+* Alternatively, If you hold BBSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the BBSHORT tokens.
+
+**Oracle source: Chicago Mercantile Exchange \(CME\)**
+
+**Network: BINANCE SMART CHAIN**
+
+
+
+**BUTTER**
+
+Butter is a typically yellow or white dairy product consisting of an emulsion of butterfat and made by churning milk or cream.
+
+**How to trade?\***
+
+* Buy the CBLONG token if you believe demand for butter will increase following the effects of stimulus packages around the world;
+* Buy the CBSHORT token if you believe the butter will become less sought-after due to health concerns related to saturated fat.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice. 
+
+**Settlement**
+
+You can sell your CBLONG or CBSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold CBLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the CBLONG token \(in red letters\);
+* Alternatively, If you hold CBSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the CBSHORT tokens.
+
+**Oracle source: Chicago Mercantile Exchange \(CME\)**
+
+**Network: ETHEREUM**
+
+\*\*\*\*
+
+\*\*\*\*
 
 #### **COPPER**
 
@@ -69,6 +125,70 @@ You can sell your CULONG or CUSHORT tokens to Mettalex’s Autonomous Market Mak
 **Oracle source: London Metal Exchange \(LME\)**
 
 **Network: ETHEREUM** 
+
+\*\*\*\*
+
+\*\*\*\*
+
+#### **GOLD**
+
+Since the beginning of civilization, humankind has viewed gold as a proxy for money and a safe-haven asset. Once it is mined, refiners process gold into bars, coins, or ingots called bullion in order to sell them. Buyers can transform these gold bars into items like coins, jewelry, and electronic components. They may also store gold bars for traders.
+
+Gold supply is consistently affected by the price of gold itself: when gold prices arise, mining gold becomes more profitable, so more supply comes into the market. The opposite happens when prices decline. Similarly, changes in demand from industry, traders, central banks, or sovereign wealth funds can move gold prices. In fact, Central Banks could impact on gold prices in two ways:
+
+* These could take decisions to contract or grow the money supply in their countries, thus leading to an increase in gold trading since fiat currencies \(eg, US dollar and euro\) compete with gold as a store of value and a form of money. 
+* Secondly, central banks hold large gold reserves. As a result, their decision to accumulate or sell reserves can move the gold market.
+
+How to trade?\*
+
+* Buy the XAULONG token if you believe gold demand will increase due to interest from traders seeking refuge from devaluing fiat currencies;
+* Buy the XAUSHORT token if you believe the large stimulus packages approved by governments will push investors towards the acquisition of higher-risk assets and gold will go out of fashion.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice.   
+
+
+**Settlement**
+
+You can sell your XAULONG or XAUSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold XAULONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the XAULONG token \(in red letters\);
+* Alternatively, If you hold XAUSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the XAUSHORT tokens.
+
+**Oracle source: Chainlink**
+
+**Network: BINANCE SMART CHAIN**
+
+\*\*\*\*
+
+\*\*\*\*
+
+#### **HMS 1&2 \(80:20\) CFR Turkey**
+
+Heavy Melting Steel \(HMS\) or Heavy Melting Scrap is a designation for recyclable steel and wrought iron. It is broken up into two major categories: HMS 1 and HMS 2, where HMS 1 does not contain galvanised and blackened steel, whereas HMS 2 does.
+
+**How to trade?\***
+
+* Buy the DSSCLONG token if you believe demand for heavy melting scrap will increase as a consequence of economic recovery as industry expands and production grows;
+* Buy the DSSCSHORT token if you believe the global recession will continue to impact the industry thus reducing its demand and price.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+ \*Not to be considered financial advice.
+
+**Settlement**
+
+You can sell your DSSCLONG or DSSCSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
+
+* If you hold DSSCLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the DSSCLONG token \(in red letters\);
+* Alternatively, If you hold DSSCSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the DSSCSHORT tokens.
+
+**Oracle source: DAVIS INDEX**
+
+**Network: ETHEREUM and BINANCE SMART CHAIN**
+
+\*\*\*\*
 
 \*\*\*\*
 
@@ -183,62 +303,6 @@ You can sell your DZRBLONG or DZRBSHORT tokens to Mettalex’s Autonomous Market
 
 \*\*\*\*
 
-#### **HMS 1&2 \(80:20\) CFR Turkey**
-
-Heavy Melting Steel \(HMS\) or Heavy Melting Scrap is a designation for recyclable steel and wrought iron. It is broken up into two major categories: HMS 1 and HMS 2, where HMS 1 does not contain galvanised and blackened steel, whereas HMS 2 does.
-
-**How to trade?\***
-
-* Buy the DSSCLONG token if you believe demand for heavy melting scrap will increase as a consequence of economic recovery as industry expands and production grows;
-* Buy the DSSCSHORT token if you believe the global recession will continue to impact the industry thus reducing its demand and price.
-
-To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
-
- \*Not to be considered financial advice.
-
-**Settlement**
-
-You can sell your DSSCLONG or DSSCSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
-
-* If you hold DSSCLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the DSSCLONG token \(in red letters\);
-* Alternatively, If you hold DSSCSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the DSSCSHORT tokens.
-
-**Oracle source: DAVIS INDEX**
-
-**Network: ETHEREUM and BINANCE SMART CHAIN**  
-
-
-\*\*\*\*
-
-#### **BRENT CRUDE OIL**
-
-Brent Oil is also known as Brent Crude or North Sea Brent Crude and it is a type of crude oil which is considered as a benchmark crude for determining the trading price of other varieties of crude oil. 
-
-Where the oil comes from also makes a difference if you’re a buyer. The less expensive it is to deliver the product, the cheaper it is for the consumer. From a transportation point of view, oil extracted at sea has certain advantages over land-based supplies, which depend on the capacity of pipelines. Brent Crude oil  is light and sweet, making them ideal for the refining of diesel fuel, gasoline, and other high-demand products. And because the supply is waterborne, it’s easy to transport to distant locations.
-
-**How to trade?\***
-
-* Buy the BBLONG token if you believe demand for crude oil will increase in the future due to the economic expansion following the pandemic;
-* Buy the BBSHORT token if you think the effects of the pandemic will last longer than expected, shrinking demand for Brent Crude and lowering its price.
-
-To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
-
- \*Not to be considered financial advice.
-
-**Settlement**
-
-You can sell your BBLONG or BBSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
-
-* If you hold BBLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the BBLONG token \(in red letters\);
-* Alternatively, If you hold BBSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the BBSHORT tokens.
-
-**Oracle source: Chicago Mercantile Exchange \(CME\)**
-
-**Network: BINANCE SMART CHAIN**  
-
-
-\*\*\*\*
-
 #### **ZINC**
 
 Zinc resists corrosion and is used to galvanise iron and steel for industrial and infrastructure purposes. Zinc is also used to produce brass \(i.e. a zinc alloy that contains between 55 and 95% copper\) widely used in construction and in the production of tools and products. Mines worldwide are spread all over the Planet and these extract more almost 12  million metric tons of zinc per annum. 
@@ -261,65 +325,7 @@ You can sell your ZNLONG or ZNSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Oracle source: London Metal Exchange \(LME\)**
 
-**Network: ETHEREUM**
-
-\*\*\*\*
-
-**BUTTER**
-
-Butter is a typically yellow or white dairy product consisting of an emulsion of butterfat and made by churning milk or cream.
-
-**How to trade?\***
-
-* Buy the CBLONG token if you believe demand for butter will increase following the effects of stimulus packages around the world;
-* Buy the CBSHORT token if you believe the butter will become less sought-after due to health concerns related to saturated fat.
-
-To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
-
-\*Not to be considered financial advice. 
-
-**Settlement**
-
-You can sell your CBLONG or CBSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
-
-* If you hold CBLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the CBLONG token \(in red letters\);
-* Alternatively, If you hold CBSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the CBSHORT tokens.
-
-**Oracle source: Chicago Mercantile Exchange \(CME\)**
-
-**Network: ETHEREUM**
-
-\*\*\*\*
-
-#### **GOLD**
-
-Since the beginning of civilization, humankind has viewed gold as a proxy for money and a safe-haven asset. Once it is mined, refiners process gold into bars, coins, or ingots called bullion in order to sell them. Buyers can transform these gold bars into items like coins, jewelry, and electronic components. They may also store gold bars for traders.
-
-Gold supply is consistently affected by the price of gold itself: when gold prices arise, mining gold becomes more profitable, so more supply comes into the market. The opposite happens when prices decline. Similarly, changes in demand from industry, traders, central banks, or sovereign wealth funds can move gold prices. In fact, Central Banks could impact on gold prices in two ways:
-
-* These could take decisions to contract or grow the money supply in their countries, thus leading to an increase in gold trading since fiat currencies \(eg, US dollar and euro\) compete with gold as a store of value and a form of money. 
-* Secondly, central banks hold large gold reserves. As a result, their decision to accumulate or sell reserves can move the gold market.
-
-How to trade?\*
-
-* Buy the XAULONG token if you believe gold demand will increase due to interest from traders seeking refuge from devaluing fiat currencies;
-* Buy the XAUSHORT token if you believe the large stimulus packages approved by governments will push investors towards the acquisition of higher-risk assets and gold will go out of fashion.
-
-To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
-
-\*Not to be considered financial advice.   
-
-
-**Settlement**
-
-You can sell your XAULONG or XAUSHORT tokens to Mettalex’s Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap, this market will be automatically settled:
-
-* If you hold XAULONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the XAULONG token \(in red letters\);
-* Alternatively, If you hold XAUSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the XAUSHORT tokens.
-
-**Oracle source: Chainlink**
-
-**Network: BINANCE SMART CHAIN**  
+**Network: ETHEREUM**  
 
 
 \*\*\*\*
