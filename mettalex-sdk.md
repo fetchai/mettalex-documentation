@@ -18,7 +18,7 @@ Mettalex for python can be installed directly from github using the following co
 
 `pip install -e git+https://github.com/fetchai/mettalex-sdk.git@master#egg=mettalex-sdk`
 
-\`\`
+
 
 ### Usage
 
