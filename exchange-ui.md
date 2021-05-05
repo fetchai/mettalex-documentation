@@ -10,7 +10,7 @@ This means that each user needs to call different methods accordingly to the liq
 
 ## **Possible Events: Mettalex Vault**
 
-The possible scenarios a user can face when operating with position tokens in the Mettalex Vault are the following:
+The possible scenarios a user can face when operating with position tokens in the Mettalex Vault are the following: 
 
 #### **Allowance**
 
