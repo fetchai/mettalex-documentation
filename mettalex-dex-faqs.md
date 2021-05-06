@@ -18,7 +18,7 @@ If the spot price breaches the band, Long/Short token pairs will be settled auto
 
 
 
-#### **Why is it a DEX / What is a DEX**
+#### **What is a DEX?**
 
 A DEX is a Decentralized Exchange where there is no central organization holding user funds.  Trades are handled automatically by blockchain smart contracts and user wallets.  In the Mettalex system the DEX uses an on-chain Autonomous Market Maker to handle trades. There is no counterparty and/or counterparty risk.
 
@@ -112,7 +112,7 @@ The LPs in Mettalex work differently to other crypto based LPs like Uniswap. In 
 
 
 
-#### **Why is Mettalex better/different than other decentralized derivatives markets in crypto**
+#### **Why is Mettalex better/different than other decentralized derivatives markets in crypto?**
 
 Unlike other decentralized derivatives platforms, Mettalex is mainly focused on token-based commodities derivatives and spreads. As such, speculators in the crypto space can get exposure to trading pairs unavailable on other decentralized markets. Other noteworthy Mettalex DEX advantages include:
 
@@ -141,6 +141,8 @@ Spreads take into account the price of the reference asset within the trading ra
 #### **How is the APY for each Vault calculated?**
 
 The APY is reported as the trailing one week annualized return of current vault balance relative to supplied liquidity. 
+
+
 
 #### **How are trading fees calculated?**
 
