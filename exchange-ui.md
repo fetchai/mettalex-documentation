@@ -94,7 +94,7 @@ When this method is called it generates a transfer event in which the user wants
 
 ## **Possible Events: LPs pool**
 
-The scenario a liquidity provider can face when operating with the the LPs pool can be the following:
+The scenario a liquidity provider can face when operating with the LPs pool can be the following:
 
 #### **Deposit**
 
