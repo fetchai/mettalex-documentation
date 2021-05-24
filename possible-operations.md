@@ -26,8 +26,6 @@ When entering Mettalex DEX, you can access one of the following possible section
 
 * **SUPPLY LIQUIDITY**: you will be redirected to the liquidity section in which you will have the possibility to supply liquidity to multiple markets in order to earn rewards.
 
-
-
 ## **Trading in a Market**
 
 ![](.gitbook/assets/1%20%281%29.png)
