@@ -10,6 +10,8 @@ The markets available on Mettalex DEX Vega are divided into the following 3 cate
 
 ### **1.  COMMODITIES** 
 
+\*\*\*\*
+
 #### **ALUMINIUM**
 
 Aluminium is a very flexible, light-weight, and strong metal which can be counted to the base metals or non-ferrous metals. As a physical commodity, aluminium is traded as raw material, unfinished, semi-finished or finished product and as scrap metal**.** Aluminium is obtained from grinding raw material bauxite to extract and refine the contained aluminium oxide \(i.e. alumina\) which is further processed into liquid aluminium \(i.e. molten aluminium\) by adding carbon and electricity. The molten aluminium is casted into different shapes and can be further rolled, extruded or re-melted. Aluminium can be used for the following 3 applications:
@@ -42,6 +44,8 @@ You can sell your ALLONG or ALSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Network: ETHEREUM**
 
+\*\*\*\*
+
 
 
 #### **BRENT CRUDE OIL**
@@ -69,6 +73,8 @@ You can sell your BBLONG or BBSHORT tokens to Mettalex’s Autonomous Market Mak
 **Oracle source: Chicago Mercantile Exchange \(CME\)**
 
 **Network: BINANCE SMART CHAIN**
+
+\*\*\*\*
 
 
 
@@ -98,6 +104,8 @@ You can sell your CBLONG or CBSHORT tokens to Mettalex’s Autonomous Market Mak
 
 \*\*\*\*
 
+\*\*\*\*
+
 #### **COPPER**
 
 Copper is widely used around the world due to its industrial and technological applications. Its physical properties, which are similar to gold and silver, make it perfectly suited for a range of industrial uses \(e.g. electric wiring, plumbing, roofing, and industrial machinery\). However, unlike gold and silver, copper is not widely viewed as a store of value. Therefore, copper is less impacted by speculative price movements. The global supply of copper comes principally from underground mines and from recycling copper products. As developing regions in the African continent, Eastern Europe and Asia modernise their economies and expand their infrastructure, the higher will be the demand for copper from these areas of the world.
@@ -121,6 +129,8 @@ You can sell your CULONG or CUSHORT tokens to Mettalex’s Autonomous Market Mak
 **Oracle source: London Metal Exchange \(LME\)**
 
 **Network: ETHEREUM** 
+
+\*\*\*\*
 
 \*\*\*\*
 
@@ -156,6 +166,8 @@ You can sell your XAULONG or XAUSHORT tokens to Mettalex’s Autonomous Market M
 
 \*\*\*\*
 
+\*\*\*\*
+
 #### **HMS 1&2 \(80:20\) CFR Turkey**
 
 Heavy Melting Steel \(HMS\) or Heavy Melting Scrap is a designation for recyclable steel and wrought iron. It is broken up into two major categories: HMS 1 and HMS 2, where HMS 1 does not contain galvanised and blackened steel, whereas HMS 2 does.
@@ -179,6 +191,8 @@ You can sell your DSSCLONG or DSSCSHORT tokens to Mettalex’s Autonomous Market
 **Oracle source: DAVIS INDEX**
 
 **Network: ETHEREUM and BINANCE SMART CHAIN**
+
+\*\*\*\*
 
 \*\*\*\*
 
@@ -210,6 +224,8 @@ You can sell your IOLONG or IOSHORT tokens to Mettalex’s Autonomous Market Mak
 
 \*\*\*\*
 
+\*\*\*\*
+
 #### **SILVER**
 
 Silver is one of the most valuable metals on the planet due to its widespread utility in jewellery and its industrial applications in silverware and electronics. Even though it is not as scarce as gold, it represents a precious metal widely used in the financial industry for investments. This makes silver a commodity of high interest for a variety of market participants who actively trade silver futures for hedging or price protection. 
@@ -238,6 +254,8 @@ You can sell your XAGLONG or XAGSHORT tokens to Mettalex’s Autonomous Market M
 
 \*\*\*\*
 
+\*\*\*\*
+
 #### **STEEL SCRAP**
 
 Steel scrap is a vital raw material for the production of new steel. The steel industry has been recycling steel scrap for decades, as steel making and foundry industries are highly dependent upon the ready availability of scrap from manufacturing operations and from the recovery of products that are no longer used or needed. Because of this, the use of steel scrap implies a lower impact on the environment when compared to heavy production methods \(e.g. IRON ORE\). 
@@ -262,7 +280,8 @@ You can sell your SSCLONG or SSCSHORT tokens to Mettalex’s Autonomous Market M
 
 **Oracle source: London Metal Exchange \(LME\)**
 
-**Network: ETHEREUM**
+**Network: ETHEREUM**  
+
 
 \*\*\*\*
 
@@ -348,6 +367,10 @@ You can sell your ZNLONG or ZNSHORT tokens to Mettalex’s Autonomous Market Mak
 
 ### **2.  SPREADS**
 
+\*\*\*\*
+
+\*\*\*\*
+
 #### **AAVE/COMP spread**
 
 Aave is a decentralized money market protocol that enables users to lend and borrow cryptocurrencies in a trustless manner. Compound is providing a similar service but is more conservative in terms of the crypto assets that could be lended or borrowed. Users of both protocols can lend cryptocurrencies to receive an annual percentage yield or borrow assets for increased exposure to crypto markets or to spend for goods or services in the real world.  
@@ -377,6 +400,8 @@ You can sell your AAVECOMPL or AAVECOMPS tokens to Mettalex's Autonomous Market 
 
 \*\*\*\*
 
+\*\*\*\*
+
 #### **BTC/ETH spread**
 
 The perfect market to trade on if you want to have exposure to Bitcoin or Ether’s market dominance against each other. 
@@ -399,9 +424,11 @@ You can sell your BTC/ETH Spread tokens to Mettalex's Autonomous Market Maker at
 
 **Oracle source: London Metal Exchange \(LME\)**
 
-**Network: ETHEREUM and BINANCE SMART CHAIN**  
-  
+**Network: ETHEREUM and BINANCE SMART CHAIN**
 
+  
+  
+****
 
 #### **BTC/XAU spread**
 
@@ -426,6 +453,8 @@ You can sell your BTCXAUL or BTCXAUS tokens to Mettalex's Autonomous Market Make
 **Oracle source: London Metal Exchange \(LME\)**
 
 **Network: Binance Smart Chain**
+
+\*\*\*\*
 
 \*\*\*\*
 
@@ -454,7 +483,9 @@ You can sell your BTCTSLAL or BTCTSLAS tokens to Mettalex's Autonomous Market Ma
 
 **Oracle source: Chainlink**
 
-**Network: Ethereum and Binance Smart Chain**
+**Network: Ethereum and Binance Smart Chain**  
+  
+
 
 \*\*\*\*
 
@@ -488,6 +519,8 @@ You can sell your LINKBANDL or LINKBANDS tokens to Mettalex's Autonomous Market 
 
 \*\*\*\*
 
+\*\*\*\*
+
 #### **STEEL REBAR/STEEL SCRAP spread**
 
 The perfect market for physical commodity holders who process steel scrap to produce steel rebar. Steel Mills can use it to hedge their exposure to the price of the raw material - steel scrap - and that of the processed product - steel rebar. 
@@ -511,6 +544,8 @@ You can sell your SRSCSPRL or SRSCSPRS tokens to Mettalex’s Autonomous Market 
 **Oracle source: London Metal Exchange \(LME\)**
 
 **Network: ETHEREUM**
+
+\*\*\*\*
 
 \*\*\*\*
 
@@ -540,6 +575,8 @@ You can sell your SDEFISCEXL or SDEFISCEXS tokens to Mettalex’s Autonomous Mar
 ### \*\*\*\*
 
 ### **3. CRYPTO CURRENCIES**
+
+\*\*\*\*
 
 **BITCOIN**
 
@@ -595,6 +632,10 @@ You can sell your ETHLONG or ETHSHORT tokens to Mettalex's Autonomous Market Mak
 
 ### **4.  FOREX AND INDICES**
 
+\*\*\*\*
+
+\*\*\*\*
+
 #### **BRITISH POUND \(x1000\)**
 
 The British pound sterling is the official currency of the United Kingdom, the British Overseas Territories of South Georgia, the South Sandwich Islands, and British Antarctic Territory and the U.K. crown dependencies the Isle of Man and the Channel Islands. Sterling is the fourth most-traded currency in the foreign exchange market, after the United States dollar, the euro, and the Japanese yen.
@@ -617,7 +658,10 @@ You can sell your GBPLONG or GBPSHORT tokens to Mettalex’s Autonomous Market M
 
 **Oracle source: Chainlink**
 
-**Network: Binance Smart Chain**
+**Network: Binance Smart Chain**  
+
+
+
 
 
 
