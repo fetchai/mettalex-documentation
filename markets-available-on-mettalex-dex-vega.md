@@ -1,6 +1,6 @@
 # Markets Available on Mettalex DEX Vega
 
-   The Mettalex Team has featured several markets available on Mettalex DEX in order to incentivize the use of the platform on both Ethereum and Binance Smart Chain networks. These 20 new markets will be launched thanks to Mettalex DEX Vega into the DeFi space to serve traders, physical commodity holders and liquidity providers. These markets are divided into Commodities, Spreads and Forex/Indices.
+The Mettalex Team has featured several markets available on Mettalex DEX in order to incentivize the use of the platform on both Ethereum and Binance Smart Chain networks. These 20 new markets will be launched thanks to Mettalex DEX Vega into the DeFi space to serve traders, physical commodity holders and liquidity providers. These markets are divided into Commodities, Spreads and Forex/Indices.
 
 ![](https://lh6.googleusercontent.com/T0dzkITDbvDiYzzpkdkX-ocfJe9h0WtUJ-ZMhfZEJY8UgS_twenETCDnhxNrpu6KgXIGLIbqbaN0f15O18flp6oa0RdPItJc85bDfCDsT1Gi8SIC8pUmo5bghYYRSHI9s2tnjNLK)
 
