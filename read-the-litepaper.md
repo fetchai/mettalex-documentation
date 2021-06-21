@@ -59,7 +59,7 @@ The position tokens track the price change of an underlying asset \(long tokens\
 
 The exchange interface integrates a reference price feed for settlement and pricing of commodity tokens. Traders in the commodity tokens will be able to open and close positions using stablecoin collateral by trading against other participants or autonomous market makers. They will also be able to provide liquidity by using the Mettalex contract to mint token pairs, or use it to redeem a paired position in long and short tokens to reclaim the backing collateral.
 
-#### Mettalex Contracts - ie Smart Contracts
+#### Mettalex Contracts - Smart Contracts
 
 Each position token pair has an associated Mettalex smart contract that acts as a decentralized clearing house. Position tokens are minted in pairs of long and short tokens by locking up collateral in the Mettalex smart contract. This means that the position tokens are always fully collateralised, removing margin requirements and counterparty risk. At any stage a token holder can use the Mettalex smart contract to redeem the collateral backing a long and short token pair.
 
