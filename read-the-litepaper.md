@@ -79,9 +79,10 @@ Governance tokens \(MTLX\) are used to vote on system parameters such as choice 
 
 ## Explaining Position Tokens
 
-Given a commodity, tokens are created that track the reference price in a long \(L\) or short \(S\) exposure i.e.
+Given a commodity, tokens are created that track the reference price in a long \(L\) or short \(S\) exposure:
 
-* long token: increase of spot price of $1 results in the long token price increasing by $1 • short token: increase of spot price of $1 results in the short token price decreasing by $1
+* Long token: increase of spot price of $1 results in the long token price increasing by $1
+* Short token: increase of spot price of $1 results in the short token price decreasing by $1
 
 These tokens have the following properties:
 
@@ -104,7 +105,7 @@ For commodity derived position tokens we expect the spot price to usually trade 
 
 We can use this trading range to set the floor and cap prices for the token pair. Continuing the example above the value of a long and short pair of tokens is equal to the delta, here $150, with floor set at $225 and cap at $375. That is, depositing $150 worth of collateral will mint a L&S pair. Assuming the spot price when the tokens are minted is $300, each token will have a value of $75, representing a leverage of $300/$75 = 4x. Choosing the floor and cap based on historical delta allows us to create a non-expiring perpetual token that can be held indefinitely as long as the spot remains within the historical range.
 
-This has the consequence that as the spot trades away from the centre price it becomes cheaper to buy exposure for the position opposite the movement. For example if spot increases to $350 the value of a long token becomes $125 \(leverage = 350/125 = 2.8x\) while the short token is now worth $25 \(leverage = 350/25 = 14\). This is an incentive for market participants to provide liquidity for the short position at low cost if they believe a top in the spot price has been reached.
+This has the consequence that as the spot trades away from the centre price it becomes cheaper to buy exposure for the position opposite the movement. For example if spot increases to $350 the value of a long token becomes $125 \(leverage = 350/125 = 2.8x\) while the short token is now worth $25 \(leverage = 350/25 = 14x\). This is an incentive for market participants to provide liquidity for the short position at low cost if they believe a top in the spot price has been reached.
 
 If the spot price breaches the historical range the long and short tokens settle in an autonomous process:
 
@@ -147,7 +148,7 @@ The autonomous market maker is pluggable component of the system that can be upg
 
 The interaction between the Mettalex contract and the Mettalex pool provides a fair price to the commodity trader by dynamically adjusting the token weights in response to price movements of the reference asset.
 
-The Fetch.ai network implementation of the autonomous market maker will offer the opportunity to use more advanced AI agent driven market making algorithms to provide liquidity to a full supply chain at once. This could be achieved by having position tokens from multiple commodities \(Up to 12 currently but could be more\) and spreads in the same autonomous market maker pool.
+The Fetch.ai network implementation of the autonomous market maker will offer the opportunity to use more advanced AI agent driven market making algorithms to provide liquidity to a full supply chain at once. This could be achieved by having position tokens from multiple commodities \(up to 12 currently but could be more\) and spreads in the same autonomous market maker pool.
 
 ## Liquidity Pool
 
@@ -193,7 +194,7 @@ Initial users for the commodities platform have been recruited and have been par
 
 The roadmap for increasing use of Fetch.ai technology in the system includes:
 
-* Replacing the centralized exchange with a decentralized exchange using the Fetch.ai ledger for high transaction rates \(c.f. Eth level 2 scaling\).
+* Replacing the centralized exchange with a decentralized exchange using the Fetch.ai ledger for high transaction rates \(c.f. ETH level 2 scaling\).
 * Fetch.ai agents and collective learning acting as index providers e.g. monitoring process ****metrics throughout supply chains to create spread tokens for supply chain optimization.
 * Autonomous market makers running on Fetch.ai ledger for increased capability
 
