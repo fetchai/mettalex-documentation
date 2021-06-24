@@ -42,7 +42,7 @@ You can sell your ALLONG or ALSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Network: ETHEREUM**
 
-
+\*\*\*\*
 
 #### **BRENT CRUDE OIL**
 
@@ -70,7 +70,7 @@ You can sell your BBLONG or BBSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Network: BINANCE SMART CHAIN**
 
-
+\*\*\*\*
 
 **BUTTER**
 
@@ -140,8 +140,7 @@ How to trade?\*
 
 To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
 
-\*Not to be considered financial advice.   
-
+\*Not to be considered financial advice. 
 
 **Settlement**
 
