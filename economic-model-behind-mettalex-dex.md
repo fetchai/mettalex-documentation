@@ -18,15 +18,11 @@ Position tokens are a disruptive technology equipped with _various properties_, 
 * No fixed expiry date so holders do not need to rollover their positions as token expiry reaches;
 * These allow holders to open a leveraged position \(i.e. in this case, the ratio between the price of L tokens and S tokens will differ from the spot price available on the market\).
 
-These tokens do not require the entire value of the collateral to be locked up in a smart contract: it means that contracts of much larger sizes can be traded with fewer collateral requirements on Mettalex. 
-
-Let’s consider the following example:
+These tokens do not require the entire value of the collateral to be locked up in a smart contract: it means that contracts of much larger sizes can be traded with fewer collateral requirements on Mettalex. Let’s consider the following example:
 
 > _**E.g.**: A trader wants to open a position on the market via buying an asset like Bitcoin \(i.e. BTC\). If the BTC price on the market is BTCUSD = $10’000,00, with Cap = $11’000,00 and Floor = $9’000,00 the collateral required on Mettalex DEX to mint a pair of L/S tokens would be equal to $2’000,00 rather than the market spot price equal to $10’000,00._
 
 As outlined in the example above, distinctly from conventional market, _Mettalex leverage requirements refer to price movements_: the trade happens in a range of price \(**Δ**\), until this one hits a pre-set price band of reference \(i.e. **floor** or **cap**\). The value of a L/S pair of tokens is equal to the Δ, so the pair can be minted just by depositing a collateral as worth as Δ**.** The underlying spot price moves inside this range of values and as it trades away from the centre price \(i.e. the central value of the band\), _it will be cheaper to buy tokens representing the trend opposite to the price movements_. ****If the spot price breaches the band, the L/S pair will be settled automatically and all of the backed collateral will be distributed back to the token holders. The new spot price will initialise the smart contract around the new price value with the same Δ. At this point new position tokens will be minted and trading starts again. The following example helps to visualise the idea:
-
-
 
 > _**E.g.**: Table 1 depicts the historical price graph for the London Metal Exchange \(i.e. LME\) Steel Scrap: For commodity Position tokens we expect the spot price to usually trade inside Δ. If we consider the steel scrap this might range from $225 to $375 per tonne \(i.e. a delta of $150 centred around $300\). We can use this trading range to set the floor and cap prices for the token pair. The value of a long and short pair of tokens is equal to the delta, here $150,00, with floor set at $225,00 and cap at $375,00. That is, depositing a collateral worth $150,00 will allow the trader to mint a L/S pair. Assuming the spot price when the tokens are minted is $300, each token will have a value of $75,00, representing a leverage of $300,00/$75,00 = 4x._
 
