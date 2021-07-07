@@ -17,11 +17,11 @@ Liquidity providers will soon be able to yield farm by depositing liquidity dire
 
 4. Select the market/pool you want to provide the liquidity to.
 
-![](.gitbook/assets/3%20%282%29.png)
+![](.gitbook/assets/bsc-deposit-1.png)
 
 5. Once selected, enter the amount of liquidity you wish to provide. You can select different amounts to be deposited \(e.g. 25%, 50%, 75%, 100%\). Press “**Deposit**”.
 
-![](.gitbook/assets/4%20%281%29.png)
+![](.gitbook/assets/bsc-deposit-2.png)
 
 6. Confirm the following transactions.
 
@@ -35,7 +35,7 @@ Liquidity providers will soon be able to yield farm by depositing liquidity dire
 
 7. Your deposited amount is converted to mxBUSD and will be available in the “**My** **Wallet**” box. There you can see your wallet balances of BUSD, mxBUSD, BUSD available for withdrawal and MTLX tokens.
 
-![](.gitbook/assets/8.png)
+![](.gitbook/assets/bsc-deposit-6.png)
 
 ## STAKE YOUR mxBUSD AND GENERATE MTLX REWARDS
 
@@ -51,13 +51,13 @@ Liquidity providers will soon be able to yield farm by depositing liquidity dire
 
 3. The amount staked will be available in the “**Balances**” box. The box also includes information regarding the amount of rewards accrued and the amount of BUSD and mxBUSD in the market/pool.
 
-![](.gitbook/assets/12.png)
+![](.gitbook/assets/stake-4.png)
 
 ## UNSTAKE AND CLAIM REWARDS
 
 1. On the “**Liquidity**” page, select the “**MTLX** **Rewards**” section of the market/pool where your liquidity is deposited. Enter the amount you wish to unstake and press “**Unstake**”. This will unstake your funds and the accrued MTLX rewards. If you wish to only claim your rewards without unstaking, just press “**Claim**”.
 
-![](.gitbook/assets/13.png)
+![](.gitbook/assets/unstake1.png)
 
 2. Confirm the following transaction on Metamask.
 
@@ -65,13 +65,13 @@ Liquidity providers will soon be able to yield farm by depositing liquidity dire
 
 3. Your mxBUSD and MTLX balances will be available in the “**My Wallet**” box. 
 
-![](.gitbook/assets/15.png)
+![](.gitbook/assets/unstake3.png)
 
 ## WITHDRAW YOUR DEPOSIT
 
 1. Choose the “**Withdraw**” section and enter the amount you want to withdraw and press “**Withdraw**”. You can select among different amounts to be withdrawn \(e.g. 25%, 50%, 75%, 100%\). You can also select “**Withdraw** **All**” to withdraw your deposit and rewards accrued. _**Note**_: A fee of 1% is applied to the withdrawn amount and used for buyback of MLTX tokens.
 
-![](.gitbook/assets/16.png)
+![](.gitbook/assets/with1.png)
 
 2. Confirm the transaction on Metamask.
 
@@ -79,7 +79,7 @@ Liquidity providers will soon be able to yield farm by depositing liquidity dire
 
 3. The amount withdrawn will be transferred to your Web 3 wallet and the updated balance will be available in the “**My** **Wallet**” box.
 
-![](.gitbook/assets/18.png)
+![](.gitbook/assets/with3.png)
 
 ## RISKS OF PROVIDING LIQUIDITY
 
