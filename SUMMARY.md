@@ -7,6 +7,7 @@
 * [Markets Available on Mettalex DEX Vega](markets-available-on-mettalex-dex-vega.md)
 * [Markets description](markets-description.md)
 * [Possible operations](possible-operations.md)
+* [Mettalex DEX: LP MTLX Rewards Walkthrough](mettalex-dex-lp-mtlx-rewards-walkthrough.md)
 * [Mettalex SDK](mettalex-sdk.md)
 * [Fetch.ai’s Stop-Loss agent for DeFi Liquidity Providers](fetch.ais-stop-loss-agent-for-defi-liquidity-providers.md)
 * [Exchange UI](exchange-ui.md)
