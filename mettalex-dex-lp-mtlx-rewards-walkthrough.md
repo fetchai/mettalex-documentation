@@ -6,8 +6,6 @@ Liquidity providers will soon be able to yield farm by depositing liquidity dire
 
 ## DEPOSIT YOUR STABLECOIN:
 
-Please note that in this tutorial we are using screenshots from the Ethereum Kovan network and USDT. The process is identical for Binance Smart Chain and BUSD.
-
 1. Access the Mettalex DEX at [https://dex.mettalex.com/](https://dex.mettalex.com/).
 2. Connect your wallet. You can choose between Metamask or Torus.
 
@@ -65,7 +63,7 @@ Please note that in this tutorial we are using screenshots from the Ethereum Kov
 
 ![](.gitbook/assets/14.png)
 
-1. Your mxBUSD and MTLX balances will be available in the “**My Wallet**” box. 
+3. Your mxBUSD and MTLX balances will be available in the “**My Wallet**” box. 
 
 ![](.gitbook/assets/15.png)
 
