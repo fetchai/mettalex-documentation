@@ -27,11 +27,11 @@ Liquidity providers will soon be able to yield farm by depositing liquidity dire
 
  
 
+![](.gitbook/assets/5%20%281%29.png)
+
 ![](.gitbook/assets/7.png)
 
 ![](.gitbook/assets/6.png)
-
-![](.gitbook/assets/5%20%281%29.png)
 
 7. Your deposited amount is converted to mxBUSD and will be available in the “**My** **Wallet**” box. There you can see your wallet balances of BUSD, mxBUSD, BUSD available for withdrawal and MTLX tokens.
 
