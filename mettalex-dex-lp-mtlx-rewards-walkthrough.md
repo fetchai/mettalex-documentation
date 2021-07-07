@@ -41,7 +41,7 @@ Liquidity providers will soon be able to yield farm by depositing liquidity dire
 
 1. Once the deposit in BUSD has been made, you will be able to stake your mxBUSD to start accruing MTLX Rewards. Choose the “**MTLX** **Rewards**'' section and enter the amount you want to stake and press “**Stake**”.
 
-![](.gitbook/assets/9.png)
+![](.gitbook/assets/stake1.png)
 
 2. Confirm the following transactions on Metamask.
 
