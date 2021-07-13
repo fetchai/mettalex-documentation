@@ -4,21 +4,15 @@
 
 Access the world’s first DEX focused on token based commodities trading using this SDK. Accessible 24/7 with tight trading spreads, low margin requirements and unique hedge instruments that ensure you don’t get liquidated prior to settlement dates.
 
-
-
 ### Pre requisites
 
 This package is designed for python 3. While using pip, pip should be configured for python3.
-
-
 
 ### Installation
 
 Mettalex for python can be installed directly from github using the following command:
 
 `pip install -e git+https://github.com/fetchai/mettalex-sdk.git@master#egg=mettalex-sdk`
-
-
 
 ### Usage
 
@@ -114,8 +108,6 @@ If the `unitless` parameter is set to True the amount values are in `int`
 Trading in a commodity is quite simple. We have to call trade function on a commodity instance providing in token, out token and the amount we want to trade. `In token` and `Out Token` can take `"long"`,`"short"`, or `"coin"` as values.  
 Amount is provided as a `float or` `int` as for `bid` and `ask` methods. `commodity.trade([In Token], [Out Token], [amount In], [minimum amount Out])`
 
-
-
 ### Example
 
 1. Setup and imports in ipython console;
@@ -193,8 +185,6 @@ Out[17]: (3000.0, 109.92576)
 commodity.getUserBalance()
 Out[18]: (32752.557059, 0.0, 109.92576)
 ```
-
-### 
 
 ### Example Showing Mint and Redeem Operations
 
