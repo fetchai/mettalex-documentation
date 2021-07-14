@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/mettalex-dex-walkthrough.png)
 
-Liquidity providers will soon be able to yield farm by depositing liquidity directly in the Mettalex DEX. Simply connect your Web 3 wallet \(set to Binance Smart Chain\), select one of the available markets on the DEX \(Copper, Steel Scrap, MATIC, CAKE, BTC/GOLD or ETH\), and deposit **BUSD** to farm rewards in MTLX at a variable 20% APY.
+Liquidity providers will soon be able to yield farm by depositing liquidity directly in the Mettalex DEX. Simply connect your Web 3 wallet \(set to Binance Smart Chain\), select one of the available markets on the DEX \(Copper, Steel Scrap, MATIC, BNB, BTC/XAU and ETH\), and deposit **BUSD** to farm rewards in MTLX at a variable 20% APY.
 
 ## DEPOSIT YOUR STABLECOIN:
 
