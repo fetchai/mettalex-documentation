@@ -58,11 +58,19 @@ Here users can not only swap their coins against the Autonomous Market Maker, bu
 
 Liquidity providing operations are the third category of operation users can run on Mettalex \(visit the following link:[ dex.mettalex.com](http://dex.mettalex.com/)\). It is possible to access these actions via the Mettalex Liquidity section. Users can deposit funds represented by stablecoin collateral \(i.e. USDT\) and are rewarded with a further aggregated yield on the capital invested via transaction fees and trading spreads between prices, according with the amount and duration of liquidity supplied into the system. In the first page, you will have access to different information about the available markets, your wallet, the available balances of liquidity provided to each market, the average APY for the chosen market and the transaction history.
 
-![](.gitbook/assets/2%20%281%29.png)
+![](.gitbook/assets/screen-shot-2021-07-20-at-13.38.39.png)
 
 In the “**Deposit**” tab enter the amount of liquidity you want to deposit into the liquidity pool and click the “**Deposit**” button. You can deposit part of your funds thanks to the buttons shown in the deposit window \(e.g. **25%**, **50%**, **75%** or **100%**\). "**Deposit All**" allows the user to deposit all of his funds whereas "**Start Earning**" transfers funds from the Vault contract to the Autonomous Market Maker \(AMM\) contract so you can start earning trading fees.
 
-![](.gitbook/assets/5.png)
+![](.gitbook/assets/screen-shot-2021-07-20-at-13.40.11-2-.png)
 
 From the home page access the “**LIQUIDITY**” page and use the drop-down menu at the top to select a commodity to withdraw liquidity from. In the liquidity provider tab, click on “**Withdraw**” and enter the amount of liquidity you want to withdraw from the liquidity pool and click the “**Withdraw**” button. You can withdraw pre-determined part of your funds \(e.g. 25%, 50%, 75% or 100%\). The “**Withdraw all**” button gives you the ability to withdraw all funds from the selected liquidity pool \(for that specific commodity\).
+
+## Stake and Earn Rewards \(MTLX\)
+
+This last set of operations are available in the "Mettalex Rewards" tab in the Mettalex Liquidity Section. 
+
+![](.gitbook/assets/screen-shot-2021-07-20-at-13.40.14-2-.png)
+
+ For further information about how to stake your liquidity, earn rewards and claim them visit the [mettalex-dex-lp-mtlx-rewards-walkthrough](mettalex-dex-lp-mtlx-rewards-walkthrough.md).
 
