@@ -1,6 +1,6 @@
 # Trading Strategies with Derivatives
 
-It is possible to describe a trading strategy as an extensive plan for all your trading activities. It is a framework the trader creates to guide himself in all trading scenarios. Investopedia defines a trading strategy as:  
+It is possible to describe a trading strategy as an extensive plan for all your trading activities. It is a framework the trader creates to guide himself in all trading scenarios. Investopedia defines a trading strategy as: 
 
 > _"A method of buying and selling in markets based on predefined rules used to make trading decisions."_ ****
 
