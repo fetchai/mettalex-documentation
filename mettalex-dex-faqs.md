@@ -4,19 +4,13 @@
 
 Position tokens allow linear exposure to the underlying asset price movements, with capped exposure.  They are similar to futures contracts but with fixed margin requirements.
 
-
-
 #### **What does Floor and Cap mean?**
 
 Floor and cap define the trading range for position tokens.  If the trading range is breached the tokens automatically settle.  
 
-
-
 #### **What happens if you breach the floor or cap?**
 
 If the spot price breaches the band, Long/Short token pairs will be settled automatically and the collateral will be distributed back to the token holders. Mettalex smart contract performs settlement and clearing of the position tokens, with one of the L or S tokens having the full value of the underlying collateral and the other being worthless. The new weighted spot price will initialise the smart contract around the new price value with the new trading band and trading resumes as normal.
-
-
 
 #### **What is a DEX?**
 
