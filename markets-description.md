@@ -42,7 +42,7 @@ You can sell your ALLONG or ALSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Network: ETHEREUM**
 
-\*\*\*\*
+ ****
 
 #### **BRENT CRUDE OIL**
 
