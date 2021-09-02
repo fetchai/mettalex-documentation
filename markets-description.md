@@ -614,6 +614,32 @@ You can sell your ETHLONG or ETHSHORT tokens to Mettalex's Autonomous Market Mak
 
 \*\*\*\*
 
+**MATIC**
+
+Polygon \(also known as MATIC\), is an interchain scalability solution that gives an infrastructure for creating blockchain networks that can interface with each other. It intends to bring the adaptability and scalability of alt chains along with Ethereum’s security, liquidity, and interoperability. Polygon is further looking forward to admitting two new roll-ups in its platform later on. One will distribute loads of off-chain exchanges together into a solitary trade, while the other will run on top of the Ethereum network to speed up transactions.
+
+**How to trade?\***
+
+* Buy a MATICLONG token if you believe that its demand will tend to grow as a result of increased popularity assumed by the Binance Smart Chain Network;
+* Buy the MATICSHORT token if you believe its demand and price will decrease in the future.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice. 
+
+**Settlement**
+
+You can sell your MATIC tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
+
+* If you hold MATICLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the MATICLONG token \(in red letters\);
+* Alternatively, If you hold MATICSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the MATICSHORT tokens.
+
+**Oracle source: Chainlink**
+
+**Network: BINANCE SMART CHAIN**
+
+\*\*\*\*
+
 ### **4.  FOREX AND INDICES**
 
 #### **BRITISH POUND \(x1000\)**
