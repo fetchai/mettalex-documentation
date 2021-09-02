@@ -1,12 +1,8 @@
----
-description: (Mettalex DEX Vega release)
----
-
 # Markets description
 
 ## **MARKETS**
 
-The markets available on Mettalex DEX Vega are divided into the following 3 categories:
+The markets available on Mettalex DEX are divided into the following 3 categories:
 
 ### **1.  COMMODITIES** 
 
@@ -563,6 +559,32 @@ You can sell your BTC tokens to Mettalex's Autonomous Market Maker at any time b
 **Oracle source: Chainlink**
 
 **Network: ETHEREUM and BINANCE SMART CHAIN**
+
+\*\*\*\*
+
+**BNB**
+
+BNB is the fuel of the Binance ecosystem and it is the native asset of the Binance Chain. BNB is an ERC-20 token created in June 2017. It has been designed to be used for a fee reduction on the Binance exchange, its scope was extended over the years. . For instance, it is used to pay fees on the Binance DEX, issue new tokens, send or cancel orders, and transfer assets. Following the successful launch of Binance Chain in May 2018, BNB has pivoted to become the native asset of Binance Chain, working similarly to ether \(ETH\) for the Ethereum blockchain.
+
+**How to trade?\***
+
+* Buy a BNBLONG token if you believe that its demand will tend to grow as a result of increased popularity assumed by the Binance Smart Chain Network;
+* Buy the BNBSHORT token if you believe BNB demand and price will decrease in the future.
+
+To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi_ZQffic). 
+
+\*Not to be considered financial advice. 
+
+**Settlement**
+
+You can sell your BNB tokens to Mettalex's Autonomous Market Maker at any time before market settlement. If the oracle-reported price breaches the floor or the cap of the band, this market will be automatically settled:
+
+* If you hold BNBLONG tokens and the cap is breached, you will earn the amount displayed when opening the position \(in green letters\). If the floor is breached, you will lose the amount you used to buy the BNBLONG token \(in red letters\);
+* Alternatively, If you hold BNBSHORT tokens and the floor gets breached, you will earn the amount displayed when opening the position \(in green letters\). If the cap gets breached, you will lose the tokens you used to buy the BNBSHORT tokens.
+
+**Oracle source: Chainlink**
+
+**Network: BINANCE SMART CHAIN**
 
 \*\*\*\*
 
