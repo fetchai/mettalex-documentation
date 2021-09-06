@@ -4,7 +4,7 @@
 
 The markets available on Mettalex DEX are divided into the following 3 categories:
 
-### **1.  COMMODITIES** 
+### **1.  COMMODITIES**
 
 #### **ALUMINIUM**
 
