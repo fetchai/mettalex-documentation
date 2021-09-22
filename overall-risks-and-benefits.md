@@ -8,13 +8,6 @@ Most of the trades are conducted through centralised exchanges. These are relati
 
 ### Mettalex is an experimental software: _**never invest more than you can afford to lose**_.  
 
-While the protocol has been designed to minimize risk to liquidity providers there are still risks associated with using it such as:
-
-* **Contract risk** - not all of the system components have been fully audited and the interactions between components may be outside the scope of components that have been audited separately.
-* **Operational risk** - data feed outages or errors may cause contracts to settle unexpectedly.
-* **Admin keys** - while full decentralization is on the Mettalex roadmap the initial implementation still relies on privileged admin access for some operations.
-* **Market risk** - the fee structure, Autonomous Market Maker design, and system incentives are designed to minimize market risk for liquidity providers \(see below\) however they may not be eliminated entirely. 
-
 Asset holders are equipped by the Mettalex system with risk management tools without charging high spreads. Users are not exposed to counter party risk as all transactions and trades happen through the Mettalex smart contract. This decentralisation can additionally be guaranteed through Position tokens which are backed by a fully collateralised collateral so removing the need for margin requirements and settlement. That is, no further funding is needed. Mettalex users have the opportunity to generate their own liquidity by creating more position tokens by locking-up new collateral. These new minted token pairs can be used to mitigate exposure to risks or create an exposure to certain commodity assets thanks to leveraging opportunities. The autonomous market maker uses a liquidity sensitive algorithm with bounded loss to manage market risk. Demand and liquidity in the Mettalex decoupled liquidity pool play an essential role in the automated market making process as the AMM adjusts the price of each token according to liquidity demand and the reference index fed from outside oracles. Trades take place inside a band of price values \(Δ\). In fact:
 
 * if traders open a long position and then the spot price goes up then they will experience an increase in the value of the L token and a decrease in the value of the S one. As demand arises, the price of L tokens will go up until it reaches the cap. At this point the value of L tokens would be equal to the value of the backing collateral and S tokens would be worthless;
@@ -32,7 +25,14 @@ An additional way Mettalex DEX reduces risk is through the properties of positio
 
 ## Risks for Liquidity Providers
 
-Considering liquidity provisioning, inside the Mettalex system liquidity is provided in a single token and not as a ratio of multiple tokens. Additionally, the liquidity is provided using stable coins \(e.g. USDT, BUSD\) which reduces the volatility risk. As previously mentioned, the stablecoin used as a collateral to issue position tokens has a combined value which is always equal to the collateral value. When providing liquidity to Autonomous Market Makers, liquidity providers have to face the risk of **impermanent loss** and **slippage**. Fortunately, _**in Mettalex thanks to the lower volatility of the underlying assets and provision of liquidity in stablecoins, the risks of impermanent loss and slippage are controlled efficiently and are very low.**_ 
+Considering liquidity provisioning, while the protocol has been designed to minimise risks to liquidity providers there are still risks associated with using it such as:
+
+* **Contract risk** - not all of the system components have been fully audited and the interactions between components may be outside the scope of components that have been audited separately.
+* **Operational risk** - data feed outages or errors may cause contracts to settle unexpectedly.
+* **Admin keys** - while full decentralization is on the Mettalex roadmap the initial implementation still relies on privileged admin access for some operations.
+* **Market risk** - the fee structure, Autonomous Market Maker design, and system incentives are designed to minimize market risk for liquidity providers \(see below\) however they may not be eliminated entirely. 
+
+inside the Mettalex system liquidity is provided in a single token and not as a ratio of multiple tokens. Additionally, the liquidity is provided using stable coins \(e.g. USDT, BUSD\) which reduces the volatility risk. As previously mentioned, the stablecoin used as a collateral to issue position tokens has a combined value which is always equal to the collateral value. When providing liquidity to Autonomous Market Makers, liquidity providers have to face the risk of **impermanent loss** and **slippage**. Fortunately, _**in Mettalex thanks to the lower volatility of the underlying assets and provision of liquidity in stablecoins, the risks of impermanent loss and slippage are controlled efficiently and are very low.**_ 
 
 One of the risks LPs could face is represented by **impermanent loss**. This ****represents the difference between the value when you are holding tokens in an AMM Liquidity Pool, and holding them in your wallet \(e.g. Metamask\). Trading activities change the ratio of tokens in the liquidity pool, and thus affect the value of deposited liquidity . The more the difference in value, the more impermanent loss the LP suffers. However, this loss is only temporary: in fact when the price of the tokens returns to the original value \(upon deposit\), the loss is erased. On the other hand the loss becomes a permanent one if the user withdraws the liquidity and absorbs the losses, or if the price continues to diverge and the user loses more tokens as a result.
 
