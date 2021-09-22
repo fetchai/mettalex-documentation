@@ -12,7 +12,7 @@
 * [Fetch.ai’s Stop-Loss agent for DeFi Liquidity Providers](fetch.ais-stop-loss-agent-for-defi-liquidity-providers.md)
 * [Exchange UI](exchange-ui.md)
 * [Trading Strategies with Derivatives](trading-strategies-with-derivatives.md)
-* [Risks and benefits](overall-risks-and-benefits.md)
+* [Risks for Traders and Liquidity Providers](overall-risks-and-benefits.md)
 * [Glossary](glossary.md)
 * [Mettalex DEX - FAQs](mettalex-dex-faqs.md)
 
