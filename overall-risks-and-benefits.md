@@ -6,7 +6,7 @@ Most of the trades nowadays are conducted through centralised exchanges. These a
 
 [Leitfaden Decentralized Finance \(DeFi\) – A new Fintech Revolution?](https://www.bitkom.org/Bitkom/Publikationen/Decentralized-Finance-A-new-Fintech-Revolution)
 
-### Mettalex is an experimental software: _**never invest more than you can afford to lose**_.  
+Mettalex is an experimental software: _**never invest more than you can afford to lose**_.  
 
 Asset holders are equipped by the Mettalex system with risk management tools without charging high spreads. Users are not exposed to counter party risk as all transactions and trades happen through the Mettalex smart contract. This decentralisation can additionally be guaranteed through Position tokens which are backed by a fully collateralised collateral so removing the need for margin requirements and settlement. That is, no further funding is needed. Mettalex users have the opportunity to generate their own liquidity by creating more position tokens by locking-up new collateral. These new minted token pairs can be used to mitigate exposure to risks or create an exposure to certain commodity assets thanks to leveraging opportunities. The autonomous market maker uses a liquidity sensitive algorithm with bounded loss to manage market risk. Demand and liquidity in the Mettalex decoupled liquidity pool play an essential role in the automated market making process as the AMM adjusts the price of each token according to liquidity demand and the reference index fed from outside oracles. Trades take place inside a band of price values \(Δ\). In fact:
 
