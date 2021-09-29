@@ -8,7 +8,7 @@ Currently, the [Mettalex system](https://www.mettalex.com/read) is running on th
 
 The Mettalex AMM makes use of a private [Balancer Smart Pool](https://bankless.substack.com/p/the-ultimate-guide-to-balancer-smart) to provide the functionality of swapping between a US Dollar-based coin \(stablecoin\) and long or short position tokens. It determines the cost for opening a short or long position on each Mettalex market based on market demand and several constraints that we have put in place.
 
-#### AMM Reweighting <a id="7633"></a>
+### AMM Reweighting
 
 The [Balancer whitepaper](https://balancer.finance/whitepaper/) describes the mathematics underlying the internal Balancer pool used for swaps between a stablecoin and long or short position token. The Mettalex AMM is a three token Balancer pool consisting of the stablecoin collateral token \(currently USDT, more options in the future\), long position token, and short position token. The position token prices are subject to the following constraints:
 
@@ -80,7 +80,9 @@ Given the above constraints and a spot price that is a fraction of _v_ from the 
 
 ### Spot Price for Balanced
 
-For a Balancer pool, the spot price of a long token in terms of a coin token is given by:![Image for post](https://miro.medium.com/max/328/0*L6nnknhn7LNEMSid)
+For a Balancer pool, the spot price of a long token in terms of a coin token is given by:
+
+![Image for post](https://miro.medium.com/max/328/0*L6nnknhn7LNEMSid)
 
 as shown in the Spot Price section, equation 2 of the [Balancer whitepaper](https://balancer.finance/whitepaper/).
 
@@ -102,7 +104,7 @@ The Mettalex AMM also checks the limiting behavior of the spot price as the imba
 
 We see that as the amount of short tokens in the pool approaches 0, i.e. prevailing sentiment is for the price of the asset to decrease, the long token price also approaches 0. **This incentivizes traders to take the opposite side of the prevailing sentiment and buy the cheaper long tokens.**
 
-\*\*\*\*![Image for post](https://miro.medium.com/max/561/1*kKEGrwHXeE34610vE9d3ew.png)
+![Image for post](https://miro.medium.com/max/561/1*kKEGrwHXeE34610vE9d3ew.png)
 
 Conversely, if the prevailing sentiment is that the underlying asset price will increase then the amount of long token in the pool will approach 0 and the long token price will rise. **This serves to damp out the purchase of new long tokens and incentivises existing long token holders to sell back to the pool**.
 
