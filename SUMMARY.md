@@ -4,6 +4,7 @@
 * [Mettalex Litepaper](read-the-litepaper.md)
 * [Economic model behind Mettalex DEX](economic-model-behind-mettalex-dex.md)
 * [Tokens available on Mettalex DEX](tokens-available-on-mettalex-dex.md)
+* [Mettalex Autonomous Market Maker Mathematics](mettalex-autonomous-market-maker-mathematics.md)
 * [Markets Available on Mettalex DEX Vega](markets-available-on-mettalex-dex-vega.md)
 * [Markets description](markets-description.md)
 * [Possible operations](possible-operations.md)
