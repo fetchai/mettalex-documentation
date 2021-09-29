@@ -78,7 +78,7 @@ Given the above constraints and a spot price that is a fraction of _v_ from the 
 
 
 
-### Spot Price for Balanced PositionsMettalex introduces improvements to its Autonomous Market Maker to improve risk management, control slippage, & modify fees dynamically.
+### Spot Price for Balanced
 
 For a Balancer pool, the spot price of a long token in terms of a coin token is given by:![Image for post](https://miro.medium.com/max/328/0*L6nnknhn7LNEMSid)
 
