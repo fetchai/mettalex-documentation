@@ -84,9 +84,7 @@ For a Balancer pool, the spot price of a long token in terms of a coin token is 
 
 ![Image for post](https://miro.medium.com/max/328/0*L6nnknhn7LNEMSid)
 
-as shown in the Spot Price section, equation 2 of the [Balancer whitepaper](https://balancer.finance/whitepaper/).
-
-The AMM checks that the spot prices for long and short tokens at zero imbalance are as expected \(below\).
+as shown in the Spot Price section, equation 2 of the [Balancer whitepaper](https://balancer.finance/whitepaper/). The AMM checks that the spot prices for long and short tokens at zero imbalance are as expected \(below\).
 
 **Long token price**:
 
