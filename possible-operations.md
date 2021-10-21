@@ -17,23 +17,19 @@ When entering Mettalex DEX, you can access one of the following possible section
 In this section you will be able to perform the following actions:
 
 1. Hedge or Speculate by using the_** Swap **_functionality to buy individual Position Tokens;
-2. Make Markets in position tokens on centralized exchanges by using the_** Mint **_functionality to create pairs of Long and Short position tokens from your collateral. These new tokens can then be traded elsewhere;
+2. Get exposure in position tokens on centralized exchanges by using the_** Mint **_functionality to create pairs of Long and Short position tokens from your collateral. These newly minted tokens can be implemented further yield farming strategies through other Dapps available in the space;
 3. Close positions by using the_** Redeem **_functionality to burn pairs of Long and Short Position Tokens and get back the underlying collateral, or by using the Swap functionality to sell individual Position Tokens.
-
-
 
 #### **ACCESS ACCOUNT**
 
 You will be redirected to the** Mettalex Dashboard **. From here you can perform different actions related to their strategies and beliefs (e.g. trading or supplying liquidity). You will be able to switch among different markets.
 
-
-
 #### SUPPLY LIQUIDITY
 
 This section is for Liquidity Providers who wants to perform one of the following actions:
 
-1. _**Deposit **_collateral for the Autonomous Market Maker to use to create Position Tokens for the Swap functionality.
-2. _**Withdraw c**_ollateral to claim your share of the trading fees earned by the Autonomous Market Maker.
+1. _**Deposit **_collateral for the Autonomous Market Maker to use to create Position Tokens for the Swap functionality;
+2. _**Withdraw **_collateral to claim your share of the trading fees earned by the Autonomous Market Maker;
 3. _**Stake**_ Liquidity Provider shares for Liquidity Mining rewards in the form of MTLX Governance tokens.
 
 ****
@@ -56,9 +52,7 @@ It is the first category of actions that users can undertake on Mettalex DEX. Us
 * Floor and Cap values (i.e. Price band).
 * Purchased tokens information (Symbol, purchase price, swapped price, current price, P\&L for token, total P\&L and the return).
 
-In this section traders can convert the stable coin stored in their wallets into position tokens. This operation is called “**Swap**” and allows users to swap a certain amount of tokens in exchange for another quantity of tokens desired.
-
-**‌**This operation happens thanks to the presence of the AMM. In fact traders do not need to interact with other participants on the market as the AMM acts as a counter party in this operation. When swapping, traders will have to pay a fee to liquidity providers in order to remunerate them for taking on timing risk from the AMM. These tokens can be used inside or outside the DEX itself. Traders can use the position token pairs either to take a position on the market or use them in operations outside it. These positions can be kept in an open status as long as the user wants to. It is in the user’s choice to decide when to close the positions on the market or not. This freedom is guaranteed by the fact that traders are allowed to close a position whenever they desire just by interacting directly with the AMM, by converting the position token pairs into stable coin** **(e.g. USDT) which will be deposited back into the user’s wallet.
+In the TRADE section, traders can convert the stablecoin stored in their wallets into position tokens for hedging or speculating purposes. This operation is performed thanks to the “**Swap**” functionality which allows users buy either Long or Short Position Tokens. If you believe that the price of a specific asset will increase in the near future, you will be willing to swap your stablecoin with long position tokens representing that asset and thus gain long exposure to that underlying asset. Conversely if you believe a drop in the price is more likely). This operation happens thanks to the presence of the AMM. In fact traders do not need to interact with other participants on the market as the AMM acts as a counter party in this operation. When swapping, traders will have to pay a fee to liquidity providers in order to remunerate them for taking on timing risk from the AMM. These tokens can be used inside or outside the DEX itself. Traders can use the position token pairs either to take a position on the market or use them in operations outside it. These positions can be kept in an open status as long as the user wants to. It is in the user’s choice to decide when to close the positions on the market or not. This freedom is guaranteed by the fact that traders are allowed to close a position whenever they desire just by interacting directly with the AMM, by converting the position token pairs into stable coin** **(e.g. USDT) which will be deposited back into the user’s wallet.
 
 ## **‌Market Making**
 
@@ -66,13 +60,17 @@ Market Making operations are the second category of operations users can underta
 
 ![](.gitbook/assets/3.png)
 
-Here users can not only swap their coins against the Autonomous Market Maker, but they can also mint or redeem new position tokens thanks to the dedicated windows that can be found in the same section. The market maker user interface provides additional functionality to **mint** and **redeem** Long/Short Position token pairs related to a certain underlying asset. It happens by supplying collateral to the system for token minting. Furthermore, users can supply a Long/Short Position token pair for redemption (i.e. users exchange L/S pairs against stablecoin collateral).
+Here users can not only swap their coins against the Autonomous Market Maker (look at the "[trading in a Market](possible-operations.md#trading-in-a-market)" section), but they can also **Mint** or** Redeem** new position tokens thanks to the dedicated windows that can be found in the same section. The market maker user interface provides additional functionality to **mint** and **redeem** Long/Short Position token pairs related to a certain underlying asset. It happens by supplying collateral to the system for token minting. By minting a new pair of L/S Position Tokens, you will provide enough collateral for this operation to be performed and you will receive back a Long and a Short position token representing the underlying asset at the current bid-ask price available on the market. These new tokens can be used in different ways. In fact these can be exchanged on other Exchanges or adopted in Yield Farming strategies through other protocols available in the DeFi space. Minting differs from providing liquidity because this latter operation is directed to LPs who wants to provide liquidity in return of a yield on the capital invested.
+
+Furthermore, users can supply a single Long/Short Position tokens for redemption (i.e. users exchange L/S pairs against stablecoin collateral). This action of Redeeming positions can be performed either using the Redeem functionality to burn pairs of Long and Short Position Tokens and get back the underlying collateral, or by using the Swap functionality to sell individual Position Tokens on the market and remain with just a single exposure on the underlying asset of reference. This is, a user who mints new token pairs will want to perform some other type of speculating, hedging or yield farming operation rather than just providing liquidity to gain fees from the DEX.
 
 ![](.gitbook/assets/4.png)
 
 ## Liquidity providing
 
 Liquidity providing operations are the third category of operation users can run on Mettalex (visit the following link:[ dex.mettalex.com](http://dex.mettalex.com)). It is possible to access these actions via the Mettalex Liquidity section. Users can deposit funds represented by stablecoin collateral (i.e. USDT) and are rewarded with a further aggregated yield on the capital invested via transaction fees and trading spreads between prices, according with the amount and duration of liquidity supplied into the system. In the first page, you will have access to different information about the available markets, your wallet, the available balances of liquidity provided to each market, the average APY for the chosen market and the transaction history.
+
+These Liquidity Providing operations are essential to guarantee the correct execution of transactions on the DEX as these guarantee the presence of enough liquidity into the Mettalex system to ensure the creation of new position tokens for the Swap functionality. These operations differs from providing collateral for minting new L\S Position Tokens pairs as these latter imply other strategies rather then leaving the liquidity untouched on the DEX itself.
 
 ![](.gitbook/assets/screen-shot-2021-07-20-at-13.38.39.png)
 
@@ -84,7 +82,7 @@ From the home page access the “**LIQUIDITY**” page and use the drop-down men
 
 ## Stake and Earn Rewards (MTLX)
 
-This last set of operations are available in the "Mettalex Rewards" tab in the Mettalex Liquidity Section.&#x20;
+This last set of operations are available in the "Mettalex Rewards" tab in the Mettalex Liquidity Section. Here users can deposit their liquidity to the Mettalex AMM and start earning rewards represented by MTLX governance tokens. These tokens can be withdrawn at any time and can be sold on the open market or implemented on other strategies according to the user's preferences. The liquidity provided will be used by the Mettalex AMM to guarantee the creation of position tokens to be exchanged through the Swap functionality and hence ensuring the correct execution of operation on the DEX.
 
 ![](.gitbook/assets/screen-shot-2021-07-20-at-13.40.14-2-.png)
 
