@@ -31,7 +31,7 @@ Considering liquidity provisioning, while the protocol has been designed to mini
 * **Contract risk** - not all of the system components have been fully audited and the interactions between components may be outside the scope of components that have been audited separately.
 * **Operational risk** - data feed outages or errors may cause contracts to settle unexpectedly.
 * **Admin keys **- while full decentralization is on the Mettalex roadmap the initial implementation still relies on privileged admin access for some operations.
-* **Market risk **- the fee structure, Autonomous Market Maker design, and system incentives are designed to minimize market risk for liquidity providers (see below) however they may not be eliminated entirely.&#x20;
+* **Market risk **- the fee structure, Autonomous Market Maker design, and system incentives are designed to minimize market risk for liquidity providers (see below). However, they may not be eliminated entirely.&#x20;
 
 Inside the Mettalex system liquidity is provided in a single token and not as a ratio of multiple tokens. Additionally, the liquidity is provided using stable coins (e.g. USDT, BUSD) which reduces the volatility risk. As previously mentioned, the stablecoin used as a collateral to issue position tokens has a combined value which is always equal to the collateral value. When providing liquidity to Autonomous Market Makers, liquidity providers have to face the risk of **impermanent loss** and **slippage**. Fortunately, _**in Mettalex thanks to the lower volatility of the underlying assets and provision of liquidity in stablecoins, the risks of impermanent loss and slippage are controlled efficiently and are very low. **_
 
