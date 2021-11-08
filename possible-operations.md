@@ -28,8 +28,8 @@ You will be redirected to the** Mettalex Dashboard **. From here you can perform
 
 This section is for Liquidity Providers who wants to perform one of the following actions:
 
-1. _**Deposit **_collateral for the Autonomous Market Maker to use to create Position Tokens for the Swap functionality;
-2. _**Withdraw **_collateral to claim your share of the trading fees earned by the Autonomous Market Maker;
+1. _**Deposit **_collateral for the Autonomous Market Maker to use to create Position Tokens for the Swap functionality.
+2. _**Withdraw **_collateral to claim your share of the trading fees earned by the Autonomous Market Maker.
 3. _**Stake**_ Liquidity Provider shares for Liquidity Mining rewards in the form of MTLX Governance tokens.
 
 ****
