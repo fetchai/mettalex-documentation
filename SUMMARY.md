@@ -4,8 +4,8 @@
 * [Mettalex Litepaper](read-the-litepaper.md)
 * [Economic model behind Mettalex DEX](economic-model-behind-mettalex-dex.md)
 * [Tokens available on Mettalex DEX](tokens-available-on-mettalex-dex.md)
-* [Mettalex Autonomous Market Maker Mathematics](mettalex-autonomous-market-maker-mathematics.md)
 * [Markets Available on Mettalex DEX Vega](markets-available-on-mettalex-dex-vega.md)
+* [Mettalex Autonomous Market Maker Mathematics](mettalex-autonomous-market-maker-mathematics.md)
 * [Markets description](markets-description.md)
 * [Possible operations](possible-operations.md)
 * [Mettalex DEX: LP MTLX Rewards Walkthrough](mettalex-dex-lp-mtlx-rewards-walkthrough.md)
@@ -16,4 +16,3 @@
 * [Risks for Traders and Liquidity Providers](overall-risks-and-benefits.md)
 * [Glossary](glossary.md)
 * [Mettalex DEX - FAQs](mettalex-dex-faqs.md)
-
