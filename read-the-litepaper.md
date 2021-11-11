@@ -1,10 +1,12 @@
 # Mettalex Litepaper
 
-{% file src=".gitbook/assets/mettalex-litepaper \(1\).pdf" caption="Mettalex Litepaper" %}
+{% file src=".gitbook/assets/mettalex-litepaper (1).pdf" %}
+Mettalex Litepaper
+{% endfile %}
 
-Version: v1.0 \(September 2020\)
+Version: v1.0 (September 2020)
 
-[www.mettalex.c](http://www.mettalex.com/)[om](http://www.mettalex.com/)
+[www.mettalex.c](http://www.mettalex.com)[om](http://www.mettalex.com)
 
 ## Abstract
 
@@ -16,7 +18,7 @@ This document is a high level litepaper describing the goals and system componen
 
 ### System diagram
 
-![](.gitbook/assets/0%20%281%29.png)
+![](<.gitbook/assets/0 (1).png>)
 
 The Mettalex system diagram shows the core components:
 
@@ -43,7 +45,7 @@ The risk management tools provided to the main user group of physical traders wi
 
 Key Benefit: Returns on Investment
 
-There will be a role for liquidity providers \(LPs\) and market makers in the system to increase trading volumes and reduce cost of trading. LPs will receive yield on capital invested via transaction fees and/or trading spreads.
+There will be a role for liquidity providers (LPs) and market makers in the system to increase trading volumes and reduce cost of trading. LPs will receive yield on capital invested via transaction fees and/or trading spreads.
 
 Liquidity providers supplying liquidity to system controlled autonomous market makers will additionally earn governance tokens via a liquidity mining process that rewards in proportion to the amount and duration of supplied liquidity.
 
@@ -53,7 +55,7 @@ We have created position tokens representing leveraged cash settled exposures to
 
 #### Position Tokens
 
-The position tokens track the price change of an underlying asset \(long tokens\), or the negative of that change \(short tokens\). Leverage is achieved by the token price being a fraction of the asset price. This leverage enables hedgers to manage their risk exposure at minimal cost.
+The position tokens track the price change of an underlying asset (long tokens), or the negative of that change (short tokens). Leverage is achieved by the token price being a fraction of the asset price. This leverage enables hedgers to manage their risk exposure at minimal cost.
 
 #### Exchange Interface
 
@@ -75,14 +77,14 @@ The liquidity pool is a decoupled provider of collateral to the autonomous marke
 
 #### Governance Tokens
 
-Governance tokens \(MTLX\) are used to vote on system parameters such as choice of autonomous market makers to back with liquidity from the liquidity pool, borrowing rates from the liquidity pool, usage of exchange fees. Governance tokens are minted at an exponentially decreasing rate to incentivise early liquidity providers in the system. Minted tokens are distributed in proportion to the amount of liquidity supplied to the system at each block. Some fraction of the exchange fees and autonomous market maker spreads is used to buy back MTLX and burn.
+Governance tokens (MTLX) are used to vote on system parameters such as choice of autonomous market makers to back with liquidity from the liquidity pool, borrowing rates from the liquidity pool, usage of exchange fees. Governance tokens are minted at an exponentially decreasing rate to incentivise early liquidity providers in the system. Minted tokens are distributed in proportion to the amount of liquidity supplied to the system at each block. Some fraction of the exchange fees and autonomous market maker spreads is used to buy back MTLX and burn.
 
 ## Explaining Position Tokens
 
-Given a commodity, tokens are created that track the reference price in a long \(L\) or short \(S\) exposure:
+Given a commodity, tokens are created that track the reference price in a long (L) or short (S) exposure:
 
-* Long token: increase of spot price of $1 results in the long token price increasing by $1
-* Short token: increase of spot price of $1 results in the short token price decreasing by $1
+* Long token: increase of spot price of $1.00 results in the long token price increasing by $1.00.
+* Short token: increase of spot price of $1.00 results in the short token price decreasing by $1.00.
 
 These tokens have the following properties:
 
@@ -91,21 +93,21 @@ These tokens have the following properties:
 * The tokens do not have a fixed expiry date so that holders don’t need to roll their positions into a new series of tokens as token expiry is reached.
 * Liquidity is concentrated into a small number of tokens for each reference asset.
 * The exchange does not rely on external liquidity providers e.g. hedging spot exposure by buying futures contracts on LME, although market participants are free to use this capability should they have access to it.
-* The tokens are ERC20 compatible tokens so can be stored in wallets.
+* The tokens are ERC-20 compatible tokens so can be stored in wallets.
 
 ### Underlying Asset Price Feed
 
-The reference asset price is periodically fed into the system from multiple reference exchanges such as the London Metals Exchange \(LME\), Chicago Mercantile Exchange\(CME\), Intercontinental Exchange \(ICE\). Using the derived multiple price feeds over the decentralized oracle network provides a fair pricing mechanism and is used to determine whether a band breach occurs i.e. when the price is out of the allowed range for the token. In the event of a band breach the position tokens change state to settled, with one of the token L/S pair having the full value of the underlying collateral and the other being worthless.
+The reference asset price is periodically fed into the system from multiple reference exchanges such as the London Metals Exchange (LME), Chicago Mercantile Exchange(CME), Intercontinental Exchange (ICE). Using the derived multiple price feeds over the decentralised oracle network provides a fair pricing mechanism and is used to determine whether a band breach occurs i.e. when the price is out of the allowed range for the token. In the event of a band breach the position tokens change state to settled, with one of the token L/S pair having the full value of the underlying collateral and the other being worthless.
 
 In normal circumstances outside of breach conditions an autonomous market maker provides a price for position tokens based on the current reference asset index and market sentiment expressed by demand for the different positions. This acts as a proxy for the futures curve for the asset.
 
 ### Commodity Derived Position Tokens
 
-For commodity derived position tokens we expect the spot price to usually trade over a bounded range, called the delta. For example for steel scrap this might range from $225 to $375 per tonne, i.e. a delta of $150 centred around $300.
+For commodity derived position tokens we expect the spot price to usually trade over a bounded range, called the delta. For example for steel scrap this might range from $225.00 to $375.00 per tonne, i.e. a delta of $150.00 centred around $300.00.
 
-We can use this trading range to set the floor and cap prices for the token pair. Continuing the example above the value of a long and short pair of tokens is equal to the delta, here $150, with floor set at $225 and cap at $375. That is, depositing $150 worth of collateral will mint a L&S pair. Assuming the spot price when the tokens are minted is $300, each token will have a value of $75, representing a leverage of $300/$75 = 4x. Choosing the floor and cap based on historical delta allows us to create a non-expiring perpetual token that can be held indefinitely as long as the spot remains within the historical range.
+We can use this trading range to set the floor and cap prices for the token pair. Continuing the example above the value of a long and short pair of tokens is equal to the delta, here $150.00, with floor set at $225.00 and cap at $375.00. That is, depositing $150.00 worth of collateral will mint a L\&S pair. Assuming the spot price when the tokens are minted is $300.00, each token will have a value of $75.00, representing a leverage of $300.00/$75.00 = 4x. Choosing the floor and cap based on historical delta allows us to create a non-expiring perpetual token that can be held indefinitely as long as the spot remains within the historical range.
 
-This has the consequence that as the spot trades away from the centre price it becomes cheaper to buy exposure for the position opposite the movement. For example if spot increases to $350 the value of a long token becomes $125 \(leverage = 350/125 = 2.8x\) while the short token is now worth $25 \(leverage = 350/25 = 14x\). This is an incentive for market participants to provide liquidity for the short position at low cost if they believe a top in the spot price has been reached.
+This has the consequence that as the spot trades away from the centre price it becomes cheaper to buy exposure for the position opposite the movement. For example if spot increases to $350.00 the value of a long token becomes $125.00 (leverage = $350.00/$125.00 = 2.8x) while the short token is now worth $25.00 (leverage = $350.00/$25.00 = 14x). This is an incentive for market participants to provide liquidity for the short position at low cost if they believe a top in the spot price has been reached.
 
 If the spot price breaches the historical range the long and short tokens settle in an autonomous process:
 
@@ -114,9 +116,9 @@ If the spot price breaches the historical range the long and short tokens settle
 
 At this point the current token pair would be settled and all collateral backed by the tokens distributed to the token holders. The position tokens would all be burnt. The Mettalex contract would be reinitialised with parameters centered around the current spot price with the same price range. New position tokens could then be minted using the reset Mettalex contract and trading resumes as normal.
 
-Note that there is a trade off between leverage and the probability of breaching a floor or cap. In the limit of the case where we have leverage of 1 the floor is set at 0 and the cap at twice the spot price \($600 here\), which should have a low probability of breaching either floor or cap.
+Note that there is a trade off between leverage and the probability of breaching a floor or cap. In the limit of the case where we have leverage of 1 the floor is set at 0 and the cap at twice the spot price ($600.00 here), which should have a low probability of breaching either floor or cap.
 
-In contrast a floor-cap range of $270-$330 would give initially 10x leverage but at the expense of multiple settlement and token reissuance cycles.
+In contrast a floor-cap range of $270.00-$330.00 would give initially 10x leverage but at the expense of multiple settlement and token reissuance cycles.
 
 ### Spread Position Tokens
 
@@ -148,7 +150,7 @@ The autonomous market maker is pluggable component of the system that can be upg
 
 The interaction between the Mettalex contract and the Mettalex pool provides a fair price to the commodity trader by dynamically adjusting the token weights in response to price movements of the reference asset.
 
-The Fetch.ai network implementation of the autonomous market maker will offer the opportunity to use more advanced AI agent driven market making algorithms to provide liquidity to a full supply chain at once. This could be achieved by having position tokens from multiple commodities \(up to 12 currently but could be more\) and spreads in the same autonomous market maker pool.
+The Fetch.ai network implementation of the autonomous market maker will offer the opportunity to use more advanced AI agent driven market making algorithms to provide liquidity to a full supply chain at once. This could be achieved by having position tokens from multiple commodities (up to 12 currently but could be more) and spreads in the same autonomous market maker pool.
 
 ## Liquidity Pool
 
@@ -194,9 +196,8 @@ Initial users for the commodities platform have been recruited and have been par
 
 The roadmap for increasing use of Fetch.ai technology in the system includes:
 
-* Replacing the centralized exchange with a decentralized exchange using the Fetch.ai ledger for high transaction rates \(c.f. ETH level 2 scaling\).
-* Fetch.ai agents and collective learning acting as index providers e.g. monitoring process ****metrics throughout supply chains to create spread tokens for supply chain optimization.
+* Replacing the centralized exchange with a decentralized exchange using the Fetch.ai ledger for high transaction rates (c.f. ETH level 2 scaling).
+* Fetch.ai agents and collective learning acting as index providers e.g. monitoring process** **metrics throughout supply chains to create spread tokens for supply chain optimization.
 * Autonomous market makers running on Fetch.ai ledger for increased capability
 
 Fetch.ai interoperability technology will enable these use cases e.g. stablecoin pegging with the Ethereum network to enable the transactions in DEX and AMM use cases.
-
