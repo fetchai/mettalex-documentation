@@ -2,15 +2,15 @@
 
 Interactions with Mettalex DEX will require the ability to call some Mettalex smart contract events:
 
-* Mint L/S Position tokens from coin tokens \(i.e. USDT\);
+* Mint L/S Position tokens from coin tokens (i.e. USDT);
 * Redeem L/S token pair for coin tokens;
 * Redeem single Position token for coin tokens if contract is settled.
 
-This means that each user needs to call different methods accordingly to the liquidity pool they want to interact with \(i.e. **Mettalex Vault**, **LPs pool** or **AMM pool**\).
+This means that each user needs to call different methods accordingly to the liquidity pool they want to interact with (i.e. **Mettalex Vault**, **LPs pool** or **AMM pool**).
 
 ## **Possible Events: Mettalex Vault**
 
-The possible scenarios a user can face when operating with position tokens in the Mettalex Vault are the following: 
+The possible scenarios a user can face when operating with position tokens in the Mettalex Vault are the following:&#x20;
 
 #### **Allowance**
 
@@ -140,7 +140,7 @@ This method is called to claim the fee accumulated by the vault. The parameter `
 
 `returns (uint256 tokensReturned, uint256 priceImpact)`
 
-This method is called to get the expected amount of tokens \(i.e. `uint256 fromTokemAmount`\) given out in a swap operation from the `fromToken` address to the `toToken` address. ****This method returns the amount of tokens returned to the user’s account \(i.e. `uint256` `tokensReturned`\) and the price impact due to the operation \(i.e. `uint256 priceImpact`\).
+This method is called to get the expected amount of tokens (i.e. `uint256 fromTokemAmount`) given out in a swap operation from the `fromToken` address to the `toToken` address.** **This method returns the amount of tokens returned to the user’s account (i.e. `uint256` `tokensReturned`) and the price impact due to the operation (i.e. `uint256 priceImpact`).
 
 #### **GetExpectedInAmount**
 
@@ -148,7 +148,7 @@ This method is called to get the expected amount of tokens \(i.e. `uint256 fromT
 
 `returns (uint256 tokensReturned, uint256 priceImpact)`
 
-This method is called to get the expected amount of tokens \(i.e. `uint256 toTokemAmount`\) received in a swap operation from the `fromToken` address to the `toToken` address. This method returns the amount of tokens returned to the account \(i.e. `uint256 tokensReturned`\) and the price impact due to the operation \(i.e. `uint256 priceImpact`\).
+This method is called to get the expected amount of tokens (i.e. `uint256 toTokemAmount`) received in a swap operation from the `fromToken` address to the `toToken` address. This method returns the amount of tokens returned to the account (i.e. `uint256 tokensReturned`) and the price impact due to the operation (i.e. `uint256 priceImpact`).
 
 #### **GetSwapFee**
 
@@ -178,11 +178,11 @@ Used to check if the token is bounded to the balancer pool connected with the st
 
 `swapExactAmountIn (address tokenIn, uint256 tokenAmountIn, address tokenOut, uint256 minAmountOut, uint256 maxPrice)`
 
-   `returns (uint256 tokenAmountOut, uint256 spotPriceAfter` 
+&#x20;  `returns (uint256 tokenAmountOut, uint256 spotPriceAfter`&#x20;
 
-This method is called when the user wants to trade an amount `uint256` `tokenAmountIn` of `tokenIn` taken by the pool, in exchange for an amount `uint256 minAmountOut` of `tokenOut given` to the user from the pool, with a maximum marginal price equal to `uint 256 maxPrice`. 
+This method is called when the user wants to trade an amount `uint256` `tokenAmountIn` of `tokenIn` taken by the pool, in exchange for an amount `uint256 minAmountOut` of `tokenOut given` to the user from the pool, with a maximum marginal price equal to `uint 256 maxPrice`.&#x20;
 
-This method returns the amount of tokens taken out from the user’s account \(i.e. `uint256 tokenAmountOut`\) and the new spot price after the swap operation \(i.e. `uint256 spotPriceAfter`\).
+This method returns the amount of tokens taken out from the user’s account (i.e. `uint256 tokenAmountOut`) and the new spot price after the swap operation (i.e. `uint256 spotPriceAfter`).
 
 #### UpdateSpotAndNormalizeWeights
 
@@ -207,4 +207,3 @@ This method updates the spot price of an asset. `uint256` is the new updated pri
 `updateCommodityAfterBreach (address _vault, address _ltk, address _stk)`
 
 This method is called to update the contract addresses after a band breach occurs. `address _vault` is the vault address whereas `address _ltk` and `address _stk` are respectively the Long and Short token addresses.
-

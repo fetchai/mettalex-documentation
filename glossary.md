@@ -1,6 +1,6 @@
 # Glossary
 
-#### **Autonomous Market Maker \(AMM\)**
+#### **Autonomous Market Maker (AMM)**
 
 Each commodity token pair has an associated autonomous market maker that allows market participants to exit a position at any point without having to find a counterparty on the exchange. The autonomous market maker uses a liquidity sensitive algorithm with bounded loss to manage market risk. Autonomous market maker liquidity providers receive pool tokens that entitle them to a fraction of the fees and spread earned by the market maker.
 
@@ -14,7 +14,7 @@ The Mettalex contract performs the settlement and clearing of the position token
 
 #### **Blockchain**
 
-The blockchain is a digital ledger of all the transactions ever made in a particular cryptocurrency. It’s composed of individual blocks \(see definition above\) that are chained to each other through a cryptographic signature. Each time a block’s capacity is reached, a new block is added to the chain. The blockchain is repeatedly copied and saved onto thousands of computers all around the world, and it must always match each copy. As there is no master copy stored in one location, it’s considered decentralized.
+The blockchain is a digital ledger of all the transactions ever made in a particular cryptocurrency. It’s composed of individual blocks (see definition above) that are chained to each other through a cryptographic signature. Each time a block’s capacity is reached, a new block is added to the chain. The blockchain is repeatedly copied and saved onto thousands of computers all around the world, and it must always match each copy. As there is no master copy stored in one location, it’s considered decentralized.
 
 
 
@@ -32,17 +32,17 @@ A collateral is something of value given as a guarantee to obtain something else
 
 #### **Collateralization Ratio**
 
-To borrow tokens from a DeFi protocol, one must put up more collateral than the loan is worth. Each protocol can use different collateralization ratios. However, users must maintain the designated ratio to prevent liquidation \(See Liquidation Ratio\).  
+To borrow tokens from a DeFi protocol, one must put up more collateral than the loan is worth. Each protocol can use different collateralization ratios. However, users must maintain the designated ratio to prevent liquidation (See Liquidation Ratio). &#x20;
 
 
 
 #### **Crypto wallet**
 
-These wallets store public and private keys allowing users to send, receive, and store tokens. The tokens reside on the blockchain and the wallet accesses them. \(See Web 3.0 Wallets\).
+These wallets store public and private keys allowing users to send, receive, and store tokens. The tokens reside on the blockchain and the wallet accesses them. (See Web 3.0 Wallets).
 
 
 
-#### **Decentralized Application \(DAPP\)**
+#### **Decentralized Application (DAPP)**
 
 A computer program that utilizes a blockchain for data storage, runs autonomously, is not controlled or operated from a single entity, is open source and has its use incentivized by the reward of fees or tokens.
 
@@ -54,7 +54,7 @@ Tokens are deflationary if a percentage is permanently removed from the marketpl
 
 
 
-#### **ERC-20** 
+#### **ERC-20 **
 
 It is the standard to which each Ethereum token complies. This standard defines the way each token behaves so that transactions are predictable. Other cryptocurrencies also use the ERC-20 standard, piggybacking on the Ethereum network in the process.
 
@@ -74,15 +74,15 @@ Gas fees are rewards paid to  miners to incentivize them to support the network'
 
 
 
-#### **Governance tokens \(MTLX\)**
+#### **Governance tokens (MTLX)**
 
-Governance tokens \(MTLX\) are used to vote on system parameters such as choice of autonomous market makers to back with liquidity from the liquidity pool, borrowing rates from the liquidity pool, usage of exchange fees, etc. Governance tokens are minted at an exponentially decreasing rate to incentivise early liquidity providers in the system. Minted tokens are distributed in proportion to the amount of liquidity supplied to the system at each block. Some fraction of the exchange fees and autonomous market maker spreads is used to buy back MTLX and burn.
+Governance tokens (MTLX) are used to vote on system parameters such as choice of autonomous market makers to back with liquidity from the liquidity pool, borrowing rates from the liquidity pool, usage of exchange fees, etc. Governance tokens are minted at an exponentially decreasing rate to incentivise early liquidity providers in the system. Minted tokens are distributed in proportion to the amount of liquidity supplied to the system at each block. Some fraction of the exchange fees and autonomous market maker spreads is used to buy back MTLX and burn.
 
 
 
 #### **KYC**
 
-Know Your Customer. KYC guidelines fit into the broader scope of Anti-Money Laundering \(AML\) policies in traditional finance. There is no KYC or AML in DeFi.
+Know Your Customer. KYC guidelines fit into the broader scope of Anti-Money Laundering (AML) policies in traditional finance. There is no KYC or AML in DeFi.
 
 
 
@@ -94,11 +94,11 @@ Liquidation is applied to borrowers. They can have their collateral liquidated i
 
 #### **Liquidation Ratio**
 
-This is the level at which the collateralization ratio dips that can trigger a liquidation. 
+This is the level at which the collateralization ratio dips that can trigger a liquidation.&#x20;
 
 
 
-#### **Liquidity pool** 
+#### **Liquidity pool **
 
 A liquidity pool is a decoupled provider of collateral to the autonomous market maker. Liquidity providers receive an aggregated return from all commodity market maker fees and spreads in exchange for providing collateral that the market makers can use to mint position tokens. In addition liquidity providers receive a pro-rata distribution of MTLX governance tokens based on the amount and duration of their participation in the liquidity pool.
 
@@ -106,19 +106,19 @@ A liquidity pool is a decoupled provider of collateral to the autonomous market 
 
 #### **Liquidity Provider**
 
-A liquidity provider \(i.e. LP\) is a user who funds a liquidity pool with own crypto assets so as  to facilitate trading on the platform and earn passive income on the liquidity deposited.
+A liquidity provider (i.e. LP) is a user who funds a liquidity pool with own crypto assets so as  to facilitate trading on the platform and earn passive income on the liquidity deposited.
 
 
 
 #### **Metamask**
 
-[Metamask](https://metamask.io/) is a popular Web 3.0 wallet used in DeFi. Other wallets you may hear about are the Binance Wallet and Torus.
+[Metamask](https://metamask.io) is a popular Web 3.0 wallet used in DeFi. Other wallets you may hear about are the Binance Wallet and Torus.
 
 
 
-#### **Mettalex Smart Contract** 
+#### **Mettalex Smart Contract **
 
-Each position token pair has an associated Mettalex smart contract that acts as a decentralized clearing house. Position tokens are minted in pairs of long and short tokens by locking up collateral in the Mettalex smart contract. Thereby,  position tokens are always fully collateralized, removing margin requirements and counterparty risk. At any stage a token holder can use the Mettalex smart contract to redeem the collateral backing a long and short token pair. The Mettalex smart contract is responsible for settling the position tokens if the underlying commodity index breaches the range \(i.e. Price Band\) specified at deployment of the Mettalex contract. 
+Each position token pair has an associated Mettalex smart contract that acts as a decentralized clearing house. Position tokens are minted in pairs of long and short tokens by locking up collateral in the Mettalex smart contract. Thereby,  position tokens are always fully collateralized, removing margin requirements and counterparty risk. At any stage a token holder can use the Mettalex smart contract to redeem the collateral backing a long and short token pair. The Mettalex smart contract is responsible for settling the position tokens if the underlying commodity index breaches the range (i.e. Price Band) specified at deployment of the Mettalex contract.&#x20;
 
 
 
@@ -136,13 +136,13 @@ Within the blockchain context, an oracle is a data source used as a bridge betwe
 
 #### **Over-Collateralization**
 
-Over-collateralization means that borrowers must put up more collateral than they borrow. This ensures that lenders don’t lose their funds should a borrower default \(See Collateralization Ratio\). 
+Over-collateralization means that borrowers must put up more collateral than they borrow. This ensures that lenders don’t lose their funds should a borrower default (See Collateralization Ratio).&#x20;
 
 
 
 #### **Position tokens**
 
-Position tokens track the price change of an underlying asset \(i.e. long tokens\) or the negative of that change \(i.e. short tokens\). Leverage is achieved by the token price being a fraction of the asset price. This leverage enables hedgers to manage their risk exposure at minimal cost.
+Position tokens track the price change of an underlying asset (i.e. long tokens) or the negative of that change (i.e. short tokens). Leverage is achieved by the token price being a fraction of the asset price. This leverage enables hedgers to manage their risk exposure at minimal cost.
 
 
 
@@ -152,7 +152,7 @@ The Investopedia's definition says:
 
 > Slippage refers to the difference between the expected price of a trade and the price at which the trade is executed. Slippage can occur at any time but is most prevalent during periods of higher volatility when market orders are used. It can also occur when a large order is executed but there isn't enough volume at the chosen price to maintain the current bid/ask spread.
 
-Slippage occurs in all market venues, including equities, bonds, currencies and futures. 
+Slippage occurs in all market venues, including equities, bonds, currencies and futures.&#x20;
 
 
 
@@ -178,7 +178,7 @@ According to Investopedia's definition:
 
 #### Testnet
 
-A testing network for a new coin, project, product or for potential improvements to an existing product or offering. Testnets \(e.g. Kovan Test Network\) are used to test the viability and vulnerability of new ideas, concepts, code, and processes prior to moving on to a production network.
+A testing network for a new coin, project, product or for potential improvements to an existing product or offering. Testnets (e.g. Kovan Test Network) are used to test the viability and vulnerability of new ideas, concepts, code, and processes prior to moving on to a production network.
 
 
 
@@ -190,5 +190,4 @@ Volatility describes how quickly and how much the price of an asset changes. It 
 
 #### **Yield Farming**
 
-Yield farming is the practice of staking or lending crypto assets in order to generate high returns or rewards in the form of additional cryptocurrency. Yield farming protocols incentivize liquidity providers to stake or lock up their crypto assets in a smart contract-based liquidity pool. These incentives can be a percentage of transaction fees or a governance token. These returns are expressed as an annual percentage yield \(APY\). As more investors add funds to the related liquidity pool, the value of the issued returns rise in value. 
-
+Yield farming is the practice of staking or lending crypto assets in order to generate high returns or rewards in the form of additional cryptocurrency. Yield farming protocols incentivize liquidity providers to stake or lock up their crypto assets in a smart contract-based liquidity pool. These incentives can be a percentage of transaction fees or a governance token. These returns are expressed as an annual percentage yield (APY). As more investors add funds to the related liquidity pool, the value of the issued returns rise in value.&#x20;

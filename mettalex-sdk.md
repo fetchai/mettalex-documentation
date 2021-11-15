@@ -1,6 +1,6 @@
 # Mettalex SDK
 
-[**Website**](https://mettalex.com/)
+[**Website**](https://mettalex.com)
 
 Access the world’s first DEX focused on token based commodities trading using this SDK. Accessible 24/7 with tight trading spreads, low margin requirements and unique hedge instruments that ensure you don’t get liquidated prior to settlement dates.
 
@@ -24,13 +24,13 @@ Mettalex for python can be installed directly from github using the following co
 
 Mettalex provides 3 networks for connecting to Metallex exchange, namely, `'bsc-testnet'`, `'kovan'` and `'bsc-mainnet'`. You will need to connect to one of these to be able to access Mettalex. You will require your `key` while connecting to any network. `Infura project ID` and `Infura API Secret` are required only when connecting to `kovan`.
 
-```text
+```
 apiSDK.connect([network], [userkey], [infuraSecret ? Optional], [infuraProjectId ? Optional])
 ```
 
-You can pass credentials as a json file \(e.g. trade\_sdk\_creds.json\).
+You can pass credentials as a json file (e.g. trade\_sdk\_creds.json).
 
-```text
+```
 {
   "kovan": {
     "infura": {
@@ -59,13 +59,13 @@ You can pass credentials as a json file \(e.g. trade\_sdk\_creds.json\).
 
 then connect with:
 
-```text
+```
 apiSDK.connect('kovan', filename=os.path.expanduser('~/trader_sdk_creds.json'))
 ```
 
 #### **Getting Commodities**
 
-`apiSDK.getCommodities(network_id=optional, coin_id='default')` This function returns a pandas DataFrame with details of all the commodities in the connected network.  
+`apiSDK.getCommodities(network_id=optional, coin_id='default')` This function returns a pandas DataFrame with details of all the commodities in the connected network.\
 Use this function typically while getting the list of all commodities available on a network.
 
 The optional `network_id` argument allows the user to examine commodities present on different networks. If unspecified the connected network is used.
@@ -74,7 +74,7 @@ The optional `coin_id` argument specifies the underlying collateral.
 
 **Note: on bsc-mainnet BUSD is "real money":** please exercise caution and understand the risks involved.
 
-```text
+```
 commodities = apiSDK.getCommodities(coin='BUSD')
 commodities.loc[:, ['category', 'commodity_symbol', 'id']]
 Out[27]: 
@@ -85,7 +85,7 @@ Out[27]:
 
 #### **Creating a commodity instance to trade**
 
-`commodity = apiSDK.Commodity([commodity symbol or commodity ID])` 
+`commodity = apiSDK.Commodity([commodity symbol or commodity ID])`&#x20;
 
 A Commodity instance can be created using the commodity symbol. This initializes a class instance of the particular commodity. An instance of a commodity needs to be created to be able to execute trades and getting expected prices. We can get commodity symbols available by calling `getCommodities()` and looking at the `commodity_symbol` column. If there are multiple commodities with the same symbol, e.g. settled and active commodities, then it is better to use the `commodity_id` to access a market.
 
@@ -93,26 +93,26 @@ A Commodity instance can be created using the commodity symbol. This initializes
 
 Two functions `ask` and `bid` can be used to retrieve trading prices. These functions can be called on commodity instances created, taking two arguments of token and amount to be traded.
 
-```text
+```
 commodity.ask(token, amount) - amount of coin required to buy token amount
 
 commodity.bid(token, amount) - amount of coin received from sell token amount
 ```
 
-Token is provided as a string and can be either `"long"` or `"short"`.  
-Amount is provided by default as a `float` using token amounts taking token decimals into account.  
+Token is provided as a string and can be either `"long"` or `"short"`.\
+Amount is provided by default as a `float` using token amounts taking token decimals into account.\
 If the `unitless` parameter is set to True the amount values are in `int`
 
 #### **Trading**
 
-Trading in a commodity is quite simple. We have to call trade function on a commodity instance providing in token, out token and the amount we want to trade. `In token` and `Out Token` can take `"long"`,`"short"`, or `"coin"` as values.  
+Trading in a commodity is quite simple. We have to call trade function on a commodity instance providing in token, out token and the amount we want to trade. `In token` and `Out Token` can take `"long"`,`"short"`, or `"coin"` as values.\
 Amount is provided as a `float or` `int` as for `bid` and `ask` methods. `commodity.trade([In Token], [Out Token], [amount In], [minimum amount Out])`
 
 ### Example
 
 1. Setup and imports in ipython console;
 
-```text
+```
 %load_ext autoreload
 %autoreload 2
 import pandas as pd
@@ -122,9 +122,9 @@ pd.set_option('display.width', 1000)
 pd.set_option('display.max_columns', None)
 ```
 
-  2. Connect to blockchain and list commodities;
+&#x20; 2\. Connect to blockchain and list commodities;
 
-```text
+```
 apiSDK.connect('kovan', filename=os.path.expanduser('~/trader_sdk_creds.json'))
 commodities = apiSDK.getCommodities('kovan', output='dataframe')
 Connected to network ID 42
@@ -151,9 +151,9 @@ Out[7]:
 19  211          SRSCSPR  Steel Rebar Scrap Spread
 ```
 
-  3. Connect to specific market and trade.
+&#x20; 3\. Connect to specific market and trade.
 
-```text
+```
 commodity = apiSDK.Commodity('BTCTSLA')
 connection established sucessfully
 commodity
@@ -188,7 +188,7 @@ Out[18]: (32752.557059, 0.0, 109.92576)
 
 ### Example Showing Mint and Redeem Operations
 
-```text
+```
 commodity = apiSDK.commodity_from_symbol('BTCTSLA')
 connection established sucessfully
 commodity
@@ -225,4 +225,3 @@ Out[16]: (99979557.333966, 6.59466, 1.62269)
 # Close position either by swapping long to coin, short to coin
 # or redeeming max number of pairs and then trading the remaining position tokens for coin
 ```
-
