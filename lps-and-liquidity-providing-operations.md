@@ -165,6 +165,13 @@ _**C.  Balance = $2’009.35 (safe) + $8.46 (risk)**, divided into:_
 
 ![](<.gitbook/assets/6 (1).png>)
 
-__
+_As it is possible to see, after the two trade operations considered in the example, we have that the LP will have exposed himself by providing liquidity to the AMM. At the very beginning, the imbalanced amount was 0.00 but following the trades the imbalance amount at risk increases or decreases. This is determined by the changes in the weights and prices applied by the AMM to the tokens in the pool to guarantee zero imbalance of token amounts in the pool._
+
+Inside Mettalex DEX, Impermanent loss (IL) and slippage events are marginalised thanks to:
+
+* the properties of Position Tokens: in fact, these guarantee a lower volatility of assets on Mettalex and allow users to open leveraged position;
+* the stablecoin liquidity provisioning mechanism on which the Mettalex DEX system is based on.
+
+However,_** these risks are not non-existent and should be taken into consideration. Liquidity providers expose themselves to timing risk when providing liquidity to the AMM**_. Because of this, LPs will see substantial returns on their investments due to trading fees that will increase their governance influence. The Governance Layer rewards LPs with MTLX tokens. This latter token increases the LP’s governance influence and allows him to gain additional yield via yield farming strategies. Furthermore, LPs can trade using their position tokens on the market by opening long or short positions according to their strategies and their risk propensity as the trader will have to face volatility risk connected to the underlying assets prices. However, each LP is allowed to exit a position at any point. However, in regular circumstances, LPs who provided liquidity to the system have the opportunity to withdraw it in times of high demand. This provides them with an opportunity to recoup capital before re-engaging with the system itself. By the way, in periods in which the Mettalex smart contract needs for liquidity is high, LPs may be required to wait a short period in order to guarantee a baseline level of liquidity to be reached. This is not only to guarantee the stability of the system, but also to protect the investment they made into the exchange. Users providing liquidity to the Mettalex DEX to earn MTLX rewards have to face these potential risks considering also the possibility that the value of the rewards accumulated could change due to market dynamics.
 
 __
