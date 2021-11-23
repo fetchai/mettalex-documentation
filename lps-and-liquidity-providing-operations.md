@@ -2,11 +2,11 @@
 
 Liquidity is essential in Mettalex DEX. An adequate level of liquidity in the system guarantees the correct execution of operations and transactions. Each pool of liquidity is referenced by a specific asset (e.g. Silver, Steel Scrap, Bitcoin and others) and here LPs play a fundamental role thanks to liquidity provisioning operations. These actions are undertaken in the Liquidity Provisioning Layer of the Mettalex system. This layer enables the collection of stablecoin collateral from users which is then used by the Mettalex smart contract and converted into Long or Short position tokens made available on the Exchange Layer for trading and minting operations on the DEX itself. In exchange for locking up their collateral, LPs are rewarded with a further aggregated yield on the capital invested via transaction fees and trading spreads between prices, according to the amount and duration of liquidity supplied into the system. Liquidity providing operations are available to users in the Supply Liquidity section of the Mettalex DEX. There, Liquidity Providers can perform the following actions:&#x20;
 
-* _**Deposit**_ collateral for the Autonomous Market Maker to use to create Position Tokens for the Trade functionality;&#x20;
-* _**Withdraw**_ collateral to claim your share of the trading fees earned by the Autonomous Market Maker;&#x20;
+* _**Deposit**_ collateral for the Autonomous Market Maker to use to create Position Tokens for the Trade functionality.&#x20;
+* _**Withdraw**_ collateral to claim your share of the trading fees earned by the Autonomous Market Maker.
 * _**Stake**_ Liquidity Provider shares for Liquidity Mining rewards in the form of MTLX Governance tokens.&#x20;
 
-Within the Mettalex ecosystem, we have 3 different liquidity pools of reference:
+Within the Mettalex DEX ecosystem, we have 3 different liquidity pools of reference:
 
 1. **Mettalex vault**: contains the liquidity coming from the collateral used to back a pair of L and S Position tokens when minting or trading operations occur.
 2. **LPs pool**: LP supplies coin to earn a return return from trading fees (i.e. Liquidity Provision Layer). The liquidity supplied is at disposition of the Mettalex AMM so as to guarantee the correct execution of operations and transactions on the DEX.
