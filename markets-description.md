@@ -8,7 +8,7 @@ The markets available on Mettalex DEX are divided into the following 3 categorie
 
 #### **ALUMINIUM**
 
-Aluminium is a very flexible, light-weight, and strong metal which can be counted to the base metals or non-ferrous metals. As a physical commodity, aluminium is traded as raw material, unfinished, semi-finished or finished product and as scrap metal**. **Aluminium is obtained from grinding raw material bauxite to extract and refine the contained aluminium oxide (i.e. alumina) which is further processed into liquid aluminium (i.e. molten aluminium) by adding carbon and electricity. The molten aluminium is casted into different shapes and can be further rolled, extruded or re-melted. Aluminium can be used for the following 3 applications:
+Aluminium is a very flexible, light-weight, and strong metal which can be counted to the base metals or non-ferrous metals. As a physical commodity, aluminium is traded as raw material, unfinished, semi-finished or finished product and as scrap metal**.** Aluminium is obtained from grinding raw material bauxite to extract and refine the contained aluminium oxide (i.e. alumina) which is further processed into liquid aluminium (i.e. molten aluminium) by adding carbon and electricity. The molten aluminium is casted into different shapes and can be further rolled, extruded or re-melted. Aluminium can be used for the following 3 applications:
 
 * Castings
 * Extrusions
@@ -25,7 +25,7 @@ Furthermore, aluminium can be easily recycled and traded as scrap metal. When re
 
 To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi\_ZQffic).&#x20;
 
-\*Not to be considered financial advice. ** **
+\*Not to be considered financial advice. ****&#x20;
 
 **Settlement**
 
@@ -38,13 +38,11 @@ You can sell your ALLONG or ALSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Network: ETHEREUM**
 
-** **
+&#x20;****&#x20;
 
 #### **BRENT CRUDE OIL**
 
-Brent Oil is also known as Brent Crude or North Sea Brent Crude and it is a type of crude oil which is considered as a benchmark crude for determining the trading price of other varieties of crude oil.&#x20;
-
-Where the oil comes from also makes a difference if you’re a buyer. The less expensive it is to deliver the product, the cheaper it is for the consumer. From a transportation point of view, oil extracted at sea has certain advantages over land-based supplies, which depend on the capacity of pipelines. Brent Crude oil  is light and sweet, making them ideal for the refining of diesel fuel, gasoline, and other high-demand products. And because the supply is waterborne, it’s easy to transport to distant locations.
+Brent Oil is also known as Brent Crude or North Sea Brent Crude and it is a type of crude oil which is considered as a benchmark crude for determining the trading price of other varieties of crude oil. Where the oil comes from also makes a difference if you’re a buyer. The less expensive it is to deliver the product, the cheaper it is for the consumer. From a transportation point of view, oil extracted at sea has certain advantages over land-based supplies, which depend on the capacity of pipelines. Brent Crude oil  is light and sweet, making them ideal for the refining of diesel fuel, gasoline, and other high-demand products. And because the supply is waterborne, it’s easy to transport to distant locations.
 
 **How to trade?\***
 
@@ -105,7 +103,7 @@ Copper is widely used around the world due to its industrial and technological a
 
 To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi\_ZQffic).&#x20;
 
-\*Not to be considered financial advice. ** **
+\*Not to be considered financial advice. ****&#x20;
 
 **Settlement**
 
@@ -116,15 +114,13 @@ You can sell your CULONG or CUSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Oracle source: London Metal Exchange (LME)**
 
-**Network: ETHEREUM **
+**Network: ETHEREUM**&#x20;
 
 ****
 
 #### **GOLD**
 
-Since the beginning of civilization, humankind has viewed gold as a proxy for money and a safe-haven asset. Once it is mined, refiners process gold into bars, coins, or ingots called bullion in order to sell them. Buyers can transform these gold bars into items like coins, jewelry, and electronic components. They may also store gold bars for traders.
-
-Gold supply is consistently affected by the price of gold itself: when gold prices arise, mining gold becomes more profitable, so more supply comes into the market. The opposite happens when prices decline. Similarly, changes in demand from industry, traders, central banks, or sovereign wealth funds can move gold prices. In fact, Central Banks could impact on gold prices in two ways:
+Since the beginning of civilization, humankind has viewed gold as a proxy for money and a safe-haven asset. Once it is mined, refiners process gold into bars, coins, or ingots called bullion in order to sell them. Buyers can transform these gold bars into items like coins, jewelry, and electronic components. They may also store gold bars for trade. Gold supply is consistently affected by the price of gold itself: when gold prices arise, mining gold becomes more profitable, so more supply comes into the market. The opposite happens when prices decline. Similarly, changes in demand from industry, traders, central banks, or sovereign wealth funds can move gold prices. In fact, Central Banks could impact on gold prices in two ways:
 
 * These could take decisions to contract or grow the money supply in their countries, thus leading to an increase in gold trading since fiat currencies (eg, US dollar and euro) compete with gold as a store of value and a form of money.&#x20;
 * Secondly, central banks hold large gold reserves. As a result, their decision to accumulate or sell reserves can move the gold market.
@@ -300,7 +296,7 @@ Other non-ferrous metals found in Zorba include copper, lead, brass, magnesium, 
 
 To learn how to buy/sell long or short position tokens, [watch this short video](https://www.youtube.com/watch?v=DHAi\_ZQffic).&#x20;
 
-\*Not to be considered financial advice. ** **
+\*Not to be considered financial advice. ****&#x20;
 
 **Settlement**
 
