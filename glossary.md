@@ -28,9 +28,9 @@ This term refers to the number of cryptocurrency coins or tokens that are public
 
 A collateral is something of value given as a guarantee to obtain something else. For instance, a borrower may offer their car as a collateral to a lender when taking out a loan. The vehicle acts as a safeguard or warranty in case the borrower fails to pay their debts.  Usually, collateralized loans present much lower interest rates when compared to non-collateralized ones. Collateral can come in different forms. Some of the most common types include mortgage collaterals, invoice financing and margin trading collaterals.
 
+****
 
-
-#### **Collateralization Ratio**
+**Collateralization Ratio**
 
 To borrow tokens from a DeFi protocol, one must put up more collateral than the loan is worth. Each protocol can use different collateralization ratios. However, users must maintain the designated ratio to prevent liquidation (See Liquidation Ratio). &#x20;
 
@@ -54,7 +54,7 @@ Tokens are deflationary if a percentage is permanently removed from the marketpl
 
 
 
-#### **ERC-20 **
+#### **ERC-20**&#x20;
 
 It is the standard to which each Ethereum token complies. This standard defines the way each token behaves so that transactions are predictable. Other cryptocurrencies also use the ERC-20 standard, piggybacking on the Ethereum network in the process.
 
@@ -98,7 +98,7 @@ This is the level at which the collateralization ratio dips that can trigger a l
 
 
 
-#### **Liquidity pool **
+#### **Liquidity pool**&#x20;
 
 A liquidity pool is a decoupled provider of collateral to the autonomous market maker. Liquidity providers receive an aggregated return from all commodity market maker fees and spreads in exchange for providing collateral that the market makers can use to mint position tokens. In addition liquidity providers receive a pro-rata distribution of MTLX governance tokens based on the amount and duration of their participation in the liquidity pool.
 
@@ -116,7 +116,7 @@ A liquidity provider (i.e. LP) is a user who funds a liquidity pool with own cry
 
 
 
-#### **Mettalex Smart Contract **
+#### **Mettalex Smart Contract**&#x20;
 
 Each position token pair has an associated Mettalex smart contract that acts as a decentralized clearing house. Position tokens are minted in pairs of long and short tokens by locking up collateral in the Mettalex smart contract. Thereby,  position tokens are always fully collateralized, removing margin requirements and counterparty risk. At any stage a token holder can use the Mettalex smart contract to redeem the collateral backing a long and short token pair. The Mettalex smart contract is responsible for settling the position tokens if the underlying commodity index breaches the range (i.e. Price Band) specified at deployment of the Mettalex contract.&#x20;
 
