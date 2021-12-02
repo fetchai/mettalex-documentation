@@ -42,7 +42,7 @@ These wallets store public and private keys allowing users to send, receive, and
 
 
 
-#### **Decentralized Application (DAPP)**
+#### **Decentralized Application (DApp)**
 
 A computer program that utilizes a blockchain for data storage, runs autonomously, is not controlled or operated from a single entity, is open source and has its use incentivized by the reward of fees or tokens.
 
