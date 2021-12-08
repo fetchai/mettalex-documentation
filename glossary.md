@@ -4,25 +4,17 @@
 
 Each commodity token pair has an associated autonomous market maker that allows market participants to exit a position at any point without having to find a counterparty on the exchange. The autonomous market maker uses a liquidity sensitive algorithm with bounded loss to manage market risk. Autonomous market maker liquidity providers receive pool tokens that entitle them to a fraction of the fees and spread earned by the market maker.
 
-
-
 #### **Banded trading**
 
 The Mettalex contract performs the settlement and clearing of the position tokens in the event that the reference price goes outside the specified trading band. The reference price feed comes in from an independent oracle specified at creation of the Mettalex contract and in the event of the price exceeding the cap or floor value, all position tokens are automatically redeemed for the collateral value of their position. The Mettalex contract then resets the floor and cap parameters automatically based on current market condition.
-
-
 
 #### **Blockchain**
 
 The blockchain is a digital ledger of all the transactions ever made in a particular cryptocurrency. It’s composed of individual blocks (see definition above) that are chained to each other through a cryptographic signature. Each time a block’s capacity is reached, a new block is added to the chain. The blockchain is repeatedly copied and saved onto thousands of computers all around the world, and it must always match each copy. As there is no master copy stored in one location, it’s considered decentralized.
 
-
-
 #### **Circulating Supply**
 
 This term refers to the number of cryptocurrency coins or tokens that are publicly available and circulating in a specific market. The circulating supply of a cryptocurrency can increase or decrease over time.
-
-
 
 #### **Collateral**
 
@@ -34,13 +26,11 @@ A collateral is something of value given as a guarantee to obtain something else
 
 To borrow tokens from a DeFi protocol, one must put up more collateral than the loan is worth. Each protocol can use different collateralization ratios. However, users must maintain the designated ratio to prevent liquidation (See Liquidation Ratio). &#x20;
 
+****
 
-
-#### **Crypto wallet**
+**Crypto wallet**
 
 These wallets store public and private keys allowing users to send, receive, and store tokens. The tokens reside on the blockchain and the wallet accesses them. (See Web 3.0 Wallets).
-
-
 
 #### **Decentralized Application (DApp)**
 
@@ -48,19 +38,19 @@ A computer program that utilizes a blockchain for data storage, runs autonomousl
 
 
 
-#### **Deflationary token**
+**Deflationary token**
 
 Tokens are deflationary if a percentage is permanently removed from the marketplace over time. Buybacks and burns are a popular way of destroying tokens. This causes scarcity which hopefully makes the price rise.
 
 
 
-#### **ERC-20**&#x20;
+**ERC-20**&#x20;
 
 It is the standard to which each Ethereum token complies. This standard defines the way each token behaves so that transactions are predictable. Other cryptocurrencies also use the ERC-20 standard, piggybacking on the Ethereum network in the process.
 
 
 
-#### Fiat
+Fiat
 
 According to the Investopedia's definition:
 
@@ -76,7 +66,7 @@ Gas fees are rewards paid to  miners to incentivize them to support the network'
 
 #### **Governance tokens (MTLX)**
 
-Governance tokens (MTLX) are used to vote on system parameters such as choice of autonomous market makers to back with liquidity from the liquidity pool, borrowing rates from the liquidity pool, usage of exchange fees, etc. Governance tokens are minted at an exponentially decreasing rate to incentivise early liquidity providers in the system. Minted tokens are distributed in proportion to the amount of liquidity supplied to the system at each block. Some fraction of the exchange fees and autonomous market maker spreads is used to buy back MTLX and burn.
+Governance tokens are cryptocurrencies that represent voting power on a blockchain project. On Mettalex DEX, governance tokens (MTLX) are used to vote on system parameters such as choice of autonomous market makers to back with liquidity from the liquidity pool, borrowing rates from the liquidity pool, usage of exchange fees, etc. Governance tokens are minted at an exponentially decreasing rate to incentivise early liquidity providers in the system. Minted tokens are distributed in proportion to the amount of liquidity supplied to the system at each block. Some fraction of the exchange fees and autonomous market maker spreads is used to buy back MTLX and burn.
 
 
 
