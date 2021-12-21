@@ -1,6 +1,6 @@
 # Economic model behind Mettalex DEX
 
-Mettalex overall structure is composed of **four** different **layers**:
+Mettalex DEX overall structure is composed of **four** different **layers**:
 
 * **Tokenisation** Layer
 * **Exchange** Layer
