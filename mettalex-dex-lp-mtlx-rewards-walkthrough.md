@@ -7,11 +7,12 @@ Liquidity providers will soon be able to yield farm by depositing liquidity dire
 ## DEPOSIT YOUR STABLECOIN:
 
 1. Access the Mettalex DEX at [https://dex.mettalex.com/](https://dex.mettalex.com).
-2. Connect your wallet. You can choose between Metamask or Torus.
 
-![](<.gitbook/assets/image (6).png>)
+2\. Connect your wallet. You can choose among different options.
 
-&#x20;3\. Select “**SUPPLY** **LIQUIDITY**”.
+![](<.gitbook/assets/1 (3).png>)
+
+3\. Select “**SUPPLY** **LIQUIDITY**”.
 
 ![](<.gitbook/assets/2 (2).png>)
 
