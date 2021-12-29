@@ -128,9 +128,9 @@ Each time a position token is bought from or sold to the AMM the weights are upd
 
 ![](https://lh3.googleusercontent.com/6Chykpk-z9gGlF9cOrdTrzTkIp5Wyz1e0Ss-uvzPwfwUtlKxD2p\_KBgFcwgah6rEcSSuNCs-T\_55X\_v2uS3lc773skC8raIYmRDNDNKjjaf75LQj7mQc8ogogluiVfw0C9-rcoAi)
 
-_**Left Table**_:** **AMM balance after trade of varying size for coin buying long tokens.
+_**Left Table**_: **** AMM balance after trade of varying size for coin buying long tokens.
 
-_**Right Table**_:** **Resulting prices of position tokens after trade, their sum (stays equal to underlying collateral price), and average price per token paid by trader.
+_**Right Table**_: **** Resulting prices of position tokens after trade, their sum (stays equal to underlying collateral price), and average price per token paid by trader.
 
 #### **How do the position token prices respond to the reference price?**
 

@@ -140,7 +140,7 @@ This method is called to claim the fee accumulated by the vault. The parameter `
 
 `returns (uint256 tokensReturned, uint256 priceImpact)`
 
-This method is called to get the expected amount of tokens (i.e. `uint256 fromTokemAmount`) given out in a swap operation from the `fromToken` address to the `toToken` address.** **This method returns the amount of tokens returned to the user’s account (i.e. `uint256` `tokensReturned`) and the price impact due to the operation (i.e. `uint256 priceImpact`).
+This method is called to get the expected amount of tokens (i.e. `uint256 fromTokemAmount`) given out in a swap operation from the `fromToken` address to the `toToken` address. **** This method returns the amount of tokens returned to the user’s account (i.e. `uint256` `tokensReturned`) and the price impact due to the operation (i.e. `uint256 priceImpact`).
 
 #### **GetExpectedInAmount**
 

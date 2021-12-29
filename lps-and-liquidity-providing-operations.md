@@ -66,7 +66,7 @@ $$
 
 * **Long position tokens weight:**
 
-** **
+&#x20;****&#x20;
 
 ![](https://lh4.googleusercontent.com/DWsbuhVEoDCrbGObeeYqVh1qD8X73BiS99jpYHc79D6XhigFVhfjcg8rmz6q82QyllwVQZFknbfP7EyKuxIU4eDWLMPUVVc0R71q5UlfRiqriH4\_IUdGzZRGDg0bEIY\_uklrmefe)
 
@@ -86,11 +86,11 @@ $$
 
 Hence, If the silver the spot price fed by the oracle is equal to $250.00, on Mettalex the price of long and short position tokens need to be of $50.00 and $50.00 respectively (i.e. $50.00 + $50.00 = $100.00). At these prices, if a LP deposits $200.00, he will create 100 stablecoins, 1 long, 1 short tokens in the Mettalex AMM pool. We have the following composition inside this pool:
 
-![](<.gitbook/assets/1 (3).png>)
+![](<.gitbook/assets/1 (3) (1).png>)
 
 If the copper the spot price fed by the oracle goes down to $220.00, the fair value at zero imbalance for Long and Short position token need to be of $20.00 and $80.00 respectively (i.e. $20.00 + $80.00 = $100.00). At these prices, we will have the following:
 
-![](<.gitbook/assets/2 (3).png>)
+![](<.gitbook/assets/2 (3) (1).png>)
 
 As it is possible to see, the weights inside the pool are dynamically modified through time in accordance to the spot price fed by the oracles into the system and to the changing amounts of token balances into the pools occurring due to trades. If a trader comes inside Mettalex DEX and decides to perform a trade, then the risk to the LP is that the unbalanced short or long token value goes to zero and thus that the amount of liquidity provided into the system can decrease because of these events. If a trader decides to buy a long position token whose underlying asset is silver from the Mettalex AMM, then the amount of Long tokens inside the pool will decrease and demand and price will increase. Conversely, short position tokens value will reduce as a consequence of a higher demand for L position tokens and this can potentially erode the deposited amount the LP provided before. This means, the risk for the LP is that the unbalanced short token price goes to zero. However, this potential loss is offset by:
 
@@ -118,7 +118,7 @@ $$
 
 We are considering an increasing demand for Long tokens in time as more traders start to buy this type of token. The first trader comes in, buys 1L for $50.00 pushing the long tokens price up to $60.00 whereas the short tokens price falls down to $40.00. This event generates a reweighting and rebalancing of the tokens balances in the pool according to the previously introduced formulas, as follows:
 
-![](<.gitbook/assets/3 (3).png>)
+![](<.gitbook/assets/3 (3) (1).png>)
 
 If a second trade happens and this trader buys 1L for $60.00, then L prices will go up to $70.00 whereas the short token price falls to $30.00. As it is possible to see, the AMM provides a balancing mechanism in order to guarantee an efficient trading and slippage controlling mechanism thus to guarantee the stability of the whole system. If a trader comes in and buys 1 Short tokens at the price of $40.00, then this will drive the Short tokens price back to $50,00 whereas the Long tokens one will fall from $60.00 back to $50.00 too. There may be an arbitrage opportunity here. Before the trader buys the Short token, you can redeem 1L and 1S at the price of $50.00 and $40.00 respectively on the market ($50.00 + 40.00 = $90.00) for the underlying collateral amount of $100.00. Hence, the potential arbitrage profit from this is equal to $100.00 - $90.00 = $10.00. However, the AMM counteracts this with slippage by reapplying the weight to L and S position tokens as previously explained, thus changing their prices accordingly.
 
@@ -149,7 +149,7 @@ _At the very beginning we have the following balance breakdown:_
 
 _**A.  Balance = $2’000.00 (safe) + $0.00 (risk)**, divided into:_
 
-![](<.gitbook/assets/4 (2).png>)
+![](<.gitbook/assets/4 (2) (1).png>)
 
 _Let’s say a trader comes in and wants to trade 100.00 coins for 1.74 Long tokens at the initial spot price of $50.00. Once the trade operation is finalised, the AMM reweights the tokens in the pool and sets the new final spot price at $54.75._
 
@@ -165,7 +165,7 @@ _The new pool balance is $2’017.81 and the composition is given in the table b
 
 _**C.  Balance = $2’009.35 (safe) + $8.46 (risk)**, divided into:_
 
-![](<.gitbook/assets/6 (1).png>)
+![](<.gitbook/assets/6 (1) (1).png>)
 
 _As it is possible to see, after the two trade operations considered in the example, we have that the LP will have exposed himself by providing liquidity to the AMM. At the very beginning, the imbalanced amount was 0.00 but following the trades the imbalance amount at risk increases or decreases. This is determined by the changes in the weights and prices applied by the AMM to the tokens in the pool to guarantee zero imbalance of token amounts in the pool._
 
@@ -174,6 +174,6 @@ Inside Mettalex DEX, Impermanent loss (IL) and slippage events are marginalised 
 * the properties of Position Tokens: in fact, these guarantee a lower volatility of assets on Mettalex and allow users to open leveraged position;
 * the stablecoin liquidity provisioning mechanism on which the Mettalex DEX system is based on.
 
-However,_** these risks are not non-existent and should be taken into consideration. Liquidity providers expose themselves to timing risk when providing liquidity to the AMM**_. Because of this, LPs will see substantial returns on their investments due to trading fees that will increase their governance influence. The Governance Layer rewards LPs with MTLX tokens. This latter token increases the LP’s governance influence and allows him to gain additional yield via yield farming strategies. Furthermore, LPs can trade using their position tokens on the market by opening long or short positions according to their strategies and their risk propensity as the trader will have to face volatility risk connected to the underlying assets prices. However, each LP is allowed to exit a position at any point. However, in regular circumstances, LPs who provided liquidity to the system have the opportunity to withdraw it in times of high demand. This provides them with an opportunity to recoup capital before re-engaging with the system itself. By the way, in periods in which the Mettalex smart contract needs for liquidity is high, LPs may be required to wait a short period in order to guarantee a baseline level of liquidity to be reached. This is not only to guarantee the stability of the system, but also to protect the investment they made into the exchange. Users providing liquidity to the Mettalex DEX to earn MTLX rewards have to face these potential risks considering also the possibility that the value of the rewards accumulated could change due to market dynamics.
+However, _**these risks are not non-existent and should be taken into consideration. Liquidity providers expose themselves to timing risk when providing liquidity to the AMM**_. Because of this, LPs will see substantial returns on their investments due to trading fees that will increase their governance influence. The Governance Layer rewards LPs with MTLX tokens. This latter token increases the LP’s governance influence and allows him to gain additional yield via yield farming strategies. Furthermore, LPs can trade using their position tokens on the market by opening long or short positions according to their strategies and their risk propensity as the trader will have to face volatility risk connected to the underlying assets prices. However, each LP is allowed to exit a position at any point. However, in regular circumstances, LPs who provided liquidity to the system have the opportunity to withdraw it in times of high demand. This provides them with an opportunity to recoup capital before re-engaging with the system itself. By the way, in periods in which the Mettalex smart contract needs for liquidity is high, LPs may be required to wait a short period in order to guarantee a baseline level of liquidity to be reached. This is not only to guarantee the stability of the system, but also to protect the investment they made into the exchange. Users providing liquidity to the Mettalex DEX to earn MTLX rewards have to face these potential risks considering also the possibility that the value of the rewards accumulated could change due to market dynamics.
 
 __

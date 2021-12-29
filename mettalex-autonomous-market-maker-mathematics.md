@@ -15,7 +15,7 @@ The [Balancer whitepaper](https://balancer.finance/whitepaper/) describes the ma
 * A pair of long and short tokens is equal in value to the underlying coin backing the pair i.e. 1L + 1S = C.
 * The long token fair value varies linearly from 0 to C as the spot price varies between the floor and the cap of the trading band. The short token varies linearly from C to 0 over the same range.
 
-We use _v _to represent the scaled price within the trading band i.e. long token will have fair value _vC_ and short token _(1- v)C_ in the absence of trade imbalance, where _v_ = (asset spot price -floor)/(cap-floor).
+We use _v_ to represent the scaled price within the trading band i.e. long token will have fair value _vC_ and short token _(1- v)C_ in the absence of trade imbalance, where _v_ = (asset spot price -floor)/(cap-floor).
 
 To meet these constraints the weights of the pool are updated to set the desired prices.
 

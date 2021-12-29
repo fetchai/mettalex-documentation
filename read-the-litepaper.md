@@ -197,7 +197,7 @@ Initial users for the commodities platform have been recruited and have been par
 The roadmap for increasing use of Fetch.ai technology in the system includes:
 
 * Replacing the centralized exchange with a decentralized exchange using the Fetch.ai ledger for high transaction rates (c.f. ETH level 2 scaling).
-* Fetch.ai agents and collective learning acting as index providers e.g. monitoring process** **metrics throughout supply chains to create spread tokens for supply chain optimization.
+* Fetch.ai agents and collective learning acting as index providers e.g. monitoring process **** metrics throughout supply chains to create spread tokens for supply chain optimization.
 * Autonomous market makers running on Fetch.ai ledger for increased capability
 
 Fetch.ai interoperability technology will enable these use cases e.g. stablecoin pegging with the Ethereum network to enable the transactions in DEX and AMM use cases.
