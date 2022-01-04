@@ -7,24 +7,23 @@ Liquidity providers will soon be able to yield farm by depositing liquidity dire
 ## DEPOSIT YOUR STABLECOIN:
 
 1. Access the Mettalex DEX at [https://dex.mettalex.com/](https://dex.mettalex.com).
-
-2\. Connect your wallet. You can choose among different options.
+2. Connect your wallet. You can choose among different options.
 
 ![](<.gitbook/assets/1 (3).png>)
 
-3\. Select “**SUPPLY** **LIQUIDITY**”.
+&#x20;3\. Select “**SUPPLY** **LIQUIDITY**”.
 
 ![](<.gitbook/assets/2 (2).png>)
 
-4\. Select the market/pool you want to provide the liquidity to.
+&#x20;4\. Select the market/pool you want to provide the liquidity to.
 
 ![](.gitbook/assets/deposit1.png)
 
-5\. Once selected, enter the amount of liquidity you wish to provide. You can select different amounts to be deposited (e.g. 25%, 50%, 75%, 100%). Press “**Deposit**”.
+&#x20;5\. Once selected, enter the amount of liquidity you wish to provide. You can select different  amounts to be deposited (e.g. 25%, 50%, 75%, 100%). Press “**Deposit**”.
 
 ![](.gitbook/assets/deposit2.png)
 
-6\. Confirm the following transactions.
+&#x20;6\. Confirm the following transactions.
 
 &#x20;
 
@@ -34,7 +33,7 @@ Liquidity providers will soon be able to yield farm by depositing liquidity dire
 
 ![](.gitbook/assets/6.png)
 
-7\. Your deposited amount is converted to mxBUSD and will be available in the “**My** **Wallet**” box. There you can see your wallet balances of BUSD, mxBUSD, BUSD available for withdrawal and MTLX tokens.
+&#x20;7\. Your deposited amount is converted to mxBUSD and will be available in the “**My** **Wallet**” box. There you can see your wallet balances of BUSD, mxBUSD, BUSD available for withdrawal and MTLX tokens.
 
 ![](.gitbook/assets/deposit6.png)
 
@@ -44,13 +43,13 @@ Liquidity providers will soon be able to yield farm by depositing liquidity dire
 
 ![](<.gitbook/assets/stake1 (2).png>)
 
-2\. Confirm the following transactions on Metamask.
+&#x20;2\. Confirm the following transactions on Metamask.
 
 ![](.gitbook/assets/11.png)
 
 ![](.gitbook/assets/10.png)
 
-3\. The amount staked will be available in the “**Balances**” box. The box also includes information regarding the amount of rewards accrued and the amount of BUSD and mxBUSD in the market/pool.
+&#x20;3\. The amount staked will be available in the “**Balances**” box. The box also includes information regarding the amount of rewards accrued and the amount of BUSD and mxBUSD in the market/pool.
 
 ![](.gitbook/assets/stake4.png)
 
@@ -60,11 +59,11 @@ Liquidity providers will soon be able to yield farm by depositing liquidity dire
 
 ![](<.gitbook/assets/unstake1 (1).png>)
 
-2\. Confirm the following transaction on Metamask.
+&#x20;2\. Confirm the following transaction on Metamask.
 
 ![](.gitbook/assets/14.png)
 
-3\. Your mxBUSD and MTLX balances will be available in the “**My Wallet**” box.&#x20;
+&#x20;3\. Your mxBUSD and MTLX balances will be available in the “**My Wallet**” box.&#x20;
 
 ![](<.gitbook/assets/unstake3 (1).png>)
 
@@ -74,17 +73,17 @@ Liquidity providers will soon be able to yield farm by depositing liquidity dire
 
 ![](<.gitbook/assets/with1 (1).png>)
 
-2\. Confirm the transaction on Metamask.
+&#x20;2\. Confirm the transaction on Metamask.
 
 ![](.gitbook/assets/17.png)
 
-3\. The amount withdrawn will be transferred to your Web 3 wallet and the updated balance will be available in the “**My** **Wallet**” box.
+&#x20;3\. The amount withdrawn will be transferred to your Web 3 wallet and the updated balance will be available in the “**My** **Wallet**” box.
 
 ![](<.gitbook/assets/with3 (1).png>)
 
 ## RISKS OF PROVIDING LIQUIDITY
 
-Mettalex is an experimental software: _**never invest more than you can afford to lose**_. &#x20;
+Mettalex DEX is an experimental software: _**never invest more than you can afford to lose**_. &#x20;
 
 While the protocol has been designed to minimize risk to liquidity providers there are still risks associated with using it such as:
 
