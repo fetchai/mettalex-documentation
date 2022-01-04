@@ -2,9 +2,9 @@
 
 Interactions with Mettalex DEX will require the ability to call some Mettalex smart contract events:
 
-* Mint L/S Position tokens from coin tokens (i.e. USDT);
+* Mint L/S Position tokens from stablecoin tokens (i.e. USDT, BUSD);
 * Redeem L/S token pair for coin tokens;
-* Redeem single Position token for coin tokens if contract is settled.
+* Redeem single position token for coin tokens if contract is settled.
 
 This means that each user needs to call different methods accordingly to the liquidity pool they want to interact with (i.e. **Mettalex Vault**, **LPs pool** or **AMM pool**).
 
