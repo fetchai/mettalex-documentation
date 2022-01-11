@@ -2,8 +2,8 @@
 
 Interactions with Mettalex DEX will require the ability to call some Mettalex smart contract events:
 
-* Mint L/S Position tokens from stablecoin tokens (i.e. USDT, BUSD);
-* Redeem L/S token pair for coin tokens;
+* Mint L/S Position tokens from stablecoin tokens (i.e. USDT, BUSD).
+* Redeem L/S token pair for coin tokens.
 * Redeem single position token for coin tokens if contract is settled.
 
 This means that each user needs to call different methods accordingly to the liquidity pool they want to interact with (i.e. **Mettalex Vault**, **LPs pool** or **AMM pool**).
@@ -126,7 +126,7 @@ This method transfers money from the vault to the autonomous market maker contra
 
 This method is called when the user wants to get the price for the entire amount of liquidity he owns in the liquidity pool.
 
-## **Possible Events: Autonomous Market Maker**
+## **Possible Events: AMM pool**
 
 #### **ClaimFees**
 
