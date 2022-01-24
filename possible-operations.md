@@ -34,11 +34,11 @@ This section is for Liquidity Providers who wants to perform the following actio
 
 ![](<.gitbook/assets/3 (3).png>)
 
-![Mettalex DEX Dashboard.](<.gitbook/assets/2 (4).png>)
+![Mettalex DEX Dashboard.](<.gitbook/assets/Screen Shot 2022-01-24 at 08.41.50.png>)
 
 ## **Trading in a Market**
 
-![Mettalex DEX: Trading section, Trade functionality.](<.gitbook/assets/4 (2).png>)
+![Mettalex DEX: Trading section, Trade functionality.](<.gitbook/assets/Screen Shot 2022-01-24 at 08.41.47.png>)
 
 It is the first category of actions that users can undertake on Mettalex DEX. Users need to visit the Mettalex Trade section in order to proceed with this action (visit the following link:[ dex.mettalex.com](http://dex.mettalex.com)). The trading section allows traders to open market positions on a wide variety of markets. It is possible to open positions considering as underlying assets either ferrous (e.g. copper, steel rebar, steel scrap, silver, gold, iron ore) or non-ferrous assets (e.g. Bitcoin or Ethereum). After choosing the market desired, the DEX will show you various information about the market itself, such as:
 
@@ -54,17 +54,17 @@ In the TRADE section, traders can convert the stablecoin stored in their wallets
 
 ## **‌Market Making**
 
-Market Making operations are the second category of operations users can undertake on Mettalex DEX (visit the following link: [dex.mettalex.com](http://dex.mettalex.com)). This category of operations are directed to more experienced users and divide into _minting_ and _redeeming_ of position tokens. As in the section before, it is possible to access these actions via the Mettalex Trade section, through the dedicated section "Advanced +" as depicted in the images below.
+Market Making operations are the second category of operations users can undertake on Mettalex DEX (visit the following link: [dex.mettalex.com](http://dex.mettalex.com)). This category of operations are directed to more experienced users and divide into _minting_ and _redeeming_ of position tokens. As in the section before, it is possible to access these actions via the Mettalex Trade section, through the dedicated section "Advanced" as depicted in the images below.
 
-![Mettalex DEX: Trading section, Advanced + section.](<.gitbook/assets/4 copy.png>)
+![Mettalex DEX: Trading section, Advanced section.](<.gitbook/assets/Screen Shot 2022-01-24 at 08.45.59.png>)
 
-![Mettalex DEX: Trading section, Mint functionality.](<.gitbook/assets/5 (3).png>)
+![Mettalex DEX: Trading section, Mint functionality.](<.gitbook/assets/Screen Shot 2022-01-24 at 08.45.33.png>)
 
 The market maker user interface provides additional functionality to **mint** and **redeem** Long/Short Position token pairs related to a certain underlying asset. It happens by supplying collateral to the system for token minting. By minting a new pair of L/S Position Tokens, you will provide enough collateral for this operation to be performed and you will receive back a Long and a Short position token representing the underlying asset at the current bid-ask price available on the market. These new tokens can be used in different ways. In fact these can be exchanged on other Exchanges or adopted in Yield Farming strategies through other protocols available in the DeFi space. Minting differs from providing liquidity because this latter operation is directed to LPs who wants to provide liquidity in return of a yield on the capital invested.
 
 Furthermore, users can supply a single Long/Short Position tokens for redemption (i.e. users exchange L/S pairs against stablecoin collateral). This action of Redeeming positions can be performed either using the Redeem functionality to burn pairs of Long and Short Position Tokens and get back the underlying collateral, or by using the Trade functionality to sell individual Position Tokens on the market and remain with just a single exposure on the underlying asset of reference. This is, a user who mints new token pairs might want to perform some other type of speculating, hedging or yield farming operation rather than just providing liquidity to gain fees from the DEX.
 
-![Mettalex DEX: Trading section, Redeem functionality.](<.gitbook/assets/6 (1).png>)
+![Mettalex DEX: Trading section, Redeem functionality.](<.gitbook/assets/Screen Shot 2022-01-24 at 08.45.36.png>)
 
 ## Liquidity providing
 
@@ -72,13 +72,11 @@ Liquidity providing operations are the third category of operation users can run
 
 These Liquidity Providing operations are essential to guarantee the correct execution of transactions on the DEX as these guarantee the presence of enough liquidity into the Mettalex system to ensure the creation of new position tokens for the Trade functionality. These operations differs from providing collateral for minting new L\S Position Tokens pairs as these latter imply other strategies rather then leaving the liquidity untouched on the DEX itself.
 
-![Mettalex DEX: Liquidity section, Deposit.](<.gitbook/assets/7 (1).png>)
+![Mettalex DEX: Liquidity section, Deposit.](<.gitbook/assets/Screen Shot 2022-01-24 at 08.50.44.png>)
 
 In the “**Deposit**” tab enter the amount of liquidity you want to deposit into the liquidity pool and click the “**Deposit**” button. You can deposit part of your funds thanks to the buttons shown in the deposit window (e.g. **25%**, **50%**, **75%** or **100%**). "**Deposit All**" allows the user to deposit all of his funds whereas "**Start Earning**" transfers funds from the Vault contract to the Autonomous Market Maker (AMM) contract so you can start earning trading fees.
 
-
-
-![Mettalex DEX: Liquidity section, Withdraw.](<.gitbook/assets/8 (1).png>)
+![Mettalex DEX: Liquidity section, Withdraw.](<.gitbook/assets/Screen Shot 2022-01-24 at 08.50.47.png>)
 
 Whenever you wish to witdraw your liquidity, access the “**LIQUIDITY**” page and use the drop-down menu at the top to select a commodity to withdraw liquidity from. In the liquidity provider tab, click on “**Withdraw**” and enter the amount of liquidity you want to withdraw from the liquidity pool and click the “**Withdraw**” button. You can withdraw pre-determined part of your funds (e.g. 25%, 50%, 75% or 100%). The “**Withdraw all**” button gives you the ability to withdraw all funds from the selected liquidity pool (for that specific commodity).
 
@@ -90,5 +88,5 @@ By choosing one of these markets, enter the "Mettalex Rewards" tab in the Mettal
 
 &#x20;For further information about how to stake your liquidity, earn rewards and claim them visit the [mettalex-dex-lp-mtlx-rewards-walkthrough](mettalex-dex-lp-mtlx-rewards-walkthrough.md).
 
-![Mettalex DEX: Liquidity section, MTLX Rewards.](<.gitbook/assets/9 (1).png>)
+![Mettalex DEX: Liquidity section, MTLX Rewards.](<.gitbook/assets/Screen Shot 2022-01-24 at 08.50.50.png>)
 
