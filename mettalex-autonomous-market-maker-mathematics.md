@@ -1,6 +1,6 @@
 # Mettalex Autonomous Market Maker Mathematics
 
-**Mettalex introduces improvements to its Autonomous Market Maker to improve risk management, control slippage, & modify fees dynamically.**
+**Mettalex introduces improvements to its Autonomous Market Maker to improve risk management, control slippage and modify fees dynamically.**
 
 ![](<.gitbook/assets/image (7).png>)
 
