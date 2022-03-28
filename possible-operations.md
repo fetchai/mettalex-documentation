@@ -1,12 +1,14 @@
 # Possible operations
 
-In order to access the Mettalex DEX platform, visit the following link: [https://dex.mettalex.com](https://dex.mettalex.com).  Traders can access the platform using either the Ethereum Network or the Binance Smart Chain Network. You will be asked to connect your wallet by choosing one of the following choices:
+In order to access the Mettalex DEX platform, visit the following link: [https://dex.mettalex.com](https://dex.mettalex.com). Traders can access the platform using either the Ethereum Network or the Binance Smart Chain Network. Connect your wallet by choosing one of the following choices:
 
-![](<.gitbook/assets/1 (3).png>)
+![](<.gitbook/assets/Screen Shot 2022-03-28 at 16.11.10.png>)
+
+![](<.gitbook/assets/Screen Shot 2022-03-28 at 16.11.13.png>)
+
+_**Note**_: remember that the available markets depend on the network you decide to use to interact with Mettalex DEX _****_ ([markets-available-on-mettalex-dex-vega](markets-available-on-mettalex-dex-vega.md)).
 
 
-
-_**Note**_: remember that the available markets depend on the network you decide to use to interact with Mettalex DEX _****_ ([markets-available-on-mettalex-dex-vega](markets-available-on-mettalex-dex-vega.md)). If you opt for the Kovan Test Network you will be able to perform operations that consider as collateral USDT whereas the Binance Smart Chain Network will allow you to execute operations considering MUSD or BUSD collateral.&#x20;
 
 _**(BUSD TRADING IS IN BETA. USE WITH CAUTION! NOT FOR USE BY U.S. INDIVIDUALS!)**_
 
