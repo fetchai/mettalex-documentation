@@ -15,5 +15,6 @@
 * [Exchange UI](exchange-ui.md)
 * [Trading Strategies with Derivatives](trading-strategies-with-derivatives.md)
 * [Risks for Traders and Liquidity Providers](overall-risks-and-benefits.md)
+* [Mettalex Research and MettaInsight articles](mettalex-research-and-mettainsight-articles.md)
 * [Glossary](glossary.md)
 * [Mettalex DEX - FAQs](mettalex-dex-faqs.md)
