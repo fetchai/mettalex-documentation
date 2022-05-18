@@ -64,6 +64,8 @@ You can sell your BBLONG or BBSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Network: BINANCE SMART CHAIN**
 
+****
+
 **BUTTER**
 
 Butter is a typically yellow or white dairy product consisting of an emulsion of butterfat and made by churning milk or cream.
@@ -114,6 +116,8 @@ You can sell your CULONG or CUSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Network: ETHEREUM**&#x20;
 
+****
+
 #### **GOLD**
 
 Since the beginning of civilisation, humankind has viewed gold as a proxy for money and a safe-haven asset. Once it is mined, refiners process gold into bars, coins, or ingots called bullion in order to sell them. Buyers can transform these gold bars into items like coins, jewelry, and electronic components. They may also store gold bars for trade. Gold supply is consistently affected by the price of gold itself: when gold prices arise, mining gold becomes more profitable, so more supply comes into the market. The opposite happens when prices decline. Similarly, changes in demand from industry, traders, central banks, or sovereign wealth funds can move gold prices. In fact, Central Banks could impact on gold prices in two ways:
@@ -141,6 +145,8 @@ You can sell your XAULONG or XAUSHORT tokens to Mettalex’s Autonomous Market M
 
 **Network: BINANCE SMART CHAIN**
 
+****
+
 #### **HMS 1&2 (80:20) CFR Turkey**
 
 Heavy Melting Steel (HMS) or Heavy Melting Scrap is a designation for recyclable steel and wrought iron. It is broken up into two major categories: HMS 1 and HMS 2, where HMS 1 does not contain galvanised and blackened steel, whereas HMS 2 does.
@@ -164,6 +170,8 @@ You can sell your DSSCLONG or DSSCSHORT tokens to Mettalex’s Autonomous Market
 **Oracle source: DAVIS INDEX**
 
 **Network: ETHEREUM and BINANCE SMART CHAIN**
+
+****
 
 #### **IRON ORE**
 
@@ -191,6 +199,8 @@ You can sell your IOLONG or IOSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Network: ETHEREUM and BINANCE SMART CHAIN**
 
+****
+
 **SILVER**
 
 Silver is one of the most valuable metals on the planet due to its widespread utility in jewellery and its industrial applications in silverware and electronics. Even though it is not as scarce as gold, it represents a precious metal widely used in the financial industry for investments. This makes silver a commodity of high interest for a variety of market participants who actively trade silver futures for hedging or price protection.&#x20;
@@ -216,6 +226,8 @@ You can sell your XAGLONG or XAGSHORT tokens to Mettalex’s Autonomous Market M
 **Oracle source: Chainlink**
 
 **Network: BINANCE SMART CHAIN**
+
+****
 
 #### **STEEL SCRAP**
 
@@ -243,6 +255,8 @@ You can sell your SSCLONG or SSCSHORT tokens to Mettalex’s Autonomous Market M
 
 **Network: ETHEREUM**
 
+****
+
 **STEEL SCRAP SHREDDED**
 
 Shredded scrap is a large part of the recycling industry and can be utilised in multiple circumstances. It consists of homogeneous iron and steel scrap, which is magnetically separated, originating from automobiles,  miscellaneous baling and sheet scrap.  Shredded scrap’s average density ranges from 50 to 70 pounds per cubic foot.
@@ -266,6 +280,8 @@ You can sell your SSCLONG or DSSHSHORT tokens to Mettalex’s Autonomous Market 
 **Oracle source: DAVIS INDEX**
 
 **Network: ETHEREUM**
+
+****
 
 #### **ZORBA 95/2**
 
@@ -347,6 +363,8 @@ You can sell your AAVECOMPL or AAVECOMPS tokens to Mettalex's Autonomous Market 
 
 **Network: BINANCE SMART CHAIN**
 
+****
+
 #### **BTC/ETH spread**
 
 The perfect market to trade on if you want to have exposure to Bitcoin or Ether’s market dominance against each other.&#x20;
@@ -371,6 +389,8 @@ You can sell your BTC/ETH Spread tokens to Mettalex's Autonomous Market Maker at
 
 **Network: ETHEREUM and BINANCE SMART CHAIN**
 
+****
+
 #### **BTC/XAU spread**
 
 Equity markets have experienced a bullish trend for years. Some investors are beginning to question its sustainability and are looking for ways to diversify their portfolios with safe-haven assets. Historically, gold has been one of the most popular choices. However, the crypto commodity bitcoin is now offering a modern, digital alternative to gold. The crypto asset shares some of gold’s unique properties, while addressing a number of its shortcomings. The BTC/XAU market on Mettalex is a great place to take a formal position in the physical gold or digital gold debate.
@@ -394,6 +414,8 @@ You can sell your BTCXAUL or BTCXAUS tokens to Mettalex's Autonomous Market Make
 **Oracle source: London Metal Exchange (LME)**
 
 **Network: Binance Smart Chain**
+
+****
 
 #### **BTC/TSLA spread**
 
@@ -422,6 +444,8 @@ You can sell your BTCTSLAL or BTCTSLAS tokens to Mettalex's Autonomous Market Ma
 
 **Network: Ethereum and Binance Smart Chain**
 
+****
+
 #### **LINK/BAND spread**
 
 Chainlink is a decentralized oracle network that provides real-world data to most of the projects in the DeFi space. The LINK token is used in the Chainlink network to compensate Chainlink Node operators for the retrieval of data from the external data sources, turning it to blockchain readable format, off-chain computation, and uptime guarantees.
@@ -449,6 +473,8 @@ You can sell your LINKBANDL or LINKBANDS tokens to Mettalex's Autonomous Market 
 **Oracle source: Chainlink**
 
 **Network: Ethereum**
+
+****
 
 #### **STEEL REBAR/STEEL SCRAP spread**
 
@@ -527,6 +553,8 @@ You can sell your BTC tokens to Mettalex's Autonomous Market Maker at any time b
 
 **Network: ETHEREUM and BINANCE SMART CHAIN**
 
+****
+
 **BNB**
 
 BNB is the fuel of the Binance ecosystem and it is the native asset of the Binance Chain. BNB is an ERC-20 token created in June 2017. It has been designed to be used for a fee reduction on the Binance exchange, its scope was extended over the years. . For instance, it is used to pay fees on the Binance DEX, issue new tokens, send or cancel orders, and transfer assets. Following the successful launch of Binance Chain in May 2018, BNB has pivoted to become the native asset of Binance Chain, working similarly to ether (ETH) for the Ethereum blockchain.
@@ -551,6 +579,8 @@ You can sell your BNB tokens to Mettalex's Autonomous Market Maker at any time b
 
 **Network: BINANCE SMART CHAIN**
 
+****
+
 **ETH**
 
 Ether is the world’s second-largest virtual currency by market capitalization. It is the transactional token that facilitates operations on the Ethereum network. The initiation of transactions and execution of smart contracts on Ethereum require computing power provided by Ethereum nodes. For their computational work, nodes are compensated in ether. As such, ether is considered as the unit of account for all operations performed by the Ethereum and could be perceived as the network’s fuel.
@@ -574,6 +604,8 @@ You can sell your ETHLONG or ETHSHORT tokens to Mettalex's Autonomous Market Mak
 **Oracle source: Chainlink**
 
 **Network: Ethereum and Binance Smart Chain**
+
+****
 
 **MATIC**
 
@@ -626,6 +658,8 @@ You can sell your GBPLONG or GBPSHORT tokens to Mettalex’s Autonomous Market M
 **Oracle source: Chainlink**
 
 **Network: Binance Smart Chain**
+
+****
 
 #### **FTSE**
 
