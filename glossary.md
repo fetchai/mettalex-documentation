@@ -1,10 +1,10 @@
 # Glossary
 
-#### **Autonomous Market Maker (AMM)**
+#### **Autonomous Market Maker (AMM)**&#x20;
 
 Each commodity token pair has an associated autonomous market maker that allows market participants to exit a position at any point without having to find a counterparty on the exchange. The autonomous market maker uses a liquidity sensitive algorithm with bounded loss to manage market risk. Autonomous market maker liquidity providers receive pool tokens that entitle them to a fraction of the fees and spread earned by the market maker.
 
-#### Altcoin
+#### Altcoin&#x20;
 
 This term represents a cryptocurrency which is alternative to Bitcoin.
 
@@ -102,7 +102,7 @@ A liquidity provider (i.e. LP) is a user who funds a liquidity pool with own cry
 
 #### **Metamask**
 
-[Metamask](https://metamask.io) is a popular Web 3.0 wallet used in DeFi. Other wallets you may hear about are the Binance Wallet and Torus.
+[Metamask](https://metamask.io/) is a popular Web 3.0 wallet used in DeFi. Other wallets you may hear about are the Binance Wallet and Torus.
 
 #### **Mettalex Smart Contract**&#x20;
 

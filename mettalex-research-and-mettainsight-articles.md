@@ -65,3 +65,7 @@ ve(3,3) – The Future of Tokenomics?
 Top 8 DeFi Trends in 2022 (Part I)
 
 {% embed url="https://mettalex.com/blog/top-8-defi-trends-in-2022-part-i" %}
+
+Top 8 DeFi Trends in 2022 (Part II)
+
+{% embed url="https://mettalex.com/blog/top-8-defi-trends-in-2022-nfts-and-metaverses-part-ii" %}
