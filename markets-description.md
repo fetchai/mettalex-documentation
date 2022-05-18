@@ -38,6 +38,8 @@ You can sell your ALLONG or ALSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Network: ETHEREUM**
 
+****
+
 #### **BRENT CRUDE OIL**
 
 Brent Oil is also known as Brent Crude or North Sea Brent Crude and it is a type of crude oil which is considered as a benchmark crude for determining the trading price of other varieties of crude oil. Where the oil comes from also makes a difference if you’re a buyer. The less expensive it is to deliver the product, the cheaper it is for the consumer. From a transportation point of view, oil extracted at sea has certain advantages over land-based supplies, which depend on the capacity of pipelines. Brent Crude oil  is light and sweet, making them ideal for the refining of diesel fuel, gasoline, and other high-demand products. And because the supply is waterborne, it’s easy to transport to distant locations.
@@ -85,6 +87,8 @@ You can sell your CBLONG or CBSHORT tokens to Mettalex’s Autonomous Market Mak
 **Oracle source: Chicago Mercantile Exchange (CME)**
 
 **Network: ETHEREUM**
+
+****
 
 #### **COPPER**
 
