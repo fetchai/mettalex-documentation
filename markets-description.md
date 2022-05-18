@@ -38,8 +38,6 @@ You can sell your ALLONG or ALSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Network: ETHEREUM**
 
-&#x20;****&#x20;
-
 #### **BRENT CRUDE OIL**
 
 Brent Oil is also known as Brent Crude or North Sea Brent Crude and it is a type of crude oil which is considered as a benchmark crude for determining the trading price of other varieties of crude oil. Where the oil comes from also makes a difference if you’re a buyer. The less expensive it is to deliver the product, the cheaper it is for the consumer. From a transportation point of view, oil extracted at sea has certain advantages over land-based supplies, which depend on the capacity of pipelines. Brent Crude oil  is light and sweet, making them ideal for the refining of diesel fuel, gasoline, and other high-demand products. And because the supply is waterborne, it’s easy to transport to distant locations.
@@ -63,8 +61,6 @@ You can sell your BBLONG or BBSHORT tokens to Mettalex’s Autonomous Market Mak
 **Oracle source: Chicago Mercantile Exchange (CME)**
 
 **Network: BINANCE SMART CHAIN**
-
-****
 
 **BUTTER**
 
@@ -90,8 +86,6 @@ You can sell your CBLONG or CBSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Network: ETHEREUM**
 
-****
-
 #### **COPPER**
 
 Copper is widely used around the world due to its industrial and technological applications. Its physical properties, which are similar to gold and silver, make it perfectly suited for a range of industrial uses (e.g. electric wiring, plumbing, roofing, and industrial machinery). However, unlike gold and silver, copper is not widely viewed as a store of value. Therefore, copper is less impacted by speculative price movements. The global supply of copper comes principally from underground mines and from recycling copper products. As developing regions in the African continent, Eastern Europe and Asia modernise their economies and expand their infrastructure, the higher will be the demand for copper from these areas of the world.
@@ -116,11 +110,9 @@ You can sell your CULONG or CUSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Network: ETHEREUM**&#x20;
 
-****
-
 #### **GOLD**
 
-Since the beginning of civilization, humankind has viewed gold as a proxy for money and a safe-haven asset. Once it is mined, refiners process gold into bars, coins, or ingots called bullion in order to sell them. Buyers can transform these gold bars into items like coins, jewelry, and electronic components. They may also store gold bars for trade. Gold supply is consistently affected by the price of gold itself: when gold prices arise, mining gold becomes more profitable, so more supply comes into the market. The opposite happens when prices decline. Similarly, changes in demand from industry, traders, central banks, or sovereign wealth funds can move gold prices. In fact, Central Banks could impact on gold prices in two ways:
+Since the beginning of civilisation, humankind has viewed gold as a proxy for money and a safe-haven asset. Once it is mined, refiners process gold into bars, coins, or ingots called bullion in order to sell them. Buyers can transform these gold bars into items like coins, jewelry, and electronic components. They may also store gold bars for trade. Gold supply is consistently affected by the price of gold itself: when gold prices arise, mining gold becomes more profitable, so more supply comes into the market. The opposite happens when prices decline. Similarly, changes in demand from industry, traders, central banks, or sovereign wealth funds can move gold prices. In fact, Central Banks could impact on gold prices in two ways:
 
 * These could take decisions to contract or grow the money supply in their countries, thus leading to an increase in gold trading since fiat currencies (eg, US dollar and euro) compete with gold as a store of value and a form of money.&#x20;
 * Secondly, central banks hold large gold reserves. As a result, their decision to accumulate or sell reserves can move the gold market.
@@ -145,8 +137,6 @@ You can sell your XAULONG or XAUSHORT tokens to Mettalex’s Autonomous Market M
 
 **Network: BINANCE SMART CHAIN**
 
-****
-
 #### **HMS 1&2 (80:20) CFR Turkey**
 
 Heavy Melting Steel (HMS) or Heavy Melting Scrap is a designation for recyclable steel and wrought iron. It is broken up into two major categories: HMS 1 and HMS 2, where HMS 1 does not contain galvanised and blackened steel, whereas HMS 2 does.
@@ -170,8 +160,6 @@ You can sell your DSSCLONG or DSSCSHORT tokens to Mettalex’s Autonomous Market
 **Oracle source: DAVIS INDEX**
 
 **Network: ETHEREUM and BINANCE SMART CHAIN**
-
-****
 
 #### **IRON ORE**
 
@@ -199,9 +187,7 @@ You can sell your IOLONG or IOSHORT tokens to Mettalex’s Autonomous Market Mak
 
 **Network: ETHEREUM and BINANCE SMART CHAIN**
 
-****
-
-#### **SILVER**
+**SILVER**
 
 Silver is one of the most valuable metals on the planet due to its widespread utility in jewellery and its industrial applications in silverware and electronics. Even though it is not as scarce as gold, it represents a precious metal widely used in the financial industry for investments. This makes silver a commodity of high interest for a variety of market participants who actively trade silver futures for hedging or price protection.&#x20;
 
@@ -226,8 +212,6 @@ You can sell your XAGLONG or XAGSHORT tokens to Mettalex’s Autonomous Market M
 **Oracle source: Chainlink**
 
 **Network: BINANCE SMART CHAIN**
-
-****
 
 #### **STEEL SCRAP**
 
@@ -255,8 +239,6 @@ You can sell your SSCLONG or SSCSHORT tokens to Mettalex’s Autonomous Market M
 
 **Network: ETHEREUM**
 
-****
-
 **STEEL SCRAP SHREDDED**
 
 Shredded scrap is a large part of the recycling industry and can be utilised in multiple circumstances. It consists of homogeneous iron and steel scrap, which is magnetically separated, originating from automobiles,  miscellaneous baling and sheet scrap.  Shredded scrap’s average density ranges from 50 to 70 pounds per cubic foot.
@@ -280,8 +262,6 @@ You can sell your SSCLONG or DSSHSHORT tokens to Mettalex’s Autonomous Market 
 **Oracle source: DAVIS INDEX**
 
 **Network: ETHEREUM**
-
-****
 
 #### **ZORBA 95/2**
 
@@ -308,8 +288,6 @@ You can sell your DZRBLONG or DZRBSHORT tokens to Mettalex’s Autonomous Market
 **Oracle source: DAVIS INDEX**
 
 **Network: ETHEREUM**
-
-****
 
 #### **ZINC**
 
@@ -341,8 +319,7 @@ You can sell your ZNLONG or ZNSHORT tokens to Mettalex’s Autonomous Market Mak
 
 #### **AAVE/COMP spread**
 
-Aave is a decentralized money market protocol that enables users to lend and borrow cryptocurrencies in a trustless manner. Compound is providing a similar service but is more conservative in terms of the crypto assets that could be lended or borrowed. Users of both protocols can lend cryptocurrencies to receive an annual percentage yield or borrow assets for increased exposure to crypto markets or to spend for goods or services in the real world.\
-
+Aave is a decentralised money market protocol that enables users to lend and borrow cryptocurrencies in a trustless manner. Compound is providing a similar service but is more conservative in terms of the crypto assets that could be lent or borrowed. Users of both protocols can lend cryptocurrencies to receive an annual percentage yield or borrow assets for increased exposure to crypto markets or to spend for goods or services in the real world.
 
 Use the AAVE/COMP spread to get exposure to price movements of the two assets against each other.
 
@@ -366,8 +343,6 @@ You can sell your AAVECOMPL or AAVECOMPS tokens to Mettalex's Autonomous Market 
 
 **Network: BINANCE SMART CHAIN**
 
-****
-
 #### **BTC/ETH spread**
 
 The perfect market to trade on if you want to have exposure to Bitcoin or Ether’s market dominance against each other.&#x20;
@@ -390,9 +365,7 @@ You can sell your BTC/ETH Spread tokens to Mettalex's Autonomous Market Maker at
 
 **Oracle source: London Metal Exchange (LME)**
 
-**Network: ETHEREUM and BINANCE SMART CHAIN**\
-****\
-****
+**Network: ETHEREUM and BINANCE SMART CHAIN**
 
 #### **BTC/XAU spread**
 
@@ -417,8 +390,6 @@ You can sell your BTCXAUL or BTCXAUS tokens to Mettalex's Autonomous Market Make
 **Oracle source: London Metal Exchange (LME)**
 
 **Network: Binance Smart Chain**
-
-****
 
 #### **BTC/TSLA spread**
 
@@ -447,8 +418,6 @@ You can sell your BTCTSLAL or BTCTSLAS tokens to Mettalex's Autonomous Market Ma
 
 **Network: Ethereum and Binance Smart Chain**
 
-****
-
 #### **LINK/BAND spread**
 
 Chainlink is a decentralized oracle network that provides real-world data to most of the projects in the DeFi space. The LINK token is used in the Chainlink network to compensate Chainlink Node operators for the retrieval of data from the external data sources, turning it to blockchain readable format, off-chain computation, and uptime guarantees.
@@ -476,8 +445,6 @@ You can sell your LINKBANDL or LINKBANDS tokens to Mettalex's Autonomous Market 
 **Oracle source: Chainlink**
 
 **Network: Ethereum**
-
-****
 
 #### **STEEL REBAR/STEEL SCRAP spread**
 
@@ -556,8 +523,6 @@ You can sell your BTC tokens to Mettalex's Autonomous Market Maker at any time b
 
 **Network: ETHEREUM and BINANCE SMART CHAIN**
 
-****
-
 **BNB**
 
 BNB is the fuel of the Binance ecosystem and it is the native asset of the Binance Chain. BNB is an ERC-20 token created in June 2017. It has been designed to be used for a fee reduction on the Binance exchange, its scope was extended over the years. . For instance, it is used to pay fees on the Binance DEX, issue new tokens, send or cancel orders, and transfer assets. Following the successful launch of Binance Chain in May 2018, BNB has pivoted to become the native asset of Binance Chain, working similarly to ether (ETH) for the Ethereum blockchain.
@@ -582,8 +547,6 @@ You can sell your BNB tokens to Mettalex's Autonomous Market Maker at any time b
 
 **Network: BINANCE SMART CHAIN**
 
-****
-
 **ETH**
 
 Ether is the world’s second-largest virtual currency by market capitalization. It is the transactional token that facilitates operations on the Ethereum network. The initiation of transactions and execution of smart contracts on Ethereum require computing power provided by Ethereum nodes. For their computational work, nodes are compensated in ether. As such, ether is considered as the unit of account for all operations performed by the Ethereum and could be perceived as the network’s fuel.
@@ -607,8 +570,6 @@ You can sell your ETHLONG or ETHSHORT tokens to Mettalex's Autonomous Market Mak
 **Oracle source: Chainlink**
 
 **Network: Ethereum and Binance Smart Chain**
-
-****
 
 **MATIC**
 
@@ -661,8 +622,6 @@ You can sell your GBPLONG or GBPSHORT tokens to Mettalex’s Autonomous Market M
 **Oracle source: Chainlink**
 
 **Network: Binance Smart Chain**
-
-
 
 #### **FTSE**
 

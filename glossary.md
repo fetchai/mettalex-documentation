@@ -1,38 +1,12 @@
 # Glossary
 
-#### **Autonomous Market Maker (AMM)**&#x20;
+#### **Autonomous Market Maker (AMM)**
 
 Each commodity token pair has an associated autonomous market maker that allows market participants to exit a position at any point without having to find a counterparty on the exchange. The autonomous market maker uses a liquidity sensitive algorithm with bounded loss to manage market risk. Autonomous market maker liquidity providers receive pool tokens that entitle them to a fraction of the fees and spread earned by the market maker.
-
-#### Altcoin&#x20;
-
-This term represents a cryptocurrency which is alternative to Bitcoin.
-
-#### Anti money Laundering (AML)
-
-Anti money laundering (AML) refers to the web of laws, regulations, and procedures aimed at uncovering efforts to disguise illicit funds as legitimate income. Money laundering seeks to conceal crimes ranging from small-time tax evasion and drug trafficking to public corruption and the financing of groups designated as terrorist organizations.
-
-**API**
-
-API is the acronym for Application Programming Interface and it is a software intermediary that allows two applications to talk to each other.
 
 #### **Banded trading**
 
 The Mettalex contract performs the settlement and clearing of the position tokens in the event that the reference price goes outside the specified trading band. The reference price feed comes in from an independent oracle specified at creation of the Mettalex contract and in the event of the price exceeding the cap or floor value, all position tokens are automatically redeemed for the collateral value of their position. The Mettalex contract then resets the floor and cap parameters automatically based on current market condition.
-
-#### **BEP-20**
-
-According to Binance Academy**:**
-
-> BEP-20 is a token standard on Binance Smart Chain that extends ERC-20, the most common Ethereum token standard. You can think of it as a blueprint for tokens that defines how they can be spent, who can spend them, and other rules for their usage. Due to its similarity to Binance Chain’s BEP-2 and Ethereum’s ERC-20, it’s compatible with both.BEP-20 was conceived as a technical specification for Binance Smart Chain, with the goal of providing a flexible format for developers to launch a range of different tokens. These could represent anything from shares in a business to dollars stored in a bank vault (i.e. a stablecoin).
-
-#### **Arbitrage**
-
-Arbitrage is the simultaneous purchase and sale of the same asset in different markets in order to profit from tiny differences in the asset's listed price.
-
-#### **Bid and Ask Prices**
-
-The term bid and ask refers to a two-way price quotation that indicates the best potential price at which a security can be sold and bought at a given point in time. The bid price represents the maximum price that a buyer is willing to pay for a share of stock or other security. The ask price represents the minimum price that a seller is willing to take for that same security. A trade or transaction occurs when a buyer in the market is willing to pay the best offer available, or is willing to sell at the highest bid. The difference between bid and ask prices, or the spread, is a key indicator of the liquidity of the asset. In general, the smaller the spread, the better the liquidity.
 
 #### **Blockchain**
 
@@ -102,7 +76,7 @@ A liquidity provider (i.e. LP) is a user who funds a liquidity pool with own cry
 
 #### **Metamask**
 
-[Metamask](https://metamask.io/) is a popular Web 3.0 wallet used in DeFi. Other wallets you may hear about are the Binance Wallet and Torus.
+[Metamask](https://metamask.io) is a popular Web 3.0 wallet used in DeFi. Other wallets you may hear about are the Binance Wallet and Torus.
 
 #### **Mettalex Smart Contract**&#x20;
 
@@ -111,12 +85,6 @@ Each position token pair has an associated Mettalex smart contract that acts as 
 #### **Mining**
 
 Mining is the process through which cryptocurrency transactions are gathered, verified and recorded into a digital ledger known as blockchain. The work done by miners is essential for maintaining the integrity of the network and is also responsible for introducing new coins into the system.
-
-#### **NFT**
-
-Non-fungible tokens or NFTs are cryptographic assets built on a blockchain with unique identification codes and metadata that distinguish them from each other. These were born as ERC-721 crypto assets representing a unique or rare digital or real world item. They let us tokenize things like art, collectibles, even real estate through a securitisation process that takes place on the blockchain.
-
-Unlike cryptocurrencies which are identical to each other and can be used as a medium for commercial transactions, NFTs represent unique and irreplaceable tokens, thereby making it impossible for one non-fungible token to be equal to another (i.e. NFTs are not fungible). This ensures a highly transparent and flexible record of ownership. An NFT can only have one owner at a time. Ownership is managed through the unique ID and metadata that no other token can replicate. NFTs are minted through smart contracts which assign ownership and manage the transferability of the NFT itself. When someone mints an NFT, they execute a code stored in the smart contracts that conform to different standards (i.e. ERC-721). This information is added to the blockchain where the NFT will be managed.
 
 #### **Oracle**
 
