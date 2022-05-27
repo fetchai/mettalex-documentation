@@ -6,6 +6,8 @@ The markets available on Mettalex DEX are divided into the following 3 categorie
 
 ### **1.  COMMODITIES**
 
+****
+
 #### **ALUMINIUM**
 
 Aluminium is a very flexible, light-weight, and strong metal which can be counted to the base metals or non-ferrous metals. As a physical commodity, aluminium is traded as raw material, unfinished, semi-finished or finished product and as scrap metal**.** Aluminium is obtained from grinding raw material bauxite to extract and refine the contained aluminium oxide (i.e. alumina) which is further processed into liquid aluminium (i.e. molten aluminium) by adding carbon and electricity. The molten aluminium is casted into different shapes and can be further rolled, extruded or re-melted. Aluminium can be used for the following 3 applications:
@@ -309,6 +311,8 @@ You can sell your DZRBLONG or DZRBSHORT tokens to Mettalex’s Autonomous Market
 
 **Network: ETHEREUM**
 
+****
+
 #### **ZINC**
 
 Zinc resists corrosion and is used to galvanise iron and steel for industrial and infrastructure purposes. Zinc is also used to produce brass (i.e. a zinc alloy that contains between 55 and 95% copper) widely used in construction and in the production of tools and products. Mines worldwide are spread all over the Planet and these extract more almost 12  million metric tons of zinc per annum.&#x20;
@@ -336,6 +340,8 @@ You can sell your ZNLONG or ZNSHORT tokens to Mettalex’s Autonomous Market Mak
 ****
 
 ### **2.  SPREADS**
+
+****
 
 #### **AAVE/COMP spread**
 
@@ -529,6 +535,8 @@ You can sell your SDEFISCEXL or SDEFISCEXS tokens to Mettalex’s Autonomous Mar
 
 ### **3. CRYPTO CURRENCIES**
 
+****
+
 **BITCOIN**
 
 Bitcoin is the first cryptocurrency, created in January 2009. It is the most popular decentralized currency and the largest one by market capitalization. Unlike fiat currency, bitcoin is created, distributed, and stored in a decentralized ledger, known as a blockchain. It is limited to 21,000,000 units and its inflation rate is fully predictable.
@@ -634,6 +642,8 @@ You can sell your MATIC tokens to Mettalex's Autonomous Market Maker at any time
 ****
 
 ### **4.  FOREX AND INDICES**
+
+****
 
 #### **BRITISH POUND (x1000)**
 
