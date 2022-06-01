@@ -6,8 +6,6 @@ The markets available on Mettalex DEX are divided into the following 3 categorie
 
 ### **1.  COMMODITIES**
 
-****
-
 #### **ALUMINIUM**
 
 Aluminium is a very flexible, light-weight, and strong metal which can be counted to the base metals or non-ferrous metals. As a physical commodity, aluminium is traded as raw material, unfinished, semi-finished or finished product and as scrap metal**.** Aluminium is obtained from grinding raw material bauxite to extract and refine the contained aluminium oxide (i.e. alumina) which is further processed into liquid aluminium (i.e. molten aluminium) by adding carbon and electricity. The molten aluminium is casted into different shapes and can be further rolled, extruded or re-melted. Aluminium can be used for the following 3 applications:
@@ -341,8 +339,6 @@ You can sell your ZNLONG or ZNSHORT tokens to Mettalex’s Autonomous Market Mak
 
 ### **2.  SPREADS**
 
-****
-
 #### **AAVE/COMP spread**
 
 Aave is a decentralised money market protocol that enables users to lend and borrow cryptocurrencies in a trustless manner. Compound is providing a similar service but is more conservative in terms of the crypto assets that could be lent or borrowed. Users of both protocols can lend cryptocurrencies to receive an annual percentage yield or borrow assets for increased exposure to crypto markets or to spend for goods or services in the real world.
@@ -531,11 +527,9 @@ You can sell your SDEFISCEXL or SDEFISCEXS tokens to Mettalex’s Autonomous Mar
 
 **Network: ETHEREUM and BINANCE SMART CHAIN**
 
-### ****
+****
 
 ### **3. CRYPTO CURRENCIES**
-
-****
 
 **BITCOIN**
 
@@ -693,7 +687,6 @@ You can sell your FTSELONG or FTSESHORT tokens to Mettalex’s Autonomous Market
 
 **Oracle source: Chainlink**
 
-**Network: Ethereum**\
-
+**Network: Ethereum**
 
 #### ****
